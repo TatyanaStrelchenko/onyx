@@ -5,7 +5,7 @@
   --green: #019b1e;
   --white: #ffffff;
   --black: #101010;
-
+  --grey: #808080;
   --primary-color: var(--green);
   --default-font-color: var(--white);
 }

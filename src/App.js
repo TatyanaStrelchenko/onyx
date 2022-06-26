@@ -13,13 +13,13 @@ function App() {
               <img src={Logo} alt="img" />
             </div>
             <ul className="nav-menu">
-              <li>About Us</li>
-              <li>Loan Programs</li>
-              <li>Services</li>
-              <li>Partners</li>
-              <li>Contact Us</li>
+              <li>ABOUT US</li>
+              <li>LOAN PROGRAMS</li>
+              <li>SERVICES</li>
+              <li>PARTNERS</li>
+              <li>CONTACT US</li>
             </ul>
-            <button type="button" className="btn btn-default">
+            <button type="button" className="btn">
               Get Started
             </button>
           </div>
@@ -61,7 +61,7 @@ function App() {
                 achieve their goals by successfully negotiating and securing favorable
                 <br /> debt and equity financing.
               </p>
-              <button type="button" className="btn">
+              <button type="button" className="btn btn-default">
                 Get Started
               </button>
             </div>
@@ -87,6 +87,31 @@ function App() {
               </div>
               <div className="row">
                 <div className="col">PRIME RATE</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
+              <div className="row">
+                <div className="col">5-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row">
+                <div className="col">7-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row">
+                <div className="col">10-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row">
+                <div className="col">20-YEAR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
