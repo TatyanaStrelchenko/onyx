@@ -2,7 +2,6 @@
   background-color: var(--black);
   padding-bottom: 195px;
 
-
   .number-holder {
     display: flex;
     justify-content: space-between;
@@ -12,13 +11,13 @@
     padding: 52px 0 57px;
     margin-bottom: 195px;
 
-    .number {    
+    .number {
       font-family: Inter;
       font-weight: 700;
       font-size: 122px;
       line-height: 148px;
       color: transparent;
-      -webkit-text-stroke: 1px var(--green);  
+      -webkit-text-stroke: 1px var(--green);
     }
 
     .text {
@@ -28,13 +27,13 @@
       margin: 0 auto;
       position: absolute;
       top: 150px;
-      left: auto;   
-    } 
+      left: auto;
+    }
   }
 
   .info-holder {
     display: flex;
-    width: 100%; 
+    width: 100%;
     justify-content: space-between;
     margin-bottom: 104px;
 
@@ -46,21 +45,21 @@
         font-family: Montserrat;
         font-size: 20px;
         font-weight: 700;
-        line-height: 24px;      
+        line-height: 24px;
       }
-      
+
       &:nth-child(2) {
         padding: 0 56px;
         border-right: 1px solid var(--green);
         border-left: 1px solid var(--green);
-      }    
-    }  
+      }
+    }
   }
   .btn {
     margin: 0 auto;
     display: block;
     background: transparent;
-    border: 1px solid var(--green);  
+    border: 1px solid var(--green);
     color: var(--green);
   }
 }
