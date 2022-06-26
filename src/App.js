@@ -19,7 +19,7 @@ function App() {
               <li>Partners</li>
               <li>Contact Us</li>
             </ul>
-            <button type="button" className="btn">
+            <button type="button" className="btn btn-default">
               Get Started
             </button>
           </div>
