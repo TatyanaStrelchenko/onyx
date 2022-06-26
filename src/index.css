@@ -5,6 +5,8 @@
   --green: #019b1e;
   --white: #ffffff;
   --black: #101010;
+  --dark-grey: #1C1C1C;
+
 
   --primary-color: var(--green);
   --default-font-color: var(--white);

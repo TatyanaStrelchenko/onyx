@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Spectral:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 .count-section {
   background-color: var(--black);
-  padding-bottom: 195px;
+  padding-bottom: 141px;
 
   .number-holder {
     display: flex;
@@ -12,8 +20,7 @@
     margin-bottom: 195px;
 
     .number {
-      font-family: Inter;
-      font-weight: 700;
+      font-family: 'Inter', sans-serif;     
       font-size: 122px;
       line-height: 148px;
       color: transparent;
@@ -46,6 +53,7 @@
         font-size: 20px;
         font-weight: 700;
         line-height: 24px;
+        margin-bottom: 16px;
       }
 
       &:nth-child(2) {
