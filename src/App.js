@@ -1,6 +1,7 @@
 
 import './App.scss';
 import Logo from './assets/image/logo.svg';
+import Info from './components/Info';
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Info />
     </div>
   );
 }
