@@ -1,4 +1,4 @@
-import './Info.scss'
+import './Info.scss';
 
 const Info = () => {
     return (
@@ -36,10 +36,10 @@ const Info = () => {
 								We strive to provide an outstanding experience - Every time. No exceptions.</p>							
 							</div>
 					 	</div>
-						<button type="button" className="btn">Get Started</button>
+									<button type="button" className="btn">Get Started</button>
 					</div>	
 				</section>
     )
 }
 
-export default Info;
+export { Info };
