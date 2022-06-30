@@ -1,13 +1,18 @@
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 0 141px;  
+  padding: 138px 0 141px;  
+  position: relative;
 
   h2 {
-    padding-bottom: 72px;
+    position: absolute;
+    top: 236px;
+    text-transform: uppercase;
   }
   .swiper {
     height: 300px;
-    color: var(--default-font-color);
+    color: var(--default-font-color);  
+    padding: 105px 0;
+   
 
     &-slide {
       background: black;
@@ -33,6 +38,25 @@
   img {
     max-height: 25px;
     padding-bottom: 42px;
+  }  
+
+  .swiper-button-next, .swiper-button-prev { 
+    top: 20px; 
+    height: 36px;
+    width: 36px;
+    background-color: var(--green);    
+    &::after {      
+      font-size: 8px;
+      color: var(--white);
+    } 
+  }
+  .swiper-button-next { 
+    right: 0;       
+  }
+  .swiper-button-prev {    
+    right: 36px;
+    left: auto;
+    margin-right: 8px;
   }
 }
 
