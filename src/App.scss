@@ -7,6 +7,7 @@
   min-height: 88px;
   margin: 0 auto;
 }
+
 .header-holder {
   display: flex;
   justify-content: space-between;
@@ -21,16 +22,19 @@
     height: 53px;
   }
 }
+
 .nav-menu {
   display: flex;
   margin: 0;
 }
+
 .nav-menu {
   li {
     list-style: none;
     padding: 28px 24px;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 700;
     line-height: 32px;
   }
 }
@@ -38,9 +42,34 @@
 .btn {
   width: 165px;
   height: 48px;
+  cursor: pointer;
   background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
+  border: none;
   color: var(--white);
 }
+
+.btn {
+  &:hover {
+    background: var(--green);
+    transition: 1s;
+  }
+}
+
+.btn-default {
+  background: bottom;
+  cursor: pointer;
+  overflow: hidden;
+  color: var(--green);
+  border: 1px solid;
+
+  &:hover {
+    background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
+    border: none;
+    color: var(--white);
+    transition: 1s;
+  }
+}
+
 
 .banner {
   padding-top: 191px;
@@ -51,10 +80,9 @@
 
 .text-holder {
   p {
-    font-weight: 400;
     font-size: 28px;
     line-height: 48px;
-    text-align: left;
+    margin: 52px 0 0;
   }
 }
 
@@ -65,4 +93,44 @@
   background-repeat: no-repeat;
   background-color: var(--black);
   background-position: right;
+}
+
+h3,
+p {
+  margin-bottom: 32px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.row-cell {
+  border-top: var(--grey) 2px solid;
+  padding: 10px 0 11px;
+
+}
+
+.table-rates {
+  .col:first-child {
+    width: 45%;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  margin-bottom: 51px
+}
+
+
+.footer-holder {
+  padding-top: 106px;
+  background: #191A1A;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
 }
