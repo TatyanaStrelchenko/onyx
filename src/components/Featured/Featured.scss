@@ -1,10 +1,39 @@
-.swiper {
-  height: 300px;
-  color: var(--default-font-color);
+.featured {
+  background-color: var(--dark-grey);
+  padding: 243px 0 141px;
 
-  &-slide {
-    background: black;
-    height: 200px;
-    width: auto;
+  h2 {
+    padding-bottom: 72px;
+  }
+
+  .swiper {
+    height: 300px;
+    color: var(--default-font-color);
+
+    &-slide {
+      background: black;
+      height: 360px;
+      max-width: 246px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 28.5px;
+
+      p {
+        height: 112px;
+        padding-bottom: 56px;
+      }
+
+      h3 {
+        padding-bottom: 16px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  img {
+    max-height: 25px;
+    padding-bottom: 42px;
   }
 }

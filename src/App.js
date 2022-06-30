@@ -52,7 +52,8 @@ function App() {
                 Onyx Funding is changing the way real estate investors connect with
                 <br />
                 capital sources. We work for you, the Borrower, and not for a Lender.
-                <br /> This allows for complete transparency, synergy and alignment in our<br/>
+                <br /> This allows for complete transparency, synergy and alignment in our
+                <br />
                 interests.
               </p>
               <p>
@@ -131,9 +132,19 @@ function App() {
           <div className="container">
             <div className="row">
               <div className="col">
-                  <img src={Logo} alt="img" />
-                  <p>Onyx Funding is a real estate financing<br/> solutions service company. Onyx Funding is not<br/> a lender and only provides brokering services<br/> for commercial, business purpose loans.</p> 
-                  <p>Loans are for investment purposes only and<br/> not for personal, family, or household use. Loan<br/> product availability may be limited in certain<br/> states</p>
+                <img src={Logo} alt="img" />
+                <p>
+                  Onyx Funding is a real estate financing
+                  <br /> solutions service company. Onyx Funding is not
+                  <br /> a lender and only provides brokering services
+                  <br /> for commercial, business purpose loans.
+                </p>
+                <p>
+                  Loans are for investment purposes only and
+                  <br /> not for personal, family, or household use. Loan
+                  <br /> product availability may be limited in certain
+                  <br /> states
+                </p>
               </div>
               <div className="col">
                 <h4>Loan programs</h4>
@@ -161,7 +172,7 @@ function App() {
               </div>
               <div className="col">
                 <h4>Services</h4>
-                 {/* <ul>
+                {/* <ul>
                   <li><Link to="/">Debt</Link></li>
                   <li><Link to="/">Equity</Link></li>
                 </ul>  */}
@@ -182,7 +193,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className='footer-bottom'>
+            <div className="footer-bottom">
               <p>© Copyright - Onyx - 2022</p>
               {/* <ol>
                 <li><Link to="/">facebook</Link></li>
@@ -190,16 +201,10 @@ function App() {
                 <li><Link to="/">Behance</Link></li>
                 <li><Link to="/">Linkedin</Link></li>
               </ol> */}
-
-        </div> 
-
+            </div>
           </div>
         </div>
-       
       </footer>
-      
-
-      
     </div>
   );
 }
