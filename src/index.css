@@ -18,27 +18,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--default-font);
   color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 h1 {
-  font-family: var(--default-font);
-  font-weight: 700;
   font-size: 120px;
   line-height: 146px;
-  text-align: left;
   margin: 0;
 }
 
 h2 {
-  font-family: var(--default-font);
-  font-weight: 700;
   font-size: 36px;
   line-height: 43px;
   margin: 0;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0;
+  
+}
+
 p {
-  font-family: var(--default-font);
+  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
