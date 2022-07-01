@@ -160,15 +160,20 @@
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
-    p, li {
-      font-size: 12px;
-      list-style: inside;
-    }
+    
   }
   
   .social {
-    display: flex;
+    li {
+      display: inline-flex;
+      padding: 0 20px;
+    }
+    img {
+      padding: 0 8px 0;
+    }
   }
+  
+  
 
 }
 

@@ -1,5 +1,9 @@
 import './App.scss';
 import Logo from './assets/image/logo.svg';
+import fb from './assets/image/fb.svg';
+import inst from './assets/image/insta.svg';
+import be from './assets/image/be.svg';
+import lin from './assets/image/in.svg';
 import { Featured } from './components/Featured';
 import { Info } from './components/Info';
 
@@ -196,10 +200,10 @@ function App() {
             <div className="footer-bottom">
               <p>© Copyright - Onyx - 2022</p>
                <ul className="social">
-                <li>facebook</li>
-                <li>Instagram</li>
-                <li>Behance</li>
-                <li>Linkedin</li>
+                <li><img src={fb} alt="img"/><span>facebook</span></li>
+                <li><img src={inst} alt="img"/><span>Instagram</span></li>
+                <li><img src={be} alt="img"/><span>Behance</span></li>
+                <li><img src={lin} alt="img"/><span>Linkedin</span></li>
               </ul>
             </div>
           </div>
