@@ -1,0 +1,3 @@
+@function get-icon($img-name) {
+    @return '/assets/image/'+$img-name;
+}

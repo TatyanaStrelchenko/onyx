@@ -2,8 +2,87 @@ import './Info.scss';
 
 const Info = () => {
   return (
-    <section className="count-section">
+    <section className="info-section">
       <div className="container">
+        <div className="row">
+          <div className="col">
+            <h2>PROUDLY CELEBRATING 30 YEARS</h2>
+            <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
+            <p>
+              Onyx Funding is changing the way real estate investors connect with
+              <br />
+              capital sources. We work for you, the Borrower, and not for a Lender.
+              <br /> This allows for complete transparency, synergy and alignment in our
+              <br />
+              interests.
+            </p>
+            <p>
+              Since our inception we have helped hundreds of real estate investors
+              <br />
+              achieve their goals by successfully negotiating and securing favorable
+              <br /> debt and equity financing.
+            </p>
+            <button type="button" className="btn btn-default">
+              Get Started
+            </button>
+          </div>
+          <div className="col">
+            <div className="table-holder table-rates">
+              <h3>LIVE INTEREST RATES</h3>
+              <div className="row row-cell">
+                <div className="col">1-MONTH LIBOR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">SOFR 30-DAY AVG</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">SOFR 30-DAY TERM</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">PRIME RATE</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+            </div>
+            <div className="table-holder">
+              <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
+              <div className="row row-cell">
+                <div className="col">5-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">7-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">10-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+              <div className="row row-cell">
+                <div className="col">20-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="number-holder">
           <div className="numbers">
             <span className="number">$20BN</span>
@@ -42,7 +121,6 @@ const Info = () => {
             </p>
           </div>
         </div>
-
         <button type="button" className="btn">
           Get Started
         </button>
