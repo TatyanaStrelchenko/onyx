@@ -1,6 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper';
+import { Autoplay, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/bundle';
 import './Featured.scss';
@@ -21,11 +21,8 @@ const Featured = () => {
               delay: 2500,
               disableOnInteraction: false
             }}
-            pagination={{
-              clickable: true
-            }}
             navigation
-            modules={[Autoplay, Pagination, Navigation]}
+            modules={[Autoplay, Navigation]}
           >
             <SwiperSlide>
               <img src={Image1} alt="" />

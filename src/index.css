@@ -5,7 +5,7 @@
   --green: #019b1e;
   --white: #ffffff;
   --black: #101010;
-  --dark-grey: #1C1C1C;
+  --dark-grey: #1c1c1c;
   --grey: #808080;
   --footer-color: #191A1A;
   --primary-color: var(--green);
@@ -41,7 +41,6 @@ h3 {
   font-weight: 600;
   line-height: 22px;
   margin: 0;
-
 }
 
 p {

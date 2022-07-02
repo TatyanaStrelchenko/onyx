@@ -1,3 +1,5 @@
+@import './styles/variables.scss';
+
 .header {
   background: var(--black);
 }
@@ -93,12 +95,18 @@
   background-repeat: no-repeat;
   background-color: var(--black);
   background-position: right;
-  h3, p {
+
+  h3,
+  p {
     padding-bottom: 32px;
   }
 }
 
 
+h3,
+p {
+  margin-bottom: 32px;
+}
 
 .row {
   display: flex;
@@ -129,7 +137,8 @@
   padding-top: 106px;
   background: var(--footer-color);
 
-  img, h4 {
+  img,
+  h4 {
     padding-bottom: 40px;
   }
 
@@ -146,10 +155,12 @@
     list-style: none;
     padding-bottom: 8px;
   }
+
   .col:last-child {
     ul {
       padding-bottom: 40px;
     }
+
     h4 {
       padding-bottom: 20px;
     }
@@ -160,20 +171,20 @@
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
-    
+
   }
-  
+
   .social {
     li {
       display: inline-flex;
       padding: 0 20px;
     }
+
     img {
       padding: 0 8px 0;
     }
   }
-  
-  
+
+
 
 }
-

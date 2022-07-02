@@ -5,7 +5,10 @@ import inst from './assets/image/insta.svg';
 import be from './assets/image/be.svg';
 import lin from './assets/image/in.svg';
 import { Featured } from './components/Featured';
+import { Hero } from './components/Hero';
 import { Info } from './components/Info';
+import { Map } from './components/Map';
+import { RecentlyFunded } from './components/RecentlyFunded';
 
 function App() {
   return (
@@ -29,108 +32,11 @@ function App() {
           </div>
         </div>
       </header>
-      <section className="banner">
-        <div className="container">
-          <div className="text-holder">
-            <h1>
-              Relationships.
-              <br />
-              Solutions.
-              <br />
-              Results
-            </h1>
-            <p>
-              Comprehensive financing solutions for commercial,
-              <br /> multifamily and residential investment real estate.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="info-section">
-        <div className="container">
-          <div className="row">
-            <div className="col">
-              <h2>PROUDLY CELEBRATING 30 YEARS</h2>
-              <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
-              <p>
-                Onyx Funding is changing the way real estate investors connect with
-                <br />
-                capital sources. We work for you, the Borrower, and not for a Lender.
-                <br /> This allows for complete transparency, synergy and alignment in our
-                <br />
-                interests.
-              </p>
-              <p>
-                Since our inception we have helped hundreds of real estate investors
-                <br />
-                achieve their goals by successfully negotiating and securing favorable
-                <br /> debt and equity financing.
-              </p>
-              <button type="button" className="btn btn-default">
-                Get Started
-              </button>
-            </div>
-            <div className="col">
-              <div className="table-holder table-rates">
-                <h3>LIVE INTEREST RATES</h3>
-                <div className="row row-cell">
-                  <div className="col">1-MONTH LIBOR</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">SOFR 30-DAY AVG</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">SOFR 30-DAY TERM</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">PRIME RATE</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-              </div>
-              <div className="table-holder">
-                <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
-                <div className="row row-cell">
-                  <div className="col">5-YEAR</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">7-YEAR</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">10-YEAR</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-                <div className="row row-cell">
-                  <div className="col">20-YEAR</div>
-                  <div className="col">2.862%</div>
-                  <div className="col">2.940%</div>
-                  <div className="col">2.655%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
       <Info />
       <Featured />
+      <RecentlyFunded />
+      <Map />
       <footer>
         <div className="footer-holder">
           <div className="container">
@@ -160,7 +66,7 @@ function App() {
                   <li>Fix to Rent</li>
                   <li>Commercial</li>
                   <li>Bridge</li>
-                </ul> 
+                </ul>
               </div>
               <div className="col">
                 <h4>PROPERTY TYPES</h4>
@@ -179,7 +85,7 @@ function App() {
                 <ul>
                   <li>Debt</li>
                   <li>Equity</li>
-                </ul> 
+                </ul>
               </div>
               <div className="col">
                 <h4>QUCK NAVIGATION</h4>
@@ -191,7 +97,10 @@ function App() {
                 </ul>
                 <h4>ADDRESS</h4>
                 <ul>
-                  <li>2200 NW 2nd Ave, STE<br/> 211, Miami, FL 33127</li>
+                  <li>
+                    2200 NW 2nd Ave, STE
+                    <br /> 211, Miami, FL 33127
+                  </li>
                   <li>support@onyxfunding.us</li>
                   <li>(415) 583-5515</li>
                 </ul>
@@ -199,11 +108,23 @@ function App() {
             </div>
             <div className="footer-bottom">
               <p>© Copyright - Onyx - 2022</p>
-               <ul className="social">
-                <li><img src={fb} alt="img"/><span>facebook</span></li>
-                <li><img src={inst} alt="img"/><span>Instagram</span></li>
-                <li><img src={be} alt="img"/><span>Behance</span></li>
-                <li><img src={lin} alt="img"/><span>Linkedin</span></li>
+              <ul className="social">
+                <li>
+                  <img src={fb} alt="img" />
+                  <span>facebook</span>
+                </li>
+                <li>
+                  <img src={inst} alt="img" />
+                  <span>Instagram</span>
+                </li>
+                <li>
+                  <img src={be} alt="img" />
+                  <span>Behance</span>
+                </li>
+                <li>
+                  <img src={lin} alt="img" />
+                  <span>Linkedin</span>
+                </li>
               </ul>
             </div>
           </div>
