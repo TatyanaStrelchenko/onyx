@@ -121,7 +121,7 @@ const Info = () => {
             </p>
           </div>
         </div>
-        <button type="button" className="btn">
+        <button type="button" className="btn btn-default">
           Get Started
         </button>
       </div>

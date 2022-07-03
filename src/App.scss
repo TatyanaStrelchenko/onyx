@@ -96,17 +96,13 @@
   background-color: var(--black);
   background-position: right;
 
-  h3,
-  p {
-    padding-bottom: 32px;
-  }
+ h2, h3, p {
+  padding-bottom: 32px;
+ }
 }
 
 
-h3,
-p {
-  margin-bottom: 32px;
-}
+
 
 .row {
   display: flex;
@@ -136,18 +132,17 @@ p {
 .footer-holder {
   padding-top: 106px;
   background: var(--footer-color);
-
-  img,
+  img {
+    padding-bottom: 34px;
+  }
   h4 {
     padding-bottom: 40px;
   }
-
   p {
     font-size: 14px;
     line-height: 24px;
     padding-bottom: 20px;
   }
-
   li {
     font-size: 14px;
     font-weight: 400;
@@ -175,15 +170,28 @@ p {
   }
 
   .social {
+    display: flex;
     li {
-      display: inline-flex;
-      padding: 0 20px;
+      &:not(:first-child) {
+        &::before{
+          content: "";
+          width: 3px;
+          height: 3px;
+          display: inline-block;
+          vertical-align: middle;
+          border-radius: 50%;
+          background-color: var(--green);
+          margin: 0 20px;
+        } 
+      }
+      
     }
 
     img {
       padding: 0 8px 0;
     }
   }
+  
 
 
 
