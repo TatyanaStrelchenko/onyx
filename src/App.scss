@@ -155,8 +155,19 @@
     display: block;
     h2, h3, p {
       padding-bottom: 20px;
+    } 
+  }
+  .col {
+    @media (max-width:$sm) {
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      h3 {
+        font-size: 16px;
+        
+      }
     }
-    
   }
 
 }
@@ -167,10 +178,8 @@
   @media (max-width:$sm) {
     display: flex;
     font-size: 14px;
-    h2 {
-      font-size: 20px;
-    }
-    
+
+
   }
 
 }
