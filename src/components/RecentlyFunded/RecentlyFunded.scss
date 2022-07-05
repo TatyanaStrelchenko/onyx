@@ -1,9 +1,10 @@
 .recently-funded {
   position: relative;
   background-color: var(--black);
+  padding: 196px 0 204px;
+  
 
-  .react-tabs__tab-list {
-    padding-top: 122px;
+  .react-tabs__tab-list {   
     border-bottom: 0;
     text-transform: uppercase;
     font-weight: 400;
@@ -11,14 +12,15 @@
     line-height: 20px;
     margin: 0;
     position: relative;
-    top: 162px;
+    top: 35px;   
+    display: inline-block;
     z-index: 100;
   }
 
   .react-tabs__tab--selected {
     background: none;
     border: none;    
-    color: var(--white);  
+    color: var(--green);  
 
     &:active{
       color: var(--green);       
@@ -40,9 +42,7 @@
     }
   }
 
-  .title-tabs  {
-    position: absolute;
-    top: 190px;    
+  .title-tabs  {   
     text-transform: uppercase;
   }
 
@@ -50,7 +50,7 @@
     height: 516px;   
     width: 100%;
     color: var(--default-font-color);  
-    padding: 105px 0 204px;   
+    padding-top: 83px;   
 
     &-slide {     
       display: flex;
@@ -118,7 +118,7 @@
   }  
 
   .swiper-button-next, .swiper-button-prev { 
-    top: 40px; 
+    top: 20px; 
     height: 36px;
     width: 36px;
     background-color: var(--green); 

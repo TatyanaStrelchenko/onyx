@@ -13,7 +13,7 @@ const Featured = () => {
     <section className="featured">
       <div className="container">
         <h2>Featured Loan Programs</h2>
-        <div className="swiper">
+        <div className="swiper-holder">
           <Swiper
             spaceBetween={32}
             slidesPerView={4}
