@@ -10,6 +10,7 @@
   --footer-color: #191A1A;
   --primary-color: var(--green);
   --default-font-color: var(--white);
+  --grey-text: #5A5B5C; 
 }
 
 body {

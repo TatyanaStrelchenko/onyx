@@ -8,6 +8,7 @@
   max-width: 1300px;
   min-height: 88px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header-holder {
@@ -95,23 +96,25 @@
   background-repeat: no-repeat;
   background-color: var(--black);
   background-position: right;
-
-  h3,
-  p {
-    padding-bottom: 32px;
-  }
+  
 }
 
 
-h3,
-p {
-  margin-bottom: 32px;
-}
+
 
 .row {
   display: flex;
   justify-content: space-between;
 
+    h3,
+    p {
+      padding-bottom: 32px;
+    }
+
+    h3,
+    p {
+    margin-bottom: 32px;
+  }
 }
 
 .row-cell {
