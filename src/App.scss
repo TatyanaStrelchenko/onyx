@@ -167,6 +167,10 @@
   @media (max-width:$sm) {
     display: flex;
     font-size: 14px;
+    h2 {
+      font-size: 20px;
+    }
+    
   }
 
 }
