@@ -71,9 +71,14 @@
     color: var(--white);
     transition: 1s;
   }
-  // @media (max-width:$sm) {
-  //   margin: 0 auto;
-  // }
+  @media (max-width:$sm) {
+    margin: 1% 30%;
+  }
+
+  @media (max-width:$xs) {
+    margin: 5% 30%;
+  }
+ 
 }
 
 
@@ -119,22 +124,13 @@
 }
 
 .info-section {
-  padding-top: 124px;
-  padding-bottom: 190px;
+  padding: 124px 0 190px;
   background-image: url(../src/assets/image/img-gruop.svg);
   background-repeat: no-repeat;
   background-color: var(--black);
   background-position: right;
   position: relative;
   z-index: -1;
-  @media (max-width:$sm) {
-    padding-top: 40px;
-    padding-bottom: 60px; 
-  }
-  @media (max-width:$xs) {
-    padding-top: 20px;
-    padding-bottom: 40px;
-  }
   &::before{
     content: "";
     background: rgba(10, 10, 10, 0.9);
@@ -145,30 +141,59 @@
     width: 100%;
     z-index: -1;
   }
- 
+  @media (max-width:$sm) {
+    padding-top: 40px;
+    padding-bottom: 60px; 
+  }
+  @media (max-width:$xs) {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  h2, h3, p {
-    padding-bottom: 32px;
-   }
+
   @media (max-width:$sm) {
     display: block;
-    h2, h3, p {
-      padding-bottom: 20px;
-    } 
   }
-  .col {
+  @media (max-width:$xs) {
+    display: block;
+  }
+  h2, h3, p {
+    padding-bottom: 32px;
     @media (max-width:$sm) {
-      h2 {
+      padding-bottom: 20px;
+    }
+    @media (max-width:$xs) {
+      padding-bottom: 10px;
+    }
+   }
+ 
+  .col {
+    h2 {
+      @media (max-width:$sm) {
         font-size: 20px;
         line-height: 30px;
       }
-      h3 {
+      @media (max-width:$xs) {
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+    h3 {
+      @media (max-width:$sm) {
         font-size: 16px;
-        
+      }
+      @media (max-width:$xs) {
+        font-size: 16px;
+      }
+    }
+    p {
+      @media (max-width:$sm) {
+        font-size: 14px;
+        line-height: 16px;
       }
     }
   }
