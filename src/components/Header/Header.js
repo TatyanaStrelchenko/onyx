@@ -1,3 +1,5 @@
+// import { Link } from "react-router-dom";
+
 import './Header.scss';
 import Logo from '../../assets/image/logo.svg';
 
@@ -16,6 +18,7 @@ const Header = () => {
             <li>PARTNERS</li>
             <li>CONTACT US</li>
           </ul>
+
           <button type="button" className="btn">
             Get Started
           </button>
