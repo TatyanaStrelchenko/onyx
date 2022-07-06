@@ -82,6 +82,7 @@
   height: 992px;
   background-image: url(../src/assets/image/los-angeles.svg);
   background-size: cover;
+
   @media (max-width:$sm) {
     padding: 0;
     height: 100%;
@@ -89,29 +90,32 @@
 }
 
 .text-holder {
+  h1 {
+    font-size: 120px;
+    line-height: 146px;
+    @media (max-width:$sm) {
+      font-size: 60px;
+      line-height: 80px;
+    }
+    @media (max-width:$xs) {
+      font-size: 45px;
+      line-height: 60px;
+    }
+  }
   p {
     font-size: 28px;
     line-height: 48px;
     margin: 52px 0 0;
-  }
-  @media (max-width:$sm) {
-    h1 {
-      font-size: 60px;
-      line-height: 80px;
+    @media (max-width:$sm) {
+      font-size: 20px;
+      line-height: 40px;
     }
-  }
-  @media (max-width:$xs) {
-    h1 {
-      font-size: 40px;
-      line-height: 60px;
-    }
-    p {
+    @media (max-width:$xs) {
       font-size: 16px;
-      line-height: 30px;
-      margin: 0;
+      line-height: 20pxpx;
     }
-    
   }
+  
 }
 
 .info-section {
@@ -123,6 +127,14 @@
   background-position: right;
   position: relative;
   z-index: -1;
+  @media (max-width:$sm) {
+    padding-top: 40px;
+    padding-bottom: 60px; 
+  }
+  @media (max-width:$xs) {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
   &::before{
     content: "";
     background: rgba(10, 10, 10, 0.9);
@@ -132,18 +144,9 @@
     top: 0;
     width: 100%;
     z-index: -1;
-
   }
-  @media (max-width:$sm) {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    
-  }
-
+ 
 }
-
-
-
 
 .row {
   display: flex;
@@ -175,6 +178,7 @@
 .row-cell {
   border-top: var(--grey) 2px solid;
   padding: 10px 0 11px;
+
   @media (max-width:$sm) {
     display: flex;
     font-size: 14px;
