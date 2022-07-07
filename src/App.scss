@@ -74,7 +74,7 @@
     transition: 1s;
   }
   @media (max-width:$sm) {
-    margin: 1% 30%;
+    margin: 5% 30%;
   }
 
   @media (max-width:$xs) {
@@ -218,6 +218,10 @@
         font-size: 18px;
         line-height: 30px;
       }
+      @media (max-width:$xs) {
+        font-size: 14px;
+        line-height: 25px;
+      }
     }
   }
 
@@ -251,6 +255,11 @@
   }
 
   margin-bottom: 51px
+}
+.table-holder {
+  @media (max-width:$sm) {
+    margin-bottom: 50px;
+  }
 }
 
 

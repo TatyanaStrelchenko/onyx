@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Spectral:wght@200&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Spectral:wght@200&display=swap');
+$xs: 580px;
+$sm: 768px;
+$md: 1024px;
+$xl: 1280px;
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +26,11 @@
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
   margin-bottom: 195px;
+  @media (max-width:$sm) {
+    margin-bottom: 100px;
+    padding: 50px 0;
+    
+  }
 
   .number {
     font-family: 'Inter', sans-serif;
@@ -29,6 +38,16 @@
     line-height: 148px;
     color: transparent;
     -webkit-text-stroke: 1px var(--green);
+    @media (max-width:$md) {
+      font-size: 80px;
+      line-height: 120px;
+    }
+    @media (max-width:$sm) {
+      font-size: 60px;
+    }
+    @media (max-width:$xs) {
+      font-size: 50px;
+    } 
   }
   
 
@@ -40,6 +59,16 @@
     position: absolute;
     top: 150px;
     left: auto;
+    @media (max-width:$md) {
+      font-size: 30px;
+      line-height: 0px;
+    }
+    @media (max-width:$sm) {
+      font-size: 25px;
+    }
+    @media (max-width:$xs) {
+      font-size: 20px;
+    }   
   }
 }
 
@@ -50,10 +79,10 @@
   margin-bottom: 104px;
 
   .info-block {
-    max-width: 348px;
+    max-width: 388px;
+    padding: 0 20px;
 
     p:first-child {
-      font-weight: bold;
       font-family: Montserrat;
       font-size: 20px;
       font-weight: 700;
@@ -62,7 +91,7 @@
     }
 
     &:nth-child(2) {
-      padding: 0 56px;
+      // padding: 0 56px;
       border-right: 1px solid var(--green);
       border-left: 1px solid var(--green);
     }
