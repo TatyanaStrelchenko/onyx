@@ -50,7 +50,7 @@
     height: 516px;   
     width: 100%;
     color: var(--default-font-color);  
-    padding-top: 83px;   
+    padding: 83px 0 100px;   
 
     &-slide {     
       display: flex;
@@ -64,9 +64,12 @@
         color: var(--black); 
         width: 100%;    
         height: 100%;      
-      }  
-      
+      }      
     }    
+  }
+
+  .swiper-pagination {
+    position: none;
   }
 
   img {
