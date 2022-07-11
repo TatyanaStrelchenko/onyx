@@ -25,110 +25,108 @@ const RecentlyFunded = () => (
           <Tab>Bridge</Tab>
         </TabList>
         <TabPanel>
-          <div className="swiper-holder">
-            <Swiper
-              spaceBetween={20}
-              slidesPerView={3}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false
-              }}
-              navigation
-              pagination
-              modules={[Autoplay, Pagination, Navigation]}
-            >
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image2} alt="" />
-                <div className="price-holder">
-                  <h3>Multifamily Acquisition</h3>
-                  <p>Philadelphia, PA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$13,200,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>24 Unit Multifamily</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image3} alt="" />
-                <div className="price-holder">
-                  <h3>Storage Acquisition & Rehab</h3>
-                  <p>Dallas, TX</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$4,380,406</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Self Storage Facility</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image2} alt="" />
-                <div className="price-holder">
-                  <h3>Multifamily Acquisition</h3>
-                  <p>Philadelphia, PA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$13,200,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>24 Unit Multifamily</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image3} alt="" />
-                <div className="price-holder">
-                  <h3>Storage Acquisition & Rehab</h3>
-                  <p>Dallas, TX</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$4,380,406</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Self Storage Facility</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
+          <Swiper
+            spaceBetween={20}
+            slidesPerView={3}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            navigation
+            pagination
+            modules={[Autoplay, Pagination, Navigation]}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="info-holder">
+                <h3>New Construction</h3>
+                <p>Olympia, WA</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$629,000</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>Duplex</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="info-holder">
+                <h3>Multifamily Acquisition</h3>
+                <p>Philadelphia, PA</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$13,200,000</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>24 Unit Multifamily</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="info-holder">
+                <h3>Storage Acquisition & Rehab</h3>
+                <p>Dallas, TX</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$4,380,406</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>Self Storage Facility</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="info-holder">
+                <h3>New Construction</h3>
+                <p>Olympia, WA</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$629,000</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>Duplex</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="info-holder">
+                <h3>Multifamily Acquisition</h3>
+                <p>Philadelphia, PA</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$13,200,000</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>24 Unit Multifamily</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="info-holder">
+                <h3>Storage Acquisition & Rehab</h3>
+                <p>Dallas, TX</p>
+                <dl className="info-home">
+                  <dd>Loan Amount:</dd>
+                  <dt>$4,380,406</dt>
+                </dl>
+                <dl className="info-type">
+                  <dd>Property Type:</dd>
+                  <dt>Self Storage Facility</dt>
+                </dl>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </TabPanel>
         <TabPanel>
           <div className="swiper-holder">
@@ -144,7 +142,7 @@ const RecentlyFunded = () => (
             >
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -159,7 +157,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -174,7 +172,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -189,7 +187,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -204,7 +202,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -219,112 +217,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </TabPanel>
-        <TabPanel>
-          <div className="swiper-holder">
-            <Swiper
-              spaceBetween={32}
-              slidesPerView={4}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false
-              }}
-              navigation
-              modules={[Autoplay, Navigation]}
-            >
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
-                  <h3>New Construction</h3>
-                  <p>Olympia, WA</p>
-                  <dl className="info-home">
-                    <dd>Loan Amount:</dd>
-                    <dt>$629,000</dt>
-                  </dl>
-                  <dl className="info-type">
-                    <dd>Property Type:</dd>
-                    <dt>Duplex</dt>
-                  </dl>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -354,7 +247,7 @@ const RecentlyFunded = () => (
             >
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -369,7 +262,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -384,7 +277,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -399,7 +292,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -414,7 +307,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -429,7 +322,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -459,7 +352,7 @@ const RecentlyFunded = () => (
             >
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -474,7 +367,7 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
@@ -489,7 +382,112 @@ const RecentlyFunded = () => (
               </SwiperSlide>
               <SwiperSlide>
                 <img src={Image1} alt="" />
-                <div className="price-holder">
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="swiper-holder">
+            <Swiper
+              spaceBetween={32}
+              slidesPerView={4}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false
+              }}
+              navigation
+              modules={[Autoplay, Navigation]}
+            >
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={Image1} alt="" />
+                <div className="info-holder">
                   <h3>New Construction</h3>
                   <p>Olympia, WA</p>
                   <dl className="info-home">
