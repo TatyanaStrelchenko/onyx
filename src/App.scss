@@ -266,8 +266,23 @@
 .footer-holder {
   padding-top: 106px;
   background: var(--footer-color);
-  @media (max-width:$sm) {
-    padding-top: 10%;
+  @media (max-width:$md) {
+    padding-top: 50px;
+  }
+  .row {
+    @media (max-width:$sm) {
+      display: flex;
+      justify-content: space-between;
+    }
+    .col {
+      p {
+        @media (max-width:$sm) {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+
+    }
   }
   img {
     padding-bottom: 34px;
@@ -279,6 +294,7 @@
     font-size: 14px;
     line-height: 24px;
     padding-bottom: 20px;
+    
   }
   li {
     font-size: 14px;
