@@ -1,0 +1,44 @@
+@import "../../styles/index.scss";
+
+.header {
+    background: var(--black);
+}
+
+.container {
+    max-width: 1300px;
+    min-height: 88px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.header-holder {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 19px 0 16px 0;
+}
+
+.logo {
+    img {
+        width: 146px;
+        height: 53px;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0;
+}
+
+.nav-menu {
+    li {
+        list-style: none;
+        padding: 28px 24px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+}

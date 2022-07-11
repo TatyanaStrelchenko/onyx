@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width:$sm) {
+        display: block;
+    }
+
+    .col {
+
+        @media (max-width:$md) {
+            padding: 0 5px;
+        }
+
+    }
+
+}
+
+.row-cell {
+    border-top: var(--grey) 2px solid;
+    padding: 10px 0 11px;
+
+    @media (max-width:$sm) {
+        display: flex;
+        font-size: 14px;
+    }
+
+}
