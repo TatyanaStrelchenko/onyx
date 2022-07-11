@@ -1,19 +1,19 @@
  
 .featured {
   background-color: var(--dark-grey);
-  padding: 138px 0 141px;  
+  padding: 243px 0 141px;  
   position: relative;
 
   h2 {
     position: absolute;
-    top: 236px;
+    top: 250px;
     text-transform: uppercase;
   }
 
   .swiper {
     height: 300px;
     color: var(--default-font-color);  
-    padding: 105px 0;
+    padding-top: 113px;
    
 
     &-slide {
@@ -29,6 +29,7 @@
       p {
         height: 112px;
         padding-bottom: 56px;
+        margin: 0;
       }
 
       h3 {
@@ -45,7 +46,7 @@
   }  
 
   .swiper-button-next, .swiper-button-prev { 
-    top: 20px; 
+    top: 22px; 
     height: 36px;
     width: 36px;
     background-color: var(--green);    
