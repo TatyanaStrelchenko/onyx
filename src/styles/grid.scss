@@ -9,7 +9,10 @@
         justify-content: space-between;
         border-top: var(--grey) 2px solid;
         padding: 10px 0 11px;
-    }  
+    } 
+     @media (max-width:$sm) {
+        margin-bottom: 50px;
+        }
 }
 .table-rates {
     margin-bottom: 51px;

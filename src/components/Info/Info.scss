@@ -84,31 +84,9 @@
   }
 }
 
-.table-rates {
-  .col:first-child {
-    width: 45%;
 
-    @media (max-width:$sm) {
-      width: 20%;
-    }
-  }
 
-  h3 {
-    margin-bottom: 20px;
 
-    @media (max-width:$sm) {
-      margin-bottom: 0;
-    }
-  }
-
-  margin-bottom: 51px
-}
-
-.table-holder {
-  @media (max-width:$sm) {
-    margin-bottom: 50px;
-  }
-}
 
 .number-holder {
   display: flex;
