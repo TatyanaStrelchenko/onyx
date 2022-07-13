@@ -2,7 +2,8 @@
 
 :root {
   --default-font: 'Montserrat', serif;
-  --green: #019b1e;
+  --green: #019b1e; 
+  --dark-green: #00AB39; 
   --white: #ffffff;
   --black: #101010;
   --dark-grey: #1c1c1c;
@@ -11,6 +12,11 @@
   --primary-color: var(--green);
   --default-font-color: var(--white);
   --grey-text: #5A5B5C; 
+  --white-grey: #F6F7F8;
+  --form-text: #3B3B3B;
+  --silver: #C7C7C7;
+  --dark-silver: #8C8C8C;
+
 }
 
 body {

@@ -5,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import './Featured.scss';
 import Image1 from '../../assets/icons/card.svg';
-import Image2 from '../../assets/icons/refresh.svg';
 import Image3 from '../../assets/icons/home.svg';
 import Image4 from '../../assets/icons/money.svg';
 import Image5 from '../../assets/icons/сonstruction.svg';
@@ -38,7 +37,6 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image2} alt="" />
               <h3>Fix and Flip</h3>
               <p>For real estate investors interested in acquiring or rehabbing properties...</p>
               <p className="info-text">
