@@ -2,9 +2,8 @@
   position: relative;
   background-color: var(--black);
   padding: 196px 0 204px;
-  
 
-  .react-tabs__tab-list {   
+  .react-tabs__tab-list {
     border-bottom: 0;
     text-transform: uppercase;
     font-weight: 400;
@@ -12,60 +11,60 @@
     line-height: 20px;
     margin: 0;
     position: relative;
-    top: 35px;   
+    top: 35px;
     display: inline-block;
     z-index: 100;
   }
 
   .react-tabs__tab--selected {
     background: none;
-    border: none;    
-    color: var(--green);  
+    border: none;
+    color: var(--green);
 
-    &:active{
-      color: var(--green);       
+    &:active {
+      color: var(--green);
     }
   }
 
-  .react-tabs__tab {   
+  .react-tabs__tab {
     &:focus:after {
       left: 0;
       right: 0;
       top: 42px;
       height: 1px;
       max-width: 100%;
-      background: var(--green);     
+      background: var(--green);
     }
-     
-    &:hover{
-      color: var(--green);       
+
+    &:hover {
+      color: var(--green);
     }
   }
 
-  .title-tabs  {   
+  .title-tabs {
     text-transform: uppercase;
   }
 
   .swiper {
-    height: 516px;   
+    height: 516px;
     width: 100%;
-    color: var(--default-font-color);  
-    padding: 83px 0 100px;   
+    color: var(--default-font-color);
+    padding: 83px 0 100px;
 
-    &-slide {     
+    &-slide {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;      
+      align-items: center;
       max-width: 516px;
-      
+
       &:hover {
-        filter: brightness(500%);   
-        color: var(--black); 
-        width: 100%;    
-        height: 100%;      
-      }      
-    }    
+        filter: brightness(500%);
+        color: var(--black);
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .swiper-pagination {
@@ -75,40 +74,39 @@
   img {
     position: relative;
     height: 100%;
-    width: 100%;     
-  }   
-  
-  
+    width: 100%;
+  }
+
   .price-holder {
     position: absolute;
     top: 65px;
     left: 50.6px;
     display: flex;
     flex-direction: column;
-    justify-content: center;     
-    font-weight: 400;  
-    
+    justify-content: center;
+    font-weight: 400;
+
     .info-home {
       padding-bottom: 16px;
     }
-    
+
     h3 {
       padding-bottom: 16px;
       font-size: 32px;
       font-weight: 500;
-      line-height: 40px;      
-      color: var(--grey-text);     
-      max-width: 280px;     
-    }    
-     
+      line-height: 40px;
+      color: var(--grey-text);
+      max-width: 280px;
+    }
+
     p {
       font-size: 16px;
       line-height: 16px;
-      padding-bottom: 24px;      
+      padding-bottom: 24px;
     }
 
     dd {
-      font-size: 16px;          
+      font-size: 16px;
       line-height: 20px;
       opacity: 0.6;
       padding-bottom: 4px;
@@ -116,25 +114,26 @@
 
     dt {
       font-size: 18px;
-      line-height: 22px;     
-    }    
-  }  
+      line-height: 22px;
+    }
+  }
 
-  .swiper-button-next, .swiper-button-prev { 
-    top: 20px; 
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 20px;
     height: 36px;
     width: 36px;
-    background-color: var(--green); 
-    z-index: 200;   
-    &::after {      
+    background-color: var(--green);
+    z-index: 200;
+    &::after {
       font-size: 8px;
       color: var(--white);
-    } 
+    }
   }
-  .swiper-button-next { 
-    right: 0;       
+  .swiper-button-next {
+    right: 0;
   }
-  .swiper-button-prev {    
+  .swiper-button-prev {
     right: 36px;
     left: auto;
     margin-right: 8px;

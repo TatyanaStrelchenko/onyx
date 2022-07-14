@@ -7,10 +7,10 @@
   --black: #101010;
   --dark-grey: #1c1c1c;
   --grey: #808080;
-  --footer-color: #191A1A;
+  --footer-color: #191a1a;
   --primary-color: var(--green);
   --default-font-color: var(--white);
-  --grey-text: #5A5B5C; 
+  --grey-text: #5a5b5c;
 }
 
 body {

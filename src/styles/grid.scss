@@ -1,28 +1,28 @@
 .rates-holder {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    .rates-block {
-        display: grid;
-        justify-content: right;
+    grid-column-gap: 128px;
+  
+  }
+  
+  .table-holder {
+      .table-rates {
+          margin-bottom: 51px;
+      }
+      h3 {
+          margin-bottom: 20px;
+      }
+      .row {
+          border-top: var(--grey) 2px solid;
+          padding: 10px 0 11px;
+      }  
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  
+    @media (max-width: $sm) {
+      margin-bottom: 50px;
     }
-}
-.table-holder {
-    .rates-holder {
-        display: flex;
-        justify-content: space-between;
-        border-top: var(--grey) 2px solid;
-        padding: 10px 0 11px;
-    } 
-     @media (max-width:$sm) {
-        margin-bottom: 50px;
-        }
-}
-.table-rates {
-    margin-bottom: 51px;
-
-    h3 {
-        margin-bottom: 20px;
-    }
-    
-}
+  }
 

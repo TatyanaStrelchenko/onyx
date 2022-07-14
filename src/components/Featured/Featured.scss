@@ -1,7 +1,6 @@
- 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 0 141px;  
+  padding: 243px 0 141px;
   position: relative;
 
   h2 {
@@ -12,9 +11,8 @@
 
   .swiper {
     height: 300px;
-    color: var(--default-font-color);  
+    color: var(--default-font-color);
     padding-top: 113px;
-   
 
     &-slide {
       background: black;
@@ -43,22 +41,23 @@
   img {
     max-height: 25px;
     padding-bottom: 42px;
-  }  
+  }
 
-  .swiper-button-next, .swiper-button-prev { 
-    top: 22px; 
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 22px;
     height: 36px;
     width: 36px;
-    background-color: var(--green);    
-    &::after {      
+    background-color: var(--green);
+    &::after {
       font-size: 8px;
       color: var(--white);
-    } 
+    }
   }
-  .swiper-button-next { 
-    right: 0;       
+  .swiper-button-next {
+    right: 0;
   }
-  .swiper-button-prev {    
+  .swiper-button-prev {
     right: 36px;
     left: auto;
     margin-right: 8px;

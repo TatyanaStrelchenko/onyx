@@ -29,56 +29,56 @@ const Info = () => {
           <div className="rates-block">
             <div className="table-holder table-rates">
               <h3>LIVE INTEREST RATES</h3>
-              <div className="rates-holder">
-                <div className="rates-block">1-MONTH LIBOR</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">1-MONTH LIBOR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">SOFR 30-DAY AVG</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">SOFR 30-DAY AVG</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">SOFR 30-DAY TERM</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">SOFR 30-DAY TERM</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">PRIME RATE</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">PRIME RATE</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
             </div>
             <div className="table-holder">
               <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
-              <div className="rates-holder">
-                <div className="rates-block">5-YEAR</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">5-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">7-YEAR</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">7-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">10-YEAR</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">10-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
-              <div className="rates-holder">
-                <div className="rates-block">20-YEAR</div>
-                <div className="rates-block">2.862%</div>
-                <div className="rates-block">2.940%</div>
-                <div className="rates-block">2.655%</div>
+              <div className="row">
+                <div className="col">20-YEAR</div>
+                <div className="col">2.862%</div>
+                <div className="col">2.940%</div>
+                <div className="col">2.655%</div>
               </div>
             </div>
           </div>
