@@ -216,10 +216,10 @@
     border: 1px solid var(--dark-silver);
     border-radius: 1px;  
     
-    &:focus, &:hover {
-      outline: none;      
-      border: 1px solid  var(--dark-green); 
-    }    
+    &:focus {
+      outline: none;   
+      border: 2px solid  var(--dark-green); 
+    }     
   } 
 
    input, textarea { 
