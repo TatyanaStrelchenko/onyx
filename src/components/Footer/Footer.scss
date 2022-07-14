@@ -11,11 +11,17 @@
   .row {
     display: flex;
     justify-content: space-between;
+    @media (max-width: $sm) {
+      display: block;
+    }
     .col {
+      @media (max-width: $sm) {
+        width: 100%;
+      }
       p {
         @media (max-width: $sm) {
-          font-size: 14px;
-          line-height: 24px;
+          font-size: 20px;
+          line-height: 30px;
         }
       }
     }
