@@ -2,21 +2,20 @@
 
 :root {
   --default-font: 'Montserrat', serif;
-  --green: #019b1e; 
-  --dark-green: #00AB39; 
+  --green: #019b1e;
+  --dark-green: #00ab39;
   --white: #ffffff;
   --black: #101010;
   --dark-grey: #1c1c1c;
   --grey: #808080;
-  --footer-color: #191A1A;
+  --footer-color: #191a1a;
   --primary-color: var(--green);
   --default-font-color: var(--white);
-  --grey-text: #5A5B5C; 
-  --white-grey: #F6F7F8;
-  --form-text: #3B3B3B;
-  --silver: #C7C7C7;
-  --dark-silver: #8C8C8C;
-
+  --grey-text: #5a5b5c;
+  --white-grey: #f6f7f8;
+  --form-text: #3b3b3b;
+  --silver: #c7c7c7;
+  --dark-silver: #8c8c8c;
 }
 
 body {
