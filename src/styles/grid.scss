@@ -1,28 +1,46 @@
 .rates-holder {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-column-gap: 128px;
-  
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 128px;
+
+  @media (max-width: $md) {
+    grid-column-gap: 50px;
   }
-  
-  .table-holder {
-      .table-rates {
-          margin-bottom: 51px;
+  h2 {
+    @media (max-width: $md) {
+        font-size: 26px;
+        line-height: 20px;
       }
-      h3 {
-          margin-bottom: 20px;
+  }
+  p {
+    @media (max-width: $md) {
+        font-size: 16px;
+        line-height: 20px;
       }
-      .row {
-          border-top: var(--grey) 2px solid;
-          padding: 10px 0 11px;
-      }  
+  }
+}
+.table-holder {
+    &:first-of-type {
+        margin-bottom: 51px;
+    }
+  h3 {
+    margin-bottom: 20px;
   }
   .row {
-    display: flex;
-    justify-content: space-between;
-  
-    @media (max-width: $sm) {
-      margin-bottom: 50px;
+    border-top: var(--grey) 2px solid;
+    padding: 10px 0 11px;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  .col {
+    &:first-child {
+        width: 30%;
     }
   }
 
+  @media (max-width: $sm) {
+    margin-bottom: 50px;
+  }
+}

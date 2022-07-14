@@ -27,7 +27,7 @@ const Info = () => {
             </button>
           </div>
           <div className="rates-block">
-            <div className="table-holder table-rates">
+            <div className="table-holder">
               <h3>LIVE INTEREST RATES</h3>
               <div className="row">
                 <div className="col">1-MONTH LIBOR</div>
