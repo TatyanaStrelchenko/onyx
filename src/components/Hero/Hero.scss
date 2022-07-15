@@ -1,8 +1,10 @@
 @import '../../styles/index.scss';
 
 .banner {
-  padding-top: 191px;
-  height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: calc(100vh - 88px);
   background-image: url(../../assets/image/los-angeles.svg);
   background-size: cover;
 
@@ -12,12 +14,13 @@
   }
 
   @media (max-width: $sm) {
-    padding: 0;
     height: 100%;
   }
 }
 
 .text-holder {
+  width: 100%;
+
   h1 {
     font-size: 120px;
     line-height: 1.2;
@@ -42,11 +45,12 @@
 
     @media (max-width: $md) {
       font-size: 25px;
-      margin: 20px 0;
+      margin: 20px 0 50px;
     }
 
     @media (max-width: $sm) {
       font-size: 20px;
+      margin: 20px 0 50px;
     }
 
     @media (max-width: $xs) {

@@ -12,10 +12,9 @@
   --primary-color: var(--green);
   --default-font-color: var(--white);
   --grey-text: #5a5b5c;
-  --white-grey: #f6f7f8;
-  --form-text: #3b3b3b;
-  --silver: #c7c7c7;
-  --dark-silver: #8c8c8c;
+  --white-grey: #F6F7F8;
+  --form-text: #3B3B3B;
+
 }
 
 body {
