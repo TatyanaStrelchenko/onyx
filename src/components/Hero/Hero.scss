@@ -20,6 +20,9 @@
 
 .text-holder {
   width: 100%;
+  @media (max-width: $md) {
+    
+  }
 
   h1 {
     font-size: 120px;

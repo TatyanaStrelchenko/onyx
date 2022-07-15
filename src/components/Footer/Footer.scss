@@ -10,15 +10,15 @@
 
   .row {
     display: grid;
-    grid-template-columns: 333px 153px 150px 83px 180px;
+    grid-template-columns: 26% 12% 12% 8% 14%;
     grid-column-gap: 80px;
 
     @media (max-width: $md) {
-      grid-template-columns: 260px 160px 160px 86px 200px;
+      grid-template-columns: 20% 15% 15% 10% 20%;
       grid-column-gap: 20px;
     }
     @media (max-width: $sm) {
-      grid-template-columns: 160px 130px 115px 85px 185px;
+      grid-template-columns: 24% 13% 13% 11% 24%;
       grid-column-gap: 15px
     }
 
@@ -99,14 +99,16 @@
     border-top: 1px #dddddd solid;
     padding-top: 28px;
     display: grid;
-    grid-template-columns: 180px 500px;
-    grid-column-gap: 625px;
+    grid-template-columns: 20% 40%;
+    grid-column-gap: 540px;
     align-items: center;
     @media (max-width: $md) {
-      grid-column-gap: 325px;
+      grid-template-columns: 18% 49%;
+      grid-column-gap: 320px;
     }
     @media (max-width: $sm) {
-      grid-column-gap: 65px;
+      grid-template-columns: 24% 66%;
+      grid-column-gap: 60px;
     }
   }
 
