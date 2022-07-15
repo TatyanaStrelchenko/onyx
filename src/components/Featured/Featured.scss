@@ -1,20 +1,18 @@
- 
 .featured {
   background-color: var(--dark-grey);
-  padding: 138px 0 141px;  
+  padding: 243px 0 141px;
   position: relative;
 
   h2 {
     position: absolute;
-    top: 236px;
+    top: 250px;
     text-transform: uppercase;
   }
 
   .swiper {
     height: 300px;
-    color: var(--default-font-color);  
-    padding: 105px 0;
-   
+    color: var(--default-font-color);
+    padding-top: 113px;
 
     &-slide {
       background: black;
@@ -26,9 +24,32 @@
       align-items: center;
       padding: 0 28.5px;
 
+      &:hover {
+        p,
+        h3,
+        img {
+          display: none;
+        }
+        .info-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+          line-height: 24px;
+          padding: 0 28.5px 40px;
+          width: 246px;
+        }
+      }
+
+      .info-text {
+        display: none;
+      }
+
       p {
         height: 112px;
         padding-bottom: 56px;
+        margin: 0;
       }
 
       h3 {
@@ -42,22 +63,23 @@
   img {
     max-height: 25px;
     padding-bottom: 42px;
-  }  
+  }
 
-  .swiper-button-next, .swiper-button-prev { 
-    top: 20px; 
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 22px;
     height: 36px;
     width: 36px;
-    background-color: var(--green);    
-    &::after {      
+    background-color: var(--green);
+    &::after {
       font-size: 8px;
       color: var(--white);
-    } 
+    }
   }
-  .swiper-button-next { 
-    right: 0;       
+  .swiper-button-next {
+    right: 0;
   }
-  .swiper-button-prev {    
+  .swiper-button-prev {
     right: 36px;
     left: auto;
     margin-right: 8px;

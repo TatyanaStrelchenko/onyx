@@ -4,8 +4,8 @@ const Info = () => {
   return (
     <section className="info-section">
       <div className="container">
-        <div className="row">
-          <div className="col">
+        <div className="rates-holder">
+          <div className="rates-block">
             <h2>PROUDLY CELEBRATING 30 YEARS</h2>
             <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
             <p>
@@ -26,28 +26,28 @@ const Info = () => {
               Get Started
             </button>
           </div>
-          <div className="col">
-            <div className="table-holder table-rates">
+          <div className="rates-block">
+            <div className="table-holder">
               <h3>LIVE INTEREST RATES</h3>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">1-MONTH LIBOR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">SOFR 30-DAY AVG</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">SOFR 30-DAY TERM</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">PRIME RATE</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
@@ -56,25 +56,25 @@ const Info = () => {
             </div>
             <div className="table-holder">
               <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">5-YEAR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">7-YEAR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">10-YEAR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>
                 <div className="col">2.655%</div>
               </div>
-              <div className="row row-cell">
+              <div className="row">
                 <div className="col">20-YEAR</div>
                 <div className="col">2.862%</div>
                 <div className="col">2.940%</div>

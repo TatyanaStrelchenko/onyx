@@ -1,40 +1,41 @@
 .btn {
-    width: 165px;
-    height: 48px;
-    cursor: pointer;
-    background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
-    border: none;
-    color: var(--white);
-}
+  width: 165px;
+  height: 48px;
+  cursor: pointer;
+  background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
+  border: none;
+  color: var(--white);
 
-.btn {
-    &:hover {
-        background: var(--primary-color);
-        transition: 1s;
-    }
+  &:hover {
+    background: var(--primary-color);
+    transition: 1s;
+  }
 }
 
 .btn-default {
-    background: bottom;
-    cursor: pointer;
-    overflow: hidden;
-    color: var(--green);
-    border: 1px solid;
-    margin: 0 0 165px;
+  background: bottom;
+  cursor: pointer;
+  overflow: hidden;
+  color: var(--green);
+  border: 1px solid;
+  margin: 0 0 165px;
 
-    &:hover {
-        background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
-        border: none;
-        color: var(--white);
-        transition: 1s;
-    }
+  &:hover {
+    background: var(--primary-color);
+    border: none;
+    color: var(--white);
+    transition: 1s;
+  }
 
-    @media (max-width:$sm) {
-        margin: 5% 30%;
-    }
+  @media (max-width: $md) {
+    margin: 5% 45%;
+  }
 
-    @media (max-width:$xs) {
-        margin: 5% 30%;
-    }
+  @media (max-width: $sm) {
+    margin: 5% 35%;
+  }
 
+  @media (max-width: $xs) {
+    margin: 4% 25%;
+  }
 }

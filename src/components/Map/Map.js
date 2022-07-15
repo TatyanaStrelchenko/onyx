@@ -1,9 +1,11 @@
 import React from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { Form } from '../Form';
+import './Map.scss';
 
 const containerStyle = {
   width: '100%',
-  height: '400px'
+  height: '993px'
 };
 
 const center = {
@@ -38,15 +40,18 @@ const Map = () => {
   //   }, []);
 
   return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={containerStyle}
-      center={center}
-      zoom={10}
-      //   onLoad={onLoad}
-      //   onUnmount={onUnmount}
-    >
-      {' '}
-    </GoogleMap>
+    <section className="map">
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        zoom={10}
+        //   onLoad={onLoad}
+        //   onUnmount={onUnmount}
+      >
+        {' '}
+      </GoogleMap>
+      <Form />
+    </section>
   ) : (
     <p>map</p>
   );
