@@ -3,30 +3,31 @@
   background-color: var(--black);
   padding: 196px 0 204px;
 
-  .react-tabs__tab-list {     
-   
+  .react-tabs__tab-list {
+
     z-index: 100;
   }
-  .tabs-holder{
+
+  .tabs-holder {
     max-width: 1300px;
     margin: 0 auto;
     position: relative;
     top: 35px;
-    left: 0;     
-    padding: 0;   
-    text-transform: uppercase;    
+    left: 0;
+    padding: 0;
+    text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     z-index: 100;
-   
+
   }
 
   .react-tabs__tab--selected {
     background: none;
     border: none;
-    color: var(--green); 
-    margin: 0 -12px; 
+    color: var(--green);
+    margin: 0 -12px;
 
     &:active {
       color: var(--green);
@@ -69,9 +70,11 @@
 
       &:hover {
         color: var(--black);
+
         h3 {
           color: var(--black);
         }
+
         &::after {
           content: '';
           position: absolute;
@@ -83,6 +86,7 @@
         }
       }
     }
+
     .swiper-pagination {
       position: none;
     }
@@ -128,20 +132,23 @@
 
   .swiper-button-next,
   .swiper-button-prev {
-    max-width: 1300px;    
+    max-width: 1300px;
     top: 20px;
     height: 36px;
     width: 36px;
     background-color: var(--green);
     z-index: 200;
+
     &::after {
       font-size: 8px;
       color: var(--white);
     }
   }
+
   .swiper-button-next {
     right: 286px;
   }
+
   .swiper-button-prev {
     right: 330px;
     left: auto;
@@ -181,6 +188,7 @@
     max-width: 280px;
   }
 }
+
 .border {
   &::before {
     content: '';
