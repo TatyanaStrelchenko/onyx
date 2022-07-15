@@ -1,57 +1,56 @@
-@import "../../styles/index.scss";
+@import '../../styles/index.scss';
 
 .banner {
-    padding-top: 191px;
-    height: 100vh;
-    background-image: url(../../assets/image/los-angeles.svg);
-    background-size: cover;
+  padding-top: 191px;
+  height: 100vh;
+  background-image: url(../../assets/image/los-angeles.svg);
+  background-size: cover;
 
-    @media (max-width:$md) {
-        padding: 40px 0 0;
-        height: 100%;
-    }
+  @media (max-width: $md) {
+    padding: 40px 0 0;
+    height: 100%;
+  }
 
-    @media (max-width:$sm) {
-        padding: 0;
-        height: 100%;
-    }
+  @media (max-width: $sm) {
+    padding: 0;
+    height: 100%;
+  }
 }
 
 .text-holder {
-    h1 {
-        font-size: 120px;
-        line-height: 1.2;
+  h1 {
+    font-size: 120px;
+    line-height: 1.2;
 
-        @media (max-width:$md) {
-            font-size: 80px;
-        }
-
-        @media (max-width:$sm) {
-            font-size: 60px;
-        }
-
-        @media (max-width:$xs) {
-            font-size: 45px;
-        }
+    @media (max-width: $md) {
+      font-size: 80px;
     }
 
-    p {
-        font-size: 28px;
-        line-height: 1.2;
-        margin: 52px 0 0;
-
-        @media (max-width:$md) {
-            font-size: 25px;
-            margin: 20px 0;
-        }
-
-        @media (max-width:$sm) {
-            font-size: 20px;
-        }
-
-        @media (max-width:$xs) {
-            font-size: 16px;
-        }
+    @media (max-width: $sm) {
+      font-size: 60px;
     }
 
+    @media (max-width: $xs) {
+      font-size: 45px;
+    }
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 52px 0 0;
+
+    @media (max-width: $md) {
+      font-size: 25px;
+      margin: 20px 0;
+    }
+
+    @media (max-width: $sm) {
+      font-size: 20px;
+    }
+
+    @media (max-width: $xs) {
+      font-size: 16px;
+    }
+  }
 }
