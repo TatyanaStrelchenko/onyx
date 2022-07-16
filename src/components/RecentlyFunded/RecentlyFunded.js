@@ -33,7 +33,7 @@ const RecentlyFunded = () => (
             disableOnInteraction: false
           }}
           navigation
-          pagination
+          pagination={{ clickable: true }}
           modules={[Autoplay, Pagination, Navigation]}
         >
           <SwiperSlide>
