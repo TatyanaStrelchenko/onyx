@@ -132,6 +132,11 @@
   }
   .numbers {
     position: relative;
+
+    @media (max-width: $xs) {
+      height: 100px;
+      top: -27px;     
+    }
   }
 
   .text {
@@ -166,6 +171,10 @@
   justify-content: space-between;
   margin-bottom: 104px;
 
+  @media (max-width: $md) {
+    margin-bottom: 55px;  
+  }
+
   @media (max-width: $xs) {
     display: inline-block; 
     margin-bottom: 30px;  
@@ -180,6 +189,11 @@
     @media (max-width: $sm) {
       max-width: 250px; 
       margin: 0 auto;    
+    }
+
+    .info-text {
+      padding: 0;
+      margin: 0;
     }
 
     p:first-child {
@@ -197,7 +211,7 @@
     &:nth-child(2) {
       // padding: 0 56px;
       border-right: 1px solid var(--green);
-      border-left: 1px solid var(--green);   
+      border-left: 1px solid var(--green);     
      
       @media (max-width: $xs) {
         border: none;
