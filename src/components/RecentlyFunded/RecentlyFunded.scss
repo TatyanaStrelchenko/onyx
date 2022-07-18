@@ -1,10 +1,16 @@
+@import '../../styles/index.scss';
+
+
 .recently-funded {
   position: relative;
   background-color: var(--black);
   padding: 196px 0 204px;
 
-  .react-tabs__tab-list {
+  @media (max-width: $xs) {
+    padding: 40px 0;
+  }
 
+  .react-tabs__tab-list {
     z-index: 100;
   }
 
@@ -53,6 +59,12 @@
     text-transform: uppercase;
     max-width: 1300px;
     margin: 0 auto;
+
+    
+    @media (max-width: $xs) {
+      font-size: 18px;
+      text-align: center;
+    }
   }
 
   .swiper {
@@ -60,6 +72,10 @@
     width: 100%;
     color: var(--default-font-color);
     padding: 83px 0 100px;
+
+    @media (max-width: $xs) {
+      padding: 60px 0 0;
+    }
 
     &-slide {
       display: flex;
@@ -89,6 +105,10 @@
 
     .swiper-pagination {
       position: none;
+
+      @media (max-width: $sm) {
+        display: none;
+      }
     }
 
     .swiper-pagination-bullet {
@@ -97,6 +117,7 @@
       margin-right: 4px;
       background: var(--white);
       opacity: 0.4;
+      border-radius: 0;
     }
 
     .swiper-pagination-bullet-active {
@@ -138,6 +159,11 @@
     width: 36px;
     background-color: var(--green);
     z-index: 200;
+
+    
+    @media (max-width: $xs) {
+      display: none;    
+    }
 
     &::after {
       font-size: 8px;

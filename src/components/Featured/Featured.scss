@@ -1,18 +1,41 @@
+@import '../../styles/index.scss';
+
 .featured {
   background-color: var(--dark-grey);
   padding: 243px 0 141px;
   position: relative;
+  
+  @media (max-width: $md) {
+    padding: 50px 0;
+  }
+
 
   h2 {
     position: absolute;
     top: 250px;
     text-transform: uppercase;
+
+    @media (max-width: $md) {
+      top: 49px;
+      font-size: 30px;
+    }
+
+    @media (max-width: $sm) {
+      position: static;
+      text-align: center;
+      font-size: 18px;      
+    }  
   }
 
   .swiper {
     height: 300px;
     color: var(--default-font-color);
     padding-top: 113px;
+
+    @media (max-width: $sm) { 
+      padding-top: 20px;
+    }
+
 
     &-slide {
       background: black;
@@ -74,6 +97,11 @@
     height: 36px;
     width: 36px;
     background-color: var(--green);
+
+    @media (max-width: $sm) {
+     display: none;
+    }
+  
 
     &::after {
       font-size: 8px;
