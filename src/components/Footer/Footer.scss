@@ -129,11 +129,11 @@
     align-items: center;
     @media (max-width: $md) {
       grid-template-columns: 18% 49%;
-      grid-column-gap: 310px;
+      grid-column-gap: 300px;
     }
     @media (max-width: $sm) {
       grid-template-columns: 24% 66%;
-      grid-column-gap: 50px;
+      grid-column-gap: 40px;
     }
     @media (max-width: $xs) {
       grid-template-columns: 50% 30%;
