@@ -57,23 +57,27 @@ const Footer = () => {
               <li>Equity</li>
             </ul>
           </div>
-          <div className="col">
-            <h4>QUCK NAVIGATION</h4>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Blog</li>
-              <li>Partners</li>
-            </ul>
-            <h4>ADDRESS</h4>
-            <ul>
-              <li>
-                2200 NW 2nd Ave, STE
-                <br /> 211, Miami, FL 33127
-              </li>
-              <li>support@onyxfunding.us</li>
-              <li>(415) 583-5515</li>
-            </ul>
+          <div className="col cell">
+            <div className="col">
+              <h4>QUCK NAVIGATION</h4>
+              <ul>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Blog</li>
+                <li>Partners</li>
+              </ul>
+            </div>
+            <div className="col">
+              <h4>ADDRESS</h4>
+              <ul>
+                <li>
+                  2200 NW 2nd Ave, STE
+                  <br /> 211, Miami, FL 33127
+                </li>
+                <li>support@onyxfunding.us</li>
+                <li>(415) 583-5515</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="footer-bottom">
