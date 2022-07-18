@@ -4,10 +4,10 @@
 .recently-funded {
   position: relative;
   background-color: var(--black);
-  padding: 196px 0 204px;
+  padding: 196px 30px 204px;
 
-  @media (max-width: $xs) {
-    padding: 40px 0;
+  @media (max-width: $md) {
+    padding: 40px 30px;
   }
 
   .react-tabs__tab-list {
@@ -27,13 +27,17 @@
     line-height: 20px;
     z-index: 100;
 
+    @media (max-width: $md) {
+      top: 10px;
+    }
+
   }
 
   .react-tabs__tab--selected {
     background: none;
     border: none;
     color: var(--green);
-    margin: 0 -12px;
+    // margin: 0 -12px;
 
     &:active {
       color: var(--green);
@@ -48,6 +52,10 @@
       height: 1px;
       max-width: 100%;
       background: var(--green);
+
+      @media (max-width: $md) {
+        top: 30px;
+      }  
     }
 
     &:hover {
@@ -60,12 +68,19 @@
     max-width: 1300px;
     margin: 0 auto;
 
-    
-    @media (max-width: $xs) {
-      font-size: 18px;
+    @media (max-width: $md) {
+      position: static;
       text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
     }
-  }
+
+    @media (max-width: $sm) {
+      position: static;
+      text-align: center;
+      font-size: 18px;      
+    }  
+  } 
 
   .swiper {
     height: 516px;
@@ -73,8 +88,13 @@
     color: var(--default-font-color);
     padding: 83px 0 100px;
 
-    @media (max-width: $xs) {
+    
+    @media (max-width: $md) { 
       padding: 60px 0 0;
+    }
+
+    @media (max-width: $sm) { 
+      padding: 20px 0 0;
     }
 
     &-slide {
@@ -118,6 +138,10 @@
       background: var(--white);
       opacity: 0.4;
       border-radius: 0;
+
+      @media (max-width: $md) {
+        display: none;    
+      }
     }
 
     .swiper-pagination-bullet-active {
@@ -161,7 +185,7 @@
     z-index: 200;
 
     
-    @media (max-width: $xs) {
+    @media (max-width: $md) {
       display: none;    
     }
 
@@ -223,6 +247,6 @@
     left: 0;
     background: var(--white);
     height: 1px;
-    width: 466px;
+    width: 90%;
   }
 }
