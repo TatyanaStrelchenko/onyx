@@ -10,27 +10,33 @@
 
   .row {
     display: grid;
-    grid-template-columns: 333px 153px 150px 83px 180px;
+    grid-template-columns: 26% 12% 12% 8% 14%;
     grid-column-gap: 80px;
 
     @media (max-width: $md) {
-      grid-template-columns: 260px 160px 160px 86px 200px;
+      grid-template-columns: 20% 15% 15% 8% 22%;
       grid-column-gap: 20px;
     }
     @media (max-width: $sm) {
-      grid-template-columns: 160px 130px 115px 85px 185px;
-      grid-column-gap: 15px
+      grid-template-columns: 33% 25% 25%;
+      grid-column-gap: 15px;
+      grid-template-rows: 65%;
+    }
+    @media (max-width: $xs) {
+      grid-template-columns: 100%;
+      grid-template-rows: 20%;
     }
 
     .col {
-      &:first-child {
-        width: 100%;
-      }
-
+       
       h4 {
         @media (max-width: $sm) {
           font-size: 16px;
           padding: 0;
+          margin: 0 0 50px;
+        }
+        @media (max-width: $xs) {
+          margin: 20px 0 20px;
         }
       }
 
@@ -49,6 +55,16 @@
         }
       }
     }
+    .cell {
+      @media (max-width: $sm) {
+        display: grid;
+        grid-template-columns: 85% 80%;
+        grid-column-gap: 95px;
+      }
+      @media (max-width: $xs) {
+        display: block;
+      }
+    }
   }
 
   img {
@@ -57,6 +73,9 @@
 
   h4 {
     padding-bottom: 40px;
+    @media (max-width: $md) {
+      padding-bottom: 30px;
+    }
   }
 
   p {
@@ -78,8 +97,14 @@
   }
 
   .col:last-child {
+    @media (max-width: $sm) {
+      
+    }
     ul {
       padding-bottom: 40px;
+      @media (max-width: $md) {
+        padding-bottom: 20px;
+      }
 
       @media (max-width: $sm) {
         padding-bottom: 0px;
@@ -99,20 +124,28 @@
     border-top: 1px #dddddd solid;
     padding-top: 28px;
     display: grid;
-    grid-template-columns: 180px 500px;
-    grid-column-gap: 625px;
+    grid-template-columns: 20% 40%;
+    grid-column-gap: 540px;
     align-items: center;
     @media (max-width: $md) {
-      grid-column-gap: 325px;
+      grid-template-columns: 18% 49%;
+      grid-column-gap: 310px;
     }
     @media (max-width: $sm) {
-      grid-column-gap: 65px;
+      grid-template-columns: 24% 66%;
+      grid-column-gap: 50px;
+    }
+    @media (max-width: $xs) {
+      grid-template-columns: 50% 30%;
+      grid-column-gap: 43px;
     }
   }
 
   .social {
     display: flex;
-
+    @media (max-width: $xs) {
+      display: grid;
+    }
     li {
       &:not(:first-child) {
         &::before {
@@ -124,6 +157,10 @@
           border-radius: 50%;
           background-color: var(--green);
           margin: 0 20px;
+
+          @media (max-width: $xs) {
+            display: none;
+          }
         }
       }
     }

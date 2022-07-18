@@ -1,25 +1,24 @@
 .rates-holder {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 51% 39%;
   grid-column-gap: 128px;
+  padding-bottom: 165px;
 
   @media (max-width: $md) {
     display: block;
+    
   }
 
 }
 
 .rates-block {
-  &:first-child {
-    min-width: 656px;
-  }
-
+ 
   @media (max-width: $md) {
-    max-width: 656px;
+    
   }
 
   @media (max-width: $xs) {
-    max-width: 520px;
+    
   }
 }
 
@@ -46,10 +45,4 @@
 .row {
   display: flex;
   justify-content: space-between;
-
-  .col {
-    &:first-child {
-      width: 35%;
-    }
-  }
 }
