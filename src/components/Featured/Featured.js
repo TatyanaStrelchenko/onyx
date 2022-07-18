@@ -17,26 +17,33 @@ const Featured = () => {
         <h2>Featured Loan Programs</h2>
         <div className="swiper-holder">
           <Swiper
-            breakpoints={{
-              // when window width is >= 640px
-              640: {
-                width: 640,
-                slidesPerView: 1
-              },
-              // when window width is >= 768px
-              768: {
-                width: 768,
-                slidesPerView: 2
-              }
-            }}
-            spaceBetween={32}
-            slidesPerView={4}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false
             }}
             navigation
+            slidesPerView={4}
+            spaceBetween={40}
             modules={[Autoplay, Navigation]}
+            loop
+            centeredSlides
+            breakpoints={{
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 768,
+                slidesPerView: 4,
+                spaceBetween: 32
+              }
+            }}
           >
             <SwiperSlide>
               <img src={Image1} alt="" />

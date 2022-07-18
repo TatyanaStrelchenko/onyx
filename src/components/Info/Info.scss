@@ -168,7 +168,8 @@
     padding: 0 20px; 
 
     @media (max-width: $xs) {
-      max-width: 250px;     
+      max-width: 250px; 
+      margin: 0 auto;    
     }
 
     p:first-child {
@@ -203,10 +204,12 @@
       margin: 0 auto;
       padding: 20px;
       border-top: 1px solid var(--green);
-      border-bottom: 1px solid var(--green);
-      
-      
-     
+      border-bottom: 1px solid var(--green);    
     }
   }
+}
+
+.info-btn {
+ display: block;
+ margin: 0 auto;
 }
