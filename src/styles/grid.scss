@@ -5,7 +5,7 @@
   padding-bottom: 165px;
 
   @media (max-width: $md) {
-    display: block;
+    grid-template-columns: 90%;
     
   }
 
