@@ -5,7 +5,7 @@
   padding: 243px 0 141px;
   position: relative;
   
-  @media (max-width: $xs) {
+  @media (max-width: $md) {
     padding: 50px 0;
   }
 
@@ -15,7 +15,12 @@
     top: 250px;
     text-transform: uppercase;
 
-    @media (max-width: $xs) {
+    @media (max-width: $md) {
+      top: 49px;
+      font-size: 30px;
+    }
+
+    @media (max-width: $sm) {
       position: static;
       text-align: center;
       font-size: 18px;      
@@ -27,7 +32,7 @@
     color: var(--default-font-color);
     padding-top: 113px;
 
-    @media (max-width: $xs) { 
+    @media (max-width: $sm) { 
       padding-top: 20px;
     }
 
@@ -93,7 +98,7 @@
     width: 36px;
     background-color: var(--green);
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
      display: none;
     }
   
