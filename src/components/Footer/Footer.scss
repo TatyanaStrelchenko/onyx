@@ -127,6 +127,9 @@
     grid-template-columns: 20% 40%;
     grid-column-gap: 540px;
     align-items: center;
+    p {
+      margin: 0;
+    }
     @media (max-width: $md) {
       grid-template-columns: 18% 49%;
       grid-column-gap: 300px;
@@ -163,6 +166,7 @@
           }
         }
       }
+      padding: 0;
     }
 
     img {
