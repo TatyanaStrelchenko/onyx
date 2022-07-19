@@ -1,23 +1,19 @@
 import './Hero.scss';
 
-const Hero = () => {
+const Hero = ({ children, background, height }) => {
+  // const style = {
+  //   background,
+  //   height
+  // }
+
+  const style = {
+    backgroundColor: `${background}`,
+    height: `${height}`
+  };
+
   return (
-    <section className="banner">
-      <div className="container">
-        <div className="text-holder">
-          <h1>
-            Relationships.
-            <br />
-            Solutions.
-            <br />
-            Results
-          </h1>
-          <p>
-            Comprehensive financing solutions for commercial,
-            <br /> multifamily and residential investment real estate.
-          </p>
-        </div>
-      </div>
+    <section className="banner" style={style}>
+      <div className="container">{children}</div>
     </section>
   );
 };

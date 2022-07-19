@@ -6,11 +6,32 @@ import { Info } from '../../components/Info';
 import { Map } from '../../components/Map';
 import { RecentlyFunded } from '../../components/RecentlyFunded';
 
+import HeroBg from '../../assets/image/los-angeles.svg';
+
 const Home = () => {
+  const style = {
+    backgroundColor: HeroBg,
+    height: '700px'
+  };
+
   return (
     <div className="home-page">
       <Header />
-      <Hero />
+      <Hero style={style}>
+        <div className="text-holder">
+          <h1>
+            Relationships.
+            <br />
+            Solutions.
+            <br />
+            Results
+          </h1>
+          <p>
+            Comprehensive financing solutions for commercial,
+            <br /> multifamily and residential investment real estate.
+          </p>
+        </div>
+      </Hero>
       <Info />
       <Featured />
       <RecentlyFunded />
