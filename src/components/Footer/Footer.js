@@ -14,16 +14,12 @@ const Footer = () => {
           <div className="col">
             <img src={Logo} alt="img" />
             <p>
-              Onyx Funding is a real estate financing
-              <br /> solutions service company. Onyx Funding is not
-              <br /> a lender and only provides brokering services
-              <br /> for commercial, business purpose loans.
+              Onyx Funding is a real estate financing solutions service company. Onyx Funding is not
+              a lender and only provides brokering services for commercial, business purpose loans.
             </p>
             <p>
-              Loans are for investment purposes only and
-              <br /> not for personal, family, or household use. Loan
-              <br /> product availability may be limited in certain
-              <br /> states
+              Loans are for investment purposes only and not for personal, family, or household use.
+              Loan product availability may be limited in certain states
             </p>
           </div>
           <div className="col">
