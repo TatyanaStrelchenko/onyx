@@ -3,6 +3,7 @@ import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import './About.scss';
 import Image1 from '../../assets/image/blank-map-us.svg';
+import Image2 from '../../assets/image/img-home1.jpg';
 
 const About = () => {
   return (
@@ -35,6 +36,9 @@ const About = () => {
                 verity of clients. We believe in building long term relationships with our clients
                 by providing exceptional service and consistent results.
               </p>
+            </div>
+            <div className="rates-block">
+              <img src={Image2} alt="img" />
             </div>
           </div>
         </div>
