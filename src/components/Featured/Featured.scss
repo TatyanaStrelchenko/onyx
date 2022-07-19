@@ -29,7 +29,7 @@
   }
 
   .swiper {
-    height: 300px;
+    height: 360px;       
     color: var(--default-font-color);
     padding-top: 113px;
 
@@ -38,16 +38,15 @@
     }
 
     &-slide {
-      background: black;
-      height: 360px;
-      width: 246px;
+      background: black;       
+      max-width: 303px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0 28.5px;
-      box-sizing: border-box;
-
+      padding: 40px 28.5px 0;
+       
+   
       &:hover {
 
         p,
@@ -63,8 +62,8 @@
           align-items: center;
           font-size: 16px;
           line-height: 24px;
-          padding: 0 28.5px 40px;
-          width: 246px;
+          padding: 0px 28.5px 120px;
+          max-width: 246px;          
         }
       }
 
@@ -73,12 +72,15 @@
       }
 
       p {
-        height: 112px;
-        padding-bottom: 56px;
-        margin: 0;
-      }
+        margin: 0; 
+        padding-bottom: 56px;                 
+      } 
+       
 
       h3 {
+        font-weight: 700; 
+        line-height: 24px;
+        text-transform: uppercase;
         padding-bottom: 16px;
         font-size: 20px;
         margin: 0;
@@ -86,14 +88,27 @@
     }
   }
 
-  img {
-    max-height: 25px;
-    padding-bottom: 42px;
-  }
+   .icon-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    padding-bottom: 44px;
+
+    img {
+      max-height: 20px;
+      max-width: 44px;
+    }
+    
+   }
+
+  // img {
+  //   max-height: 25px;
+  //   
+  // }
 
   .swiper-button-next,
   .swiper-button-prev {
-    top: 22px;
+    top: 30px;
     height: 36px;
     width: 36px;
     background-color: var(--green);

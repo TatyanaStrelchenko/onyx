@@ -1,41 +1,90 @@
-@import '../../styles/index.scss';
+@import '../../styles/index.scss'; 
 
-.loanprograms {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  height: calc(100vh - 88px);
-  background-image: url(../../assets/image/loan-programs.jpg);
-  background-size: cover;
-}
-
-.loan-menu {
-  display: flex;
+.breadcrumbs {
+  display: flex;   
   align-items: center;
   list-style: none;
   padding: 0;
 
-  li {
-    margin-right: 10px;
+  li {       
     padding-left: 10px;
 
-    // &:first-child {
-    //   &::after {
-    //     content: ">";
-    //     width: 10px;
-    //     height: 10px;
-    //     color: var(--grey-white);
-    //   }
-    // }
+    &:first-child {      
+      &::after {
+        content: "";
+        display: inline-flex;       
+        background: url(../../assets/icons/caret.svg) no-repeat center; 
+        transform: rotate(-90deg);     
+        width: 10px;
+        height: 10px;
+        color: var(--grey-white);
+        margin-left: 10px;
+      }
+    }
   } 
+}
+
+.loan-programs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--black); 
+  padding-top: 196px;
   
-  // .caret {
-  //   &:before {
-  //     mask: url ('caret.svg') no-repeat center;
-  //     background: var(--grey-white);    
-  //     transform: rotate(-90deg);    
-  //     width: 10px;
-  //     height: 10px;
-  //     background: var(--grey-white);    
-  // }
+ 
+
+  .text-holder {   
+    margin: 0 auto;
+    max-width: 808px;
+    text-align: center;    
+
+    h2 {          
+      margin-bottom: 40px;
+    }
+    p {    
+      font-size: 18px;    
+      line-height: 28px; 
+      margin: 0 0 61px;  
+    }
+  }
+
+  .holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+
+
+    .item-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 608px;       
+      background: var(--dark-black);
+      padding: 50px 40px 48px;  
+      margin: 0 89px 80px 0;   
+      box-sizing: border-box; 
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+        margin-bottom: 196px;
+      }
+     
+      .icon-holder {
+        padding-bottom: 41.41px;
+      }
+
+      h3 {     
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-bottom: 16px;
+      }
+    } 
+  }
 }

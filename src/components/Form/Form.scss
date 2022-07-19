@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 580px;
+  width: 580px;
   background: var(--white-grey);
   padding: 40px 64px 60px;
   color: var(--form-text);
@@ -25,7 +25,6 @@
     margin-bottom: 6px;
     line-height: 53px;
   }
-
   .form-control {    
     padding: 5px 28px 6px;
     margin-bottom: 20px;
@@ -38,7 +37,7 @@
     &:focus {
       outline: none;
       border: 2px solid var(--dark-green);
-    }
+    }   
   }
 
   input,
@@ -56,6 +55,7 @@
     height: 140px;
     margin-bottom: 48px;
     line-height: 53px;
+    color: var(--grey-white); 
   }
   .btn-primary {
     width: 100%;
@@ -63,3 +63,12 @@
     text-transform: uppercase;
   }
 }
+
+input::-webkit-input-placeholder {
+   color: var(--grey-white); 
+  }
+
+::-webkit-input-placeholder { color: var(--grey-white);}  
+::-moz-placeholder          { color: var(--grey-white);}/* Firefox 19+ */
+:-moz-placeholder           { color: var(--grey-white);}/* Firefox 18- */
+:-ms-input-placeholder      { color: var(--grey-white);}
