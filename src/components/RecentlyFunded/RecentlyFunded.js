@@ -35,6 +35,23 @@ const RecentlyFunded = () => (
           navigation
           pagination={{ clickable: true }}
           modules={[Autoplay, Pagination, Navigation]}
+          breakpoints={{
+            320: {
+              // width: 320,
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
+            768: {
+              // width: 768,
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            1280: {
+              // width: 768,
+              slidesPerView: 3,
+              spaceBetween: 32
+            }
+          }}
         >
           <SwiperSlide>
             <img src={Image1} alt="" />

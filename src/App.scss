@@ -1,15 +1,11 @@
 @import './styles/index.scss';
-
 .App {
   overflow: hidden;
 }
-
-.container {
-  width: 100%;
+.container { 
   max-width: 1300px;
-  min-height: 88px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0 15px;
+  padding: 0 30px;
   align-items: center;
 }

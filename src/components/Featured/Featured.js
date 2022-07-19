@@ -28,8 +28,8 @@ const Featured = () => {
             loop
             centeredSlides
             breakpoints={{
-              576: {
-                // width: 576,
+              320: {
+                // width: 320,
                 slidesPerView: 1,
                 spaceBetween: 20
               },

@@ -1,31 +1,37 @@
 .rates-holder {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 51% 39%;
   grid-column-gap: 128px;
+  padding-bottom: 165px;
 
   @media (max-width: $md) {
-    display: block;
+    grid-template-columns: 85%;
+    
   }
 
 }
 
-.rates-block {
-  &:first-child {
-    min-width: 656px;
-  }
-
-  @media (max-width: $md) {
-    max-width: 656px;
-  }
-
-  @media (max-width: $xs) {
-    max-width: 520px;
-  }
-}
 
 .table-holder {
   &:first-of-type {
     margin-bottom: 51px;
+    .row {
+      .col {
+        &:first-child {
+          width: 35%;
+          @media (max-width: $md) {
+            width: 18%;
+          }
+          @media (max-width: $sm) {
+            width: 25%;
+          }
+          @media (max-width: $xs) {
+            width: 45%;
+          }
+        }
+      }
+    }
+
   }
 
   h3 {
@@ -35,6 +41,9 @@
   .row {
     border-top: var(--grey) 2px solid;
     padding: 10px 0 11px;
+    @media (max-width: $xs) {
+      font-size: 14px;
+    }
   }
 
   @media (max-width: $sm) {
@@ -46,10 +55,4 @@
 .row {
   display: flex;
   justify-content: space-between;
-
-  .col {
-    &:first-child {
-      width: 35%;
-    }
-  }
 }
