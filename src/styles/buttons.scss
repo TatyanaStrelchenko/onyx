@@ -17,7 +17,6 @@
   overflow: hidden;
   color: var(--green);
   border: 1px solid;
-  margin: 0 0 165px;
 
   &:hover {
     background: var(--primary-color);
@@ -25,16 +24,5 @@
     color: var(--white);
     transition: 1s;
   }
-
-  @media (max-width: $md) {
-    margin: 5% 45%;
-  }
-
-  @media (max-width: $sm) {
-    margin: 5% 35%;
-  }
-
-  @media (max-width: $xs) {
-    margin: 4% 25%;
-  }
+ 
 }
