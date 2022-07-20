@@ -9,18 +9,13 @@ const Info = () => {
             <h2>PROUDLY CELEBRATING 30 YEARS</h2>
             <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
             <p>
-              Onyx Funding is changing the way real estate investors connect with
-              <br />
-              capital sources. We work for you, the Borrower, and not for a Lender.
-              <br /> This allows for complete transparency, synergy and alignment in our
-              <br />
-              interests.
+              Onyx Funding is changing the way real estate investors connect with capital sources.
+              We work for you, the Borrower, and not for a Lender. This allows for complete
+              transparency, synergy and alignment in our interests.
             </p>
             <p>
-              Since our inception we have helped hundreds of real estate investors
-              <br />
-              achieve their goals by successfully negotiating and securing favorable
-              <br /> debt and equity financing.
+              Since our inception we have helped hundreds of real estate investors achieve their
+              goals by successfully negotiating and securing favorable debt and equity financing.
             </p>
             <button type="button" className="btn btn-default">
               Get Started
