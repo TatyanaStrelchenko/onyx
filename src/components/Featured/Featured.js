@@ -17,13 +17,10 @@ const Featured = () => {
         <h2>Featured Loan Programs</h2>
         <div className="swiper-holder">
           <Swiper
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false
-            }}
+            autoplay={false}
             navigation
-            slidesPerView={4}
-            spaceBetween={40}
+            slidesPerView={3}
+            spaceBetween={32}
             modules={[Autoplay, Navigation]}
             loop
             centeredSlides
@@ -46,7 +43,9 @@ const Featured = () => {
             }}
           >
             <SwiperSlide>
-              <img src={Image1} alt="" />
+              <div className="icon-holder">
+                <img src={Image1} alt="" />
+              </div>
               <h3>Commercial</h3>
               <p>We are your one-stop solution for all your commercial financing needs...</p>
               <p className="info-text">
@@ -65,7 +64,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image3} alt="" />
+              <div className="icon-holder">
+                <img src={Image3} alt="" />
+              </div>
               <h3>Rental / Refinance</h3>
               <p>Weather you have a single property or a large portfolio, we got you...</p>
               <p className="info-text">
@@ -75,7 +76,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image4} alt="" />
+              <div className="icon-holder">
+                <img src={Image4} alt="" />
+              </div>
               <h3>Fix to Rent</h3>
               <p>Weather you have a single property or a large portfolio, we got you...</p>
               <p className="info-text">
@@ -85,7 +88,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image5} alt="" />
+              <div className="icon-holder">
+                <img src={Image5} alt="" />
+              </div>
               <h3>New Construction</h3>
               <p>Our competitive edge comes from our vast experience in structuring construction</p>
               <p className="info-text">
@@ -95,7 +100,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image6} alt="" />
+              <div className="icon-holder">
+                <img src={Image6} alt="" />
+              </div>
               <h3>Bridge</h3>
               <p>As a leading mortgage brokerage in the commercial real estate market</p>
               <p className="info-text">
@@ -105,7 +112,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={Image6} alt="" />
+              <div className="icon-holder">
+                <img src={Image6} alt="" />
+              </div>
               <h3>Bridge</h3>
               <p>As a leading mortgage brokerage in the commercial real estate market</p>
               <p className="info-text">
