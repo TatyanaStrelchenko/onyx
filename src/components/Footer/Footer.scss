@@ -23,8 +23,9 @@
       grid-template-rows: 65%;
     }
     @media (max-width: $xs) {
-      grid-template-columns: 100%;
-      grid-template-rows: 20%;
+      grid-template-columns: 94%;
+      grid-template-rows: 18%;
+      margin-bottom: 20px;
     }
 
     .col {
@@ -52,6 +53,9 @@
         @media (max-width: $sm) {
           font-size: 12px;
           line-height: 18px;
+        }
+        @media (max-width: $xs) {
+          margin-bottom: 10px;
         }
       }
     }

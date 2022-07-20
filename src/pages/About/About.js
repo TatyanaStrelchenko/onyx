@@ -4,6 +4,8 @@ import { Hero } from '../../components/Hero';
 import './About.scss';
 import Image1 from '../../assets/image/blank-map-us.svg';
 import Image2 from '../../assets/image/img-home1.jpg';
+import Image3 from '../../assets/image/img-home2.jpg';
+import Image4 from '../../assets/image/img-home3.jpg';
 
 const About = () => {
   return (
@@ -12,19 +14,26 @@ const About = () => {
       <Hero />
       <section className="map-section">
         <div className="container">
-          <div className="rates-holder">
-            <div className="rates-block">
+          <div className="map-holder">
+            <div className="text-block">
               <h2>$3.05 BILLION2 FINANCED SINCE 2008</h2>
               <p>
                 We are seasoned in underwriting commercial real estate business plans, providing
-                <br />
                 capital for acquisitions, developments and refinancings across the nation.
               </p>
             </div>
-            <div className="rates-block">
+            <div className="map-block">
+              <p>
+                <span>Transactions Closed</span>
+              </p>
+              <p>
+                <span>Target MSAs</span>
+              </p>
               <img src={Image1} alt="img" />
             </div>
-            <div className="rates-block">
+          </div>
+          <div className="building-objects-holder ">
+            <div className="building-objects-block">
               <p>
                 Onyx Funding is a leading, national provider of financing services to the commercial
                 real estate industry. Our diverse expertise, vast lender relationships, and real
@@ -37,8 +46,37 @@ const About = () => {
                 by providing exceptional service and consistent results.
               </p>
             </div>
-            <div className="rates-block">
+            <div className="building-objects-block">
               <img src={Image2} alt="img" />
+            </div>
+            <div className="building-objects-block">
+              <img src={Image3} alt="img" />
+            </div>
+            <div className="building-objects-block">
+              <h2>HOW ONYX FUNDING WORKS</h2>
+              <p>
+                Onyx Funding is changing the way real estate investors connect with capital sources.
+                We work for you, the Borrower, and not for a Lender. This allows for complete
+                transparency, synergy and alignment in our interests.
+              </p>
+              <p>
+                Since our inception we have helped hundreds of real estate investors achieve their
+                goals by successfully negotiating and securing favorable debt and equity financing
+              </p>
+            </div>
+            <div className="building-objects-block">
+              <h2>WHY PEOPLE CHOOSE US?</h2>
+              <p>
+                Onyx Funding is a trusted name in the commercial real estate finance industry
+                because we deliver results through a proven and comprehensive process.
+              </p>
+              <p>
+                By choosing to be represented by a strong and experienced industry leader, you are
+                ensuring that you and your projects will demonstrate optimal success.
+              </p>
+            </div>
+            <div className="building-objects-block">
+              <img src={Image4} alt="img" />
             </div>
           </div>
         </div>
