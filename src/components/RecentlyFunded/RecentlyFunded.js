@@ -5,9 +5,9 @@ import { Autoplay, Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/bundle';
 import './RecentlyFunded.scss';
-import Image1 from '../../assets/image/home-1.png';
-import Image2 from '../../assets/image/home-2.png';
-import Image3 from '../../assets/image/home-3.png';
+import Image1 from '../../assets/image/img-home1.jpg';
+import Image2 from '../../assets/image/img-home2.jpg';
+import Image3 from '../../assets/image/img-home3.jpg';
 
 const RecentlyFunded = () => (
   <section className="recently-funded">

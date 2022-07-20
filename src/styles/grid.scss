@@ -1,16 +1,46 @@
 .rates-holder {
   display: grid;
-  grid-template-columns: 51% 39%;
-  grid-column-gap: 128px;
+  grid-template-columns: 51% 37%;
+  grid-column-gap: 12%;
   padding-bottom: 165px;
 
-  @media (max-width: $md) {
-    grid-template-columns: 85%;
-    
+  @media (max-width: $xxl) {
+    grid-template-columns: 50% 38%;
+    grid-column-gap: 9%;
   }
 
+  @media (max-width: $md) {
+    grid-template-columns: 95%;
+    padding-bottom: 80px;
+  }
+  @media (max-width: $sm) {
+    grid-template-columns: 94%;
+    padding-bottom: 40px;
+  }
+  @media (max-width: $xs) {
+    grid-template-columns: 88%;
+    padding-bottom: 0;
+  }
 }
-
+.rates-block {
+  .btn-default {
+    margin-top: 40px;
+    @media (max-width: $md) {
+      margin-top: 20px;
+    }
+  }
+  p {
+    @media (max-width: $md) {
+      margin-bottom: 20px;
+    }
+  }
+  &:first-of-type {
+    @media (max-width: $md) {
+      margin-bottom: 50px;
+    }
+  }
+ 
+}
 
 .table-holder {
   &:first-of-type {
