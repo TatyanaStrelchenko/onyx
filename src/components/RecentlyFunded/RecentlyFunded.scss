@@ -37,7 +37,7 @@
     background: none;
     border: none;
     color: var(--green);
-    // margin: 0 -12px;
+    padding: 0;
 
     &:active {
       color: var(--green);
@@ -45,10 +45,12 @@
   }
 
   .react-tabs__tab {
+    margin-right: 32px;
+    padding: 0;
     &:focus:after {
       left: 0;
       right: 0;
-      top: 42px;
+      bottom: -15px;
       height: 1px;
       max-width: 100%;
       background: var(--green);
@@ -110,7 +112,12 @@
         h3 {
           color: var(--black);
         }
-
+        
+        .border, .item-info {
+        &:before {              
+          background: var(--black);                   
+        }
+      } 
         &::after {
           content: '';
           position: absolute;
@@ -121,7 +128,7 @@
           height: 100%;
         }
       }
-    }
+    }    
 
     .swiper-pagination {
       position: none;
@@ -257,6 +264,6 @@
     left: 0;
     background: var(--white);
     height: 1px;
-    width: 90%;
+    width: 90%;   
   }
 }
