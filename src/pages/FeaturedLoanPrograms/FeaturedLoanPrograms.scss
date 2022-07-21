@@ -51,6 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 196px;
      
 
 
@@ -70,12 +71,16 @@
       }
 
       &:last-child {
-        margin-right: 0;
-        margin-bottom: 196px;
+        margin-right: 0;       
       }
      
       .icon-holder {
         padding-bottom: 41.41px;
+
+        img {
+          height: 32px;
+          max-width: 44px;
+        }
       }
 
       h3 {     

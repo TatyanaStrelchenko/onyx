@@ -5,10 +5,12 @@ import { RecentlyFunded } from '../../components/RecentlyFunded/RecentlyFunded';
 import './FeaturedLoanPrograms.scss';
 
 import Image1 from '../../assets/icons/card.svg';
+import Image2 from '../../assets/icons/clockwise.svg';
 import Image3 from '../../assets/icons/home.svg';
 import Image4 from '../../assets/icons/money.svg';
 import Image5 from '../../assets/icons/сonstruction.svg';
-import Image6 from '../../assets/icons/bridge.svg';
+import Image6 from '../../assets/icons/users.svg';
+import Image7 from '../../assets/icons/bridge.svg';
 
 const FeaturedLoanPrograms = () => {
   return (
@@ -45,7 +47,7 @@ const FeaturedLoanPrograms = () => {
           </div>
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image1} alt="" />
+              <img src={Image2} alt="" />
             </div>
             <h3>Fix and Flip</h3>
             <p>
@@ -100,7 +102,7 @@ const FeaturedLoanPrograms = () => {
           </div>
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image6} alt="" />
+              <img src={Image7} alt="" />
             </div>
             <h3>Bridge</h3>
             <p>
