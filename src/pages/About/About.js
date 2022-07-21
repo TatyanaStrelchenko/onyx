@@ -23,12 +23,10 @@ const About = () => {
               </p>
             </div>
             <div className="map-block">
-              <p>
-                <span>Transactions Closed</span>
-              </p>
-              <p>
-                <span>Target MSAs</span>
-              </p>
+              <div className="map-info">
+                <p>Transactions Closed</p>
+                <p>Target MSAs</p>
+              </div>
               <img src={Image1} alt="img" />
             </div>
           </div>
