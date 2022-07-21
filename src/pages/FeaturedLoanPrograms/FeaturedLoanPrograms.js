@@ -114,6 +114,22 @@ const FeaturedLoanPrograms = () => {
         </div>
       </section>
       <RecentlyFunded />
+      <section className="promo-section">
+        <div className="container">
+          <div className="text-holder">
+            <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
+            <p>
+              {' '}
+              These are just our featured programs, as industry leaders in CRE financing, we cater
+              to any and all real estate investment financing requests. Contact us with your
+              scenario to learn how we can help.
+            </p>
+            <button type="button" className="btn info-btn">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );

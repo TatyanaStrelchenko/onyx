@@ -51,10 +51,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 196px;
-     
-
-
+   
     .item-holder {
       display: flex;
       flex-direction: column;
@@ -71,7 +68,7 @@
       }
 
       &:last-child {
-        margin-right: 0;       
+        margin: 0;       
       }
      
       .icon-holder {
@@ -93,3 +90,28 @@
     } 
   }
 }
+
+.promo-section {     
+  background-image: url(../../assets/image/home.jpg);
+  background-size: cover;
+  padding: 134px 0 133px;
+
+  .text-holder {
+    max-width: 656px;
+    margin: 0 auto;
+    text-align: center;   
+
+    h2 {     
+      line-height: 48px;
+      padding-bottom: 32px;    
+    }
+
+    p {      
+      font-size: 18px;     
+      line-height: 28px;  
+      padding-bottom: 32px;
+      margin: 0;     
+    }     
+  }
+}
+
