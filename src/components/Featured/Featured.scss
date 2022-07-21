@@ -46,7 +46,11 @@
       align-items: center;
       padding: 40px 28.5px 0;
        
-   
+      @media (max-width: $xs) {
+        width: 200px;
+        height: 100%;       
+      }
+
       &:hover {
 
         p,

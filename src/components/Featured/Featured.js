@@ -30,6 +30,10 @@ const Featured = () => {
                 slidesPerView: 1,
                 spaceBetween: 20
               },
+              580: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
               768: {
                 // width: 768,
                 slidesPerView: 2,
@@ -37,7 +41,7 @@ const Featured = () => {
               },
               1280: {
                 // width: 768,
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 32
               }
             }}
