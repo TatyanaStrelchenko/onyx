@@ -6,3 +6,22 @@
     padding: 135px 0 152px;
     background-color: var(--black);
 }
+.building-objects-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .col-left {
+        max-width: 869px;
+        .objects-text {
+            padding-left: 308px;
+            margin: 362px 0;
+        }
+    }
+    .col-right {
+        max-width: 918px;
+        .objects-text {
+            padding-right: 286px;
+            margin: 362px 0;
+        }
+    }
+}
