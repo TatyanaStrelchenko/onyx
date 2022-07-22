@@ -46,7 +46,7 @@ const About = () => {
                 by providing exceptional service and consistent results.
               </p>
             </div>
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image3} alt="img" />
             </div>
             <div className="objects-text">
@@ -62,7 +62,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-right">
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image2} alt="img" />
             </div>
             <div className="objects-text">
@@ -77,7 +77,7 @@ const About = () => {
                 goals by successfully negotiating and securing favorable debt and equity financing
               </p>
             </div>
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image4} alt="img" />
             </div>
           </div>
