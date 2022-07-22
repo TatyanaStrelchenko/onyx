@@ -9,15 +9,18 @@
   li {       
     padding-left: 10px;
 
-    &:first-child {      
+    &:first-child {  
+      color: var(--grey-white);     
       &::after {
         content: "";
         display: inline-flex;       
-        background: url(../../assets/icons/caret.svg) no-repeat center; 
+        mask-image: url(../../assets/icons/caret.svg);
+        mask-position: center; 
+        mask-repeat: no-repeat;
         transform: rotate(-90deg);     
         width: 10px;
         height: 10px;
-        color: var(--grey-white);
+        background: var(--grey-white);       
         margin-left: 10px;
       }
     }
@@ -27,23 +30,59 @@
 .loan-programs {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
   background-color: var(--black); 
-  padding-top: 196px;
+  padding: 196px 30px 0;
+
+  &::after {
+    content: "";
+    background-image: url(../../assets/image/img-group.png);
+    background-repeat: no-repeat;   
+    position: absolute;
+    top: 0;
+    left: 0;     
+    height: 400px;
+    width: 100%;     
+  }
   
- 
+
+  @media (max-width: $md) {         
+    padding: 40px 30px;
+  }
 
   .text-holder {   
     margin: 0 auto;
     max-width: 808px;
-    text-align: center;    
+    text-align: center;  
+    
+    @media (max-width: $md) { 
+      max-width: 500px;
+    }
 
     h2 {          
       margin-bottom: 40px;
+      text-transform: uppercase;
+      
+      @media (max-width: $md) {         
+        font-size: 30px;
+        margin-bottom: 20px;
+      }     
+      @media (max-width: $sm) {         
+        font-size: 20px;
+      }     
     }
     p {    
       font-size: 18px;    
       line-height: 28px; 
       margin: 0 0 61px;  
+
+      @media (max-width: $md) { 
+        font-size: 16px;
+        margin: 0 0 30px; 
+      }
+      @media (max-width: $xs) { 
+        font-size: 14px;
+      }
     }
   }
 
@@ -65,16 +104,53 @@
       margin: 0 89px 80px 0;   
       box-sizing: border-box; 
 
+      p {
+        text-align: center;
+        @media (max-width: $md) {         
+          font-size: 16px;
+        }     
+        @media (max-width: $xs) {         
+          font-size: 14px;
+        }     
+      }   
+
       &:nth-child(2n) {
         margin-right: 0;
+
+        @media (max-width: $md) {
+          margin-left: 0;  
+        }
       }
 
       &:last-child {
         margin: 0;       
       }
+
+      @media (max-width: $xl) {  
+        max-width: 400px; 
+        margin: 0 40px 40px;       
+      }
+
+      @media (max-width: $md) {  
+        max-width: 400px;       
+        margin: 0 40px 30px 0;
+        padding: 25px 20px 30px;
+      }    
+
+      @media (max-width: $sm) {         
+        margin: 0 0 20px;        
+      }    
+
+      @media (max-width: $xs) {         
+        margin: 0 0 40px;
+      }
      
       .icon-holder {
         padding-bottom: 41.41px;
+
+        @media (max-width: $md) {  
+          padding-bottom: 30px;
+        }      
 
         img {
           height: 32px;
@@ -88,6 +164,15 @@
         line-height: 24px;
         text-transform: uppercase;
         padding-bottom: 16px;
+
+        @media (max-width: $md) {         
+          font-size: 18px;
+        }  
+        
+        @media (max-width: $xs) {         
+          font-size: 16px;
+        }  
+       
       }
     } 
   }
@@ -105,21 +190,28 @@
 
     h2 {     
       line-height: 48px;
-      padding-bottom: 32px;    
+      padding-bottom: 32px;   
+      
+      @media (max-width: $md) {  
+        font-size: 30px;
+      }      
     }
 
     p {      
       font-size: 18px;     
       line-height: 28px;  
       padding-bottom: 32px;
-      margin: 0;     
+      margin: 0;
+      
+      @media (max-width: $md) {  
+        font-size: 16px;
+      }      
     }     
   }
 }
 
  
- .recently-funded {  
-   
+ .recently-funded {     
   &::after {
     content: "";
     background-image: url(../../assets/image/img-group.png);
