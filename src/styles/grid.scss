@@ -3,6 +3,7 @@
   grid-template-columns: 51% 37%;
   grid-column-gap: 12%;
   padding-bottom: 165px;
+  
 
   @media (max-width: $xxl) {
     grid-template-columns: 50% 38%;
@@ -22,7 +23,7 @@
     padding-bottom: 0;
   }
 }
-.rates-block {
+.rates-block { 
   .btn-default {
     margin-top: 40px;
     @media (max-width: $md) {

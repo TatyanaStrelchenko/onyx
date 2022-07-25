@@ -46,7 +46,11 @@
       align-items: center;
       padding: 40px 28.5px 0;
        
-   
+      @media (max-width: $xs) {
+        width: 200px;
+        height: 100%;       
+      }
+
       &:hover {
 
         p,
@@ -95,7 +99,7 @@
     padding-bottom: 44px;
 
     img {
-      max-height: 20px;
+      height: 32px;
       max-width: 44px;
     }
     

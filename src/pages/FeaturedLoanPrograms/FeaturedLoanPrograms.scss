@@ -9,15 +9,18 @@
   li {       
     padding-left: 10px;
 
-    &:first-child {      
+    &:first-child {  
+      color: var(--grey-white);     
       &::after {
         content: "";
         display: inline-flex;       
-        background: url(../../assets/icons/caret.svg) no-repeat center; 
+        mask-image: url(../../assets/icons/caret.svg);
+        mask-position: center; 
+        mask-repeat: no-repeat;
         transform: rotate(-90deg);     
         width: 10px;
         height: 10px;
-        color: var(--grey-white);
+        background: var(--grey-white);       
         margin-left: 10px;
       }
     }
@@ -27,23 +30,59 @@
 .loan-programs {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
   background-color: var(--black); 
-  padding-top: 196px;
+  padding: 196px 30px 0;
+
+  &::after {
+    content: "";
+    background-image: url(../../assets/image/img-group.png);
+    background-repeat: no-repeat;   
+    position: absolute;
+    top: 0;
+    left: 0;     
+    height: 400px;
+    width: 100%;     
+  }
   
- 
+
+  @media (max-width: $xxl) {         
+    padding: 40px 30px;
+  }
 
   .text-holder {   
     margin: 0 auto;
     max-width: 808px;
-    text-align: center;    
+    text-align: center;  
+    
+    @media (max-width: $md) { 
+      max-width: 500px;
+    }
 
     h2 {          
       margin-bottom: 40px;
+      text-transform: uppercase;
+      
+      @media (max-width: $md) {         
+        font-size: 30px;
+        margin-bottom: 20px;
+      }     
+      @media (max-width: $sm) {         
+        font-size: 20px;
+      }     
     }
     p {    
       font-size: 18px;    
       line-height: 28px; 
       margin: 0 0 61px;  
+
+      @media (max-width: $md) { 
+        font-size: 16px;
+        margin: 0 0 30px; 
+      }
+      @media (max-width: $xs) { 
+        font-size: 14px;
+      }
     }
   }
 
@@ -51,9 +90,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     
 
-
+  
+   
     .item-holder {
       display: flex;
       flex-direction: column;
@@ -64,18 +103,62 @@
       padding: 50px 40px 48px;  
       margin: 0 89px 80px 0;   
       box-sizing: border-box; 
+      z-index: 1;
+
+      p {
+        text-align: center;
+        @media (max-width: $md) {         
+          font-size: 16px;
+        }     
+        @media (max-width: $xs) {         
+          font-size: 14px;
+        }     
+      }   
 
       &:nth-child(2n) {
         margin-right: 0;
+
+        @media (max-width: $md) {
+          margin-left: 0;  
+        }
       }
 
       &:last-child {
-        margin-right: 0;
-        margin-bottom: 196px;
+        margin: 0;       
+      }
+
+      @media (max-width: $xxl) {  
+        width: 45%;
+        margin: 0 40px 40px 0;       
+      }
+
+      @media (max-width: $md) {  
+        width: 45%;   
+        margin: 0 40px 30px 0;
+        padding: 25px 20px 30px;
+      }    
+
+      @media (max-width: $sm) {         
+        margin: 0 25px 25px;
+        width: 45%;    
+      }    
+
+      @media (max-width: $xs) {         
+        margin: 0 0 25px;
+        width: 100%;
       }
      
       .icon-holder {
         padding-bottom: 41.41px;
+
+        @media (max-width: $md) {  
+          padding-bottom: 30px;
+        }      
+
+        img {
+          height: 32px;
+          max-width: 44px;
+        }
       }
 
       h3 {     
@@ -84,7 +167,76 @@
         line-height: 24px;
         text-transform: uppercase;
         padding-bottom: 16px;
+
+        @media (max-width: $md) {         
+          font-size: 18px;
+        }  
+        
+        @media (max-width: $xs) {         
+          font-size: 16px;
+        }  
+       
       }
     } 
   }
 }
+
+.promo-section {  
+  display: flex;   
+  background-image: url(../../assets/image/home.jpg);
+  background-size: cover;
+  padding: 134px 0 133px;
+
+  @media (max-width: $md) {  
+    padding: 40px 0;
+  }    
+
+  .text-holder {
+    max-width: 656px;
+    margin: 0 auto;
+    text-align: center;   
+
+    h2 {     
+      line-height: 48px;
+      padding-bottom: 32px;   
+      
+      @media (max-width: $md) { 
+        line-height: 30px;
+        font-size: 30px;
+        padding-bottom: 20px;  
+      }    
+      @media (max-width: $sm) {  
+        font-size: 20px;
+      }        
+    }
+
+    p {      
+      font-size: 18px;     
+      line-height: 28px;  
+      padding-bottom: 32px;
+      margin: 0;
+      
+      @media (max-width: $md) {  
+        line-height: 25px;  
+        font-size: 16px;
+        padding-bottom: 20px;  
+      }      
+    }     
+  }
+}
+
+ 
+ .recently-funded {     
+  &::after {
+    content: "";
+    background-image: url(../../assets/image/img-group.png);
+    background-repeat: no-repeat;   
+    position: absolute;
+    bottom: 69%;
+    right: 0;     
+    height: 400px;
+    width: 100%;  
+    transform: rotate(180deg);
+  }
+ }
+ 
