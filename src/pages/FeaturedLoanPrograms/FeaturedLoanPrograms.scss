@@ -46,7 +46,7 @@
   }
   
 
-  @media (max-width: $md) {         
+  @media (max-width: $xxl) {         
     padding: 40px 30px;
   }
 
@@ -103,6 +103,7 @@
       padding: 50px 40px 48px;  
       margin: 0 89px 80px 0;   
       box-sizing: border-box; 
+      z-index: 1;
 
       p {
         text-align: center;
@@ -126,23 +127,25 @@
         margin: 0;       
       }
 
-      @media (max-width: $xl) {  
-        max-width: 400px; 
-        margin: 0 40px 40px;       
+      @media (max-width: $xxl) {  
+        width: 45%;
+        margin: 0 40px 40px 0;       
       }
 
       @media (max-width: $md) {  
-        max-width: 400px;       
+        width: 45%;   
         margin: 0 40px 30px 0;
         padding: 25px 20px 30px;
       }    
 
       @media (max-width: $sm) {         
-        margin: 0 0 20px;        
+        margin: 0 25px 25px;
+        width: 45%;    
       }    
 
       @media (max-width: $xs) {         
-        margin: 0 0 40px;
+        margin: 0 0 25px;
+        width: 100%;
       }
      
       .icon-holder {
@@ -200,6 +203,7 @@
       @media (max-width: $md) { 
         line-height: 30px;
         font-size: 30px;
+        padding-bottom: 20px;  
       }    
       @media (max-width: $sm) {  
         font-size: 20px;
@@ -215,6 +219,7 @@
       @media (max-width: $md) {  
         line-height: 25px;  
         font-size: 16px;
+        padding-bottom: 20px;  
       }      
     }     
   }

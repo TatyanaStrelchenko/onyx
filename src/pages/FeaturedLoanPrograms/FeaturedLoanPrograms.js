@@ -12,11 +12,18 @@ import Image5 from '../../assets/icons/сonstruction.svg';
 import Image6 from '../../assets/icons/users.svg';
 import Image7 from '../../assets/icons/bridge.svg';
 
+import HeroBg from '../../assets/image/loan-programs.jpg';
+
 const FeaturedLoanPrograms = () => {
+  const style = {
+    backgroundColor: HeroBg,
+    height: '700px'
+  };
+
   return (
     <div className="loan-programs-page">
       <Header />
-      <Hero>
+      <Hero style={style}>
         <div className="text-holder">
           <h1>Loan Programs </h1>
           <ul className="breadcrumbs">

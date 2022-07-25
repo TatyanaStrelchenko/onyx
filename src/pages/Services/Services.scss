@@ -1,0 +1,34 @@
+@import '../../styles/index.scss'; 
+
+.services-page {
+  
+  
+ 
+  .loan-programs {
+    padding-bottom: 296px;
+
+    
+    @media (max-width: $md) {  
+      padding: 40px 0;
+    }  
+  }
+
+
+  .holder {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  
+    .item-holder {
+      margin-right: 61px;
+      margin-bottom: 0;   
+      justify-content: baseline;   
+    }
+  }
+
+  .promo-section {  
+    display: flex;   
+    background-image: url(../../assets/image/program-services.jpg);
+    background-size: cover;
+    padding: 134px 0 133px;
+  }
+}
