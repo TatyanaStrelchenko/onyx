@@ -9,15 +9,10 @@ import { RecentlyFunded } from '../../components/RecentlyFunded';
 import HeroBg from '../../assets/image/los-angeles.svg';
 
 const Home = () => {
-  const style = {
-    backgroundColor: HeroBg,
-    height: '700px'
-  };
-
   return (
     <div className="home-page">
       <Header />
-      <Hero style={style}>
+      <Hero styles={HeroBg}>
         <div className="text-holder">
           <h1>
             Relationships.
