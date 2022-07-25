@@ -70,6 +70,7 @@
             height: 451px;
             background: transparent;
             border: 12px var(--green) solid;
+            opacity: 0.3;
             border-left: none;
             z-index: 1;
         }
@@ -100,6 +101,7 @@
             height: 521px;
             background: transparent;
             border: 12px var(--green) solid;
+            opacity: 0.3;
             border-right: none;
             z-index: 1;
         }
@@ -120,10 +122,20 @@
                     height: 588px;
                     background: transparent;
                     border: 12px var(--green) solid;
+                    opacity: 0.3;
                     border-right: none;
                     z-index: 1;
                 }
             }
         }
+    }
+}
+
+.promo-section {
+    background: var(--dark-grey);
+    padding: 224px 0 368px;
+    .btn-default {
+        display: block;
+        margin: 0 auto;
     }
 }
