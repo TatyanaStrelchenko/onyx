@@ -37,12 +37,10 @@ const About = () => {
               </p>
             </div>
             <div className="map-block">
-              <p>
-                <span>Transactions Closed</span>
-              </p>
-              <p>
-                <span>Target MSAs</span>
-              </p>
+              <div className="map-info">
+                <p>Transactions Closed</p>
+                <p>Target MSAs</p>
+              </div>
               <img src={Image1} alt="img" />
             </div>
           </div>
@@ -62,7 +60,7 @@ const About = () => {
                 by providing exceptional service and consistent results.
               </p>
             </div>
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image3} alt="img" />
             </div>
             <div className="objects-text">
@@ -78,7 +76,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-right">
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image2} alt="img" />
             </div>
             <div className="objects-text">
@@ -93,10 +91,41 @@ const About = () => {
                 goals by successfully negotiating and securing favorable debt and equity financing
               </p>
             </div>
-            <div className="objects-building">
+            <div className="img-holder">
               <img src={Image4} alt="img" />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="promo-section">
+        <div className="container">
+          <div className="info-holder">
+            <div className="info-block">
+              <p>Experience</p>
+              <p className="info-text">
+                We have partnered with thousands of borrowers to finance investment properties
+                across the nation. We leverage our expertise and relationships to deliver you
+                outstanding results.
+              </p>
+            </div>
+            <div className="info-block">
+              <p>Competitive Rates</p>
+              <p className="info-text">
+                Our vast lender relationships, and everyday market experience enable us to customize
+                unparalleled financing solutions for any type of investment property.
+              </p>
+            </div>
+            <div className="info-block">
+              <p>Team Mindset</p>
+              <p className="info-text">
+                From underwriting to final payoff, Onyx Funding is by your side every step of the
+                way. We strive to provide an outstanding experience - Every time. No exceptions.
+              </p>
+            </div>
+          </div>
+          <button type="button" className="btn btn-default">
+            GET STARTED
+          </button>
         </div>
       </section>
       <Footer />
