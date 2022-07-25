@@ -23,8 +23,9 @@
       grid-template-rows: 65%;
     }
     @media (max-width: $xs) {
-      grid-template-columns: 100%;
-      grid-template-rows: 20%;
+      grid-template-columns: 94%;
+      grid-template-rows: 18%;
+      margin-bottom: 20px;
     }
 
     .col {
@@ -53,6 +54,9 @@
           font-size: 12px;
           line-height: 18px;
         }
+        @media (max-width: $xs) {
+          margin-bottom: 10px;
+        }
       }
     }
     .cell {
@@ -68,20 +72,20 @@
   }
 
   img {
-    padding-bottom: 34px;
+    margin-bottom:  35px;
   }
 
   h4 {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     @media (max-width: $md) {
-      padding-bottom: 30px;
+      margin-bottom: 30px;
     }
   }
 
   p {
     font-size: 14px;
     line-height: 24px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   ul {
@@ -101,21 +105,21 @@
       
     }
     ul {
-      padding-bottom: 40px;
+      margin-bottom: 40px;
       @media (max-width: $md) {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
       }
 
       @media (max-width: $sm) {
-        padding-bottom: 0px;
+        margin-bottom: 0px;
       }
     }
 
     h4 {
-      padding-bottom: 20px;
+      margin-bottom: 20px;
 
       @media (max-width: $sm) {
-        padding-bottom: 0;
+        margin-bottom: 0;
       }
     }
   }
@@ -127,6 +131,9 @@
     grid-template-columns: 20% 40%;
     grid-column-gap: 540px;
     align-items: center;
+    p {
+      margin: 0;
+    }
     @media (max-width: $md) {
       grid-template-columns: 18% 49%;
       grid-column-gap: 300px;
@@ -163,10 +170,12 @@
           }
         }
       }
+      padding: 0;
     }
 
     img {
       padding: 0 8px 0;
+      margin: 0;
     }
   }
 }
