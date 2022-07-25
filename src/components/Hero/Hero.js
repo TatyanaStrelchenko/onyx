@@ -1,18 +1,12 @@
 import './Hero.scss';
 
-const Hero = ({ children, background, height }) => {
-  // const style = {
-  //   background,
-  //   height
-  // }
-
-  const style = {
-    backgroundColor: `${background}`,
-    height: `${height}`
+const Hero = ({ children, styles }) => {
+  const sectionStyle = {
+    backgroundImage: `url(${styles})`
   };
 
   return (
-    <section className="banner" style={style}>
+    <section className="banner" style={sectionStyle}>
       <div className="container">{children}</div>
     </section>
   );
