@@ -6,7 +6,7 @@ import { Info } from '../../components/Info';
 import { Map } from '../../components/Map';
 import { RecentlyFunded } from '../../components/RecentlyFunded';
 
-import HeroBg from '../../assets/image/los-angeles.svg';
+import HeroBg from '../../assets/image/los-angeles.jpg';
 
 const Home = () => {
   return (
