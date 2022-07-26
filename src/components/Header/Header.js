@@ -34,7 +34,9 @@ const Header = () => {
               <li>
                 <Link to="/loan-programs">LOAN PROGRAMS</Link>
               </li>
-              <li>SERVICES</li>
+              <li>
+                <Link to="/Services">SERVICES</Link>
+              </li>
               <li>PARTNERS</li>
               <li>CONTACT US</li>
             </ul>

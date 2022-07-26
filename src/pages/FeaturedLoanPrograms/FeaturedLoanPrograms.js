@@ -5,16 +5,25 @@ import { RecentlyFunded } from '../../components/RecentlyFunded/RecentlyFunded';
 import './FeaturedLoanPrograms.scss';
 
 import Image1 from '../../assets/icons/card.svg';
+import Image2 from '../../assets/icons/clockwise.svg';
 import Image3 from '../../assets/icons/home.svg';
 import Image4 from '../../assets/icons/money.svg';
 import Image5 from '../../assets/icons/сonstruction.svg';
-import Image6 from '../../assets/icons/bridge.svg';
+import Image6 from '../../assets/icons/users.svg';
+import Image7 from '../../assets/icons/bridge.svg';
+
+import HeroBg from '../../assets/image/loan-programs.jpg';
 
 const FeaturedLoanPrograms = () => {
+  const style = {
+    backgroundColor: HeroBg,
+    height: '700px'
+  };
+
   return (
     <div className="loan-programs-page">
       <Header />
-      <Hero>
+      <Hero style={style}>
         <div className="text-holder">
           <h1>Loan Programs </h1>
           <ul className="breadcrumbs">
@@ -45,7 +54,7 @@ const FeaturedLoanPrograms = () => {
           </div>
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image1} alt="" />
+              <img src={Image2} alt="" />
             </div>
             <h3>Fix and Flip</h3>
             <p>
@@ -100,7 +109,7 @@ const FeaturedLoanPrograms = () => {
           </div>
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image6} alt="" />
+              <img src={Image7} alt="" />
             </div>
             <h3>Bridge</h3>
             <p>
@@ -112,6 +121,22 @@ const FeaturedLoanPrograms = () => {
         </div>
       </section>
       <RecentlyFunded />
+      <section className="promo-section">
+        <div className="container">
+          <div className="text-holder">
+            <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
+            <p>
+              {' '}
+              These are just our featured programs, as industry leaders in CRE financing, we cater
+              to any and all real estate investment financing requests. Contact us with your
+              scenario to learn how we can help.
+            </p>
+            <button type="button" className="btn info-btn">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );

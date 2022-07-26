@@ -5,10 +5,12 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import './Featured.scss';
 import Image1 from '../../assets/icons/card.svg';
+import Image2 from '../../assets/icons/clockwise.svg';
 import Image3 from '../../assets/icons/home.svg';
 import Image4 from '../../assets/icons/money.svg';
 import Image5 from '../../assets/icons/сonstruction.svg';
-import Image6 from '../../assets/icons/bridge.svg';
+import Image6 from '../../assets/icons/users.svg';
+import Image7 from '../../assets/icons/bridge.svg';
 
 const Featured = () => {
   return (
@@ -28,6 +30,10 @@ const Featured = () => {
                 slidesPerView: 1,
                 spaceBetween: 20
               },
+              580: {
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
               768: {
                 // width: 768,
                 slidesPerView: 2,
@@ -35,7 +41,7 @@ const Featured = () => {
               },
               1280: {
                 // width: 768,
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 32
               }
             }}
@@ -53,6 +59,9 @@ const Featured = () => {
               </p>
             </SwiperSlide>
             <SwiperSlide>
+              <div className="icon-holder">
+                <img src={Image2} alt="" />
+              </div>
               <h3>Fix and Flip</h3>
               <p>For real estate investors interested in acquiring or rehabbing properties...</p>
               <p className="info-text">
@@ -111,7 +120,7 @@ const Featured = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="icon-holder">
-                <img src={Image6} alt="" />
+                <img src={Image7} alt="" />
               </div>
               <h3>Bridge</h3>
               <p>As a leading mortgage brokerage in the commercial real estate market</p>
