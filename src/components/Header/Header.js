@@ -42,7 +42,7 @@ const Header = () => {
             </ul>
 
             <button type="button" className="btn">
-              GET STARTEDD
+              GET STARTED
             </button>
           </div>
         </div>
