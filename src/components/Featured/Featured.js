@@ -17,13 +17,11 @@ const Featured = () => {
         <h2>Featured Loan Programs</h2>
         <div className="swiper-holder">
           <Swiper
-            autoplay={false}
             navigation
-            slidesPerView={3}
+            slidesPerView={4}
             spaceBetween={32}
             modules={[Autoplay, Navigation]}
             loop
-            centeredSlides
             breakpoints={{
               320: {
                 // width: 320,

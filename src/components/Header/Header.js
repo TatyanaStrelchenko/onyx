@@ -19,7 +19,7 @@ const Header = () => {
           <div className="header-info">
             <button
               type="button"
-              className="burger"
+              className={`burger ${isBurgerMenuOpen ? '' : 'open-menu'}`}
               onClick={() => setBurgerMenuOpen(!isBurgerMenuOpen)}
             >
               <span />

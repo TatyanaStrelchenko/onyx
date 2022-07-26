@@ -4,7 +4,7 @@
   background-color: var(--dark-grey);
   padding: 243px 141px;
   position: relative;
-  
+
   @media (max-width: $md) {
     padding: 40px 0;
   }
@@ -24,29 +24,29 @@
     @media (max-width: $sm) {
       position: static;
       text-align: center;
-      font-size: 18px;      
-    }  
+      font-size: 18px;
+    }
   }
 
   .swiper {
-    height: 360px;       
+    height: 360px;
     color: var(--default-font-color);
     padding-top: 113px;
 
-    @media (max-width: $md) { 
+    @media (max-width: $md) {
       padding-top: 20px;
     }
 
     &-slide {
-      background: black;       
-      max-width: 303px;
+      background: black;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: 40px 28.5px 0;
-       
-   
+      box-sizing: border-box;
+      width: 25%;
+
       &:hover {
 
         p,
@@ -63,7 +63,7 @@
           font-size: 16px;
           line-height: 24px;
           padding: 0px 28.5px 120px;
-          max-width: 246px;          
+          max-width: 246px;
         }
       }
 
@@ -72,13 +72,13 @@
       }
 
       p {
-        margin: 0; 
-        padding-bottom: 56px;                 
-      } 
-       
+        margin: 0;
+        padding-bottom: 56px;
+      }
+
 
       h3 {
-        font-weight: 700; 
+        font-weight: 700;
         line-height: 24px;
         text-transform: uppercase;
         padding-bottom: 16px;
@@ -88,18 +88,18 @@
     }
   }
 
-   .icon-holder {
+  .icon-holder {
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;
     padding-bottom: 44px;
 
     img {
       max-height: 20px;
       max-width: 44px;
     }
-    
-   }
+
+  }
 
   // img {
   //   max-height: 25px;
@@ -114,9 +114,9 @@
     background-color: var(--green);
 
     @media (max-width: $md) {
-     display: none;
+      display: none;
     }
-  
+
 
     &::after {
       font-size: 8px;
