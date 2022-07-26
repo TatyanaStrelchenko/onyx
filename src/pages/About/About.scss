@@ -1,5 +1,7 @@
 @import '../../styles/index.scss';
 
+.about-page {
+
 
 
 .map-section {
@@ -57,6 +59,7 @@
     align-items: center;
     .col-left {
         max-width: 869px;
+        margin-right: 113px;
         .objects-text {
             padding-left: 308px;
         }
@@ -131,11 +134,12 @@
     }
 }
 
-.promo-section {
-    background: var(--dark-grey);
-    padding: 224px 0 368px;
-    .btn-default {
+    .promo-section {
+        background: var(--dark-grey);
+        padding: 224px 0 232px;
+        .btn-default {
         display: block;
         margin: 0 auto;
+        }
     }
 }
