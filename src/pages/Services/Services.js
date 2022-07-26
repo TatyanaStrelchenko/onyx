@@ -3,14 +3,15 @@ import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 
 import './Services.scss';
-import Image1 from '../../assets/icons/vector.svg';
-import Image2 from '../../assets/icons/chart.svg';
+import Image1 from '../../assets/image/services.jpg';
+import Image2 from '../../assets/icons/vector.svg';
+import Image3 from '../../assets/icons/chart.svg';
 
 const Services = () => {
   return (
     <div className="services-page">
       <Header />
-      <Hero>
+      <Hero styles={Image1}>
         <div className="text-holder">
           <h1>Services </h1>
           <ul className="breadcrumbs">
@@ -31,7 +32,7 @@ const Services = () => {
         <div className="holder">
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image1} alt="" />
+              <img src={Image2} alt="" />
             </div>
             <h3>Equity</h3>
             <p>
@@ -42,7 +43,7 @@ const Services = () => {
           </div>
           <div className="item-holder">
             <div className="icon-holder">
-              <img src={Image2} alt="" />
+              <img src={Image3} alt="" />
             </div>
             <h3>Debt</h3>
             <p>

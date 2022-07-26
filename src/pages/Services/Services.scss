@@ -5,7 +5,8 @@
   
  
   .loan-programs {
-    padding-bottom: 296px;
+    flex-direction: column;
+    padding: 196px 30px 296px;
 
     
     @media (max-width: $md) {  
@@ -14,14 +15,17 @@
   }
 
 
-  .holder {
-    flex-wrap: nowrap;
+  .holder {   
     margin: 0 auto;
   
     .item-holder {
       margin-right: 61px;
       margin-bottom: 0;   
-      justify-content: baseline;   
+      justify-content: stretch; 
+      
+      @media (max-width: $md) {  
+        margin: 0 20px 0 0;
+      }  
     }
   }
 

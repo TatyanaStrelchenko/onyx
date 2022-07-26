@@ -19,10 +19,13 @@ const Header = () => {
           <div className="header-info">
             <button
               type="button"
-              className="burger"
+              className="burger visible-sm"
               onClick={() => setBurgerMenuOpen(!isBurgerMenuOpen)}
             >
-              <span />
+              <span className="burger-button" />
+              <div className="spinner3 diagonal part-1"> </div>
+              <div className="spinner3 horizontal"> </div>
+              <div className="spinner3 diagonal part-2"> </div>
             </button>
             <ul
               className={`nav-menu ${isBurgerMenuOpen ? 'close' : 'open'}`}

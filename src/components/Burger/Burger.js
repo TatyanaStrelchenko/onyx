@@ -6,7 +6,7 @@ const Burger = () => {
 
   return (
     <button type="button" className="burger" onClick={() => setBurgerMenuOpen(!isBurgerMenuOpen)}>
-      <span />
+      <span className="burger-button" />
     </button>
   );
 };
