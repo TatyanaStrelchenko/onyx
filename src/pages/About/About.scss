@@ -62,15 +62,18 @@
             margin-right: 113px;
             .objects-text {
                 padding-left: 308px;
+                @media (max-width:$lg) {
+                    padding-left: 100px;  
+                }
             }
         .img-holder {
             &::after {
                 content: "";
                 position: absolute;
-                top: -145px;
+                top: -157px;
                 left: 0;
-                width: 678px;
-                height: 451px;
+                width: 74%;
+                height: 110%;
                 background: transparent;
                 border: 12px var(--green) solid;
                 opacity: 0.3;
@@ -100,19 +103,23 @@
                 position: absolute;
                 top: 85px;
                 right: 0;
-                width: 821px;
-                height: 521px;
+                width: 83%;
+                height: 113%;
                 background: transparent;
                 border: 12px var(--green) solid;
                 opacity: 0.3;
                 border-right: none;
                 z-index: 1;
+                
             }
         }
         .col-right {
             max-width: 918px;
             .objects-text {
-                padding-right: 286px;  
+                padding-right: 286px;
+                @media (max-width:$lg) {
+                    padding-right: 30px;
+                }  
             }
             .img-holder {
                 &:last-child {
@@ -121,8 +128,8 @@
                         position: absolute;
                         top: -83px;
                         right: 0;
-                        width: 628px;
-                        height: 588px;
+                        width: 65%;
+                        height: 130%;
                         background: transparent;
                         border: 12px var(--green) solid;
                         opacity: 0.3;
