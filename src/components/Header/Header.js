@@ -19,7 +19,7 @@ const Header = () => {
           <div className="header-info">
             <button
               type="button"
-              className="burger visible-sm"
+              className={`burger ${isBurgerMenuOpen ? '' : 'open-menu'}`}
               onClick={() => setBurgerMenuOpen(!isBurgerMenuOpen)}
             >
               <span className="burger-button" />
@@ -45,7 +45,7 @@ const Header = () => {
             </ul>
 
             <button type="button" className="btn">
-              Get Started
+              GET STARTED
             </button>
           </div>
         </div>

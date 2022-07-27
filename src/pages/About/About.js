@@ -6,12 +6,13 @@ import Image1 from '../../assets/image/blank-map-us.svg';
 import Image2 from '../../assets/image/img-home1.jpg';
 import Image3 from '../../assets/image/img-home2.jpg';
 import Image4 from '../../assets/image/img-home3.jpg';
+import Image5 from '../../assets/image/los-angeles2.jpg';
 
 const About = () => {
   return (
     <div className="about-page">
       <Header />
-      <Hero styles={Image2}>
+      <Hero styles={Image5}>
         <div className="text-holder">
           <h1>
             Relationships.
@@ -20,10 +21,6 @@ const About = () => {
             <br />
             Results
           </h1>
-          <p>
-            Comprehensive financing solutions for commercial,
-            <br /> multifamily and residential investment real estate.
-          </p>
         </div>
       </Hero>
       <section className="map-section">
