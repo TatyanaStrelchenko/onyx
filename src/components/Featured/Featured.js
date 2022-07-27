@@ -16,16 +16,17 @@ const Featured = () => {
   return (
     <section className="featured">
       <div className="container">
-        <h2>Featured Loan Programs</h2>
         <div className="swiper-holder">
+          <h2>Featured Loan Programs</h2>
           <Swiper
-            autoplay={false}
             navigation
-            slidesPerView={3}
-            spaceBetween={32}
+            slidesPerView={4}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
             modules={[Autoplay, Navigation]}
-            loop
-            centeredSlides
             breakpoints={{
               320: {
                 // width: 320,
