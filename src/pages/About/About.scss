@@ -20,6 +20,9 @@
     .map-block {
         position: relative;
         margin-bottom: 218px;
+        @media (max-width:$md) {
+            margin-bottom: 100px;
+        }
         .map-info {
             position: absolute;
             top: -28px;
@@ -60,6 +63,9 @@
         .col-left {
             max-width: 869px;
             margin-right: 113px;
+            @media (max-width: $md) {
+                margin-right: 100px;
+            }
             .objects-text {
                 padding-left: 308px;
                 @media (max-width:$lg) {
@@ -79,22 +85,46 @@
                 opacity: 0.3;
                 border-left: none;
                 z-index: 1;
+                @media (max-width:$xxl) {
+                    top: -90px;
+                    width: 73%;
+                    height: 100%;
+                }
             }
         }
         }
 
         .objects-text {
             margin-bottom: 245px;
+            @media (max-width: $md) {
+                margin-bottom: 200px;
+            }
             h2 {
                 margin-bottom: 32px;
+                @media (max-width:$xxl) {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+                @media (max-width:$md) {
+                    font-size: 22px;
+                    line-height: 30px;
+                }
             }
             p {
                 margin-bottom: 30px;
+                @media (max-width: $md) {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
             }
         }
         .img-holder {
             margin-bottom: 245px;
             position: relative;
+            @media (max-width: $md) {
+                margin-bottom: 200px;
+            }
             img {
                 width: 100%;
             }
@@ -110,7 +140,10 @@
                 opacity: 0.3;
                 border-right: none;
                 z-index: 1;
-                
+                @media (max-width:$xxl) {
+                    width: 82%;
+                    height: 90%;
+                }
             }
         }
         .col-right {
@@ -135,7 +168,14 @@
                         opacity: 0.3;
                         border-right: none;
                         z-index: 1;
+                        @media (max-width:$lg) {
+                            height: 145%;
+                        }
+                        @media (max-width: $md) {
+                            top: -60px;
+                        }
                     }
+                   
                 }
             }
         }
