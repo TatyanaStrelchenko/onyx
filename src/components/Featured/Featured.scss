@@ -2,9 +2,8 @@
 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 141px;
-  position: relative;
-
+  padding: 243px 141px; 
+  
   @media (max-width: $md) {
     padding: 40px 0;
   }
@@ -12,40 +11,58 @@
 
   h2 {
     position: absolute;
-    top: 250px;
+    top: 0;
+    left: 16px;
     text-transform: uppercase;
 
     @media (max-width: $md) {
-      position: static;
-      text-align: center;
+      position: static;      
       font-size: 30px;
     }
 
     @media (max-width: $sm) {
-      position: static;
-      text-align: center;
+      position: static;      
       font-size: 18px;
     }
   }
 
-  .swiper {
-    height: 360px;
+  .swiper-holder {
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .container {
+    @media (max-width: $md) { 
+      padding: 0;
+    }
+  }
+
+  .swiper {   
+    height: 360px;       
     color: var(--default-font-color);
     padding-top: 113px;
 
-    @media (max-width: $md) {
+    @media (max-width: $md) { 
+      padding-top: 30px;
+    }
+
+    @media (max-width: $xs) { 
       padding-top: 20px;
     }
 
     &-slide {
-      background: black;
+      background: black;       
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 40px 28.5px 0;
+      padding: 85px 28.5px 82px;
       box-sizing: border-box;
-      width: 25%;
+       
+      @media (max-width: $xs) {
+        width: 100px;
+        height: 100%;       
+      }
 
       &:hover {
 
@@ -61,9 +78,8 @@
           justify-content: center;
           align-items: center;
           font-size: 16px;
-          line-height: 24px;
-          padding: 0px 28.5px 120px;
-          max-width: 246px;
+          line-height: 24px; 
+          padding-bottom: 40px;                      
         }
       }
 
@@ -72,10 +88,10 @@
       }
 
       p {
-        margin: 0;
-        padding-bottom: 56px;
-      }
-
+        margin: 0;  
+        height: 88px;                  
+      } 
+       
 
       h3 {
         font-weight: 700;
@@ -91,20 +107,11 @@
   .icon-holder {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 44px;
-
-    img {
-      height: 32px;
-      max-width: 44px;
-    }
-
-  }
-
-  // img {
-  //   max-height: 25px;
-  //   
-  // }
+    justify-content: center;   
+    height: 25px;
+    padding-bottom: 40px;   
+   }
+  
 
   .swiper-button-next,
   .swiper-button-prev {
