@@ -2,8 +2,7 @@
 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 141px;
-  position: relative;
+  padding: 243px 141px; 
   
   @media (max-width: $md) {
     padding: 40px 0;
@@ -12,7 +11,8 @@
 
   h2 {
     position: absolute;
-    top: 250px;
+    top: 0;
+    left: 16px;
     text-transform: uppercase;
 
     @media (max-width: $md) {
@@ -29,6 +29,7 @@
   }
 
   .swiper-holder {
+    position: relative;
     padding: 0 20px;
   }
 
@@ -38,12 +39,16 @@
     }
   }
 
-  .swiper {
+  .swiper {   
     height: 360px;       
     color: var(--default-font-color);
     padding-top: 113px;
 
     @media (max-width: $md) { 
+      padding-top: 30px;
+    }
+
+    @media (max-width: $xs) { 
       padding-top: 20px;
     }
 

@@ -16,8 +16,8 @@ const Featured = () => {
   return (
     <section className="featured">
       <div className="container">
-        <h2>Featured Loan Programs</h2>
         <div className="swiper-holder">
+          <h2>Featured Loan Programs</h2>
           <Swiper
             navigation
             slidesPerView={4}
