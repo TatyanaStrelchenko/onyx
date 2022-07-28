@@ -74,11 +74,12 @@
       position: static;     
       font-size: 30px;
       margin-bottom: 20px;
+      text-align: center;
     }
 
     @media (max-width: $sm) {
       position: static;      
-      font-size: 18px;      
+      font-size: 20px;      
     }  
   } 
 
@@ -87,10 +88,8 @@
     width: 100%;
     color: var(--default-font-color);
     padding: 98px 0 100px;
-
     
-    @media (max-width: $md) { 
-      height: 514px;
+    @media (max-width: $md) {     
       padding: 40px 0 0;
     }
 

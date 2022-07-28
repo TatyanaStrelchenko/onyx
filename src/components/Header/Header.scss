@@ -5,21 +5,23 @@
   position: relative;
 }
 
-.container {
-  max-width: 1300px;
-  min-height: 88px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 0 15px;
-}
-
 .header-holder {
+  max-width: 1300px;
+  overflow: hidden;
   height: 88px;
   display: flex;
   justify-content: space-between;
   justify-items: center;
   align-items: center;
   // padding: 19px 0 16px 0;
+
+  @media (max-width: $sm) {
+    padding: 0 15px; 
+    .btn {
+      width: 100px;
+      height: 30px;
+    }    
+  }
 }
 
 .header-info {
@@ -35,6 +37,10 @@
   img {
     width: 146px;
     height: 53px;
+
+    @media (max-width: $xs) {
+      width: 110px;
+    }
   }
 }
 

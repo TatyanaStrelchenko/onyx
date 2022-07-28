@@ -55,6 +55,11 @@ const RecentlyFunded = () => (
               slidesPerView: 2,
               spaceBetween: 20
             },
+            1000: {
+              // width: 1000,
+              slidesPerView: 3,
+              spaceBetween: 20
+            },
             1280: {
               // width: 1280,
               slidesPerView: 3,

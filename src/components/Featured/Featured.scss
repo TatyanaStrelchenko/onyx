@@ -18,11 +18,12 @@
     @media (max-width: $md) {
       position: static;      
       font-size: 30px;
+      text-align: center;
     }
 
-    @media (max-width: $sm) {
+    @media (max-width: $xs) {
       position: static;      
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
@@ -90,7 +91,12 @@
       }
 
       p {
-        height: 88px;                  
+        height: 88px; 
+               
+        @media (max-width: $xs) {
+          font-size: 14px;
+          white-space: wrap;     
+        }  
       } 
        
 
@@ -104,6 +110,7 @@
         white-space: nowrap;
 
         @media (max-width: $xs) {
+          font-size: 18px;
           white-space: wrap;
      
         }  
