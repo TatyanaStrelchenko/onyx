@@ -43,7 +43,6 @@ const Header = () => {
               <li>PARTNERS</li>
               <li>CONTACT US</li>
             </ul>
-
             <button type="button" className="btn">
               GET STARTED
             </button>

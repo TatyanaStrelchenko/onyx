@@ -25,6 +25,10 @@
 .header-info {
   display: flex;
   align-items: center;
+
+  @media (max-width: $sm) {
+    flex-direction: row-reverse;
+  }
 }
 
 .logo {
@@ -99,7 +103,7 @@
   position: relative;
   background: var(--white);
   border: none;
-  margin-right: 15px;
+  margin-left: 15px;
   transition: all .3s;
  
 
@@ -145,4 +149,4 @@
   } 
 }
 
-  
+ 

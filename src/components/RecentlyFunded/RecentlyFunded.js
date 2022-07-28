@@ -36,9 +36,18 @@ const RecentlyFunded = () => (
           pagination={{ clickable: true }}
           modules={[Autoplay, Pagination, Navigation]}
           breakpoints={{
+            0: {
+              // width: 0,
+              slidesPerView: 1,
+              spaceBetween: 20
+            },
             320: {
               // width: 320,
               slidesPerView: 1,
+              spaceBetween: 20
+            },
+            580: {
+              slidesPerView: 2,
               spaceBetween: 20
             },
             768: {
@@ -47,7 +56,7 @@ const RecentlyFunded = () => (
               spaceBetween: 20
             },
             1280: {
-              // width: 768,
+              // width: 1280,
               slidesPerView: 3,
               spaceBetween: 32
             }
