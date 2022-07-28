@@ -104,13 +104,7 @@
     }
   }
 
-  .icon-holder {
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    height: 25px;
-    padding-bottom: 40px;   
-   }
+  
   
 
   .swiper-button-next,
@@ -141,3 +135,11 @@
     margin-right: 8px;
   }
 }
+
+.icon-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  height: 25px;
+  padding-bottom: 40px;   
+ }
