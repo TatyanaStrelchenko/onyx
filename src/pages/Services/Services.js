@@ -22,39 +22,47 @@ const Services = () => {
       </Hero>
 
       <section className="loan-programs">
-        <div className="text-holder">
-          <h2>Find The Services We Offers</h2>
-          <p>
-            Tailored financing solutions for all investment property types. Our fully integrated
-            approach allows us to provide industry-leading all-encompassing services to our clients.
-          </p>
-        </div>
-        <div className="holder">
-          <div className="item-holder">
-            <div className="icon-holder">
-              <img src={Image2} alt="" />
-            </div>
-            <h3>Equity</h3>
+        <div className="container">
+          <div className="text-holder">
+            <h2>Find The Services We Offers</h2>
             <p>
-              In situations where certain lenders prohibit mezzanine debt to lever a property, an
-              equity position can be beneficial to reach an LTV ratio of &gt; 90%. Onyx Funding
-              negotiates aggressively on your behalf to achieve your property goals
+              Tailored financing solutions for all investment property types. Our fully integrated
+              approach allows us to provide industry-leading all-encompassing services to our
+              clients.
             </p>
           </div>
-          <div className="item-holder">
-            <div className="icon-holder">
-              <img src={Image3} alt="" />
+          <div className="block-list">
+            <div className="block">
+              <div className="block-wrapper">
+                <div className="icon-holder">
+                  <img src={Image2} alt="" />
+                </div>
+                <h3>Equity</h3>
+                <p>
+                  In situations where certain lenders prohibit mezzanine debt to lever a property,
+                  an equity position can be beneficial to reach an LTV ratio of &gt; 90%. Onyx
+                  Funding negotiates aggressively on your behalf to achieve your property goals
+                </p>
+                <input type="submit" className="btn-more" value="learn more" />
+              </div>
             </div>
-            <h3>Debt</h3>
-            <p>
-              You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
-              mortgage, a bridge loan – there are many options and possibilities! Leveraging debt
-              wisely is crucial to ensure your projects profitability.
-            </p>
+            <div className="block">
+              <div className="block-wrapper">
+                <div className="icon-holder">
+                  <img src={Image3} alt="" />
+                </div>
+                <h3>Debt</h3>
+                <p>
+                  You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
+                  mortgage, a bridge loan – there are many options and possibilities! Leveraging
+                  debt wisely is crucial to ensure your projects profitability.
+                </p>
+                <input type="submit" className="btn-more" value="learn more" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
       <section className="promo-section">
         <div className="container">
           <div className="text-holder">
