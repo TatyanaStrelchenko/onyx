@@ -6,20 +6,20 @@
   
 
   @media (max-width: $xxl) {
-    grid-template-columns: 50% 38%;
-    grid-column-gap: 9%;
+    grid-template-columns: 50% 43%;
+    grid-column-gap: 7%;
   }
 
   @media (max-width: $md) {
-    grid-template-columns: 95%;
+    grid-template-columns: 100%;
     padding-bottom: 80px;
   }
   @media (max-width: $sm) {
-    grid-template-columns: 94%;
+    grid-template-columns: 100%;
     padding-bottom: 40px;
   }
   @media (max-width: $xs) {
-    grid-template-columns: 88%;
+    grid-template-columns: 100%;
     padding-bottom: 0;
   }
 }
