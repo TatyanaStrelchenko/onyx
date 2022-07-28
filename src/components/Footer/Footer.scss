@@ -10,7 +10,7 @@
 
   .row {
     display: grid;
-    grid-template-columns: 26% 12% 12% 8% 14%;
+    grid-template-columns: 26% 13% 12% 7% 15%;
     grid-column-gap: 80px;
 
     @media (max-width: $md) {
@@ -20,10 +20,10 @@
     @media (max-width: $sm) {
       grid-template-columns: 33% 25% 25%;
       grid-column-gap: 15px;
-      grid-template-rows: 65%;
+      grid-template-rows: 67%;
     }
     @media (max-width: $xs) {
-      grid-template-columns: 94%;
+      grid-template-columns: 100%;
       grid-template-rows: 18%;
       margin-bottom: 20px;
     }
@@ -34,7 +34,6 @@
         @media (max-width: $sm) {
           font-size: 16px;
           padding: 0;
-          margin: 0 0 50px;
         }
         @media (max-width: $xs) {
           margin: 20px 0 20px;
@@ -62,8 +61,8 @@
     .cell {
       @media (max-width: $sm) {
         display: grid;
-        grid-template-columns: 85% 80%;
-        grid-column-gap: 95px;
+        grid-template-columns: 92% 86%;
+        grid-column-gap: 80px;
       }
       @media (max-width: $xs) {
         display: block;
@@ -118,9 +117,6 @@
     h4 {
       margin-bottom: 20px;
 
-      @media (max-width: $sm) {
-        margin-bottom: 0;
-      }
     }
   }
 
@@ -128,23 +124,25 @@
     border-top: 1px #dddddd solid;
     padding-top: 28px;
     display: grid;
-    grid-template-columns: 20% 40%;
+    grid-template-columns: 15% 41%;
     grid-column-gap: 540px;
-    align-items: center;
+    align-items: baseline;
     p {
       margin: 0;
     }
     @media (max-width: $md) {
-      grid-template-columns: 18% 49%;
-      grid-column-gap: 300px;
+      grid-template-columns: 25% 53%;
+      grid-column-gap: 215px;
     }
     @media (max-width: $sm) {
-      grid-template-columns: 24% 66%;
-      grid-column-gap: 40px;
+      grid-template-columns: 26% 71%;
+      grid-column-gap: 30px;
+      align-items: baseline;
     }
     @media (max-width: $xs) {
-      grid-template-columns: 50% 30%;
-      grid-column-gap: 43px;
+      grid-template-columns: 56% 31%;
+      grid-column-gap: 40px;
+      align-items: center;
     }
   }
 
