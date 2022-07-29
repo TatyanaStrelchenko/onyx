@@ -56,6 +56,57 @@ const Partners = () => {
           </div>
         </div>
       </section>
+      <section className="benefits">
+        <div className="container">
+          <div className="text-holder">
+            <h2>Benefits For Our Partner</h2>
+          </div>
+          <div className="benefits-block">
+            <div className="row">
+              <div className="col">
+                <h3>CLOSE QUICKLY</h3>
+                <p>
+                  We understand time is in the essence, with transactions funding within 10 business
+                  days you will never miss a closing.
+                </p>
+              </div>
+              <div className="col">
+                <h3>FAST ANSWERS</h3>
+                <p>
+                  Don’t waste time waiting around for answers - You’ll know right away whether or
+                  not we can do the deal.
+                </p>
+              </div>
+              <div className="col">
+                <h3>Competitive PRICING</h3>
+                <p>
+                  We will successfully negotiate favorable debt and equity financing for your
+                  clients. Rest assured when you work with Onyx Funding your
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+                <h3>ENDLESS CAPITAL SOURCES</h3>
+                <p>
+                  You’ll never have to wonder whether or not financing is available when you use
+                  Onyx Funding. We have extensive relationships and capital sources ensuring that we
+                  will always have the right solution for your clients.
+                </p>
+              </div>
+              <div className="col">
+                <h3>YOU ARE PROTECTED</h3>
+                <p>
+                  In the event your client contacts us directly, we will notify you to let you know.
+                  This will enable you to get in touch with your client. If they would like to work
+                  directly with us, we will share revenue of every loan your borrower originates
+                  with us for the first year.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <Promo styles={Image2}>
         <div className="text-holder">
           <h2> LOOKING FOR A QUOTE?</h2>
