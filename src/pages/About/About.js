@@ -1,12 +1,14 @@
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
+import { Promo } from '../../components/Promo';
 import './About.scss';
 import Image1 from '../../assets/image/blank-map-us.svg';
 import Image2 from '../../assets/image/img-home1.jpg';
 import Image3 from '../../assets/image/img-home2.jpg';
 import Image4 from '../../assets/image/img-home3.jpg';
 import Image5 from '../../assets/image/los-angeles2.jpg';
+import Image6 from '../../assets/image/skyscraper.jpg';
 
 const About = () => {
   return (
@@ -94,7 +96,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="promo-section">
+      <section className="about-section">
         <div className="container">
           <div className="info-holder">
             <div className="info-block">
@@ -125,6 +127,19 @@ const About = () => {
           </button>
         </div>
       </section>
+      <Promo styles={Image6}>
+        <div className="text-holder">
+          <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
+          <p>
+            These are just our featured programs, as industry leaders in CRE financing, we cater to
+            any and all real estate investment financing requests. Contact us with your scenario to
+            learn how we can help.
+          </p>
+          <button type="button" className="btn info-btn">
+            Get Started
+          </button>
+        </div>
+      </Promo>
       <Footer />
     </div>
   );
