@@ -2,7 +2,7 @@
 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 0 141px; 
+  padding: 243px 30px 141px; 
   
   @media (max-width: $md) {
     padding: 40px 0;
@@ -12,7 +12,7 @@
   h2 {
     position: absolute;
     top: 0;
-    left: 16px;
+    left: 0;
     text-transform: uppercase;
 
     @media (max-width: $md) {
@@ -29,14 +29,8 @@
 
   .swiper-holder {
     position: relative;
-    padding: 0 20px;
-  }
-
-  .container {
-    @media (max-width: $md) { 
-      padding: 0;
-    }
-  }
+    // padding: 0 20px;
+  }   
 
   .swiper {   
     height: 473px;       
@@ -93,8 +87,8 @@
       p {
         height: 88px; 
                
-        @media (max-width: $xs) {
-          font-size: 14px;
+        @media (max-width: $sm) {
+          font-size: 16px;
           white-space: wrap;     
         }  
       } 
@@ -109,10 +103,9 @@
         text-align: center;
         white-space: nowrap;
 
-        @media (max-width: $xs) {
+        @media (max-width: $md) {
           font-size: 18px;
-          white-space: wrap;
-     
+          white-space: wrap;     
         }  
       }
     }
