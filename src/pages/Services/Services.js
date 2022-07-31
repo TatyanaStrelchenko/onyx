@@ -1,7 +1,7 @@
+import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
-
 import './Services.scss';
 import Image1 from '../../assets/image/services.jpg';
 import Image2 from '../../assets/icons/vector.svg';
@@ -43,7 +43,9 @@ const Services = () => {
                   an equity position can be beneficial to reach an LTV ratio of &gt; 90%. Onyx
                   Funding negotiates aggressively on your behalf to achieve your property goals
                 </p>
-                <input type="submit" className="btn-more" value="learn more" />
+                <Link to="/equity">
+                  <input type="submit" className="btn-more" value="learn more" />
+                </Link>
               </div>
             </div>
             <div className="block">

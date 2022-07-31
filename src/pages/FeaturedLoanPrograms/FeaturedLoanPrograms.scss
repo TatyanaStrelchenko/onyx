@@ -1,32 +1,5 @@
 @import '../../styles/index.scss'; 
 
-.breadcrumbs {
-  display: flex;   
-  align-items: center;
-  list-style: none;
-  padding: 0;
-
-  li {       
-    padding-left: 10px;
-
-    &:first-child {  
-      color: var(--grey-white);     
-      &::after {
-        content: "";
-        display: inline-flex;       
-        mask-image: url(../../assets/icons/caret.svg);
-        mask-position: center; 
-        mask-repeat: no-repeat;
-        transform: rotate(-90deg);     
-        width: 10px;
-        height: 10px;
-        background: var(--grey-white);       
-        margin-left: 10px;
-      }
-    }
-  } 
-}
-
 .loan-programs {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +65,7 @@
     background-image: url(../../assets/image/img-group.png);
     background-repeat: no-repeat;   
     position: absolute;
-    bottom: 69%;
+    bottom: 65%;
     right: 0;     
     height: 400px;
     width: 100%;  

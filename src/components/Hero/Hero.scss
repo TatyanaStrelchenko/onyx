@@ -61,3 +61,33 @@
     }
   }
 }
+
+.breadcrumbs  {
+  display: flex;   
+  align-items: center;
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding-left: 10px;
+    color: var(--grey-white); 
+    &::after {
+      content: "";
+      display: inline-flex;       
+      mask-image: url(../../assets/icons/caret.svg);
+      mask-position: center; 
+      mask-repeat: no-repeat;
+      transform: rotate(-90deg);     
+      width: 10px;
+      height: 10px;
+      background: var(--grey-white);       
+      margin-left: 10px;
+    }
+    &:last-child {  
+       color: var(--white);
+      &::after {
+        display: none;
+      }   
+    }
+  }
+}
