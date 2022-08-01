@@ -13,19 +13,27 @@
     grid-template-columns: 26% 13% 12% 7% 15%;
     grid-column-gap: 80px;
 
+    @media (max-width: $xl) {
+      grid-template-columns: 28% 15% 15%;
+      grid-template-rows: 65% 35%;
+      grid-column-gap: 50px;
+      margin-bottom: 50px;
+    }
     @media (max-width: $md) {
-      grid-template-columns: 20% 15% 15% 8% 22%;
-      grid-column-gap: 20px;
+      grid-template-columns: 30% 25% 25%;
+      grid-template-rows: 70% 30%;
+      margin-bottom: 50px;
     }
     @media (max-width: $sm) {
       grid-template-columns: 33% 25% 25%;
       grid-column-gap: 15px;
-      grid-template-rows: 67%;
+      grid-template-rows: 70%;
     }
     @media (max-width: $xs) {
-      grid-template-columns: 100%;
-      grid-template-rows: 18%;
-      margin-bottom: 20px;
+      grid-template-columns: 50% 50%;
+      grid-column-gap: 10%;
+      grid-template-rows: 40%;
+      margin-bottom: 30px;
     }
 
     .col {
@@ -59,13 +67,24 @@
       }
     }
     .cell {
+      @media (max-width: $xl) {
+        display: grid;
+        grid-template-columns: 100% 100%;
+        grid-column-gap: 140%;
+      }
+      @media (max-width: $md) {
+        display: grid;
+        grid-template-columns: 100% 100%;
+        grid-column-gap: 40%;
+      }
       @media (max-width: $sm) {
         display: grid;
         grid-template-columns: 92% 86%;
-        grid-column-gap: 80px;
       }
       @media (max-width: $xs) {
-        display: block;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 70%;
       }
     }
   }
@@ -124,7 +143,7 @@
     border-top: 1px #dddddd solid;
     padding-top: 28px;
     display: grid;
-    grid-template-columns: 15% 41%;
+    grid-template-columns: 20% 41%;
     grid-column-gap: 540px;
     align-items: baseline;
     p {
@@ -135,8 +154,8 @@
       grid-column-gap: 215px;
     }
     @media (max-width: $sm) {
-      grid-template-columns: 26% 71%;
-      grid-column-gap: 30px;
+      grid-template-columns: 35% 45%;
+      grid-column-gap: 10%;
       align-items: baseline;
     }
     @media (max-width: $xs) {
@@ -169,6 +188,11 @@
         }
       }
       padding: 0;
+      span {
+        @media (max-width: $xl) {
+          display: none;
+        }
+      }
     }
 
     img {
