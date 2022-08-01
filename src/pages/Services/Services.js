@@ -59,7 +59,9 @@ const Services = () => {
                   mortgage, a bridge loan – there are many options and possibilities! Leveraging
                   debt wisely is crucial to ensure your projects profitability.
                 </p>
-                <input type="submit" className="btn-more" value="learn more" />
+                <Link to="/debt">
+                  <input type="submit" className="btn-more" value="learn more" />
+                </Link>
               </div>
             </div>
           </div>
