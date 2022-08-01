@@ -6,7 +6,11 @@ import './Partners.scss';
 import Image1 from '../../assets/image/partners.jpg';
 import Image2 from '../../assets/image/program-partners.jpg';
 import Image3 from '../../assets/image/img-partners.jpg';
-import Image4 from '../../assets/image/clock1.jpg';
+import Image4 from '../../assets/image/clock1.svg';
+import Image5 from '../../assets/image/timer.svg';
+import Image6 from '../../assets/image/dolar.svg';
+import Image7 from '../../assets/image/clock2.svg';
+import Image8 from '../../assets/image/shield-check.svg';
 
 const Partners = () => {
   return (
@@ -73,6 +77,7 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
+                <img src={Image5} alt="img" />
                 <h3>FAST ANSWERS</h3>
                 <p>
                   Don’t waste time waiting around for answers - You’ll know right away whether or
@@ -80,7 +85,8 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
-                <h3>Competitive PRICING</h3>
+                <img src={Image6} alt="img" />
+                <h3>COMPETITIVE PRICING</h3>
                 <p>
                   We will successfully negotiate favorable debt and equity financing for your
                   clients. Rest assured when you work with Onyx Funding your
@@ -89,6 +95,7 @@ const Partners = () => {
             </div>
             <div className="row">
               <div className="col">
+                <img src={Image7} alt="img" />
                 <h3>ENDLESS CAPITAL SOURCES</h3>
                 <p>
                   You’ll never have to wonder whether or not financing is available when you use
@@ -97,6 +104,7 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
+                <img src={Image8} alt="img" />
                 <h3>YOU ARE PROTECTED</h3>
                 <p>
                   In the event your client contacts us directly, we will notify you to let you know.
@@ -105,6 +113,31 @@ const Partners = () => {
                   with us for the first year.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="info-section">
+        <div className="container">
+          <div className="text-holder">
+            <h2>HOW ONYX FUNDING WORKS</h2>
+          </div>
+          <div className="number-holder">
+            <div className="numbers">
+              <span className="number">01</span>
+              <p className="text">LEARN</p>
+            </div>
+            <div className="numbers">
+              <span className="number">02</span>
+              <p className="text">COMPARE</p>
+            </div>
+            <div className="numbers">
+              <span className="number">03</span>
+              <p className="text">PROCCESS</p>
+            </div>
+            <div className="numbers">
+              <span className="number">04</span>
+              <p className="text">CLOSE</p>
             </div>
           </div>
         </div>
