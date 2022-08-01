@@ -11,11 +11,11 @@
 
   @media (max-width: $md) {
     padding: 40px 0 0;
-    height: 100%;
   }
 
   @media (max-width: $sm) {
-    height: 100%;
+    min-height: 400px;
+    height: auto;
   }
 }
 
@@ -62,32 +62,35 @@
   }
 }
 
-.breadcrumbs  {
-  display: flex;   
+.breadcrumbs {
+  display: flex;
   align-items: center;
   list-style: none;
   padding: 0;
 
   li {
     padding-left: 10px;
-    color: var(--grey-white); 
+    color: var(--grey-white);
+
     &::after {
       content: "";
-      display: inline-flex;       
+      display: inline-flex;
       mask-image: url(../../assets/icons/caret.svg);
-      mask-position: center; 
+      mask-position: center;
       mask-repeat: no-repeat;
-      transform: rotate(-90deg);     
+      transform: rotate(-90deg);
       width: 10px;
       height: 10px;
-      background: var(--grey-white);       
+      background: var(--grey-white);
       margin-left: 10px;
     }
-    &:last-child {  
-       color: var(--white);
+
+    &:last-child {
+      color: var(--white);
+
       &::after {
         display: none;
-      }   
+      }
     }
   }
 }
