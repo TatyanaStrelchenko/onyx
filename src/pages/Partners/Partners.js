@@ -6,6 +6,7 @@ import './Partners.scss';
 import Image1 from '../../assets/image/partners.jpg';
 import Image2 from '../../assets/image/program-partners.jpg';
 import Image3 from '../../assets/image/img-partners.jpg';
+import Image4 from '../../assets/image/clock1.jpg';
 
 const Partners = () => {
   return (
@@ -64,6 +65,7 @@ const Partners = () => {
           <div className="benefits-block">
             <div className="row">
               <div className="col">
+                <img src={Image4} alt="img" />
                 <h3>CLOSE QUICKLY</h3>
                 <p>
                   We understand time is in the essence, with transactions funding within 10 business
