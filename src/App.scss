@@ -10,3 +10,14 @@
   align-items: center;
   width: 100%;
 }
+.section {
+  padding: 193px 0 165px;
+
+  @media (max-width: $md) {
+    padding: 95px 0 80px;
+  }
+  @media (max-width: $xs) {
+    padding: 40px 0;
+  }
+}
+   

@@ -20,7 +20,7 @@
   
 
   @media (max-width: $xxl) {         
-    padding: 40px 30px;
+    padding: 60px 0;
   }
 
   .text-holder {   
@@ -39,6 +39,7 @@
       @media (max-width: $md) {         
         font-size: 30px;
         margin-bottom: 20px;
+        line-height: 32px;
       }     
       @media (max-width: $xs) {         
         font-size: 20px;

@@ -3,22 +3,22 @@ import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Promo } from '../../components/Promo';
-import './Equity.scss';
-import Image1 from '../../assets/image/equity.jpg';
+import './Debt.scss';
+import Image1 from '../../assets/image/debt.jpg';
 import Image2 from '../../assets/image/services-offers.jpg';
-import Image3 from '../../assets/image/promo-equity.jpg';
+import Image3 from '../../assets/image/promo-debt.jpg';
 
-const Equity = () => {
+const Debt = () => {
   return (
     <div className="inner-page">
       <Header />
       <Hero styles={Image1}>
         <div className="text-holder">
-          <h1>Equity</h1>
+          <h1>Debt</h1>
           <ul className="breadcrumbs">
             <li>Home</li>
             <li>Services</li>
-            <li>Equity</li>
+            <li>Debt</li>
           </ul>
         </div>
       </Hero>
@@ -28,23 +28,26 @@ const Equity = () => {
             <div className="objects-text">
               <h2>Find The Services We Offers</h2>
               <p>
-                Onyx Funding is proud to work with some of the top brokers, agents and real estate
-                professionals in the country. Our Partners Program is built to be a partnership
-                where we all win together.
+                Using debt as a financing tool for your real estate investments gives you the power
+                to leverage your property and skills to create true wealth. Many different financial
+                instruments allow you to finance your real estate projects and through Onyx Funding
+                you have access to all of them.
               </p>
               <p>
-                With diverse solutions, reliable results, consistent communication, and competitive
-                rates for your clients and referrals, you’ll have everything you need to earn more
-                in less time.
+                You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
+                mortgage, a bridge loan – there are many options and possibilities! Leveraging debt
+                wisely is crucial to ensure your projects profitability.
               </p>
               <p>
-                Onyx Funding takes care of the process from A-Z. Our diverse expertise, vast lender
-                relationships, and real estate market experience enable us to customize unparalleled
-                financing solutions for any type of investment property.
+                At Onyx Funding, we understand that maintaining and expanding your real estate
+                business can be time-consuming, stressful and costly. That is why we have made it
+                our mission to secure you the optimal funding solution for your specific needs and
+                facilitate a seamless transaction so you can focus on your business.
               </p>
               <p>
-                We can help your clients secure the capital they need to close the transaction fast
-                and smoothly.
+                Simply put, we take care of the process from A-Z. Our diverse expertise, vast lender
+                relationships, and real estate market experience enable us to customize financing
+                for any loan request.
               </p>
             </div>
           </div>
@@ -113,4 +116,4 @@ const Equity = () => {
   );
 };
 
-export { Equity };
+export { Debt };
