@@ -42,7 +42,7 @@
 .nav-menu {
   display: flex;
   margin: 0; 
-  padding: 0;
+  padding: 0 24px;
   white-space: nowrap;
 
   @media (max-width: $md) {

@@ -12,6 +12,7 @@
 }
 .section {
   padding: 193px 0 165px;
+  position: relative;
 
   @media (max-width: $md) {
     padding: 95px 0 80px;
