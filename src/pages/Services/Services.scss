@@ -1,77 +1,74 @@
-@import '../../styles/index.scss';  
+@import '../../styles/index.scss';
 
-.services-page { 
- 
+.services-page {
   .block-list {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    margin-right: -30px;     
+    justify-content: center;
+    margin-right: -30px;
     margin-left: -30px;
 
-    @media (max-width: $md) {         
-      margin: 0 -20px; 
-    }   
-    @media (max-width: $xs) {    
-      margin: 0 -15px;     
-    }      
-  }
-  .block {              
-    padding: 0 30px;    
- 
-
-    @media (max-width: $md) {         
-      padding: 0 20px 40px; 
-    } 
-
-    @media (max-width: $sm) { 
-      padding: 0 15px 20px;  
+    @media (max-width: $md) {
+      margin: 0 -20px;
     }
-    
-    @media (max-width: $xs) {      
-      padding: 0 10px 20px; 
-      width: 100%;      
-    }  
+    @media (max-width: $xs) {
+      margin: 0 -15px;
+    }
+  }
+  .block {
+    padding: 0 30px;
 
-    .block-wrapper {   
-      padding: 50px 45px 56px;  
-      
-      @media (max-width: $md) {         
-        padding: 35px 20px 24px;   
-      }  
-      @media (max-width: $xs) {         
-        padding: 35px 15px 24px;   
-      } 
+    @media (max-width: $md) {
+      padding: 0 20px 40px;
+    }
+
+    @media (max-width: $sm) {
+      padding: 0 15px 20px;
+    }
+
+    @media (max-width: $xs) {
+      padding: 0 10px 20px;
+      width: 100%;
+    }
+
+    .block-wrapper {
+      padding: 50px 45px 56px;
+
+      @media (max-width: $md) {
+        padding: 35px 20px 24px;
+      }
+      @media (max-width: $xs) {
+        padding: 35px 15px 24px;
+      }
 
       p {
         padding-bottom: 24px;
       }
 
-      .btn-more {      
-        background: none;          
-        font-family: 'Inter'; 
-        font-weight: 600;      
+      .btn-more {
+        background: none;
+        font-family: 'Inter';
+        font-weight: 600;
         text-transform: uppercase;
         color: var(--green);
         cursor: pointer;
         border: none;
-      }      
-    } 
-  }  
-
+      }
+    }
+  }
 
   .loan-programs {
     padding: 196px 0 296px;
 
-    @media (max-width: $md) {  
+    @media (max-width: $md) {
       padding: 40px 30px;
-    }  
-  }     
+    }
+  }
 }
 
-  .promo-section {  
-    display: flex;   
-    background-image: url(../../assets/image/program-services.jpg);
-    background-size: cover;
-    padding: 134px 0 133px;
-  }
+.promo-section {
+  display: flex;
+  background-image: url(../../assets/image/program-services.jpg);
+  background-size: cover;
+  padding: 134px 0 133px;
+}

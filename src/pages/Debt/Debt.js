@@ -5,7 +5,7 @@ import { Hero } from '../../components/Hero';
 import { Promo } from '../../components/Promo';
 import './Debt.scss';
 import Image1 from '../../assets/image/debt.jpg';
-import Image2 from '../../assets/image/services-offers.jpg';
+import Image2 from '../../assets/image/debt-photo.jpg';
 import Image3 from '../../assets/image/promo-debt.jpg';
 
 const Debt = () => {
