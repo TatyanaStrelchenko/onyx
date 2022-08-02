@@ -1,5 +1,5 @@
 .btn {
-  width: 165px;
+  min-width: 165px;
   height: 48px;
   cursor: pointer;
   background: linear-gradient(142.45deg, #00ab39 23.58%, #008b00 86.63%);
@@ -7,8 +7,13 @@
   color: var(--white);
   font-size: 12px;
 
+  @media (max-width: $xs) {
+    min-width: 120px;
+    height: 40px;
+  }
+
   &:hover {
-    background: var(--primary-color);    
+    background: var(--primary-color);
   }
 }
 
@@ -25,5 +30,4 @@
     color: var(--white);
     transition: 1s;
   }
- 
 }

@@ -28,23 +28,28 @@ const Featured = () => {
             }}
             modules={[Autoplay, Navigation]}
             breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
               320: {
                 // width: 320,
                 slidesPerView: 1,
                 spaceBetween: 20
               },
               580: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 20
               },
               768: {
                 // width: 768,
-                slidesPerView: 2,
+                slidesPerView: 3,
                 spaceBetween: 20
               },
               1280: {
-                // width: 768,
-                slidesPerView: 3,
+                // width: 1280,
+                slidesPerView: 4,
                 spaceBetween: 32
               }
             }}
@@ -113,8 +118,8 @@ const Featured = () => {
               <div className="icon-holder">
                 <img src={Image6} alt="" />
               </div>
-              <h3>Bridge</h3>
-              <p>As a leading mortgage brokerage in the commercial real estate market</p>
+              <h3>Multifamily</h3>
+              <p>We offer highly flexible and customizable multifamily financing</p>
               <p className="info-text">
                 We are your one-stop solution for all your commercial financing needs. Our unique
                 structure methodology and diverse network of capital sources make us the perfect

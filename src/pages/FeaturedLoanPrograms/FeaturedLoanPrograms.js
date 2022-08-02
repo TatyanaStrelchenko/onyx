@@ -14,7 +14,7 @@ import Image6 from '../../assets/icons/users.svg';
 import Image7 from '../../assets/icons/bridge.svg';
 
 import Image8 from '../../assets/image/loan-programs.jpg';
-// import Image9 from '../../assets/image/home.jpg';
+import Image9 from '../../assets/image/home.jpg';
 
 const FeaturedLoanPrograms = () => {
   return (
@@ -135,7 +135,7 @@ const FeaturedLoanPrograms = () => {
         </div>
       </section>
       <RecentlyFunded />
-      <Promo>
+      <Promo styles={Image9}>
         <div className="text-holder">
           <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
           <p>
