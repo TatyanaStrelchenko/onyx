@@ -1,5 +1,9 @@
 @import '../../styles/index.scss';
 
+body {
+  height: 100%;
+}
+
 .banner {
   min-height: 600px;
   display: flex;
@@ -8,6 +12,11 @@
   height: calc(100vh - 88px);
   background-image: url(../../assets/image/los-angeles.jpg);
   background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
 
   @media (max-width: $md) {
     padding: 40px 0 0;

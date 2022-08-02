@@ -55,7 +55,7 @@ const Equity = () => {
           </div>
         </div>
       </section>
-      <section className="equity-number">
+      <section className="numbers-section">
         <div className="container">
           <h2>How Onyx Funding Works</h2>
           <div className="number-holder">

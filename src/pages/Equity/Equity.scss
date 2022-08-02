@@ -9,11 +9,11 @@
     .building-objects-holder {  
       max-width: 1300px;
       margin: 0 auto;
-      padding-left: 60px;
+      padding-left: 30px;
 
       @media (max-width: $sm) {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: center;
         padding: 0 30px;
 
@@ -36,6 +36,7 @@
          @media (max-width: $sm) {
          max-width: 100%;  
          margin: 0;
+         text-align: center;
          }       
       }
       .col-right { 
@@ -46,7 +47,11 @@
         display: block;
         position: static;
         max-width: 50%;
-      }      
+      }   
+      @media (max-width: $sm) {
+        max-width: 100%;
+        padding-bottom: 70px;
+      }   
         
       .img-holder {       
         margin: 0;
@@ -61,7 +66,7 @@
          } 
          
          @media (max-width: $sm) {
-          max-width: 300px; 
+          width: 100%;           
          } 
 
 
@@ -90,9 +95,9 @@
           }       
         }      
       }  
-    }   
+  }   
    
-  .equity-number {
+  .numbers-section {
     h2 {
       font-size: 34px;
       text-transform: uppercase;

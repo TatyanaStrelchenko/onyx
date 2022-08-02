@@ -32,10 +32,9 @@ const Header = () => {
             className={`burger ${isBurgerMenuOpen ? 'open-menu' : ''}`}
             onClick={toggleMenu}
           >
-            <span className="burger-button" />
-            <div className="spinner3 diagonal part-1"> </div>
-            <div className="spinner3 horizontal"> </div>
-            <div className="spinner3 diagonal part-2"> </div>
+            <div className="burger-line"> </div>
+            <div className="burger-line"> </div>
+            <div className="burger-line"> </div>
           </button>
           <ul ref={ref} className={`nav-menu ${isBurgerMenuOpen ? 'open' : 'close'}`}>
             <li>
