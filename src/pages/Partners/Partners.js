@@ -61,7 +61,7 @@ const Partners = () => {
           </div>
         </div>
       </section>
-      <section className="benefits">
+      <section className="benefits-section">
         <div className="container">
           <div className="text-holder">
             <h2>Benefits For Our Partner</h2>

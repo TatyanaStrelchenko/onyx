@@ -4,7 +4,7 @@
   background: var(--black);
   padding-top: 210px;
 }
-.benefits {
+.benefits-section {
   background: var(--black);
   .text-holder {
     margin-bottom: 62px;
@@ -34,6 +34,27 @@
       p {
         font-size: 18px;
       }
+    }
+  }
+}
+.partners-page {
+  .number-holder {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      background-image: url(../../assets/image/img-group.png);
+      top: -315px;
+      left: 26%;
+      transform: rotate(180deg);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../../assets/image/img-group.png);
+      bottom: -306px;
+      transform: rotate(0deg);
+      right: 26%;
     }
   }
 }
