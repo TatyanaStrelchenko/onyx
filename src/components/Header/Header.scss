@@ -42,7 +42,7 @@
 .nav-menu {
   display: flex;
   margin: 0; 
-  padding: 0;
+  padding: 0 24px;
   white-space: nowrap;
 
   @media (max-width: $md) {
@@ -105,61 +105,31 @@
   }
 }
 
-
 .burger {
-  height: 4px;
-  width: 30px;
-  cursor: pointer;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: none;
-  position: relative;
-  background: var(--white);
+  height: 24px;
+  width: 34px;
+  background: transparent;
   border: none;
-  margin-left: 15px;
-  transition: all .3s;
-
-
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  box-sizing: border-box;
+  display: none;
+  margin-left: 20px;
 
   @media (max-width: $md) {
-    display: block;
+    display:flex;
   }
 
   &:focus {
     outline: none;
   }
-
-}
-
-.burger-button {
-  display: block;
-  position: relative;
-  width: 30px;
-  height: 30px;
-  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-
-  &::after {
-    content: "";
-    margin-top: 3px;
-    display: block;
-    background-color: var(--white);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 4px;
+  .burger-line {
     width: 30px;
-  }
-
-  &::before {
-    content: "";
-    margin-top: 23px;
-    display: block;
-    background-color: var(--white);   
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 4px;
-    width: 30px;
+    height: 2px;
+    background: white;
   }
 }
+
