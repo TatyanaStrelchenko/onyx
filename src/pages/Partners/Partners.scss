@@ -4,22 +4,42 @@
   background: var(--black);
   padding-top: 210px;
 }
+
 .benefits-section {
   background: var(--black);
   .text-holder {
     margin-bottom: 62px;
+    @media (max-width: $md) {
+      margin-bottom: 40px;
+    }
+    h2 {
+      @media (max-width: $md) {
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
   }
 }
 .benefits-block {
   padding-bottom: 238px;
+  @media (max-width: $xl) {
+    padding-bottom: 100px;
+  }
   .row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 92px;
+    @media (max-width: $md) {
+      margin-bottom: 60px;
+    }
     .col {
       margin-right: 145px;
       padding-left: 80px;
       position: relative;
+      @media (max-width: $md) {
+        margin-right: 80px;
+        padding-left: 80px;
+      }
       img {
         position: absolute;
         left: 0px;
@@ -30,9 +50,15 @@
       h3 {
         margin-bottom: 16px;
         font-size: 20px;
+        @media (max-width: $md) {
+          font-size: 18px;
+        }
       }
       p {
         font-size: 18px;
+        @media (max-width: $md) {
+          font-size: 14px;
+        }
       }
     }
   }
@@ -42,14 +68,14 @@
     position: relative;
     &::after {
       position: absolute;
-      content: "";
+      content: '';
       background-image: url(../../assets/image/img-group.png);
       top: -315px;
       left: 26%;
       transform: rotate(180deg);
     }
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       background-image: url(../../assets/image/img-group.png);
       bottom: -306px;

@@ -2,12 +2,11 @@
 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 30px 141px; 
-  
+  padding: 243px 30px 141px;
+
   @media (max-width: $md) {
     padding: 40px 0;
   }
-
 
   h2 {
     position: absolute;
@@ -16,13 +15,13 @@
     text-transform: uppercase;
 
     @media (max-width: $md) {
-      position: static;      
+      position: static;
       font-size: 30px;
       text-align: center;
     }
 
     @media (max-width: $xs) {
-      position: static;      
+      position: static;
       font-size: 20px;
     }
   }
@@ -30,39 +29,38 @@
   .swiper-holder {
     position: relative;
     // padding: 0 20px;
-  }   
+  }
 
-  .swiper {   
-    height: 473px;       
+  .swiper {
+    height: 473px;
     color: var(--default-font-color);
     padding-top: 113px;
 
-    @media (max-width: $md) { 
+    @media (max-width: $md) {
       height: 350px;
       padding-top: 30px;
     }
 
-    @media (max-width: $xs) { 
+    @media (max-width: $xs) {
       height: 300px;
       padding-top: 20px;
     }
 
     &-slide {
-      background: #000;       
+      background: #000;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 85px 28.5px 82px;      
-      width: 25%;     
-           
+      padding: 85px 28.5px 82px;
+      width: 25%;
+
       @media (max-width: $xs) {
         width: 100px;
-        height: 100%;       
+        height: 100%;
       }
 
       &:hover {
-
         p,
         h3,
         img {
@@ -75,8 +73,8 @@
           justify-content: center;
           align-items: center;
           font-size: 16px;
-          line-height: 24px; 
-          padding-bottom: 40px;                      
+          line-height: 24px;
+          padding-bottom: 40px;
         }
       }
 
@@ -85,34 +83,30 @@
       }
 
       p {
-        height: 88px; 
-               
+        height: 88px;
+
         @media (max-width: $md) {
           font-size: 16px;
-          white-space: wrap;     
-        }  
-      } 
-       
+          white-space: wrap;
+        }
+      }
 
       h3 {
         font-weight: 700;
         line-height: 24px;
         text-transform: uppercase;
         padding-bottom: 16px;
-        font-size: 20px;       
+        font-size: 20px;
         text-align: center;
         white-space: nowrap;
 
         @media (max-width: $md) {
           font-size: 18px;
-          white-space: wrap;     
-        }  
+          white-space: wrap;
+        }
       }
     }
   }
-
-  
-  
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -124,7 +118,6 @@
     @media (max-width: $md) {
       display: none;
     }
-
 
     &::after {
       font-size: 8px;
@@ -146,7 +139,7 @@
 .icon-holder {
   display: flex;
   align-items: center;
-  justify-content: center;   
+  justify-content: center;
   height: 25px;
-  padding-bottom: 40px;   
- }
+  padding-bottom: 40px;
+}

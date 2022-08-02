@@ -37,7 +37,6 @@
     }
 
     .col {
-       
       h4 {
         @media (max-width: $sm) {
           font-size: 16px;
@@ -53,7 +52,6 @@
           font-size: 12px;
           line-height: 18px;
         }
-
       }
 
       p {
@@ -90,7 +88,7 @@
   }
 
   img {
-    margin-bottom:  35px;
+    margin-bottom: 35px;
   }
 
   h4 {
@@ -120,7 +118,6 @@
 
   .col:last-child {
     @media (max-width: $sm) {
-      
     }
     ul {
       margin-bottom: 40px;
@@ -135,7 +132,6 @@
 
     h4 {
       margin-bottom: 20px;
-
     }
   }
 
