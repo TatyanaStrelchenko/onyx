@@ -10,8 +10,9 @@
   }
 
   .building-objects-holder {  
+    margin-bottom: 70px;
 
-    @media (max-width: $md) {     
+    @media (max-width: $md) {        
       padding: 0 30px;
     }
 
@@ -73,9 +74,9 @@
     position: absolute;
     background-image: url(../../assets/image/img-group.png);
     background-repeat: no-repeat;
-    left: -210px;
-    top: 0;
-    transform: rotate(32deg);
+    left: -181px;
+    top: 34px;
+    transform: rotate(23deg);
     height: 400px;
     width: 100%;
   }
@@ -89,6 +90,7 @@
     height: 400px;
     width: 100%;
     transform: rotate(205deg);
+    z-index: -1;
   }
  
   h2 {
