@@ -64,7 +64,7 @@ const Partners = () => {
       <section className="benefits-section">
         <div className="container">
           <div className="text-holder">
-            <h2>Benefits For Our Partner</h2>
+            <h2>BENEFITS FOR OUR PARTNER</h2>
           </div>
           <div className="benefits-block">
             <div className="row">

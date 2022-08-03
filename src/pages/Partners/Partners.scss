@@ -12,10 +12,18 @@
     @media (max-width: $md) {
       margin-bottom: 40px;
     }
+    @media (max-width: $sm) {
+      margin-bottom: 20px;
+    }
+
     h2 {
       @media (max-width: $md) {
         font-size: 30px;
         line-height: 36px;
+      }
+      @media (max-width: $sm) {
+        font-size: 20px;
+        line-height: 26px;
       }
     }
   }
@@ -32,17 +40,33 @@
     @media (max-width: $md) {
       margin-bottom: 60px;
     }
+    @media (max-width: $xs) {
+      margin-bottom: 40px;
+      display: block;
+    }
     .col {
       margin-right: 145px;
       padding-left: 80px;
       position: relative;
       @media (max-width: $md) {
-        margin-right: 80px;
-        padding-left: 80px;
+        margin-right: 40px;
+        padding-left: 40px;
+      }
+      @media (max-width: $sm) {
+        margin-right: 20px;
+      }
+      @media (max-width: $xs) {
+        margin-bottom: 40px;
+        padding-left: 50px;
       }
       img {
         position: absolute;
         left: 0px;
+        top: 5px;
+        @media (max-width: $md) {
+          width: 32px;
+        }
+        
       }
       &:last-child {
         margin-right: 0px;
@@ -52,6 +76,13 @@
         font-size: 20px;
         @media (max-width: $md) {
           font-size: 18px;
+        }
+        @media (max-width: $sm) {
+          font-size: 16px;
+        }
+        @media (max-width: $xs) {
+         font-size: 18px;
+         margin-bottom: 10px;
         }
       }
       p {
