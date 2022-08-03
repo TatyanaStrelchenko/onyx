@@ -44,10 +44,8 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="section">
         <div className="building-objects-holder">
-          <div className="container">
+          <div className="container reverse">
             <div className="col-left">
               <div className="objects-text">
                 <p>
@@ -62,15 +60,15 @@ const About = () => {
                   by providing exceptional service and consistent results.
                 </p>
               </div>
-              <div className="col-right">
-                <div className="img-holder">
-                  <img src={Image2} alt="img" />
-                </div>
+            </div>
+            <div className="col-right">
+              <div className="img-holder">
+                <img src={Image2} alt="img" />
               </div>
             </div>
           </div>
         </div>
-        <div className="building-objects-holder">
+        <div className="building-objects-holder center">
           <div className="container">
             <div className="col-left-center">
               <div className="img-holder">
@@ -94,7 +92,7 @@ const About = () => {
           </div>
         </div>
         <div className="building-objects-holder">
-          <div className="container">
+          <div className="container reverse">
             <div className="col-left">
               <div className="objects-text">
                 <h2>WHY PEOPLE CHOOSE US?</h2>

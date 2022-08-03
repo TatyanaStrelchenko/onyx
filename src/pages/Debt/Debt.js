@@ -24,36 +24,38 @@ const Debt = () => {
       </Hero>
       <section className="section">
         <div className="building-objects-holder ">
-          <div className="col-left">
-            <div className="objects-text">
-              <h2>Find The Services We Offers</h2>
-              <p>
-                Using debt as a financing tool for your real estate investments gives you the power
-                to leverage your property and skills to create true wealth. Many different financial
-                instruments allow you to finance your real estate projects and through Onyx Funding
-                you have access to all of them.
-              </p>
-              <p>
-                You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
-                mortgage, a bridge loan – there are many options and possibilities! Leveraging debt
-                wisely is crucial to ensure your projects profitability.
-              </p>
-              <p>
-                At Onyx Funding, we understand that maintaining and expanding your real estate
-                business can be time-consuming, stressful and costly. That is why we have made it
-                our mission to secure you the optimal funding solution for your specific needs and
-                facilitate a seamless transaction so you can focus on your business.
-              </p>
-              <p>
-                Simply put, we take care of the process from A-Z. Our diverse expertise, vast lender
-                relationships, and real estate market experience enable us to customize financing
-                for any loan request.
-              </p>
+          <div className="container">
+            <div className="col-left">
+              <div className="objects-text">
+                <h2>Find The Services We Offers</h2>
+                <p>
+                  Using debt as a financing tool for your real estate investments gives you the
+                  power to leverage your property and skills to create true wealth. Many different
+                  financial instruments allow you to finance your real estate projects and through
+                  Onyx Funding you have access to all of them.
+                </p>
+                <p>
+                  You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
+                  mortgage, a bridge loan – there are many options and possibilities! Leveraging
+                  debt wisely is crucial to ensure your projects profitability.
+                </p>
+                <p>
+                  At Onyx Funding, we understand that maintaining and expanding your real estate
+                  business can be time-consuming, stressful and costly. That is why we have made it
+                  our mission to secure you the optimal funding solution for your specific needs and
+                  facilitate a seamless transaction so you can focus on your business.
+                </p>
+                <p>
+                  Simply put, we take care of the process from A-Z. Our diverse expertise, vast
+                  lender relationships, and real estate market experience enable us to customize
+                  financing for any loan request.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="col-right">
-            <div className="img-holder">
-              <img src={Image2} alt="img" />
+            <div className="col-right">
+              <div className="img-holder">
+                <img src={Image2} alt="img" />
+              </div>
             </div>
           </div>
         </div>
