@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .recently-funded {
   position: relative;
@@ -45,6 +45,7 @@
   .react-tabs__tab {
     margin-right: 32px;
     padding: 0;
+
     &:focus:after {
       left: 0;
       right: 0;
@@ -115,6 +116,7 @@
             background: var(--black);
           }
         }
+
         &::after {
           content: '';
           position: absolute;

@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .services-page {
   .block-list {
@@ -11,10 +11,12 @@
     @media (max-width: $md) {
       margin: 0 -20px;
     }
+
     @media (max-width: $xs) {
       margin: 0 -15px;
     }
   }
+
   .block {
     padding: 0 30px;
 
@@ -37,6 +39,7 @@
       @media (max-width: $md) {
         padding: 35px 20px 24px;
       }
+
       @media (max-width: $xs) {
         padding: 35px 15px 24px;
       }
