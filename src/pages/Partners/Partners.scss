@@ -117,25 +117,20 @@
 }
 
 .partners-page {
-  .number-holder {
-    position: relative;
-
+  .numbers-section {
+    margin-bottom: 316px;
     &::after {
-      position: absolute;
-      content: '';
       background-image: url(../../assets/image/img-group.png);
-      top: -315px;
-      left: 26%;
+      top: -70%;
+      left: -25px;
       transform: rotate(180deg);
     }
 
     &::before {
-      content: '';
-      position: absolute;
       background-image: url(../../assets/image/img-group.png);
-      bottom: -306px;
+      bottom: -75%;
       transform: rotate(0deg);
-      right: 26%;
+      right: 0;
     }
   }
 }
