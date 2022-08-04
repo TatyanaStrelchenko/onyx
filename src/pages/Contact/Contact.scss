@@ -1,1 +1,44 @@
 @import '../../styles/index.scss';
+
+.section-contact-us {
+  h2 {
+    top: 50px;
+    text-align: right;
+    position: relative;
+    font-size: 100px;
+    line-height: 122px;
+    font-weight: 700;
+    z-index: 401;
+  }
+  span {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--white);
+    font-weight: 700;
+  }
+}
+.text-contact-us {
+  max-width: 780px;
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 700;
+  padding: 135px 0;
+}
+.section-form-contact {
+  background: var(--white);
+  color: var(--black);
+  padding: 196px 0;
+}
+
+.contact-info-block {
+  max-width: 627px;
+  background: var(--lite-grey);
+  .bold-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+}
+
+.contact-form-block {
+  max-width: 417px;
+}
