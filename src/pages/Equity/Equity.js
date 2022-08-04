@@ -23,7 +23,7 @@ const Equity = () => {
         </div>
       </Hero>
       <section className="section">
-        <div className="building-objects-holder ">
+        <div className="right-left-block">
           <div className="container reverse">
             <div className="col-left">
               <div className="objects-text">

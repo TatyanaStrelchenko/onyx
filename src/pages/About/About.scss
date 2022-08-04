@@ -29,12 +29,17 @@
   }
 }
 
+.map-holder { 
+  margin-bottom: 218px;
+   @media (max-width: $md) {
+     margin-bottom: 60px;
+  }
+}
+
 .map-block {
   position: relative;
-  margin-bottom: 218px;
-  @media (max-width: $md) {
-    margin-bottom: 100px;
-  }
+  
+ 
   .map-info {
     position: absolute;
     top: -28px;
@@ -75,6 +80,7 @@
 
 .about-section { 
   padding: 224px 0 232px;
+  background: var(--dark-grey);
   @media (max-width: $md) {
     padding: 100px 0 100px;
   }
