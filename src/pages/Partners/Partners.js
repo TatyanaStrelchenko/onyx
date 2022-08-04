@@ -61,10 +61,10 @@ const Partners = () => {
           </div>
         </div>
       </section>
-      <section className="benefits">
+      <section className="benefits-section">
         <div className="container">
           <div className="text-holder">
-            <h2>Benefits For Our Partner</h2>
+            <h2>BENEFITS FOR OUR PARTNER</h2>
           </div>
           <div className="benefits-block">
             <div className="row">
@@ -117,27 +117,41 @@ const Partners = () => {
           </div>
         </div>
       </section>
-      <section className="info-section">
+      <section className="numbers-section">
         <div className="container">
-          <div className="text-holder">
-            <h2>HOW ONYX FUNDING WORKS</h2>
-          </div>
+          <h2>How Onyx Funding Works</h2>
           <div className="number-holder">
             <div className="numbers">
               <span className="number">01</span>
-              <p className="text">LEARN</p>
+              <p className="text">Learn</p>
+              <p className="text-bottom">
+                We start with learning and understanding about your business and specific scenario
+                and goals.
+              </p>
             </div>
             <div className="numbers">
               <span className="number">02</span>
-              <p className="text">COMPARE</p>
+              <p className="text">Compare</p>
+              <p className="text-bottom">
+                We will find and negotiate the most competitive offers in the market to unlock the
+                best rates and terms for your scenario.
+              </p>
             </div>
             <div className="numbers">
               <span className="number">03</span>
-              <p className="text">PROCCESS</p>
+              <p className="text">Proccess</p>
+              <p className="text-bottom">
+                Onyx Funding provides an end-to-end service, taking care of the entire underwriting
+                process from A-Z.
+              </p>
             </div>
             <div className="numbers">
               <span className="number">04</span>
-              <p className="text">CLOSE</p>
+              <p className="text">Close</p>
+              <p className="text-bottom">
+                We take care of the entire process by seamlessly driving your deal from application
+                to close.
+              </p>
             </div>
           </div>
         </div>

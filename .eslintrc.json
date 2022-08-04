@@ -62,6 +62,7 @@
     "@typescript-eslint/lines-between-class-members": "off",
     "no-else-return": "off",
     "react/prop-types": "off",
+    "no-param-reassign": "off",
     "import/no-unresolved": [
       "off",
       {

@@ -6,7 +6,7 @@ import { Services } from './pages/Services';
 import { Equity } from './pages/Equity';
 import { Debt } from './pages/Debt';
 import { Partners } from './pages/Partners';
-
+import { Contact } from './pages/Contact';
 import './App.scss';
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         <Route path="/equity" element={<Equity />} />
         <Route path="/debt" element={<Debt />} />
         <Route path="/partners" element={<Partners />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .featured {
   background-color: var(--dark-grey);
@@ -73,6 +73,7 @@
       }
 
       &:hover {
+
         p,
         h3,
         img {

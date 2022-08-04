@@ -1,8 +1,9 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .map-section {
   padding: 135px 0 152px;
   background-color: var(--black);
+
   @media (max-width: $md) {
     padding: 50px 0 0 0;
   }
@@ -12,14 +13,17 @@
   .text-block {
     max-width: 756px;
     margin-bottom: 101px;
+
     h2 {
       margin-bottom: 32px;
+
       @media (max-width: $xs) {
         font-size: 25px;
         line-height: 30px;
         margin-bottom: 20px;
       }
     }
+
     p {
       @media (max-width: $xs) {
         font-size: 14px;
@@ -44,10 +48,12 @@
     position: absolute;
     top: -28px;
     right: 165px;
+
     @media (max-width: $sm) {
       right: 0px;
       top: -50px;
     }
+
     p {
       &:first-child {
         &::before {
@@ -61,6 +67,7 @@
           margin-right: 16px;
         }
       }
+
       &::before {
         content: '';
         width: 16px;
@@ -70,20 +77,22 @@
         border-radius: 50%;
         background-color: var(--white);
         margin-right: 16px;
-      }     
+      }
     }
   }
+
   img {
     width: 100%;
   }
 }
 
-.about-section { 
+.about-section {
   padding: 224px 0 232px;
   background: var(--dark-grey);
   @media (max-width: $md) {
     padding: 100px 0 100px;
   }
+
   @media (max-width: $xs) {
     padding: 50px 0 50px;
   }

@@ -3,7 +3,8 @@ import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Info } from '../../components/Info';
-import { Map } from '../../components/Map';
+import { Contacts } from '../../components/Contacts';
+
 import { RecentlyFunded } from '../../components/RecentlyFunded';
 
 import HeroBg from '../../assets/image/los-angeles.jpg';
@@ -30,7 +31,7 @@ const Home = () => {
       <Info />
       <Featured />
       <RecentlyFunded />
-      <Map />
+      <Contacts />
       <Footer />
     </div>
   );

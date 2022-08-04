@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .promo-section {
   display: flex;
@@ -24,6 +24,7 @@
         font-size: 30px;
         padding-bottom: 20px;
       }
+
       @media (max-width: $sm) {
         font-size: 20px;
       }

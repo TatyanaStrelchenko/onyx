@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .loan-programs {
   display: flex;
@@ -40,10 +40,12 @@
         margin-bottom: 20px;
         line-height: 32px;
       }
+
       @media (max-width: $xs) {
         font-size: 20px;
       }
     }
+
     p {
       font-size: 18px;
       line-height: 28px;
@@ -53,12 +55,14 @@
         font-size: 16px;
         margin: 0 0 30px;
       }
+
       @media (max-width: $xs) {
         font-size: 14px;
       }
     }
   }
 }
+
 .recently-funded {
   &::after {
     content: '';
