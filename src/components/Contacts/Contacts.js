@@ -2,9 +2,10 @@ import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import * as L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import IconMarker from '../../assets/icons/pin.svg';
-import './Map.scss';
+import { Form } from '../Form';
+import './Contacts.scss';
 
-const Map = () => {
+const Contacts = () => {
   const LeafIcon = L.Icon.extend({
     options: {}
   });
@@ -19,8 +20,9 @@ const Map = () => {
         <TileLayer url="https://api.mapbox.com/styles/v1/marry27/cl62aul88006u15mut9zl4bit/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWFycnkyNyIsImEiOiJjbDYyYXlhcjgwZXh3M2Rwbm83Z2RsNmphIn0.agN1SyPcIZJm0_GBHUThcA" />
         <Marker icon={greenIcon} position={[25.7979707, -80.2000594]} />
       </MapContainer>
+      <Form />
     </section>
   );
 };
 
-export { Map };
+export { Contacts };
