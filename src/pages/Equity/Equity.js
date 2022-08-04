@@ -24,33 +24,35 @@ const Equity = () => {
       </Hero>
       <section className="section">
         <div className="building-objects-holder ">
-          <div className="col-left">
-            <div className="objects-text">
-              <h2>Find The Services We Offers</h2>
-              <p>
-                Onyx Funding is proud to work with some of the top brokers, agents and real estate
-                professionals in the country. Our Partners Program is built to be a partnership
-                where we all win together.
-              </p>
-              <p>
-                With diverse solutions, reliable results, consistent communication, and competitive
-                rates for your clients and referrals, you’ll have everything you need to earn more
-                in less time.
-              </p>
-              <p>
-                Onyx Funding takes care of the process from A-Z. Our diverse expertise, vast lender
-                relationships, and real estate market experience enable us to customize unparalleled
-                financing solutions for any type of investment property.
-              </p>
-              <p>
-                We can help your clients secure the capital they need to close the transaction fast
-                and smoothly.
-              </p>
+          <div className="container reverse">
+            <div className="col-left">
+              <div className="objects-text">
+                <h2>Find The Services We Offers</h2>
+                <p>
+                  Onyx Funding is proud to work with some of the top brokers, agents and real estate
+                  professionals in the country. Our Partners Program is built to be a partnership
+                  where we all win together.
+                </p>
+                <p>
+                  With diverse solutions, reliable results, consistent communication, and
+                  competitive rates for your clients and referrals, you’ll have everything you need
+                  to earn more in less time.
+                </p>
+                <p>
+                  Onyx Funding takes care of the process from A-Z. Our diverse expertise, vast
+                  lender relationships, and real estate market experience enable us to customize
+                  unparalleled financing solutions for any type of investment property.
+                </p>
+                <p>
+                  We can help your clients secure the capital they need to close the transaction
+                  fast and smoothly.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="col-right">
-            <div className="img-holder">
-              <img src={Image2} alt="img" />
+            <div className="col-right">
+              <div className="img-holder">
+                <img src={Image2} alt="img" />
+              </div>
             </div>
           </div>
         </div>

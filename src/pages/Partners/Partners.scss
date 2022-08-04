@@ -7,11 +7,14 @@
 
 .benefits-section {
   background: var(--black);
+
   .text-holder {
     margin-bottom: 62px;
+
     @media (max-width: $md) {
       margin-bottom: 40px;
     }
+
     @media (max-width: $sm) {
       margin-bottom: 20px;
     }
@@ -21,6 +24,7 @@
         font-size: 30px;
         line-height: 36px;
       }
+
       @media (max-width: $sm) {
         font-size: 20px;
         line-height: 26px;
@@ -28,64 +32,82 @@
     }
   }
 }
+
 .benefits-block {
   padding-bottom: 238px;
+
   @media (max-width: $xl) {
     padding-bottom: 100px;
   }
+
   .row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 92px;
+
     @media (max-width: $md) {
       margin-bottom: 60px;
     }
+
     @media (max-width: $xs) {
       margin-bottom: 40px;
       display: block;
     }
+
     .col {
       margin-right: 145px;
       padding-left: 80px;
       position: relative;
+
       @media (max-width: $md) {
         margin-right: 40px;
         padding-left: 40px;
       }
+
       @media (max-width: $sm) {
         margin-right: 20px;
       }
+
       @media (max-width: $xs) {
         margin-bottom: 40px;
         padding-left: 50px;
       }
+
       img {
         position: absolute;
         left: 0px;
         top: 5px;
+
         @media (max-width: $md) {
           width: 32px;
         }
       }
+
       &:last-child {
         margin-right: 0px;
       }
+
       h3 {
         margin-bottom: 16px;
         font-size: 20px;
+
         @media (max-width: $md) {
           font-size: 18px;
         }
+
         @media (max-width: $sm) {
           font-size: 16px;
         }
+
         @media (max-width: $xs) {
           font-size: 18px;
           margin-bottom: 10px;
         }
       }
+
       p {
         font-size: 18px;
+
         @media (max-width: $md) {
           font-size: 14px;
         }
@@ -93,9 +115,11 @@
     }
   }
 }
+
 .partners-page {
   .number-holder {
     position: relative;
+
     &::after {
       position: absolute;
       content: '';
@@ -104,6 +128,7 @@
       left: 26%;
       transform: rotate(180deg);
     }
+
     &::before {
       content: '';
       position: absolute;
