@@ -51,7 +51,9 @@ const Header = () => {
             <li>
               <Link to="/partners">PARTNERS</Link>
             </li>
-            <li>CONTACT US</li>
+            <li>
+              <Link to="/contact">CONTACT US</Link>
+            </li>
           </ul>
           <button type="button" className="btn">
             GET STARTED

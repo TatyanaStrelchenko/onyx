@@ -66,7 +66,6 @@
         @media (max-width: $md) {
           width: 32px;
         }
-        
       }
       &:last-child {
         margin-right: 0px;
@@ -81,8 +80,8 @@
           font-size: 16px;
         }
         @media (max-width: $xs) {
-         font-size: 18px;
-         margin-bottom: 10px;
+          font-size: 18px;
+          margin-bottom: 10px;
         }
       }
       p {
