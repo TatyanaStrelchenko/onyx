@@ -137,25 +137,10 @@
   .footer-bottom {
     border-top: 1px #dddddd solid;
     padding-top: 28px;
-    display: grid;
-    grid-template-columns: 20% 41%;
-    grid-column-gap: 500px;
-    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
     p {
       margin: 0;
-    }
-    @media (max-width: $md) {
-      grid-template-columns: 25% 53%;
-      grid-column-gap: 215px;
-    }
-    @media (max-width: $sm) {
-      grid-template-columns: 35% 45%;
-      grid-column-gap: 10%;
-      align-items: baseline;
-    }
-    @media (max-width: $xs) {
-      grid-template-columns: 50% 50%;
-      grid-column-gap: 20px;
     }
   }
 
