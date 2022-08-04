@@ -1,3 +1,5 @@
+import CookieConsent from 'react-cookie-consent';
+
 import Logo from '../../assets/image/logo.svg';
 import inst from '../../assets/image/insta.svg';
 import be from '../../assets/image/be.svg';
@@ -98,6 +100,14 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <CookieConsent
+        location="bottom"
+        style={{ background: '#101010' }}
+        buttonStyle={{ background: '#019b1e', color: '#fff', fontSize: '14px' }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </footer>
   );
 };

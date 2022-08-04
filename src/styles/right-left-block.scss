@@ -1,13 +1,13 @@
 .building-objects-holder {
   position: relative;
   display: flex;
-  margin-bottom: 245px; 
+  margin-bottom: 245px;
 
   .container {
     padding: 0;
-    @media (max-width: $md) {         
-      padding: 0 30px;          
-    }  
+    @media (max-width: $md) {
+      padding: 0 30px;
+    }
   }
 
   @media (max-width: $md) {
@@ -17,7 +17,6 @@
   @media (max-width: $sm) {
     margin-bottom: 50px;
   }
-  
 
   .col-left-center {
     position: absolute;
@@ -30,9 +29,9 @@
       max-width: 100%;
       margin-bottom: 70px;
     }
-    @media (max-width: $sm) {      
+    @media (max-width: $sm) {
       margin-bottom: -20px;
-    }    
+    }
 
     .img-holder {
       &::after {
@@ -56,39 +55,38 @@
         }
         @media (max-width: $sm) {
           height: 101%;
-          top: -53px;           
+          top: -53px;
         }
         @media (max-width: $sm) {
           height: 110%;
-          top: -34px;              
+          top: -34px;
         }
       }
     }
   }
   .col-right-center {
     display: flex;
-    justify-content: flex-end;    
-   
+    justify-content: flex-end;
+
     .objects-text {
       max-width: 50%;
       padding-left: 113px;
       padding-right: 30px;
-       @media (max-width: $md) {      
-        max-width: 100%;   
-        padding: 0;        
+      @media (max-width: $md) {
+        max-width: 100%;
+        padding: 0;
       }
-    }      
+    }
   }
   .col-left {
     max-width: 50%;
-    padding-right: 113px; 
-    padding-left: 30px;  
+    padding-right: 113px;
+    padding-left: 30px;
 
     @media (max-width: $md) {
       max-width: 100%;
-      padding: 0;           
+      padding: 0;
     }
-    
   }
   .img-holder {
     &::after {
@@ -119,13 +117,12 @@
     position: absolute;
     top: 0;
     right: 0;
-    max-width: 50%;    
+    max-width: 50%;
 
     @media (max-width: $md) {
       position: sticky;
-      max-width: 100%;     
-    }    
-    
+      max-width: 100%;
+    }
 
     .img-holder {
       &::after {
@@ -137,34 +134,31 @@
           top: 20px;
           left: 86px;
           border-right: 12px var(--green) solid;
-        }         
+        }
         @media (max-width: $xs) {
           top: 10px;
           width: 81%;
-          left: 37px;          
+          left: 37px;
         }
       }
     }
-
-   
   }
 
   .objects-text {
     h2 {
-      margin-bottom: 32px;     
+      margin-bottom: 32px;
 
       @media (max-width: $xxl) {
         font-size: 30px;
-        line-height: 36px;       
+        line-height: 36px;
       }
-      @media (max-width: $md) {        
+      @media (max-width: $md) {
         line-height: 30px;
         margin-bottom: 20px;
       }
       @media (max-width: $sm) {
         font-size: 20px;
         line-height: 26px;
-        
       }
     }
     p {
@@ -185,7 +179,7 @@
       }
     }
   }
-  .img-holder {   
+  .img-holder {
     position: relative;
     @media (max-width: $md) {
       margin: 0 auto;
@@ -240,8 +234,8 @@
 }
 
 .reverse {
-  @media (max-width: $md) {         
-    display: flex;  
-    flex-direction: column-reverse;          
-  }  
+  @media (max-width: $md) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
