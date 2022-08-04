@@ -14,7 +14,6 @@ const Header = () => {
   };
 
   const closeMenu = () => {
-    console.log('test', isBurgerMenuOpen);
     setBurgerMenuOpen(!isBurgerMenuOpen);
   };
 

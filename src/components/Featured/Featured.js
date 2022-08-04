@@ -1,9 +1,7 @@
-// Import Swiper React components
+import { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/bundle';
-import './Featured.scss';
+
 import Image1 from '../../assets/icons/card.svg';
 import Image2 from '../../assets/icons/clockwise.svg';
 import Image3 from '../../assets/icons/home.svg';
@@ -12,14 +10,29 @@ import Image5 from '../../assets/icons/сonstruction.svg';
 import Image6 from '../../assets/icons/users.svg';
 import Image7 from '../../assets/icons/bridge.svg';
 
+import 'swiper/css';
+import 'swiper/css/bundle';
+import './Featured.scss';
+
 const Featured = () => {
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
   return (
     <section className="featured">
       <div className="container">
         <div className="swiper-holder">
-          <h2>Featured Loan Programs</h2>
+          <div className="swiper-title>">
+            <h2>Featured Loan Programs</h2>
+            <div className="swiper-button-prev" ref={prevRef} />
+            <div className="swiper-button-next" ref={nextRef} />
+          </div>
           <Swiper
-            navigation
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
             slidesPerView={4}
             spaceBetween={20}
             autoplay={{
