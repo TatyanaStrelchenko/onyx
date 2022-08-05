@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .partners-section {
   background: var(--black);
@@ -119,6 +119,7 @@
 .partners-page {
   .numbers-section {
     margin-bottom: 316px;
+
     &::after {
       background-image: url(../../assets/image/img-group.png);
       top: -70%;

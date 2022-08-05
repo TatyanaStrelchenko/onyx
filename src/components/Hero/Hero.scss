@@ -16,6 +16,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+ 
 
   @media (max-width: $md) {
     padding: 40px 0 0;
@@ -30,8 +31,7 @@ body {
 .text-holder {
   width: 100%;
 
-  @media (max-width: $md) {
-  }
+  @media (max-width: $md) {}
 
   h1 {
     font-size: 120px;
@@ -79,10 +79,15 @@ body {
 
   li {
     padding-left: 10px;
+  }
+ 
+  .breadcrumbs-link {
+    display: flex;
+    align-items: center;   
     color: var(--grey-white);
 
     &::after {
-      content: '';
+      content: "";
       display: inline-flex;
       mask-image: url(../../assets/icons/caret.svg);
       mask-position: center;

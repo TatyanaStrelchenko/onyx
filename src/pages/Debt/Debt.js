@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
@@ -16,14 +16,18 @@ const Debt = () => {
         <div className="text-holder">
           <h1>Debt</h1>
           <ul className="breadcrumbs">
-            <li>Home</li>
-            <li>Services</li>
+            <Link className="breadcrumbs-link" to="/">
+              <li>Home</li>
+            </Link>
+            <Link className="breadcrumbs-link" to="/services">
+              <li>Services</li>
+            </Link>
             <li>Debt</li>
           </ul>
         </div>
       </Hero>
       <section className="section">
-        <div className="building-objects-holder ">
+        <div className="right-left-block">
           <div className="container">
             <div className="col-left">
               <div className="objects-text">

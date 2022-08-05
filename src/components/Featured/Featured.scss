@@ -1,8 +1,8 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .featured {
   background-color: var(--dark-grey);
-  padding: 243px 30px 141px;
+  padding: 243px 0 141px;
   position: relative;
 
   &::after {
@@ -20,33 +20,21 @@
     padding: 40px 0;
   }
 
-  h2 {
-    position: absolute;
-    top: 0;
-    left: 0;
+  h2 {    
     text-transform: uppercase;
 
-    @media (max-width: $md) {
-      position: static;
-      font-size: 30px;
+    @media (max-width: $md) {     
       text-align: center;
-    }
-
-    @media (max-width: $xs) {
-      position: static;
-      font-size: 20px;
-    }
+    }   
   }
 
   .swiper-holder {
-    position: relative;
-    // padding: 0 20px;
+    position: relative;  
   }
 
   .swiper {
     height: 473px;
-    color: var(--default-font-color);
-    padding-top: 113px;
+    color: var(--default-font-color);   
 
     @media (max-width: $md) {
       height: 350px;
@@ -73,6 +61,7 @@
       }
 
       &:hover {
+
         p,
         h3,
         img {
@@ -122,10 +111,12 @@
 
   .swiper-button-next,
   .swiper-button-prev {
+    position: static;
     top: 30px;
     height: 36px;
     width: 36px;
     background-color: var(--green);
+    margin-top: 0;
 
     @media (max-width: $md) {
       display: none;
@@ -135,15 +126,9 @@
       font-size: 8px;
       color: var(--white);
     }
-  }
+  } 
 
-  .swiper-button-next {
-    right: 0;
-  }
-
-  .swiper-button-prev {
-    right: 36px;
-    left: auto;
+  .swiper-button-prev {    
     margin-right: 8px;
   }
 }
@@ -154,4 +139,15 @@
   justify-content: center;
   height: 25px;
   padding-bottom: 40px;
+}
+
+.swiper-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+.nav-holder {
+  display: flex;
+  height: 36px;
 }

@@ -1,4 +1,4 @@
-@import '../../styles/index.scss';
+@import '../../styles/variables.scss';
 
 .footer {
   padding-top: 106px;
@@ -18,16 +18,19 @@
       grid-template-rows: 65% 35%;
       margin-bottom: 50px;
     }
+
     @media (max-width: $md) {
       grid-template-columns: 30% 25% 25%;
       grid-template-rows: 70% 30%;
       margin-bottom: 50px;
     }
+
     @media (max-width: $sm) {
       grid-template-columns: 33% 25% 25%;
       grid-column-gap: 15px;
       grid-template-rows: 70%;
     }
+
     @media (max-width: $xs) {
       grid-template-columns: 50% 50%;
       grid-column-gap: 10%;
@@ -40,6 +43,7 @@
           font-size: 16px;
           padding: 0;
         }
+
         @media (max-width: $xs) {
           margin: 20px 0 20px;
         }
@@ -57,26 +61,31 @@
           font-size: 12px;
           line-height: 18px;
         }
+
         @media (max-width: $xs) {
           margin-bottom: 10px;
         }
       }
     }
+
     .cell {
       @media (max-width: $xl) {
         display: grid;
         grid-template-columns: 100% 100%;
         grid-column-gap: 106%;
       }
+
       @media (max-width: $md) {
         display: grid;
         grid-template-columns: 100% 100%;
         grid-column-gap: 40%;
       }
+
       @media (max-width: $sm) {
         display: grid;
         grid-template-columns: 92% 86%;
       }
+
       @media (max-width: $xs) {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -91,6 +100,7 @@
 
   h4 {
     margin-bottom: 40px;
+
     @media (max-width: $md) {
       margin-bottom: 30px;
     }
@@ -114,11 +124,16 @@
     padding-bottom: 8px;
   }
 
+  .footer-nav {
+    color: var(--white);
+  }
+
   .col:last-child {
-    @media (max-width: $sm) {
-    }
+    @media (max-width: $sm) {}
+
     ul {
       margin-bottom: 40px;
+
       @media (max-width: $md) {
         margin-bottom: 20px;
       }
@@ -138,6 +153,7 @@
     padding-top: 28px;
     display: flex;
     justify-content: space-between;
+
     p {
       margin: 0;
     }
@@ -145,6 +161,7 @@
 
   .social {
     display: flex;
+
     li {
       &:not(:first-child) {
         &::before {
@@ -162,7 +179,9 @@
           }
         }
       }
+
       padding: 0;
+
       span {
         @media (max-width: $xl) {
           display: none;

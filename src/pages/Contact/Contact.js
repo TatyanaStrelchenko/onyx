@@ -70,12 +70,12 @@ const Contact = () => {
                 <h2>Submit Online Inquiry</h2>
               </div>
               <form action="" className="contact-form">
-                <label htmlFor="a">
+                <label className="label" htmlFor="a">
                   {' '}
                   <span className="text-control">What`s your name?</span>
                   <input type="text" placeholder="Type your name" id="a" className="form-control" />
                 </label>
-                <label htmlFor="a">
+                <label className="label" htmlFor="a">
                   {' '}
                   <span className="text-control">What`s your email address?</span>
                   <input
@@ -84,12 +84,12 @@ const Contact = () => {
                     className="form-control"
                   />
                 </label>
-                <label htmlFor="a">
+                <label className="label" htmlFor="a">
                   {' '}
                   <span className="text-control">What`s your phone?</span>
                   <input type="phone" placeholder="Type your Phone" className="form-control" />
                 </label>
-                <label htmlFor="a">
+                <label className="label" htmlFor="a">
                   {' '}
                   <span className="text-control">Message?</span>
                   <textarea

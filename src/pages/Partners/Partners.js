@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
@@ -20,7 +21,9 @@ const Partners = () => {
         <div className="text-holder">
           <h1>Partners</h1>
           <ul className="breadcrumbs">
-            <li>Home</li>
+            <Link className="breadcrumbs-link" to="/">
+              <li>Home</li>
+            </Link>
             <li>Partners</li>
           </ul>
         </div>

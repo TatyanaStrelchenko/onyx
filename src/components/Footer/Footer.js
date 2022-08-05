@@ -1,3 +1,6 @@
+import CookieConsent from 'react-cookie-consent';
+import { Link } from 'react-router-dom';
+
 import Logo from '../../assets/image/logo.svg';
 import inst from '../../assets/image/insta.svg';
 import be from '../../assets/image/be.svg';
@@ -49,18 +52,28 @@ const Footer = () => {
           <div className="col">
             <h4>SERVICES</h4>
             <ul>
-              <li>Debt</li>
-              <li>Equity</li>
+              <Link className="footer-nav" to="/debt">
+                <li>Debt</li>
+              </Link>
+              <Link className="footer-nav" to="/equity">
+                <li>Equity</li>
+              </Link>
             </ul>
           </div>
           <div className="col cell">
             <div className="col">
               <h4>QUCK NAVIGATION</h4>
               <ul>
-                <li>About Us</li>
-                <li>Contact Us</li>
+                <Link className="footer-nav" to="/about">
+                  <li>About Us</li>
+                </Link>
+                <Link className="footer-nav" to="/contact">
+                  <li>Contact Us</li>
+                </Link>
                 <li>Blog</li>
-                <li>Partners</li>
+                <Link className="footer-nav" to="/partners">
+                  <li>Partners</li>
+                </Link>
               </ul>
             </div>
             <div className="col">
@@ -98,6 +111,14 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <CookieConsent
+        location="bottom"
+        style={{ background: '#101010' }}
+        buttonStyle={{ background: '#019b1e', color: '#fff', fontSize: '14px' }}
+        expires={150}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </footer>
   );
 };

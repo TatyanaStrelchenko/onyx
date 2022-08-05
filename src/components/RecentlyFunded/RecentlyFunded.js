@@ -339,6 +339,924 @@ const RecentlyFunded = () => {
             </SwiperSlide>
           </Swiper>
         </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
+        <TabPanel>
+          <Swiper
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            spaceBetween={20}
+            slidesPerView={3}
+            slidesPerGroup={2}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination, Navigation]}
+            breakpoints={{
+              0: {
+                // width: 0,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              320: {
+                // width: 320,
+                slidesPerView: 1,
+                spaceBetween: 20
+              },
+              580: {
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1000: {
+                // width: 1000,
+                slidesPerView: 3,
+                spaceBetween: 20
+              },
+              1280: {
+                // width: 1280,
+                slidesPerView: 3,
+                spaceBetween: 32
+              }
+            }}
+          >
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image1} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>New Construction</h3>
+                  <p>Olympia, WA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$629,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Duplex</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image2} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Multifamily Acquisition</h3>
+                  <p>Philadelphia, PA</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$13,200,000</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>24 Unit Multifamily</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={Image3} alt="" />
+              <div className="border">
+                <div className="item-info">
+                  <h3>Storage Acquisition & Rehab</h3>
+                  <p>Dallas, TX</p>
+                  <dl className="info-home">
+                    <dd>Loan Amount:</dd>
+                    <dt>$4,380,406</dt>
+                  </dl>
+                  <dl className="info-type">
+                    <dd>Property Type:</dd>
+                    <dt>Self Storage Facility</dt>
+                  </dl>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </TabPanel>
       </Tabs>
     </section>
   );

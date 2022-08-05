@@ -21,10 +21,12 @@ const Featured = () => {
     <section className="featured">
       <div className="container">
         <div className="swiper-holder">
-          <div className="swiper-title>">
+          <div className="swiper-title">
             <h2>Featured Loan Programs</h2>
-            <div className="swiper-button-prev" ref={prevRef} />
-            <div className="swiper-button-next" ref={nextRef} />
+            <div className="nav-holder">
+              <div className="swiper-button-prev" ref={prevRef} />
+              <div className="swiper-button-next" ref={nextRef} />
+            </div>
           </div>
           <Swiper
             onInit={(swiper) => {
