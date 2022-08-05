@@ -186,6 +186,9 @@
       font-size: 8px;
       color: var(--white);
     }
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
    
@@ -194,10 +197,10 @@
   .tabs-title {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
-    max-width: 1300px;
-    padding: 0 30px;
-    padding: 0 0 45px 30px;
+    max-width: 1300px;    
+    padding: 0 30px 45px;
     
     @media (max-width: $md) {
       padding-bottom: 0;
