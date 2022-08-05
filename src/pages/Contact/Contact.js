@@ -72,32 +72,32 @@ const Contact = () => {
               <form action="" className="contact-form">
                 <label htmlFor="a">
                   {' '}
-                  <span className="text-control">Name</span>
-                  <input type="text" placeholder="Ann Hateway" id="a" className="form-control" />
+                  <span className="text-control">What`s your name?</span>
+                  <input type="text" placeholder="Type your name" id="a" className="form-control" />
                 </label>
                 <label htmlFor="a">
                   {' '}
-                  <span className="text-control">Email</span>
+                  <span className="text-control">What`s your email address?</span>
                   <input
-                    type="email"
+                    type="Type your Email Address"
                     placeholder="ann_hateway@gmail.com"
                     className="form-control"
                   />
                 </label>
                 <label htmlFor="a">
                   {' '}
-                  <span className="text-control">Phone</span>
-                  <input type="phone" placeholder="+380635865432" className="form-control" />
+                  <span className="text-control">What`s your phone?</span>
+                  <input type="phone" placeholder="Type your Phone" className="form-control" />
                 </label>
                 <label htmlFor="a">
                   {' '}
-                  <span className="text-control">Message</span>
+                  <span className="text-control">Message?</span>
                   <textarea
                     name="text"
                     cols="30"
                     rows="10"
                     className="form-control"
-                    placeholder="Your message"
+                    placeholder=" Tell us about you and the world"
                   />
                 </label>
                 <input type="submit" className="btn btn-primary" value="Send a Request" />
