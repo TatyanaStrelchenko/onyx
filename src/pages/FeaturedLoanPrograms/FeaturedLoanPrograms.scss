@@ -61,7 +61,7 @@
       }
     }
   }
-}
+}   
 
 .recently-funded {
   &::after {
@@ -76,3 +76,18 @@
     transform: rotate(180deg);
   }
 }
+
+.loan-programs-page {
+  .btn-default {
+    margin-top: 48px;   
+  } 
+  .right-left-block {
+    .objects-text {
+      p {       
+        &:nth-child(2n+1) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }  
+} 

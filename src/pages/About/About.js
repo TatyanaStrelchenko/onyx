@@ -44,7 +44,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="building-objects-holder">
+        <div className="right-left-block">
           <div className="container reverse">
             <div className="col-left">
               <div className="objects-text">
@@ -68,7 +68,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="building-objects-holder center">
+        <div className="right-left-block center">
           <div className="container">
             <div className="col-left-center">
               <div className="img-holder">
@@ -91,7 +91,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="building-objects-holder">
+        <div className="right-left-block">
           <div className="container reverse">
             <div className="col-left">
               <div className="objects-text">

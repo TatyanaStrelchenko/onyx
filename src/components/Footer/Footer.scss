@@ -125,6 +125,10 @@
     padding-bottom: 8px;
   }
 
+  .footer-nav {
+    color: var(--white);
+  }
+
   .col:last-child {
     @media (max-width: $sm) {}
 

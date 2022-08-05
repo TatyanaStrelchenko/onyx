@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
@@ -15,6 +16,7 @@ import Image7 from '../../assets/icons/bridge.svg';
 
 import Image8 from '../../assets/image/loan-programs.jpg';
 import Image9 from '../../assets/image/home.jpg';
+import Image10 from '../../assets/image/img-home3.jpg';
 
 const FeaturedLoanPrograms = () => {
   return (
@@ -24,7 +26,9 @@ const FeaturedLoanPrograms = () => {
         <div className="text-holder">
           <h1>Loan Programs </h1>
           <ul className="breadcrumbs">
-            <li>Home</li>
+            <Link className="breadcrumbs-link" to="/">
+              <li>Home</li>
+            </Link>
             <li>Loan Programs</li>
           </ul>
         </div>
@@ -135,6 +139,31 @@ const FeaturedLoanPrograms = () => {
         </div>
       </section>
       <RecentlyFunded />
+      <div className="right-left-block">
+        <div className="container reverse">
+          <div className="col-left">
+            <div className="objects-text">
+              <h2>WHY PEOPLE CHOOSE US?</h2>
+              <p>
+                Onyx Funding is a trusted name in the commercial real estate finance industry
+                because we deliver results through a proven and comprehensive process.
+              </p>
+              <p>
+                By choosing to be represented by a strong and experienced industry leader, you are
+                ensuring that you and your projects will demonstrate optimal success.
+              </p>
+              <button type="button" className="btn btn-default">
+                Get Started
+              </button>
+            </div>
+          </div>
+          <div className="col-right">
+            <div className="img-holder">
+              <img src={Image10} alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
       <Promo styles={Image9}>
         <div className="text-holder">
           <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>

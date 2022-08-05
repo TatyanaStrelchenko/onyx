@@ -1,4 +1,4 @@
-@import '../../styles/variables.scss';
+@import '../../styles/index.scss';
 
 body {
   height: 100%;
@@ -16,6 +16,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+ 
 
   @media (max-width: $md) {
     padding: 40px 0 0;
@@ -78,10 +79,15 @@ body {
 
   li {
     padding-left: 10px;
+  }
+ 
+  .breadcrumbs-link {
+    display: flex;
+    align-items: center;   
     color: var(--grey-white);
 
     &::after {
-      content: '';
+      content: "";
       display: inline-flex;
       mask-image: url(../../assets/icons/caret.svg);
       mask-position: center;

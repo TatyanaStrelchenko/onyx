@@ -3,7 +3,7 @@
 .inner-page {
   h1 {
     margin-bottom: 25px;
-  }
+  }  
 
   .reverse {
     padding: 0;
@@ -56,36 +56,42 @@
   }
 }
 
-.col-left {
-  max-width: 630px;
 
-  @media (max-width: $xl) {
-    max-width: 500px;
-  }
+  // .col-left {
+  //   max-width: 630px;
 
-  @media (max-width: $md) {
-    max-width: 50%;
-  }
+  //   @media (max-width: $xl) {
+  //     max-width: 500px;
+  //   }
 
-  @media (max-width: $sm) {
-    max-width: 100%;
-    margin: 0;
-  }
-}
+  //   @media (max-width: $md) {
+  //     max-width: 50%;
+  //   }
+
+  //   @media (max-width: $sm) {
+  //     max-width: 100%;
+  //     margin: 0;
+  //   }
+  // }
+ 
+  
+ 
 
 .numbers-section {
   position: relative;
+  padding-bottom: 316px;
 
   &::after {
     content: '';
     position: absolute;
-    background-image: url(../../assets/image/img-group.png);
+    background-image: url(../../assets/image/img-group2.png);
     background-repeat: no-repeat;
-    left: -181px;
-    top: 34px;
-    transform: rotate(23deg);
+    left: -13%;
+    bottom: 84%;   
     height: 400px;
     width: 100%;
+    transform: rotate(8deg);
+
   }
 
   &::before {
@@ -93,11 +99,11 @@
     background-image: url(../../assets/image/img-group.png);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 25%;
-    right: -140px;
+    bottom: 47%;
+    right: -12%;
     height: 400px;
     width: 100%;
-    transform: rotate(205deg);
+    transform: rotate(215deg);
     z-index: -1;
   }
 
