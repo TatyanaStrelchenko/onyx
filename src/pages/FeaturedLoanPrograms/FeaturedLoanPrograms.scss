@@ -79,6 +79,10 @@
 
 .loan-programs-page {
   .btn-default {
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: bold;
+    border: 1px solid var(--green) ;
     margin-top: 48px;   
   } 
   .right-left-block {
