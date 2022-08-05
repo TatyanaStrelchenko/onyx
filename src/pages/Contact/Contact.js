@@ -32,24 +32,34 @@ const Contact = () => {
                 Onyx Funding will find the best financing solutions for your deals under a clear and
                 straightforward execution.
               </p>
-              <ul>
-                <li>Fill in the Form</li>
-                <li>Discuss your request</li>
-                <li>Submit and close</li>
+              <ul className="contact-request">
+                <li>
+                  <p>Fill in the Form</p>
+                </li>
+                <li>
+                  <p>Discuss your request</p>
+                </li>
+                <li>
+                  <p>Submit and close</p>
+                </li>
               </ul>
               <p className="bold-text">Visit our office at</p>
-              <ul>
+              <ul className="info-contact">
                 <li>
-                  PHONE
-                  <Link to="/">(415) 583-5515</Link>
+                  <span>PHONE</span>
+                  <Link className="link" to="/">
+                    (415) 583-5515
+                  </Link>
                 </li>
                 <li>
-                  EMAIL
-                  <Link to="/">support@onyxfunding.us</Link>
+                  <span>EMAIL</span>
+                  <Link className="link" to="/">
+                    support@onyxfunding.us
+                  </Link>
                 </li>
                 <li>
-                  ADDRESS
-                  <Link to="/">
+                  <span>ADDRESS</span>
+                  <Link className="link" to="/">
                     2200 NW 2nd Ave, STE 211, Miami, FL 33127, United States of America
                   </Link>
                 </li>
