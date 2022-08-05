@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
@@ -24,7 +25,9 @@ const FeaturedLoanPrograms = () => {
         <div className="text-holder">
           <h1>Loan Programs </h1>
           <ul className="breadcrumbs">
-            <li>Home</li>
+            <Link className="breadcrumbs-link" to="/">
+              <li>Home</li>
+            </Link>
             <li>Loan Programs</li>
           </ul>
         </div>

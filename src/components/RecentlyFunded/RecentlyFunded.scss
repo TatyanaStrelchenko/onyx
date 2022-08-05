@@ -3,7 +3,7 @@
 .recently-funded {
   position: relative;
   background-color: var(--black);
-  padding: 196px 30px 204px;
+  padding: 196px 0 204px;
 
   @media (max-width: $md) {
     padding: 40px 30px;
@@ -13,22 +13,14 @@
     z-index: 100;
   }
 
-  .tabs-holder {
-    max-width: 1300px;
-    margin: 0 auto;
-    position: relative;
-    top: 35px;
-    left: 0;
-    padding: 0;
+  .tabs-holder {      
     text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     z-index: 100;
-
-    @media (max-width: $md) {
-      top: 10px;
-    }
+    margin: 0;    
+    padding: 0;   
   }
 
   .react-tabs__tab--selected {
@@ -67,26 +59,20 @@
   .title-tabs {
     text-transform: uppercase;
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 0 auto 72px;
+    padding: 0 30px;
 
-    @media (max-width: $md) {
-      position: static;
-      font-size: 30px;
+    @media (max-width: $md) {       
       margin-bottom: 20px;
       text-align: center;
-    }
-
-    @media (max-width: $sm) {
-      position: static;
-      font-size: 20px;
-    }
+    }    
   }
 
   .swiper {
     height: 614px;
     width: 100%;
     color: var(--default-font-color);
-    padding: 98px 0 100px;
+    padding-bottom: 100px;
 
     @media (max-width: $md) {
       padding: 40px 0 0;
@@ -183,13 +169,14 @@
   }
 
   .swiper-button-next,
-  .swiper-button-prev {
-    max-width: 1300px;
-    top: 27px;
+  .swiper-button-prev {   
+    position: static;
+    margin-right: 8px;        
     height: 36px;
     width: 36px;
     background-color: var(--green);
     z-index: 200;
+    margin-top: 0;
 
     @media (max-width: $xl) {
       display: none;
@@ -201,22 +188,27 @@
     }
   }
 
-  .swiper-button-next {
-    right: 286px;
+   
 
-    @media (max-width: $lg) {
-      right: 0;
+  
+  .tabs-title {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0 30px;
+    padding: 0 0 45px 30px;
+    
+    @media (max-width: $md) {
+      padding-bottom: 0;
     }
   }
-
-  .swiper-button-prev {
-    right: 330px;
-    left: auto;
-
-    @media (max-width: $lg) {
-      right: 40px;
-    }
-  }
+  
+  .slider-nav {
+    display: flex;
+    align-items: center;
+    height: 36px;
+  }  
 }
 
 .item-info {
@@ -265,3 +257,4 @@
     width: 90%;
   }
 }
+

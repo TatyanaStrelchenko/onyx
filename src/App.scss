@@ -19,6 +19,20 @@
   @media (max-width: $sm) {
     padding: 40px 0;
   }
+  .right-left-block {
+    // img {
+    //   @media (max-width: $xl) {
+    //     height: 600px;
+    //   }
+    // }
+    .objects-text {
+      padding-top: 0;
+
+      @media (max-width: $xl) {
+        height: 420px;
+      }
+    }
+  }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');

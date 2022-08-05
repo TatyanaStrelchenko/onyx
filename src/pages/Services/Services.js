@@ -15,7 +15,9 @@ const Services = () => {
         <div className="text-holder">
           <h1>Services </h1>
           <ul className="breadcrumbs">
-            <li>Home</li>
+            <Link className="breadcrumbs-link" to="/">
+              <li>Home</li>
+            </Link>
             <li>Services</li>
           </ul>
         </div>
