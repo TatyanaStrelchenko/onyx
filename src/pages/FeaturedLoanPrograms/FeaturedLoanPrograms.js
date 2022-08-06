@@ -26,9 +26,11 @@ const FeaturedLoanPrograms = () => {
         <div className="text-holder">
           <h1>Loan Programs </h1>
           <ul className="breadcrumbs">
-            <Link className="breadcrumbs-link" to="/">
-              <li>Home</li>
-            </Link>
+            <li>
+              <Link className="breadcrumbs-link" to="/">
+                Home{' '}
+              </Link>
+            </li>
             <li>Loan Programs</li>
           </ul>
         </div>
