@@ -1,5 +1,12 @@
 @import '../../styles/variables.scss';
 
+.contact-page {
+
+  .leaflet-container {
+    height: 632px;
+  }
+}
+
 .section-contact-us {
   h2 {
     top: 50px;
@@ -90,19 +97,19 @@
 .contact-form-block {
   padding-top: 40px;
   max-width: 606px;
+
   .text-holder {
     margin-bottom: 32px;
   }
 }
+
 .contact-form {
   .label {
     border-bottom: 1px solid;
     width: 100%;
   }
 }
+
 .form-control {
   border: none;
 }
-
-
-

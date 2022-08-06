@@ -1,28 +1,73 @@
+// import { useState } from 'react';
 import './Form.scss';
 
 const Form = () => {
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [mobileNumber, setMobileNumber] = useState("");
+  // const [message, setMessage] = useState("");
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     let res = await fetch("https://httpbin.org/post", {
+  //       method: "POST",
+  //       body: JSON.stringify({
+  //         name: name,
+  //         email: email,
+  //         mobileNumber: mobileNumber,
+  //       }),
+  //     });
+  //     let resJson = await res.json();
+  //     if (res.status === 200) {
+  //       setName("");
+  //       setEmail("");
+  //       setMessage("User created successfully");
+  //     } else {
+  //       setMessage("Some error occured");
+  //     }
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
+
   return (
     <form action="" className="form">
-      <label htmlFor="a">
-        {' '}
+      <label htmlFor="name">
         <span className="text-control">Name</span>
-        <input type="text" placeholder="Ann Hateway" id="a" className="form-control" />
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Ann Hateway"
+          className="form-control"
+        />
       </label>
-      <label htmlFor="a">
-        {' '}
+      <label htmlFor="email">
         <span className="text-control">Email</span>
-        <input type="email" placeholder="ann_hateway@gmail.com" className="form-control" />
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="ann_hateway@gmail.com"
+          className="form-control"
+        />
       </label>
-      <label htmlFor="a">
-        {' '}
+      <label htmlFor="phone">
         <span className="text-control">Phone</span>
-        <input type="phone" placeholder="+380635865432" className="form-control" />
+        <input
+          id="phone"
+          type="phone"
+          name="phone"
+          placeholder="Phone number"
+          className="form-control"
+        />
       </label>
-      <label htmlFor="a">
-        {' '}
+      <label htmlFor="message">
         <span className="text-control">Message</span>
         <textarea
-          name="text"
+          id="message"
+          name="message"
           cols="30"
           rows="10"
           className="form-control"
