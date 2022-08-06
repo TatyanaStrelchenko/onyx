@@ -26,6 +26,16 @@ const Equity = () => {
           </ul>
         </div>
       </Hero>
+      <div className="container">
+        <ul className="tabs-page">
+          <Link className="tabs-link" to="/equity">
+            <li>Equity</li>
+          </Link>
+          <Link className="tabs-link" to="/debt">
+            <li>Debt</li>
+          </Link>
+        </ul>
+      </div>
       <section className="section">
         <div className="right-left-block">
           <div className="container reverse">

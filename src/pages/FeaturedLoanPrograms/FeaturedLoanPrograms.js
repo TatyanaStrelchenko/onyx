@@ -153,7 +153,7 @@ const FeaturedLoanPrograms = () => {
                 ensuring that you and your projects will demonstrate optimal success.
               </p>
               <button type="button" className="btn btn-default">
-                Get Started
+                about us
               </button>
             </div>
           </div>
