@@ -79,13 +79,6 @@ body {
 
   li {
     padding-left: 10px;
-  }
- 
-  .breadcrumbs-link {
-    display: flex;
-    align-items: center;   
-    color: var(--grey-white);
-
     &::after {
       content: "";
       display: inline-flex;
@@ -107,4 +100,9 @@ body {
       }
     }
   }
+   
+}
+ 
+.breadcrumbs-link {
+  color: var(--grey-white); 
 }

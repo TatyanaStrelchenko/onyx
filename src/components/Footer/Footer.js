@@ -52,28 +52,38 @@ const Footer = () => {
           <div className="col">
             <h4>SERVICES</h4>
             <ul>
-              <Link className="footer-nav" to="/debt">
-                <li>Debt</li>
-              </Link>
-              <Link className="footer-nav" to="/equity">
-                <li>Equity</li>
-              </Link>
+              <li>
+                <Link className="footer-nav" to="/debt">
+                  Debt{' '}
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-nav" to="/equity">
+                  Equity
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col cell">
             <div className="col">
               <h4>QUCK NAVIGATION</h4>
               <ul>
-                <Link className="footer-nav" to="/about">
-                  <li>About Us</li>
-                </Link>
-                <Link className="footer-nav" to="/contact">
-                  <li>Contact Us</li>
-                </Link>
+                <li>
+                  <Link className="footer-nav" to="/about">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link className="footer-nav" to="/contact">
+                    Contact Us
+                  </Link>
+                </li>
                 <li>Blog</li>
-                <Link className="footer-nav" to="/partners">
-                  <li>Partners</li>
-                </Link>
+                <li>
+                  <Link className="footer-nav" to="/partners">
+                    Partners{' '}
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="col">

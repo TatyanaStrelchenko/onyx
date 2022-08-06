@@ -18,7 +18,7 @@ const Debt = () => {
           <ul className="breadcrumbs">
             <li>
               <Link className="breadcrumbs-link" to="/">
-                Home{' '}
+                Home
               </Link>
             </li>
             <li>
