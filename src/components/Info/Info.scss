@@ -1,11 +1,10 @@
 @import '../../styles/variables.scss';
 
 .info-section {
-  padding: 124px 0 141px;
+  padding: 124px 0;
   background-color: var(--black);
   display: flex;
-  position: relative;
- 
+  position: relative; 
 
   &::before {
     content: '';
@@ -74,6 +73,61 @@
   }
 }
 
+.numbers-section {
+  background: var(--black);
+  position: relative;
+  padding-bottom: 141px; 
+
+  &::after {
+    content: '';
+    background-image: url(../../assets/image/img-group.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: auto;
+    width: 953px;
+    height: 449px;
+
+    @media (max-width: $lg) {
+      top: 26%;      
+    }
+    @media (max-width: $xl) {
+      top: 26%;
+      width: 700px;
+      height: 300px;     
+    }
+    @media (max-width: $sm) {
+      width: 550px;
+      height: 150px;  
+    }
+  }
+
+  &::before {
+    content: '';
+    background-image: url(../../assets/image/img-group.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    left: auto;
+    bottom: 100%;
+    width: 953px;
+    height: 449px;
+    transform: rotate(180deg);
+
+    @media (max-width: $xl) {
+      width: 700px;
+      height: 300px;     
+    }
+    @media (max-width: $sm) {
+      width: 550px;
+      height: 150px;  
+    }
+  }
+}
+
+
+
 .number-holder {
   display: flex;
   justify-content: space-between;
@@ -82,29 +136,9 @@
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
   margin-bottom: 195px;
+ 
+ 
 
-  // &::after {
-  //   content: '';
-  //   background-image: url(../../assets/image/img-group.png);
-  //   background-repeat: no-repeat;
-  //   position: absolute;
-  //   top: 100%;
-  //   left: -32%;
-  //   height: 100%;
-  //   width: 100%;
-  // }
-
-  // &::before {
-  //   content: '';
-  //   background-image: url(../../assets/image/img-group.png);
-  //   background-repeat: no-repeat;
-  //   position: absolute;
-  //   right: -32%;
-  //   bottom: 100%;
-  //   width: 100%;
-  //   height: 100%;
-  //   transform: rotate(180deg);
-  // }
 
   @media (max-width: $md) {
     margin-bottom: 40px;

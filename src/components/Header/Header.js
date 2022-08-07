@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
-import { useRef, useState } from 'react';
-// import { Link,Button } from 'react-scroll'
+import { useEffect, useRef, useState } from 'react';
 import { Link as LinkScroll } from 'react-scroll';
 
 import './Header.scss';
 import Logo from '../../assets/image/logo.svg';
 
 const Header = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const ref = useRef();
 
   const [isBurgerMenuOpen, setBurgerMenuOpen] = useState(false);

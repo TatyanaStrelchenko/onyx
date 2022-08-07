@@ -73,7 +73,7 @@ const Partners = () => {
           <div className="benefits-block">
             <div className="row">
               <div className="col">
-                <img src={Image4} alt="img" />
+                <img className="hourglass" src={Image4} alt="img" />
                 <h3>CLOSE QUICKLY</h3>
                 <p>
                   We understand time is in the essence, with transactions funding within 10 business
@@ -81,7 +81,7 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
-                <img src={Image5} alt="img" />
+                <img className="alarm" src={Image5} alt="img" />
                 <h3>FAST ANSWERS</h3>
                 <p>
                   Don’t waste time waiting around for answers - You’ll know right away whether or
@@ -89,7 +89,7 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
-                <img src={Image6} alt="img" />
+                <img className="dollar" src={Image6} alt="img" />
                 <h3>COMPETITIVE PRICING</h3>
                 <p>
                   We will successfully negotiate favorable debt and equity financing for your
@@ -99,7 +99,7 @@ const Partners = () => {
             </div>
             <div className="row">
               <div className="col">
-                <img src={Image7} alt="img" />
+                <img className="timer" src={Image7} alt="img" />
                 <h3>ENDLESS CAPITAL SOURCES</h3>
                 <p>
                   You’ll never have to wonder whether or not financing is available when you use
@@ -108,7 +108,7 @@ const Partners = () => {
                 </p>
               </div>
               <div className="col">
-                <img src={Image8} alt="img" />
+                <img className="shield" src={Image8} alt="img" />
                 <h3>YOU ARE PROTECTED</h3>
                 <p>
                   In the event your client contacts us directly, we will notify you to let you know.
