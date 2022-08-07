@@ -58,7 +58,7 @@
     left: 0;
     background: var(--black);
     align-items: center;
-    z-index: 1;
+    z-index: 1; 
   }
 
   li {
@@ -68,6 +68,10 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 32px;
+
+    &:hover {
+     color: var(--green);
+    }
 
     @media (max-width: $xl) {
       padding: 0 10px;
@@ -80,10 +84,7 @@
       justify-content: center;
       width: 100%;
       padding: 14px 12px;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-      &:hover {
-        background: var(--grey);
-      }
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);      
     }
   }
 

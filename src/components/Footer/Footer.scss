@@ -126,6 +126,10 @@
 
   .footer-nav {
     color: var(--white);
+    
+    &:hover {
+      color: var(--green);
+    }
   }
 
   .col:last-child {

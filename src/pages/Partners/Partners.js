@@ -21,45 +21,46 @@ const Partners = () => {
         <div className="text-holder">
           <h1>Partners</h1>
           <ul className="breadcrumbs">
-            <Link className="breadcrumbs-link" to="/">
-              <li>Home</li>
-            </Link>
+            <li>
+              <Link className="breadcrumbs-link" to="/">
+                Home
+              </Link>
+            </li>
             <li>Partners</li>
           </ul>
         </div>
       </Hero>
       <section className="partners-section">
-        <div className="building-objects-holder">
-          <div className="col-left">
-            <div className="objects-text">
-              <h2>EARN MORE FOR YOU AND YOUR CLIENTS</h2>
-              <p>
-                Onyx Funding is proud to work with some of the top brokers, agents and real estate
-                professionals in the country. Our Partners Program is built to be a partnership
-                where we all win together.
-              </p>
-
-              <p>
-                With diverse solutions, reliable results, consistent communication, and competitive
-                rates for your clients and referrals, you’ll have everything you need to earn more
-                in less time.
-              </p>
-
-              <p>
-                Onyx Funding takes care of the process from A-Z. Our diverse expertise, vast lender
-                relationships, and real estate market experience enable us to customize unparalleled
-                financing solutions for any type of investment property.
-              </p>
-
-              <p>
-                We can help your clients secure the capital they need to close the transaction fast
-                and smoothly.
-              </p>
+        <div className="right-left-block">
+          <div className="container">
+            <div className="col-left">
+              <div className="objects-text">
+                <h2>EARN MORE FOR YOU AND YOUR CLIENTS</h2>
+                <p>
+                  Onyx Funding is proud to work with some of the top brokers, agents and real estate
+                  professionals in the country. Our Partners Program is built to be a partnership
+                  where we all win together.
+                </p>
+                <p>
+                  With diverse solutions, reliable results, consistent communication, and
+                  competitive rates for your clients and referrals, you’ll have everything you need
+                  to earn more in less time.
+                </p>
+                <p>
+                  Onyx Funding takes care of the process from A-Z. Our diverse expertise, vast
+                  lender relationships, and real estate market experience enable us to customize
+                  unparalleled financing solutions for any type of investment property.
+                </p>
+                <p>
+                  We can help your clients secure the capital they need to close the transaction
+                  fast and smoothly.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="col-right">
-            <div className="img-holder">
-              <img src={Image3} alt="img" />
+            <div className="col-right">
+              <div className="img-holder">
+                <img src={Image3} alt="img" />
+              </div>
             </div>
           </div>
         </div>

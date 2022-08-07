@@ -3,7 +3,26 @@
 .partners-section {
   background: var(--black);
   padding-top: 210px;
-}
+
+  
+    .col-left {
+      width: 60%;
+      @media (max-width: $sm) {      
+        width: 100%;          
+      }
+      .objects-text {
+        padding-top: 0;
+      }    
+    }
+    .col-right {
+      width: 40%;
+
+      @media (max-width: $sm) {      
+        width: 100%;          
+      }
+    }     
+  }
+ 
 
 .benefits-section {
   background: var(--black);

@@ -26,8 +26,8 @@ const About = () => {
         </div>
       </Hero>
       <section className="map-section">
-        <div className="container">
-          <div className="map-holder">
+        <div className="map-holder">
+          <div className="container">
             <div className="text-block">
               <h2>$3.05 BILLION2 FINANCED SINCE 2008</h2>
               <p>
@@ -44,71 +44,74 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="right-left-block">
-          <div className="container reverse">
-            <div className="col-left">
-              <div className="objects-text">
-                <p>
-                  Onyx Funding is a leading, national provider of financing services to the
-                  commercial real estate industry. Our diverse expertise, vast lender relationships,
-                  and real estate experience enable us to customize unparalleled financing solutions
-                  for any type of investment property.
-                </p>
-                <p>
-                  We have successfully negotiated favorable debt and equity financing for our wide
-                  verity of clients. We believe in building long term relationships with our clients
-                  by providing exceptional service and consistent results.
-                </p>
+        <div className="right-left-block-holder">
+          <div className="right-left-block">
+            <div className="container">
+              <div className="col-left">
+                <div className="objects-text">
+                  <p>
+                    Onyx Funding is a leading, national provider of financing services to the
+                    commercial real estate industry. Our diverse expertise, vast lender
+                    relationships, and real estate experience enable us to customize unparalleled
+                    financing solutions for any type of investment property.
+                  </p>
+                  <p>
+                    We have successfully negotiated favorable debt and equity financing for our wide
+                    verity of clients. We believe in building long term relationships with our
+                    clients by providing exceptional service and consistent results.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="col-right">
-              <div className="img-holder">
-                <img src={Image2} alt="img" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="right-left-block center">
-          <div className="container">
-            <div className="col-left-center">
-              <div className="img-holder">
-                <img src={Image3} alt="img" />
-              </div>
-            </div>
-            <div className="col-right-center">
-              <div className="objects-text">
-                <h2>HOW ONYX FUNDING WORKS</h2>
-                <p>
-                  Onyx Funding is changing the way real estate investors connect with capital
-                  sources. We work for you, the Borrower, and not for a Lender. This allows for
-                  complete transparency, synergy and alignment in our interests.
-                </p>
-                <p>
-                  Since our inception we have helped hundreds of real estate investors achieve their
-                  goals by successfully negotiating and securing favorable debt and equity financing
-                </p>
+              <div className="col-right">
+                <div className="img-holder">
+                  <img src={Image2} alt="img" />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="right-left-block">
-          <div className="container reverse">
-            <div className="col-left">
-              <div className="objects-text">
-                <h2>WHY PEOPLE CHOOSE US?</h2>
-                <p>
-                  Onyx Funding is a trusted name in the commercial real estate finance industry
-                  because we deliver results through a proven and comprehensive process.
-                </p>
-                <p>
-                  By choosing to be represented by a strong and experienced industry leader, you are
-                  ensuring that you and your projects will demonstrate optimal success.
-                </p>
+          <div className="right-left-block">
+            <div className="container">
+              <div className="col-left-center">
+                <div className="img-holder">
+                  <img src={Image3} alt="img" />
+                </div>
+              </div>
+              <div className="col-right-center">
+                <div className="objects-text">
+                  <h2>HOW ONYX FUNDING WORKS</h2>
+                  <p>
+                    Onyx Funding is changing the way real estate investors connect with capital
+                    sources. We work for you, the Borrower, and not for a Lender. This allows for
+                    complete transparency, synergy and alignment in our interests.
+                  </p>
+                  <p>
+                    Since our inception we have helped hundreds of real estate investors achieve
+                    their goals by successfully negotiating and securing favorable debt and equity
+                    financing
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-right">
-              <div className="img-holder">
-                <img src={Image4} alt="img" />
+          </div>
+          <div className="right-left-block">
+            <div className="container">
+              <div className="col-left">
+                <div className="objects-text">
+                  <h2>WHY PEOPLE CHOOSE US?</h2>
+                  <p>
+                    Onyx Funding is a trusted name in the commercial real estate finance industry
+                    because we deliver results through a proven and comprehensive process.
+                  </p>
+                  <p>
+                    By choosing to be represented by a strong and experienced industry leader, you
+                    are ensuring that you and your projects will demonstrate optimal success.
+                  </p>
+                </div>
+              </div>
+              <div className="col-right">
+                <div className="img-holder">
+                  <img src={Image4} alt="img" />
+                </div>
               </div>
             </div>
           </div>

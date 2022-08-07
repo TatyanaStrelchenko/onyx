@@ -3,18 +3,7 @@
 .featured {
   background-color: var(--dark-grey);
   padding: 243px 0 141px;
-  position: relative;
-
-  &::after {
-    content: '';
-    background-image: url(../../assets/image/img-group.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 90%;
-    right: 0;
-    height: 100%;
-    width: 100%;
-  }
+  position: relative; 
 
   @media (max-width: $md) {
     padding: 40px 0;

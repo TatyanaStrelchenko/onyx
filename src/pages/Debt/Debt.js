@@ -16,12 +16,16 @@ const Debt = () => {
         <div className="text-holder">
           <h1>Debt</h1>
           <ul className="breadcrumbs">
-            <Link className="breadcrumbs-link" to="/">
-              <li>Home</li>
-            </Link>
-            <Link className="breadcrumbs-link" to="/services">
-              <li>Services</li>
-            </Link>
+            <li>
+              <Link className="breadcrumbs-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="breadcrumbs-link" to="/services">
+                Services
+              </Link>
+            </li>
             <li>Debt</li>
           </ul>
         </div>

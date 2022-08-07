@@ -16,29 +16,37 @@ const Equity = () => {
         <div className="text-holder">
           <h1>Equity</h1>
           <ul className="breadcrumbs">
-            <Link className="breadcrumbs-link" to="/">
-              <li>Home</li>
-            </Link>
-            <Link className="breadcrumbs-link" to="/services">
-              <li>Services</li>
-            </Link>
+            <li>
+              <Link className="breadcrumbs-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="breadcrumbs-link" to="/services">
+                Services
+              </Link>
+            </li>
             <li>Equity</li>
           </ul>
         </div>
       </Hero>
       <div className="container">
         <ul className="tabs-page">
-          <Link className="tabs-link" to="/equity">
-            <li>Equity</li>
-          </Link>
-          <Link className="tabs-link" to="/debt">
-            <li>Debt</li>
-          </Link>
+          <li>
+            <Link className="tabs-link" to="/equity">
+              Equity
+            </Link>
+          </li>
+          <li>
+            <Link className="tabs-link" to="/debt">
+              Debt
+            </Link>
+          </li>
         </ul>
       </div>
       <section className="section">
         <div className="right-left-block">
-          <div className="container reverse">
+          <div className="container">
             <div className="col-left">
               <div className="objects-text">
                 <h2>Find The Services We Offers</h2>
