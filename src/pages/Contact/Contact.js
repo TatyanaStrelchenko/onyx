@@ -89,18 +89,16 @@ const Contact = () => {
                   <span className="text-control">What`s your phone?</span>
                   <input type="phone" placeholder="Type your Phone" className="form-control" />
                 </label>
-                <label className="label" htmlFor="a">
+                <label className="label message" htmlFor="a">
                   {' '}
                   <span className="text-control">Message?</span>
-                  <textarea
-                    name="text"
-                    cols="30"
-                    rows="10"
+                  <input
+                    type="message"
+                    placeholder="Tell us about you and the world"
                     className="form-control"
-                    placeholder=" Tell us about you and the world"
                   />
                 </label>
-                <input type="submit" className="btn btn-primary" value="Send a Request" />
+                <input type="submit" className="btn btn-primary" value="SEND MESSAGE" />
               </form>
             </div>
           </div>

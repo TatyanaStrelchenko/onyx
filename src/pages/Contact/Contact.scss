@@ -16,6 +16,10 @@
     line-height: 122px;
     font-weight: 700;
     z-index: 401;
+    @media (max-width: $xs) {
+      font-size: 45px;
+      line-height: 100px;
+    }
   }
 
   span {
@@ -31,28 +35,32 @@
   line-height: 44px;
   font-weight: 700;
   padding: 135px 0;
+  @media (max-width: $xs) {
+    padding: 60px 0;
+  }
 }
 
 .section-form-contact {
   background: var(--white);
   color: var(--black);
   padding: 196px 0;
+  @media (max-width: $md) {
+    padding: 100px 0;
+  }
 }
 
 .contact-holder {
   display: flex;
   justify-content: space-between;
+  @media (max-width: $md) {
+    display: block;
+  }
 }
 
 .contact-info-block {
   max-width: 627px;
   background: var(--lite-grey);
   padding: 40px 32px;
-
-  .text-holder {
-    margin-bottom: 24px;
-  }
-
   p {
     font-size: 16px;
     line-height: 24px;
@@ -65,7 +73,9 @@
     margin-bottom: 23px;
   }
 }
-
+.text-holder {
+  margin-bottom: 24px;
+}
 .contact-request {
   margin: 12px 0 20px;
 }
@@ -95,21 +105,31 @@
 }
 
 .contact-form-block {
-  padding-top: 40px;
+  padding: 40px 32px 0;
   max-width: 606px;
-
-  .text-holder {
-    margin-bottom: 32px;
+  .contact-form {
+    .label {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      height: 66px;
+      .text-control {
+        line-height: 32px;
+        padding-right: 24px
+      }
+      .form-control {
+        font-size: 14px;
+        line-height: 32px;
+      }
+    }
+    .message {
+      height: 114px;
+      margin-bottom: 32px;
+    }
+    
   }
 }
-
-.contact-form {
-  .label {
-    border-bottom: 1px solid;
-    width: 100%;
-  }
-}
-
 .form-control {
   border: none;
 }

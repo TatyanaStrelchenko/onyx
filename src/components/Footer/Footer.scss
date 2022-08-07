@@ -187,7 +187,7 @@
       padding: 0;
 
       span {
-        @media (max-width: $xl) {
+        @media (max-width: $sm) {
           display: none;
         }
       }
