@@ -48,11 +48,6 @@
   max-width: 627px;
   background: var(--lite-grey);
   padding: 40px 32px;
-
-  .text-holder {
-    margin-bottom: 24px;
-  }
-
   p {
     font-size: 16px;
     line-height: 24px;
@@ -65,7 +60,9 @@
     margin-bottom: 23px;
   }
 }
-
+.text-holder {
+  margin-bottom: 24px;
+}
 .contact-request {
   margin: 12px 0 20px;
 }
@@ -97,18 +94,31 @@
 .contact-form-block {
   padding-top: 40px;
   max-width: 606px;
-
-  .text-holder {
-    margin-bottom: 32px;
+  .contact-form {
+    .label {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      height: 66px;
+      .text-control {
+        line-height: 32px;
+        padding-right: 24px
+      }
+      .form-control {
+        font-size: 14px;
+        line-height: 32px;
+      }
+    }
+    .message {
+      height: 114px;
+      margin-bottom: 32px;
+    }
+    
   }
 }
 
-.contact-form {
-  .label {
-    border-bottom: 1px solid;
-    width: 100%;
-  }
-}
+
 
 .form-control {
   border: none;
