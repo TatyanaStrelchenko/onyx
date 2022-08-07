@@ -55,37 +55,60 @@
     }
   }
 }
-}
+
 
 .numbers-section {
   position: relative;
   padding-bottom: 316px;
 
-  &::after {
-    content: '';
-    position: absolute;
-    background-image: url(../../assets/image/img-group2.png);
-    background-repeat: no-repeat;
-    left: -13%;
-    bottom: 84%;   
-    height: 400px;
-    width: 100%;
-    transform: rotate(8deg);
-
+  @media (max-width: $xl) {
+    padding-bottom: 150px;
+  }
+  @media (max-width: $sm) {
+    padding-bottom: 60px;
   }
 
-  &::before {
-    content: '';
-    background-image: url(../../assets/image/img-group.png);
-    background-repeat: no-repeat;
+  &::after {   
+    content: "";
+    position: absolute;   
+    background-image: url(../../assets/image/img-group2.png); 
+    background-repeat: no-repeat;     
+    left: 0;
+    top: -45%;   
+    height: 557px;
+    width: 1122px;
+    transform: none;     
+
+    @media (max-width: $xl) {
+      width: 700px;
+      height: 400px;     
+    }
+  } 
+
+
+  &::before { 
+    content: "";
     position: absolute;
-    bottom: 47%;
-    right: -12%;
-    height: 400px;
-    width: 100%;
-    transform: rotate(215deg);
-    z-index: -1;
-  }
+    background-image: url(../../assets/image/numbers-right.png);
+    background-repeat: no-repeat;
+    bottom: 7px;
+    right: 0;
+    left: auto;
+    height: 497px;
+    width: 993px;
+    transform: none;
+    background-size: cover;  
+    transform: rotate(4deg); 
+
+    @media (max-width: $xl) {
+      width: 700px;
+      height: 300px;     
+    }
+    @media (max-width: $sm) {
+      width: 500px;
+      height: 150px;  
+    }
+  } 
 
   h2 {
     font-size: 34px;
@@ -102,8 +125,14 @@
 
   .number-holder {
     margin-bottom: 0;
-    border: none;
+    padding: 0;
+    border: none; 
+     
 
+    &::after { 
+      display: none;
+    }
+    
     .numbers {
       @media (max-width: $md) {
         font-size: 18px;
@@ -121,22 +150,23 @@
   }
 
   .text {
+    position: static;
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    left: 20px;
-    top: 84px;
+    // left: 20px;
+    // top: 84px;
 
     @media (max-width: $md) {
-      top: 58px;
+      // top: 58px;
       font-size: 18px;
     }
   }
 
-  .text-bottom {
+  .numbers-text {
     position: relative;
-    top: -33px;
-    left: 20px;
+    top: -70px;
+    left: 21px;
     max-width: 284px;
 
     @media (max-width: $xl) {
@@ -177,4 +207,5 @@
      padding: 0;
     }
   }
+}
 }

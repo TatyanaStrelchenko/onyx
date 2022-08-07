@@ -59,7 +59,7 @@ const Form = () => {
   });
 
   return (
-    <form action="" className="form" onSubmit={formik.handleSubmit}>
+    <form action="" className="form" name="form" onSubmit={formik.handleSubmit}>
       <label htmlFor="name" className="label">
         <span className="text-control">Name</span>
         <input
