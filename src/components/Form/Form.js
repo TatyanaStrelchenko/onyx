@@ -2,7 +2,7 @@ import './Form.scss';
 
 const Form = () => {
   return (
-    <form action="" className="form">
+    <form action="" className="form" name="form">
       <label htmlFor="a">
         {' '}
         <span className="text-control">Name</span>

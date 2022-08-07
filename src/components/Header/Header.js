@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useRef, useState } from 'react';
+// import { Link,Button } from 'react-scroll'
+import { Link as LinkScroll } from 'react-scroll';
 
 import './Header.scss';
 import Logo from '../../assets/image/logo.svg';
@@ -17,6 +19,7 @@ const Header = () => {
     setBurgerMenuOpen(!isBurgerMenuOpen);
   };
 
+  // const Button    = Scroll.Button;
   return (
     <header className="header">
       <div className="header-holder">
@@ -54,9 +57,9 @@ const Header = () => {
               <Link to="/contact">CONTACT US</Link>
             </li>
           </ul>
-          <button type="button" className="btn">
+          <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
             GET STARTED
-          </button>
+          </LinkScroll>
         </div>
       </div>
     </header>
