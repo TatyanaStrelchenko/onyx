@@ -78,6 +78,10 @@
   position: relative;
   padding-bottom: 141px; 
 
+  @media (max-width: $md) {
+    padding-bottom: 60px;      
+  }
+
   &::after {
     content: '';
     background-image: url(../../assets/image/img-group.png);
@@ -287,7 +291,7 @@
   }
 }
 
-.info-btn {
+.btn-default {
   display: block;
   margin: 0 auto;
 }

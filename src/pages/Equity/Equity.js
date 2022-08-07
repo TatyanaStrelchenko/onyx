@@ -32,13 +32,9 @@ const Equity = () => {
       </Hero>
       <div className="container">
         <ul className="tabs-page">
-          <li>
-            <Link className="tabs-link" to="/equity">
-              Equity
-            </Link>
-          </li>
-          <li>
-            <Link className="tabs-link" to="/debt">
+          <li className="tabs-link active">Equity</li>
+          <li className="tabs-link">
+            <Link className="link" to="/debt">
               Debt
             </Link>
           </li>

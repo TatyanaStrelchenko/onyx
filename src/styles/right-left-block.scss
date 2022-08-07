@@ -221,6 +221,7 @@
   .objects-text {
     h2 {
       margin-bottom: 32px;
+      text-transform: uppercase;
 
       @media (max-width: $xxl) {
         font-size: 30px;
