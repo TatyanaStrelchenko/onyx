@@ -21,6 +21,14 @@
 
   &:nth-child(-n + 2) {
     margin-top: 0;
+
+    @media (max-width: $sm) {
+      margin-top: 20px; 
+      
+      &:first-child {
+        margin: 0;
+      }
+    }
   }
 
   @media (max-width: $md) {
