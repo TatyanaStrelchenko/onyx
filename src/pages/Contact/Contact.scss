@@ -34,9 +34,9 @@
   font-size: 28px;
   line-height: 44px;
   font-weight: 700;
-  padding: 135px 0;
+  padding-top: 135px;
   @media (max-width: $xs) {
-    padding: 60px 0;
+    padding-top: 60px;
   }
 }
 
@@ -51,7 +51,6 @@
 
 .contact-holder {
   display: flex;
-  justify-content: space-between;
   @media (max-width: $md) {
     display: block;
   }
@@ -59,13 +58,17 @@
 
 .contact-info-block {
   max-width: 627px;
-  background: var(--lite-grey);
+  background: var(--light-gey);
   padding: 40px 32px;
+  margin-right: 44px;
   @media (max-width: $xl) {
     max-width: 500px;
   }
   @media (max-width: $md) {
     max-width: 627px;
+  }
+  @media (max-width: $xs) {
+    margin-right: 0px
   }
   p {
     font-size: 16px;
@@ -94,7 +97,6 @@
   li {
     margin-bottom: 31px;
     display: flex;
-    justify-content: space-between;
     @media (max-width: $xs) {
       display: block;
     }
@@ -103,20 +105,27 @@
 
   span {
     font-size: 13px;
+    width: 66px;
     line-height: 16px;
+    margin-right: 72px;
   }
 
   .link {
     line-height: 19px;
-    width: 347px;
     text-decoration: underline;
-    color: var(--black);
+    color: rgba(0, 0, 0, 0.6);
+    @media (max-width: $xs) {
+      display: block;
+    }
   }
 }
 
 .contact-form-block {
   padding: 40px 32px 0;
   max-width: 606px;
+  @media (max-width: $xs) {
+    padding: 40px 0px 0;
+  }
   .contact-form {
     .label {
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -124,6 +133,7 @@
       display: flex;
       align-items: center;
       height: 66px;
+      margin-bottom: 0;
       @media (max-width: $xs) {
         display: block;
       }
@@ -132,6 +142,7 @@
         padding-right: 24px;
         @media (max-width: $xs) {
           line-height: 20px;
+          padding-right: 0;
         }
       }
       .form-control {
@@ -139,6 +150,7 @@
         line-height: 32px;
         @media (max-width: $xs) {
           line-height: 20px;
+          display: block;
         }
       }
     }
