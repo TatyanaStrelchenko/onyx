@@ -12,7 +12,6 @@ body {
   height: calc(100vh - 88px);
   background-image: url(../../assets/image/los-angeles.jpg);
   background-size: cover;
-  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,8 +29,7 @@ body {
 .text-holder {
   width: 100%;
 
-  @media (max-width: $md) {
-  }
+  @media (max-width: $md) {}
 
   h1 {
     font-size: 120px;
@@ -79,6 +77,7 @@ body {
 
   li {
     padding-left: 10px;
+
     &::after {
       content: '';
       display: inline-flex;
