@@ -73,7 +73,7 @@
   }
 }
 
-.numbers-section {
+.number-section {
   background: var(--black);
   position: relative;
   padding-bottom: 141px;
@@ -150,6 +150,7 @@
   @media (max-width: $sm) {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
   }
 
   @media (max-width: $xs) {

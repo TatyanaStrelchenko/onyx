@@ -44,7 +44,7 @@
   color: var(--black);
   padding: 196px 0;
   @media (max-width: $md) {
-    padding: 100px 0;
+    padding: 40px 0;
   }
 }
 
@@ -157,7 +157,9 @@
       margin-bottom: 32px;
     }
   }
+  .form-control {
+    border: none;
+    height: 32px;
+  }
 }
-.form-control {
-  border: none;
-}
+

@@ -24,7 +24,8 @@
 }
 .rates-block {
   .btn-default {
-    margin-top: 40px;
+    margin-top: 12px;
+    display: inline-block;
     @media (max-width: $md) {
       margin-top: 20px;
     }

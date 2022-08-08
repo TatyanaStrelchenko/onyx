@@ -3,6 +3,9 @@
 .partners-section {
   background: var(--black);
   padding-top: 210px;
+  @media (max-width: $md) {
+    padding-top: 40px;
+  }
 
   .col-left {
     width: 60%;
@@ -53,17 +56,19 @@
 .partners-page {
   .numbers-section {
     &::after {
+      content: "";
       background-image: url(../../assets/image/img-group.png);
-      top: -44%;
-      left: 50%;
+      top: -62%;
+      left: 38%;
       transform: rotate(180deg);
     }
 
     &::before {
+      content: "";
       background-image: url(../../assets/image/img-group.png);
-      bottom: -6%;
+      bottom: -23%;
       transform: rotate(0deg);
-      left: 0;
+      left: -130px;
     }
     .number-holder {
       border: none;

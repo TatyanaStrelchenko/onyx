@@ -30,16 +30,18 @@ const Debt = () => {
           </ul>
         </div>
       </Hero>
-      <div className="container">
-        <ul className="tabs-page">
-          <li className="tabs-link">
-            <Link className="link" to="/equity">
-              Equity
-            </Link>
-          </li>
-          <li className="tabs-link active">Debt</li>
-        </ul>
-      </div>
+      <section className="top-section">
+        <div className="container">
+          <ul className="tabs-page">
+            <li className="tabs-link">
+              <Link className="link" to="/equity">
+                Equity
+              </Link>
+            </li>
+            <li className="tabs-link active">Debt</li>
+          </ul>
+        </div>
+      </section>
       <section className="section">
         <div className="right-left-block">
           <div className="container">
@@ -84,35 +86,43 @@ const Debt = () => {
           <div className="number-holder">
             <div className="numbers">
               <span className="number">01</span>
-              <p className="text">Learn</p>
-              <p className="text-bottom">
-                We start with learning and understanding about your business and specific scenario
-                and goals.
-              </p>
+              <div className="numbers-text">
+                <p className="text">Learn</p>
+                <p className="text-bottom">
+                  We start with learning and understanding about your business and specific scenario
+                  and goals.
+                </p>
+              </div>
             </div>
             <div className="numbers">
               <span className="number">02</span>
-              <p className="text">Compare</p>
-              <p className="text-bottom">
-                We will find and negotiate the most competitive offers in the market to unlock the
-                best rates and terms for your scenario.
-              </p>
+              <div className="numbers-text">
+                <p className="text">Compare</p>
+                <p className="text-bottom">
+                  We will find and negotiate the most competitive offers in the market to unlock the
+                  best rates and terms for your scenario.
+                </p>
+              </div>
             </div>
             <div className="numbers">
               <span className="number">03</span>
-              <p className="text">Proccess</p>
-              <p className="text-bottom">
-                Onyx Funding provides an end-to-end service, taking care of the entire underwriting
-                process from A-Z.
-              </p>
+              <div className="numbers-text">
+                <p className="text">Proccess</p>
+                <p className="text-bottom">
+                  Onyx Funding provides an end-to-end service, taking care of the entire
+                  underwriting process from A-Z.
+                </p>
+              </div>
             </div>
             <div className="numbers">
               <span className="number">04</span>
-              <p className="text">Close</p>
-              <p className="text-bottom">
-                We take care of the entire process by seamlessly driving your deal from application
-                to close.
-              </p>
+              <div className="numbers-text">
+                <p className="text">Close</p>
+                <p className="text-bottom">
+                  We take care of the entire process by seamlessly driving your deal from
+                  application to close.
+                </p>
+              </div>
             </div>
           </div>
         </div>
