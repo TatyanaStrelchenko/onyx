@@ -82,7 +82,7 @@ const Info = () => {
         </div>
       </section>
 
-      <section className="numbers-section">
+      <section className="number-section">
         <div className="container">
           <div className="number-holder">
             <div className="numbers">
