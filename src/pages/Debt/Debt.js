@@ -30,16 +30,18 @@ const Debt = () => {
           </ul>
         </div>
       </Hero>
-      <div className="container">
-        <ul className="tabs-page">
-          <li className="tabs-link">
-            <Link className="link" to="/equity">
-              Equity
-            </Link>
-          </li>
-          <li className="tabs-link active">Debt</li>
-        </ul>
-      </div>
+      <section className="top-section">
+        <div className="container">
+          <ul className="tabs-page">
+            <li className="tabs-link">
+              <Link className="link" to="/equity">
+                Equity
+              </Link>
+            </li>
+            <li className="tabs-link active">Debt</li>
+          </ul>
+        </div>
+      </section>
       <section className="section">
         <div className="right-left-block">
           <div className="container">
