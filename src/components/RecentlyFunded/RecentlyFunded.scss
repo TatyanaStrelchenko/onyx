@@ -13,14 +13,14 @@
     z-index: 100;
   }
 
-  .tabs-holder {      
+  .tabs-holder {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     z-index: 100;
-    margin: 0;    
-    padding: 0;   
+    margin: 0;
+    padding: 0;
   }
 
   .react-tabs__tab--selected {
@@ -62,10 +62,10 @@
     margin: 0 auto 72px;
     padding: 0 30px;
 
-    @media (max-width: $md) {       
+    @media (max-width: $md) {
       margin-bottom: 20px;
       text-align: center;
-    }    
+    }
   }
 
   .swiper {
@@ -170,9 +170,9 @@
   }
 
   .swiper-button-next,
-  .swiper-button-prev {   
+  .swiper-button-prev {
     position: static;
-    margin-right: 8px;        
+    margin-right: 8px;
     height: 36px;
     width: 36px;
     background-color: var(--green);
@@ -192,27 +192,24 @@
     }
   }
 
-   
-
-  
   .tabs-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1300px;    
+    max-width: 1300px;
     padding: 0 30px 45px;
-    
+
     @media (max-width: $md) {
       padding-bottom: 0;
     }
   }
-  
+
   .slider-nav {
     display: flex;
     align-items: center;
     height: 36px;
-  }  
+  }
 }
 
 .item-info {
@@ -261,4 +258,3 @@
     width: 90%;
   }
 }
-

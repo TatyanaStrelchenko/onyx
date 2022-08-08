@@ -3,27 +3,27 @@
 .featured {
   background-color: var(--dark-grey);
   padding: 243px 0 141px;
-  position: relative; 
+  position: relative;
 
   @media (max-width: $md) {
     padding: 40px 0;
   }
 
-  h2 {    
+  h2 {
     text-transform: uppercase;
 
-    @media (max-width: $md) {     
+    @media (max-width: $md) {
       text-align: center;
-    }   
+    }
   }
 
   .swiper-holder {
-    position: relative;  
+    position: relative;
   }
 
   .swiper {
     height: 473px;
-    color: var(--default-font-color);   
+    color: var(--default-font-color);
 
     @media (max-width: $md) {
       height: 350px;
@@ -51,7 +51,6 @@
       }
 
       &:hover {
-
         p,
         h3,
         img {
@@ -116,9 +115,9 @@
       font-size: 8px;
       color: var(--white);
     }
-  } 
+  }
 
-  .swiper-button-prev {    
+  .swiper-button-prev {
     margin-right: 8px;
   }
 }

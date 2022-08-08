@@ -34,7 +34,6 @@
       @media (max-width: $sm) {
         height: 320px;
       }
-      
     }
   }
 }
@@ -108,7 +107,7 @@ p {
   margin: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px; 
+  line-height: 28px;
 
   @media (max-width: $sm) {
     font-size: 14px;
@@ -118,4 +117,3 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
