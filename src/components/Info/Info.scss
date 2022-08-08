@@ -140,12 +140,9 @@
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
   margin-bottom: 195px;
- 
- 
 
 
-  @media (max-width: $md) {
-    margin-bottom: 40px;
+  @media (max-width: $md) {    
     padding: 40px 0;
     font-size: 80px;
     line-height: 120px;
@@ -155,6 +152,7 @@
   @media (max-width: $sm) {
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
   }
 
   @media (max-width: $xs) {
