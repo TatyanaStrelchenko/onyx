@@ -27,12 +27,11 @@
 
     @media (max-width: $md) {
       height: 350px;
-      padding-top: 30px;
+      padding-top: 0;
     }
 
     @media (max-width: $xs) {
-      height: 300px;
-      padding-top: 20px;
+      height: 300px;       
     }
 
     &-slide {
@@ -138,6 +137,9 @@
   margin-bottom: 72px;
 
   @media (max-width: $md) {
+    margin-bottom: 30px;
+  }
+  @media (max-width: $sm) {
     margin-bottom: 20px;
   }
 }
