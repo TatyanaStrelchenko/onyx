@@ -231,8 +231,15 @@
     top: -65px;
     left: -26.6px;
     background-color: var(--white);
-    height: 384px;
+    height: 484px;
     width: 1px;
+
+    @media (max-width: $md) {
+     height: 384px;
+    }
+    @media (max-width: $sm) {
+      height: 350px;
+     }
   }
 
   .info-home {
