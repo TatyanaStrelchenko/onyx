@@ -19,7 +19,7 @@
         width: 100%;          
       }
     }
-  
+  }
   
   .img-holder {
     &:last-child {
@@ -53,9 +53,7 @@
         }
       }
     }
-  }
-}
-
+  } 
 }
 .numbers-section {
   position: relative;
@@ -143,8 +141,7 @@
     @media (max-width: $md) {      
       flex-wrap: wrap;     
     }
-
-    
+  }    
     .numbers {
       width: 25%;
       height: 250px;
@@ -162,7 +159,7 @@
         max-width: 100%;
       }
     }
-  }
+  
 
   .text {
     position: static;
@@ -203,9 +200,9 @@
   }
 }
   
-
-  
 }
+  
+
 
 .top-section {
   padding-top: 120px;
