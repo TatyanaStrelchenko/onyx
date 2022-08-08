@@ -15,6 +15,10 @@
   box-sizing: border-box;
   z-index: 1000;
 
+  @media (max-width: $md) {
+   right: 0;
+  }
+
   @media (max-width: $xs) {
     position: static;
     width: 100%;
