@@ -80,7 +80,7 @@ const Contact = () => {
                   <span className="text-control">What`s your email address?</span>
                   <input
                     type="Type your Email Address"
-                    placeholder="ann_hateway@gmail.com"
+                    placeholder="Type your Email Address"
                     className="form-control"
                   />
                 </label>
@@ -92,10 +92,12 @@ const Contact = () => {
                 <label className="label message" htmlFor="a">
                   {' '}
                   <span className="text-control">Message?</span>
-                  <input
+                  <textarea
+                    className="form-control"
+                    cols="30"
+                    rows="0"
                     type="message"
                     placeholder="Tell us about you and the world"
-                    className="form-control"
                   />
                 </label>
                 <input type="submit" className="btn btn-primary" value="SEND MESSAGE" />

@@ -4,7 +4,7 @@
   padding: 124px 0;
   background-color: var(--black);
   display: flex;
-  position: relative; 
+  position: relative;
 
   &::before {
     content: '';
@@ -76,10 +76,10 @@
 .number-section {
   background: var(--black);
   position: relative;
-  padding-bottom: 141px; 
+  padding-bottom: 141px;
 
   @media (max-width: $md) {
-    padding-bottom: 60px;      
+    padding-bottom: 60px;
   }
 
   &::after {
@@ -94,16 +94,18 @@
     height: 449px;
 
     @media (max-width: $lg) {
-      top: 26%;      
+      top: 26%;
     }
+
     @media (max-width: $xl) {
       top: 26%;
       width: 700px;
-      height: 300px;     
+      height: 300px;
     }
+
     @media (max-width: $sm) {
       width: 550px;
-      height: 150px;  
+      height: 150px;
     }
   }
 
@@ -121,20 +123,20 @@
 
     @media (max-width: $xl) {
       width: 700px;
-      height: 300px;     
+      height: 300px;
     }
+
     @media (max-width: $sm) {
       width: 550px;
-      height: 150px;  
+      height: 150px;
     }
   }
+
   .btn-default {
     display: block;
     margin: 0 auto;
   }
 }
-
-
 
 .number-holder {
   display: flex;
@@ -145,8 +147,8 @@
   padding: 52px 0 57px;
   margin-bottom: 195px;
 
-
-  @media (max-width: $md) {    
+  @media (max-width: $md) {
+    margin-bottom: 40px;
     padding: 40px 0;
     font-size: 80px;
     line-height: 120px;
@@ -292,4 +294,3 @@
     }
   }
 }
-
