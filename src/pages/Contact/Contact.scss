@@ -8,13 +8,12 @@
 
 .section-contact-us {
   h2 {
-    top: 15px;
+    top: 10px;
     text-align: right;
     position: relative;
     font-size: 100px;
     line-height: 122px;
     font-weight: 700;
-    z-index: 401;
     @media (max-width: $md) {
       font-size: 80px;
       line-height: 100px;
