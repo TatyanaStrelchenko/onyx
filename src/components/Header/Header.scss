@@ -88,6 +88,10 @@
     }
   }
 
+  .active {
+    color: var(--green);
+  }
+
   a {
     text-decoration: none;
     font-size: 16px;
@@ -128,6 +132,7 @@
   &:focus {
     outline: none;
   }
+
   .burger-line {
     width: 30px;
     height: 2px;
