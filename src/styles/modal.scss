@@ -81,8 +81,12 @@
       cursor: pointer;
 
       @media (max-width: $md) {
-        height: 35px;
+        top: 42px;       
         font-size: 30px;
+      }   
+      @media (max-width: $sm) {
+        top: 37px;
+        font-size: 25px;
       }   
     }
   }
