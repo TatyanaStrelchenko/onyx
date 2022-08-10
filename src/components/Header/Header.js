@@ -102,8 +102,9 @@ const Header = () => {
               // onRequestClose={closeModal}
               style={customStyles}
               contentLabel="Example Modal"
+              overlayClassName="Overlay"
             >
-              <div className="close-holder">
+              <div className="title-holder">
                 <h2>Contact Us</h2>
                 <button type="button" className="close-modal" onClick={closeModal}>
                   &#10006;
