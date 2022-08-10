@@ -126,14 +126,15 @@
 
   .footer-nav {
     color: var(--white);
-    
+
     &:hover {
       color: var(--green);
     }
   }
 
   .col:last-child {
-    @media (max-width: $sm) {}
+    @media (max-width: $sm) {
+    }
 
     ul {
       margin-bottom: 40px;

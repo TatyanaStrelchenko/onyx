@@ -12,11 +12,9 @@ body {
   height: calc(100vh - 88px);
   background-image: url(../../assets/image/los-angeles.jpg);
   background-size: cover;
-  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
- 
 
   @media (max-width: $md) {
     padding: 40px 0 0;
@@ -79,8 +77,9 @@ body {
 
   li {
     padding-left: 10px;
+
     &::after {
-      content: "";
+      content: '';
       display: inline-flex;
       mask-image: url(../../assets/icons/caret.svg);
       mask-position: center;
@@ -100,9 +99,8 @@ body {
       }
     }
   }
-   
 }
- 
+
 .breadcrumbs-link {
-  color: var(--grey-white); 
+  color: var(--grey-white);
 }

@@ -34,7 +34,6 @@
       @media (max-width: $sm) {
         height: auto;
       }
-      
     }
   }
 }
@@ -58,6 +57,7 @@
   --grey-white: #c7c7c7;
   --dark-silver: #8c8c8c;
   --dark-black: #000000;
+  --light-gey: #f4f4f4;
 }
 
 body {
@@ -107,7 +107,7 @@ p {
   margin: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px; 
+  line-height: 28px;
 
   @media (max-width: $sm) {
     font-size: 14px;
@@ -117,4 +117,3 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-

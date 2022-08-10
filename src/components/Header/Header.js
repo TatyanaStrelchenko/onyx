@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 // import { Link as LinkScroll } from 'react-scroll';
 import Modal from 'react-modal';
@@ -73,21 +73,21 @@ const Header = () => {
           </button>
           <ul ref={ref} className={`nav-menu ${isBurgerMenuOpen ? 'open' : 'close'}`}>
             <li>
-              <Link to="/about" onClick={() => closeMenu()}>
+              <NavLink exact activeClassName="active" to="/about" onClick={() => closeMenu()}>
                 ABOUT US
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/loan-programs">LOAN PROGRAMS</Link>
+              <NavLink to="/loan-programs">LOAN PROGRAMS</NavLink>
             </li>
             <li>
-              <Link to="/services">SERVICES</Link>
+              <NavLink to="/services">SERVICES</NavLink>
             </li>
             <li>
-              <Link to="/partners">PARTNERS</Link>
+              <NavLink to="/partners">PARTNERS</NavLink>
             </li>
             <li>
-              <Link to="/contact">CONTACT US</Link>
+              <NavLink to="/contact">CONTACT US</NavLink>
             </li>
           </ul>
           {/* <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
