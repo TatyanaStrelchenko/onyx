@@ -9,7 +9,7 @@
     padding: 40px 0;
   }
   @media (max-width: $xs) {
-    padding: 20px 0 0 ;
+    padding: 40px 0;
   }
 
 
@@ -158,9 +158,7 @@
   
   
   @media (max-width: $xs) {
-    display: flex;
-
-    
+    display: flex;   
   }
 
 //   .block-wrapper {

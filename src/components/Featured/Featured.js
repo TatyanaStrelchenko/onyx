@@ -159,72 +159,74 @@ const Featured = () => {
             </Swiper>
           </div>
         </div>
-      </section>
-      <section className="loan-programs-info">
-        <div className="container">
-          <div className="block-list">
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image1} alt="" />
+        <div className="loan-programs-info">
+          <div className="container">
+            <div className="block-list">
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image1} alt="" />
+                  </div>
+                  <h3>Commercial</h3>
+                  <p>We are your one-stop solution for all your commercial financing needs...</p>
                 </div>
-                <h3>Commercial</h3>
-                <p>We are your one-stop solution for all your commercial financing needs...</p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image2} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image2} alt="" />
+                  </div>
+                  <h3>Fix and Flip</h3>
+                  <p>
+                    For real estate investors interested in acquiring or rehabbing properties...
+                  </p>
                 </div>
-                <h3>Fix and Flip</h3>
-                <p>For real estate investors interested in acquiring or rehabbing properties...</p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image3} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image3} alt="" />
+                  </div>
+                  <h3>Rental / Refinance</h3>
+                  <p>Weather you have a single property or a large portfolio, we got you...</p>
                 </div>
-                <h3>Rental / Refinance</h3>
-                <p>Weather you have a single property or a large portfolio, we got you...</p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image4} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image4} alt="" />
+                  </div>
+                  <h3>Fix to Rent</h3>
+                  <p>Weather you have a single property or a large portfolio, we got you...</p>
                 </div>
-                <h3>Fix to Rent</h3>
-                <p>Weather you have a single property or a large portfolio, we got you...</p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image5} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image5} alt="" />
+                  </div>
+                  <h3>New Construction</h3>
+                  <p>
+                    Our competitive edge comes from our vast experience in structuring construction
+                  </p>
                 </div>
-                <h3>New Construction</h3>
-                <p>
-                  Our competitive edge comes from our vast experience in structuring construction
-                </p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image6} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image6} alt="" />
+                  </div>
+                  <h3>Multifamily</h3>
+                  <p>We offer highly flexible and customizable multifamily financing</p>
                 </div>
-                <h3>Multifamily</h3>
-                <p>We offer highly flexible and customizable multifamily financing</p>
               </div>
-            </div>
-            <div className="block">
-              <div className="block-wrapper">
-                <div className="icon-holder">
-                  <img src={Image7} alt="" />
+              <div className="block">
+                <div className="block-wrapper">
+                  <div className="icon-holder">
+                    <img src={Image7} alt="" />
+                  </div>
+                  <p>As a leading mortgage brokerage in the commercial real estate market</p>
                 </div>
-                <p>As a leading mortgage brokerage in the commercial real estate market</p>
               </div>
             </div>
           </div>
