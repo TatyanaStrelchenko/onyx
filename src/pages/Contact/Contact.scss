@@ -3,6 +3,9 @@
 .contact-page {
   .leaflet-container {
     height: 632px;
+    @media (max-width: $sm) {
+      height: 400px;
+    }
   }
 }
 
