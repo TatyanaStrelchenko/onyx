@@ -30,6 +30,10 @@
     color: var(--form-text);
     margin-bottom: 6px;
     line-height: 53px;
+
+    @media (max-width: $xs) {
+      line-height: 20px;
+    }
   }
 
   .form-control {
@@ -39,6 +43,10 @@
     color: var(--black);
     border: 1px solid var(--dark-silver);
     border-radius: 1px;
+
+    @media (max-width: $xs) {
+      height: 50px;
+     }
 
     &:focus {
       outline: none;
@@ -65,7 +73,11 @@
     resize: none;
     height: 140px;
     line-height: 53px;
-    // color: var(--grey-white);
+    // color: var(--grey-white); 
+    
+    @media (max-width: $xs) {
+      height: 100px;
+    }
   }
 
   .btn-primary {
@@ -73,6 +85,10 @@
     height: 52px;
     text-transform: uppercase;
     margin-top: 48px;
+
+    @media (max-width: $xs) {
+      margin-top: 15px;
+     }
   }
 }
 
@@ -101,6 +117,10 @@ input::-webkit-input-placeholder {
 .label {
   position: relative;
   margin-bottom: 20px;
+
+  @media (max-width: $xs) {
+    margin-bottom: 15px;    
+   }
 }
 
 .error-field {

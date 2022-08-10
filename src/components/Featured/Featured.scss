@@ -8,6 +8,10 @@
   @media (max-width: $md) {
     padding: 40px 0;
   }
+  @media (max-width: $xs) {
+    padding: 20px 0 0 ;
+  }
+
 
   h2 {
     text-transform: uppercase;
@@ -31,7 +35,8 @@
     }
 
     @media (max-width: $xs) {
-      height: 300px;
+      height: 300px;     
+      display: none;  
     }
 
     &-slide {
@@ -145,4 +150,43 @@
 .nav-holder {
   display: flex;
   height: 36px;
+}
+
+.loan-programs-info {  
+  display: none;
+  background-color: var(--dark-grey);
+  
+  
+  @media (max-width: $xs) {
+    display: flex;
+
+    
+  }
+
+//   .block-wrapper {
+//   &:hover {
+
+//     p,
+//     h3,
+//     img {
+//       display: none;
+//     }
+
+//     .info-text {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       font-size: 16px;
+//       line-height: 24px;
+//       padding-bottom: 40px;
+//     }
+//   }
+
+//   .info-text {
+//     display: none;
+//   }
+
+// }
+     
 }

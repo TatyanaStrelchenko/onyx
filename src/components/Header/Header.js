@@ -1,14 +1,44 @@
 import { Link, NavLink } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-import { Link as LinkScroll } from 'react-scroll';
+// import { Link as LinkScroll } from 'react-scroll';
+import Modal from 'react-modal';
+import { Form } from '../Form';
 
 import './Header.scss';
 import Logo from '../../assets/image/logo.svg';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    background: 'var(--white-grey)',
+    padding: '40px'
+  }
+};
 
 const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  // function afterOpenModal() {
+  //   // references are now sync'd and can be accessed.
+  //   subtitle.style.color = '#f00';
+  // }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const ref = useRef();
 
@@ -60,9 +90,29 @@ const Header = () => {
               <NavLink to="/contact">CONTACT US</NavLink>
             </li>
           </ul>
-          <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
+          {/* <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
             GET STARTED
-          </LinkScroll>
+          </LinkScroll> */}
+          <div className="modal-form">
+            <button type="button" className="btn" onClick={openModal}>
+              GET STARTED
+            </button>
+            <Modal
+              isOpen={modalIsOpen}
+              // onRequestClose={closeModal}
+              style={customStyles}
+              contentLabel="Example Modal"
+              overlayClassName="Overlay"
+            >
+              <div className="title-holder">
+                <h2>Contact Us</h2>
+                <button type="button" className="close-modal" onClick={closeModal}>
+                  &#10006;
+                </button>
+              </div>
+              <Form />
+            </Modal>
+          </div>
         </div>
       </div>
     </header>
