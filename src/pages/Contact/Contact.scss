@@ -6,6 +6,9 @@
     @media (max-width: $sm) {
       height: 400px;
     }
+    @media (max-width: $xs) {
+      height: 300px;
+    }
   }
 }
 
@@ -150,6 +153,7 @@
       margin-bottom: 0;
       @media (max-width: $xs) {
         display: block;
+        margin-top: 5px;
       }
       .text-control {
         line-height: 32px;
@@ -166,6 +170,8 @@
           line-height: 20px;
           display: block;
           margin-top: 10px;
+          padding: 5px;
+          width: 100%;
         }
       }
     }
