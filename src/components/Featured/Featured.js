@@ -225,6 +225,7 @@ const Featured = () => {
                   <div className="icon-holder">
                     <img src={Image7} alt="" />
                   </div>
+                  <h3>Bridge</h3>
                   <p>As a leading mortgage brokerage in the commercial real estate market</p>
                 </div>
               </div>

@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 // import { Link as LinkScroll } from 'react-scroll';
 import Modal from 'react-modal';
+import { CSSTransition } from 'react-transition-group';
 import { Form } from '../Form';
 
 import './Header.scss';
@@ -30,11 +31,6 @@ const Header = () => {
   function openModal() {
     setIsOpen(true);
   }
-
-  // function afterOpenModal() {
-  //   // references are now sync'd and can be accessed.
-  //   subtitle.style.color = '#f00';
-  // }
 
   function closeModal() {
     setIsOpen(false);
@@ -93,12 +89,19 @@ const Header = () => {
           {/* <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
             GET STARTED
           </LinkScroll> */}
-          <div className="modal-form">
-            <button type="button" className="btn" onClick={openModal}>
-              GET STARTED
-            </button>
+          <button type="button" className="btn" onClick={openModal}>
+            GET STARTED
+          </button>
+          <CSSTransition
+            in={modalIsOpen}
+            closeTimeoutMS={500}
+            timeout={{ enter: 0, exit: 500 }}
+            classNames="alert"
+            unmountOnExit
+          >
             <Modal
               isOpen={modalIsOpen}
+              appElement={document.getElementById('app')}
               // onRequestClose={closeModal}
               style={customStyles}
               contentLabel="Example Modal"
@@ -107,12 +110,12 @@ const Header = () => {
               <div className="title-holder">
                 <h2>Contact Us</h2>
                 <button type="button" className="close-modal" onClick={closeModal}>
-                  &#10006;
+                  {' '}
                 </button>
               </div>
               <Form />
             </Modal>
-          </div>
+          </CSSTransition>
         </div>
       </div>
     </header>

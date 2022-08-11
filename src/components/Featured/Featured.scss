@@ -132,6 +132,10 @@
   justify-content: center;
   height: 25px;
   padding-bottom: 40px;
+
+  @media (max-width: $xs) {
+    padding-bottom: 30px;
+  }
 }
 
 .swiper-title {
@@ -159,6 +163,14 @@
   
   @media (max-width: $xs) {
     display: flex;   
+  }
+
+  .block-wrapper {
+    p {
+      @media (max-width: $xs) {
+       line-height: 1.2;
+      }     
+    }    
   }
 
 //   .block-wrapper {
