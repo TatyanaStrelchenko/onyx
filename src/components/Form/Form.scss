@@ -44,13 +44,17 @@
     border: 1px solid var(--dark-silver);
     border-radius: 1px;
 
+    @media (max-width: $md) {
+      height: 45px;
+     }
+
     @media (max-width: $xs) {
-      height: 50px;
+      height: 40px;
      }
 
     &:focus {
       outline: none;
-      border: 2px solid var(--dark-green);
+      border: 1px solid var(--dark-green);
     }
 
     &.error-input {
