@@ -3,18 +3,24 @@
 .contact-page {
   .leaflet-container {
     height: 632px;
+    @media (max-width: $sm) {
+      height: 400px;
+    }
   }
 }
 
 .section-contact-us {
   h2 {
-    top: 50px;
+    top: 10px;
     text-align: right;
     position: relative;
     font-size: 100px;
     line-height: 122px;
     font-weight: 700;
-    z-index: 401;
+    @media (max-width: $md) {
+      font-size: 80px;
+      line-height: 100px;
+    }
     @media (max-width: $xs) {
       font-size: 45px;
       line-height: 100px;
@@ -34,8 +40,14 @@
   line-height: 44px;
   font-weight: 700;
   padding-top: 135px;
+  @media (max-width: $md) {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 32px;
+  }
   @media (max-width: $xs) {
-    padding-top: 60px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
@@ -96,6 +108,9 @@
   li {
     margin-bottom: 31px;
     display: flex;
+    @media (max-width: $md) {
+      margin-bottom: 20px;
+    }
     @media (max-width: $xs) {
       display: block;
     }
@@ -114,6 +129,7 @@
     color: rgba(0, 0, 0, 0.6);
     @media (max-width: $xs) {
       display: block;
+      margin-top: 10px;
     }
   }
 }
@@ -149,6 +165,7 @@
         @media (max-width: $xs) {
           line-height: 20px;
           display: block;
+          margin-top: 10px;
         }
       }
     }

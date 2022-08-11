@@ -20,7 +20,6 @@ const Contact = () => {
           </h2>
         </div>
       </section>
-      <Map />
       <section className="section-form-contact">
         <div className="container">
           <div className="contact-holder">
@@ -106,6 +105,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Map />
       <Footer />
     </div>
   );

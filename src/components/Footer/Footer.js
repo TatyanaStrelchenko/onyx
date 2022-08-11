@@ -103,19 +103,27 @@ const Footer = () => {
           <p>© Copyright - Onyx - 2022</p>
           <ul className="social">
             <li>
-              <img src={fb} alt="img" />
+              <div className="img-social">
+                <img src={fb} alt="img" />
+              </div>
               <span>facebook</span>
             </li>
             <li>
-              <img src={inst} alt="img" />
+              <div className="img-social">
+                <img src={inst} alt="img" />
+              </div>
               <span>Instagram</span>
             </li>
             <li>
-              <img src={be} alt="img" />
+              <div className="img-social">
+                <img src={be} alt="img" />
+              </div>
               <span>Behance</span>
             </li>
             <li>
-              <img src={lin} alt="img" />
+              <div className="img-social">
+                <img src={lin} alt="img" />
+              </div>
               <span>Linkedin</span>
             </li>
           </ul>
