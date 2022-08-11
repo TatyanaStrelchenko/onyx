@@ -17,7 +17,7 @@ const customStyles = {
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
     background: 'var(--white-grey)',
-    padding: '40px'
+    padding: '0'
   }
 };
 
