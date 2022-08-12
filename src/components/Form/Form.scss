@@ -32,7 +32,7 @@
     line-height: 53px;
 
     @media (max-width: $xs) {
-      line-height: 20px;
+      line-height: 25px;
     }
   }
 
@@ -50,6 +50,7 @@
 
     @media (max-width: $xs) {
       height: 40px;
+      padding: 5px 20px 6px;
      }
 
     &:focus {
@@ -76,7 +77,7 @@
     overflow: auto;
     resize: none;
     height: 140px;
-    line-height: 53px;
+    line-height: 1.2;
     // color: var(--grey-white); 
     
     @media (max-width: $xs) {
