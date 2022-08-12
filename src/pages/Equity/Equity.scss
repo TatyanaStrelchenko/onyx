@@ -63,11 +63,11 @@
     padding-bottom: 150px;
   }
   @media (max-width: $md) {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   @media (max-width: $sm) {
-    padding-bottom: 40px;  
+    padding-bottom: 0px;  
   }
 
   &::after {   
@@ -219,6 +219,9 @@
 
 .top-section {
   padding-top: 120px;
+  @media (max-width: $md) {
+    padding-top: 40px;
+  }
 }
  
 

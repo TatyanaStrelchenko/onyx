@@ -5,7 +5,7 @@
   background-color: var(--black);
 
   @media (max-width: $md) {
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
   }
 }
 
@@ -89,11 +89,7 @@
   padding: 224px 0 232px;
   background: var(--dark-grey);
   @media (max-width: $md) {
-    padding: 100px 0 100px;
-  }
-
-  @media (max-width: $xs) {
-    padding: 50px 0 50px;
+    padding: 40px 0 40px;
   }
 
   .btn-default {
