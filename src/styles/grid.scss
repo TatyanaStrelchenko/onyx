@@ -15,12 +15,9 @@
   }
   @media (max-width: $sm) {
     grid-template-columns: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
-  @media (max-width: $xs) {
-    grid-template-columns: 100%;
-    padding-bottom: 0;
-  }
+  
 }
 .rates-block {
   .btn-default {
