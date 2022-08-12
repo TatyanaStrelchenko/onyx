@@ -4,6 +4,8 @@ import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Info } from '../../components/Info';
 import { Contacts } from '../../components/Contacts';
+import 'animate.css';
+import './Home.scss';
 
 import { RecentlyFunded } from '../../components/RecentlyFunded';
 
@@ -15,14 +17,14 @@ const Home = () => {
       <Header />
       <Hero styles={HeroBg}>
         <div className="text-holder">
-          <h1>
+          <h1 className="animate__animated animate__fadeInDown">
             Relationships.
             <br />
             Solutions.
             <br />
             Results
           </h1>
-          <p>
+          <p className="animate__animated animate__fadeInDown">
             Comprehensive financing solutions for commercial,
             <br /> multifamily and residential investment real estate.
           </p>

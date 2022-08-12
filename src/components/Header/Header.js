@@ -110,7 +110,7 @@ const Header = () => {
               <div className="title-holder">
                 <h2>Contact Us</h2>
                 <button type="button" className="close-modal" onClick={closeModal}>
-                  {' '}
+                  х
                 </button>
               </div>
               <Form />
