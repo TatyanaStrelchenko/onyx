@@ -21,6 +21,9 @@
   @media (max-width: $xxl) {
     padding: 60px 0;
   }
+  @media (max-width: $md) {
+    padding: 40px 0;
+  }
 
   .text-holder {
     margin: 0 auto;

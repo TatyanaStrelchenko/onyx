@@ -115,11 +115,10 @@
     margin-bottom: 92px;
 
     @media (max-width: $md) {
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
 
     @media (max-width: $xs) {
-      margin-bottom: 40px;
       display: block;
     }
 
@@ -130,6 +129,7 @@
 
       @media (max-width: $md) {
         padding-left: 40px;
+        padding-right: 20px;
       }
 
       @media (max-width: $sm) {
