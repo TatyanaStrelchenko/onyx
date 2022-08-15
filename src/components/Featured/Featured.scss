@@ -34,7 +34,7 @@
       padding-top: 0;
     }
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
       height: 300px;     
       display: none;  
     }
@@ -161,7 +161,7 @@
   background-color: var(--dark-grey);
   
   
-  @media (max-width: $xs) {
+  @media (max-width: $sm) {
     display: flex;   
   }
 
