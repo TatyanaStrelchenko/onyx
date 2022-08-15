@@ -18,11 +18,11 @@ const Home = () => {
         <div className="text-holder">
           <Fade top duration={2000}>
             <h1>
-              Relationships.
+              We
               <br />
-              Solutions.
+              Make Deals
               <br />
-              Results
+              Come True.
             </h1>
             <p>
               Comprehensive financing solutions for commercial,
