@@ -204,4 +204,9 @@
 .section {
   text-align: center;
   text-transform: uppercase;
+
+  
+  @media (max-width: $md) {
+    padding: 40px 0;
+  }
 }
