@@ -1,8 +1,6 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-// import { Link as LinkScroll } from 'react-scroll';
 import Modal from 'react-modal';
-import { CSSTransition } from 'react-transition-group';
 import { Form } from '../Form';
 
 import './Header.scss';
@@ -30,10 +28,12 @@ const Header = () => {
 
   function openModal() {
     setIsOpen(true);
+    console.log('open', modalIsOpen);
   }
 
   function closeModal() {
     setIsOpen(false);
+    console.log('close', modalIsOpen);
   }
 
   const ref = useRef();
@@ -53,9 +53,9 @@ const Header = () => {
     <header className="header">
       <div className="header-holder">
         <div className="logo">
-          <Link to="/">
+          <NavLink to="/">
             <img src={Logo} alt="img" />
-          </Link>
+          </NavLink>
         </div>
         <div className="header-info">
           <button
@@ -69,53 +69,50 @@ const Header = () => {
           </button>
           <ul ref={ref} className={`nav-menu ${isBurgerMenuOpen ? 'open' : 'close'}`}>
             <li>
-              <NavLink exact activeClassName="active" to="/about" onClick={() => closeMenu()}>
+              <NavLink className="nav-item nav-link" to="/about" onClick={() => closeMenu()}>
                 ABOUT US
               </NavLink>
             </li>
             <li>
-              <NavLink to="/loan-programs">LOAN PROGRAMS</NavLink>
+              <NavLink className="nav-item nav-link" to="/loan-programs">
+                LOAN PROGRAMS
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/services">SERVICES</NavLink>
+              <NavLink className="nav-item nav-link" to="/services">
+                SERVICES
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/partners">PARTNERS</NavLink>
+              <NavLink className="nav-item nav-link" to="/partners">
+                PARTNERS
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/contact">CONTACT US</NavLink>
+              <NavLink className="nav-item nav-link" to="/contact">
+                CONTACT US
+              </NavLink>
             </li>
           </ul>
-          {/* <LinkScroll className="btn" activeClass="active" to="form" offset={50} duration={500}>
-            GET STARTED
-          </LinkScroll> */}
           <button type="button" className="btn" onClick={openModal}>
             GET STARTED
           </button>
-          <CSSTransition
-            in={modalIsOpen}
-            closeTimeoutMS={500}
-            timeout={{ enter: 0, exit: 500 }}
-            classNames="alert"
-            unmountOnExit
+          <Modal
+            isOpen={modalIsOpen}
+            appElement={document.getElementById('app')}
+            style={customStyles}
+            contentLabel="Example Modal"
+            overlayClassName="Overlay"
+            ariaHideApp={false}
           >
-            <Modal
-              isOpen={modalIsOpen}
-              appElement={document.getElementById('app')}
-              // onRequestClose={closeModal}
-              style={customStyles}
-              contentLabel="Example Modal"
-              overlayClassName="Overlay"
-            >
-              <div className="title-holder">
-                <h2>Contact Us</h2>
-                <button type="button" className="close-modal" onClick={closeModal}>
-                  {' '}
-                </button>
-              </div>
-              <Form />
-            </Modal>
-          </CSSTransition>
+            <div className="title-holder">
+              <h2>Contact Us</h2>
+              <button type="button" className="close-modal" onClick={closeModal}>
+                х
+              </button>
+            </div>
+            <Form />
+          </Modal>
         </div>
       </div>
     </header>
