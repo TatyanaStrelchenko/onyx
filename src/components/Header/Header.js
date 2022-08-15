@@ -99,8 +99,8 @@ const Header = () => {
           </button>
           <Modal
             isOpen={modalIsOpen}
-            closeTimeoutMS={500}
-            timeout={{ enter: 0, exit: 500 }}
+            // closeTimeoutMS={500}
+            // timeout={{ enter: 0, exit: 500 }}
             appElement={document.getElementById('app')}
             style={customStyles}
             contentLabel="Example Modal"
