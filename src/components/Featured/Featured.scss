@@ -201,12 +201,15 @@
      
 }
 
+.featured-page {
 .section {
-  text-align: center;
-  text-transform: uppercase;
-
-  
-  @media (max-width: $md) {
-    padding: 40px 0;
+  padding: 100px 0 0;
+    h2 {
+      text-align: center;
+      text-transform: uppercase;     
+    }
+    @media (max-width: $md) {
+      padding: 40px 0;    
+    }  
   }
 }

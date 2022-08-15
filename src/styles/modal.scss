@@ -50,15 +50,12 @@
     }  
     
     .form-control {
-      height: 54px;
+      height: 45px;
+      padding: 5px 15px 6px;
 
       @media (max-width: $md) {
-        height: 45px;        
-      }   
-
-      @media (max-width: $sm) {
         height: 40px;        
-      }   
+      }     
     }
 
     .text-control {
@@ -66,54 +63,54 @@
     }
     
    textarea.form-control {      
-        height: 80px;         
+        height: 80px; 
+        padding-top: 10px;      
     }
     .btn-primary {
       margin-top: 10px;
     }
   }  
   .title-holder {
+    position: relative;
     display: flex;  
     align-items: center;
     width: 100%; 
     padding-top: 30px;   
     margin-bottom: 20px;
 
-    @media (max-width: $md) {
-      position: static;
+    @media (max-width: $md) {     
       width: 100%;
       padding-top: 20px;
     }     
 
 
     .close-modal {  
+      display: flex;
+      position: absolute;    
+      top: 50%;
+      right: 15px; 
+      width: 23px;
+      height: 30px; 
       border: none;
       background: none;
-      text-indent: -500em;      
+      text-indent: -500em;
+      transform: translate(-50%);
+            
       &::after {
-        content: '';
-        position: absolute;    
-        top: 36px;
-        right: 26px;      
+        content: '';          
         display: flex;
         mask-image: url(../assets/icons/close.svg);
         mask-position: center;
-        mask-repeat: no-repeat;      
-        width: 30px;
-        height: 30px;
+        mask-repeat: no-repeat;        
         background: var(--form-text);   
-        cursor: pointer;         
-
-        @media (max-width: $md) {
-          top: 20px; 
-          right: 18px;     
-          width: 25px;
-          height: 25px;  
-        }   
-        @media (max-width: $sm) {
-          top: 20px;        
-        }   
+        cursor: pointer; 
+        width: 23px;
+        height: 30px;         
       }
+      @media (max-width: $md) {        
+       top: 37%;
+       width: 20px;
+      }     
     }
   }
 }  
