@@ -234,7 +234,9 @@ const Featured = () => {
         </div>
       </section>
       <section className="section">
-        <h2>Any Property Type. Any Strategy.</h2>
+        <div className="container">
+          <h2>Any Property Type. Any Strategy.</h2>
+        </div>
       </section>
     </div>
   );
