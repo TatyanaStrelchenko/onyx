@@ -17,11 +17,11 @@ const About = () => {
       <Hero styles={Image5}>
         <div className="text-holder">
           <h1>
-            Relationships.
+            Creative
             <br />
             Solutions.
             <br />
-            Results
+            Reliable Results.
           </h1>
         </div>
       </Hero>

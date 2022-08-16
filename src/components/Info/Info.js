@@ -1,6 +1,6 @@
 import './Info.scss';
-// import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
+// import Bounce from 'react-reveal/Bounce';
 
 const Info = () => {
   return (
@@ -8,7 +8,7 @@ const Info = () => {
       <section className="info-section">
         <div className="container">
           <div className="rates-holder">
-            <Bounce left duration={2000}>
+            <Fade duration={5000}>
               <div className="rates-block">
                 <h2>PROUDLY CELEBRATING 30 YEARS</h2>
                 <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
@@ -26,8 +26,8 @@ const Info = () => {
                   Get Started
                 </button>
               </div>
-            </Bounce>
-            <Bounce right duration={2000}>
+            </Fade>
+            <Fade duration={5000}>
               <div className="rates-block">
                 <div className="table-holder">
                   <h3>LIVE INTEREST RATES</h3>
@@ -84,7 +84,7 @@ const Info = () => {
                   </div>
                 </div>
               </div>
-            </Bounce>
+            </Fade>
           </div>
         </div>
       </section>
@@ -94,21 +94,21 @@ const Info = () => {
           <div className="number-holder">
             <div className="numbers">
               <span className="number">$20BN</span>
-              <Bounce left duration={2000}>
+              <Fade duration={5000}>
                 <p className="text">Loans Closed</p>
-              </Bounce>
+              </Fade>
             </div>
             <div className="numbers">
               <span className="number">$8.5BN</span>
-              <Bounce bottom duration={2000}>
+              <Fade duration={5000}>
                 <p className="text">Units Funded</p>
-              </Bounce>
+              </Fade>
             </div>
             <div className="numbers">
               <span className="number">565</span>
-              <Bounce right duration={2000}>
+              <Fade duration={5000}>
                 <p className="text">States</p>
-              </Bounce>
+              </Fade>
             </div>
           </div>
           <div className="info-holder">
