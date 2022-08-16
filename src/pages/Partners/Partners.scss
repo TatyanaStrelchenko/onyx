@@ -58,15 +58,15 @@
     &::after {
       content: "";
       background-image: url(../../assets/image/img-group.png);
-      top: -62%;
-      left: 38%;
+      top: -60%;
+      left: 41%;
       transform: rotate(180deg);
     }
 
     &::before {
       content: "";
       background-image: url(../../assets/image/img-group.png);
-      bottom: -23%;
+      bottom: -15%;
       transform: rotate(0deg);
       left: -130px;
     }

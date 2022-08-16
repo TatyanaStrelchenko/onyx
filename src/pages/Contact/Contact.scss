@@ -75,12 +75,8 @@
   background: var(--light-gey);
   padding: 40px 32px;
   margin-right: 44px;
-  @media (max-width: $xl) {
-    max-width: 500px;
-  }
-  @media (max-width: $md) {
-    max-width: 627px;
-  }
+  
+  
   @media (max-width: $xs) {
     margin-right: 0px;
   }
@@ -116,6 +112,9 @@
     }
     @media (max-width: $xs) {
       display: block;
+    }
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
