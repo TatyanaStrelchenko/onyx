@@ -34,7 +34,7 @@
       padding-top: 0;
     }
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
       height: 300px;     
       display: none;  
     }
@@ -161,7 +161,7 @@
   background-color: var(--dark-grey);
   
   
-  @media (max-width: $xs) {
+  @media (max-width: $sm) {
     display: flex;   
   }
 
@@ -199,4 +199,17 @@
 
 // }
      
+}
+
+.featured-page {
+.section {
+  padding: 100px 0 0;
+    h2 {
+      text-align: center;
+      text-transform: uppercase;     
+    }
+    @media (max-width: $md) {
+      padding: 40px 0;    
+    }  
+  }
 }
