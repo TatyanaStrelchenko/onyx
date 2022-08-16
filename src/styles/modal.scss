@@ -13,12 +13,11 @@
   z-index: 1050; 
 }
 
-.ReactModal__Content {
- 
-  // @media (max-width: $xs) {
-  //   overflow-y: auto;
-  //   height: 100%;
-  //  } 
+.ReactModal__Content { 
+  @media (max-width: $xs) {
+    overflow: scroll;
+    max-height: 100vh;
+  } 
 }
 
 
@@ -63,8 +62,8 @@
     }
     
    textarea.form-control {      
-        height: 80px; 
-        padding-top: 10px;      
+      height: 80px;  
+      padding-top: 10px;          
     }
     .btn-primary {
       margin-top: 10px;
