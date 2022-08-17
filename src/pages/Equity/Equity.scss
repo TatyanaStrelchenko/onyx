@@ -146,9 +146,8 @@
 
   
 
-    .numbers {    
-      width: 25%;      
-      padding-right: 30px;
+    .numbers {          
+      margin-right: 32px;
 
       &:last-child {
         padding-right: 0;
@@ -189,11 +188,14 @@
       margin-bottom: 4px;
     }
   }
+  .text-bottom {
+    line-height: 24px;
+  }
 
   .numbers-text {
     position: relative;
     top: -69px;
-    left: 21px; 
+    left: 35px; 
     
   
     @media (max-width: $md) {     
