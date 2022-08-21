@@ -1,20 +1,22 @@
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import { Featured } from '../../components/Featured';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
-import { Hero } from '../../components/Hero';
+// import { Hero } from '../../components/Hero';
 import { Info } from '../../components/Info';
 import { Contacts } from '../../components/Contacts';
 import './Home.scss';
 import { RecentlyFunded } from '../../components/RecentlyFunded';
+import { Video } from '../../components/Video';
 
-import HeroBg from '../../assets/image/los-angeles.jpg';
+// import HeroBg from '../../assets/image/los-angeles.jpg';
 
 const Home = () => {
   return (
     <div className="home-page">
       <Header />
-      <Hero styles={HeroBg}>
+      <Video />
+      {/* <Hero styles={HeroBg}>
         <div className="text-holder">
           <Fade top duration={2000}>
             <h1>
@@ -30,7 +32,7 @@ const Home = () => {
             </p>
           </Fade>
         </div>
-      </Hero>
+      </Hero> */}
       <Info />
       <Featured />
       <RecentlyFunded />
