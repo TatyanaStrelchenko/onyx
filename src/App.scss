@@ -1,44 +1,6 @@
-@import './styles/index.scss';
-.App {
-  overflow: hidden;
-}
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 30px;
-  align-items: center;
-  width: 100%;
-}
-.section {
-  padding: 193px 0 165px;
-  position: relative;
-
-  @media (max-width: $md) {
-    padding: 40px 0 0;
-  }
-  @media (max-width: $sm) {
-    padding: 40px 0;
-  }
-  .right-left-block {
-    // img {
-    //   @media (max-width: $xl) {
-    //     height: 600px;
-    //   }
-    // }
-    .objects-text {
-      padding-top: 0;
-
-      @media (max-width: $xl) {
-        height: 420px;
-      }
-      @media (max-width: $sm) {
-        height: auto;
-      }
-    }
-  }
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+@import './styles/index.scss';
 
 :root {
   --default-font: 'Montserrat', serif;
@@ -71,19 +33,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   background: var(--black);
-}
-
-body::-webkit-scrollbar {
-  width: 10px;
-}
- 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px var(--green);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
 }
 
 h1 {
@@ -130,3 +79,39 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+.App {
+  overflow: hidden;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  align-items: center;
+  width: 100%;
+}
+.section {
+  padding: 193px 0 165px;
+  position: relative;
+
+  @media (max-width: $md) {
+    padding: 40px 0 0;
+  }
+  @media (max-width: $sm) {
+    padding: 40px 0;
+  }
+  .right-left-block {     
+    .objects-text {
+      padding-top: 0;
+
+      @media (max-width: $xl) {
+        height: 420px;
+      }
+      @media (max-width: $sm) {
+        height: auto;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,27 @@
+.video-page {
+  min-height: 600px; 
+  display: flex;
+  align-content: center;
+  align-items: center;  
+  background-image: url(../../assets/image/los-angeles.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+  .video-holder {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+     z-index: 10;
+    .text-holder {
+      position: absolute;
+      top: 100px;
+      left: 80px;
+      max-width: 1300px;
+      padding: 0 30px;     
+      z-index: 10;
+    }
+  }
+}
