@@ -15,23 +15,20 @@ const customStyles = {
   }
 };
 
-const ModalComponent = (customClass = '') => {
+const ModalComponent = (props) => {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {
     setIsOpen(true);
-    console.log('open', modalIsOpen);
   }
 
   function closeModal() {
     setIsOpen(false);
-    console.log('close', modalIsOpen);
   }
-  console.log(customClass);
   return (
     <>
       {' '}
-      <button type="button" className={`btn ${customClass}`} onClick={openModal}>
+      <button type="button" className={`btn ${props.customClass}`} onClick={openModal}>
         GET STARTED
       </button>
       <Modal

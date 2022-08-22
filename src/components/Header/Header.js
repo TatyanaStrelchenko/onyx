@@ -24,7 +24,6 @@ const Header = () => {
     setBurgerMenuOpen(!isBurgerMenuOpen);
   };
 
-  // const Button    = Scroll.Button;
   return (
     <header className="header">
       <div className="header-holder">
@@ -70,7 +69,7 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <ModalComponent customClass="btn-primary" />
+          <ModalComponent customClass="primary" />
         </div>
       </div>
     </header>
