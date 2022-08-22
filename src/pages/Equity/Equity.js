@@ -7,6 +7,7 @@ import './Equity.scss';
 import Image1 from '../../assets/image/equity.jpg';
 import Image2 from '../../assets/image/services-offers.jpg';
 import Image3 from '../../assets/image/promo-equity.jpg';
+import { ModalComponent } from '../../components/Modal';
 
 const Equity = () => {
   return (
@@ -133,9 +134,7 @@ const Equity = () => {
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
           </p>
-          <button type="button" className="btn info-btn">
-            Get Started
-          </button>
+          <ModalComponent customClass="info-btn" />
         </div>
       </Promo>
       <Footer />

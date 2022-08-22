@@ -6,6 +6,7 @@ import './Services.scss';
 import Image1 from '../../assets/image/services.jpg';
 import Image2 from '../../assets/icons/vector.svg';
 import Image3 from '../../assets/icons/chart.svg';
+import { ModalComponent } from '../../components/Modal';
 
 const Services = () => {
   return (
@@ -81,9 +82,7 @@ const Services = () => {
               to any and all real estate investment financing requests. Contact us with your
               scenario to learn how we can help.
             </p>
-            <button type="button" className="btn info-btn">
-              Get Started
-            </button>
+            <ModalComponent customClass="info-btn" />
           </div>
         </div>
       </section>

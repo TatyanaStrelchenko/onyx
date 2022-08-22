@@ -2,6 +2,8 @@ import './Info.scss';
 import Fade from 'react-reveal/Fade';
 // import Bounce from 'react-reveal/Bounce';
 
+import { ModalComponent } from '../Modal';
+
 const Info = () => {
   return (
     <div className="info-page">
@@ -22,9 +24,7 @@ const Info = () => {
                   goals by successfully negotiating and securing favorable debt and equity
                   financing.
                 </p>
-                <button type="button" className="btn btn-default">
-                  Get Started
-                </button>
+                <ModalComponent customClass="btn-default" />
               </div>
             </Fade>
             <Fade duration={5000}>
@@ -135,9 +135,7 @@ const Info = () => {
               </p>
             </div>
           </div>
-          <button type="button" className="btn btn-default">
-            Get Started
-          </button>
+          <ModalComponent customClass="btn-default" />
         </div>
       </section>
     </div>

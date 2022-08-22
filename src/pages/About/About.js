@@ -9,6 +9,7 @@ import Image3 from '../../assets/image/img-home2.jpg';
 import Image4 from '../../assets/image/img-home3.jpg';
 import Image5 from '../../assets/image/los-angeles2.jpg';
 import Image6 from '../../assets/image/skyscraper.jpg';
+import { ModalComponent } from '../../components/Modal';
 
 const About = () => {
   return (
@@ -143,9 +144,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <button type="button" className="btn btn-default">
-            GET STARTED
-          </button>
+          <ModalComponent customClass="btn-default" />
         </div>
       </section>
       <Promo styles={Image6}>
@@ -156,9 +155,7 @@ const About = () => {
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
           </p>
-          <button type="button" className="btn info-btn">
-            Get Started
-          </button>
+          <ModalComponent customClass="info-btn" />
         </div>
       </Promo>
       <Footer />
