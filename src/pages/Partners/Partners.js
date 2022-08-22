@@ -12,6 +12,7 @@ import Image5 from '../../assets/image/timer.svg';
 import Image6 from '../../assets/image/dolar.svg';
 import Image7 from '../../assets/image/clock2.svg';
 import Image8 from '../../assets/image/shield-check.svg';
+import { ModalComponent } from '../../components/Modal';
 
 const Partners = () => {
   return (
@@ -176,9 +177,7 @@ const Partners = () => {
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
           </p>
-          <button type="button" className="btn info-btn">
-            Get Started
-          </button>
+          <ModalComponent customClass="info-btn" />
         </div>
       </Promo>
       <Footer />

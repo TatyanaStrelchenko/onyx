@@ -7,6 +7,7 @@ import './Debt.scss';
 import Image1 from '../../assets/image/debt.jpg';
 import Image2 from '../../assets/image/debt-photo.jpg';
 import Image3 from '../../assets/image/promo-debt.jpg';
+import { ModalComponent } from '../../components/Modal';
 
 const Debt = () => {
   return (
@@ -136,9 +137,7 @@ const Debt = () => {
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
           </p>
-          <button type="button" className="btn info-btn">
-            Get Started
-          </button>
+          <ModalComponent customClass="info-btn" />
         </div>
       </Promo>
       <Footer />

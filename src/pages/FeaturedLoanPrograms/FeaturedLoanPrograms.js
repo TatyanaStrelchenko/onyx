@@ -17,6 +17,7 @@ import Image7 from '../../assets/icons/bridge.svg';
 import Image8 from '../../assets/image/loan-programs.jpg';
 import Image9 from '../../assets/image/home.jpg';
 import Image10 from '../../assets/image/img-home3.jpg';
+import { ModalComponent } from '../../components/Modal';
 
 const FeaturedLoanPrograms = () => {
   return (
@@ -154,9 +155,9 @@ const FeaturedLoanPrograms = () => {
                 By choosing to be represented by a strong and experienced industry leader, you are
                 ensuring that you and your projects will demonstrate optimal success.
               </p>
-              <button type="button" className="btn btn-default">
+              <Link className="btn btn-default" to="/about">
                 about us
-              </button>
+              </Link>
             </div>
           </div>
           <div className="col-right">
@@ -174,9 +175,7 @@ const FeaturedLoanPrograms = () => {
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
           </p>
-          <button type="button" className="btn info-btn">
-            Get Started
-          </button>
+          <ModalComponent customClass="info-btn" />
         </div>
       </Promo>
       <Footer />
