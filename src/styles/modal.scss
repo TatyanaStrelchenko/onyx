@@ -112,6 +112,12 @@
       }     
     }
   }
+  .pipedriveWebForms {
+    height: 650px;
+    @media (max-width: $md) {        
+      height: 500px;
+     }     
+  }
 }  
 
 .ReactModal__Overlay {
@@ -130,3 +136,4 @@
   transform: scale(0.9);
   transition: opacity 500ms, transform 300ms;
 }
+
