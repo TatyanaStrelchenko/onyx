@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Footer } from '../../components/Footer';
+import { Form } from '../../components/Form';
 import { Header } from '../../components/Header';
 import { Map } from '../../components/Map';
 
@@ -64,7 +65,8 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="contact-form-block">
+            <Form />
+            {/* <div className="contact-form-block">
               <div className="text-holder">
                 <h2>Submit Online Inquiry</h2>
               </div>
@@ -101,7 +103,7 @@ const Contact = () => {
                 </label>
                 <input type="submit" className="btn btn-primary" value="SEND MESSAGE" />
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
