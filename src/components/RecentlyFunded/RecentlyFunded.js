@@ -15,6 +15,9 @@ const RecentlyFunded = () => {
   const nextRef = useRef(null);
   return (
     <section className="recently-funded">
+      <div className="container">
+        <h2 className="recently-title">Any Property Type. Any Strategy.</h2>
+      </div>
       <h2 className="title-tabs">Recently Funded</h2>
       <Tabs>
         <div className="tabs-title">
