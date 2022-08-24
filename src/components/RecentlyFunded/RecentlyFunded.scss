@@ -3,7 +3,7 @@
 .recently-funded {
   position: relative;
   background-color: var(--black);
-  padding: 196px 0 204px;
+  padding: 100px 0 204px;
 
   @media (max-width: $md) {
     padding: 40px 30px;
@@ -23,36 +23,23 @@
     padding: 0;
   }
 
-  .react-tabs__tab--selected {
+  .react-tabs__tab--selected {   
     background: none;
     border: none;
-    color: var(--green);
-    padding: 0;
-
-    &:active {
-      color: var(--green);
-    }
+    border-bottom: 1px solid;
+    color: var(--green);    
   }
 
   .react-tabs__tab {
     margin-right: 32px;
-    padding: 0;
+    padding: 0 0 15px;
 
     @media (max-width: $xl) {
       margin-right: 20px;
-    }     
+    }
 
-    &:focus:after {
-      left: 0;
-      right: 0;
-      bottom: -15px;
-      height: 1px;
-      max-width: 100%;
-      background: var(--green);
-
-      @media (max-width: $md) {
-        top: 30px;
-      }     
+    &:focus:after {    
+      display: none;    
     }
 
     &:hover {
@@ -203,7 +190,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1300px;    
-    padding: 0 30px 45px;   
+    padding: 0 30px 37px;   
     
     @media (max-width: $md) {
       display: none;
@@ -213,6 +200,7 @@
   .slider-nav {
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
     height: 36px;
   }
 }
