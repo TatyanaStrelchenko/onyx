@@ -29,11 +29,11 @@
     padding: 0;
   }
 
-  .react-tabs__tab--selected {   
+  .react-tabs__tab--selected {
     background: none;
     border: none;
     border-bottom: 1px solid;
-    color: var(--green);    
+    color: var(--green);
   }
 
   .react-tabs__tab {
@@ -44,8 +44,8 @@
       margin-right: 20px;
     }
 
-    &:focus:after {    
-      display: none;    
+    &:focus:after {
+      display: none;
     }
 
     &:hover {
@@ -62,7 +62,7 @@
     @media (max-width: $md) {
       margin-bottom: 20px;
       padding: 0;
-    }    
+    }
   }
 
   .swiper {
@@ -77,10 +77,10 @@
     }
 
     @media (max-width: $sm) {
-      height: 414px;      
+      height: 414px;
     }
 
-    
+
 
     &-slide {
       display: flex;
@@ -185,6 +185,7 @@
       font-size: 8px;
       color: var(--white);
     }
+
     &:last-child {
       margin-right: 0;
     }
@@ -195,12 +196,12 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1300px;    
-    padding: 0 30px 37px;   
-    
+    max-width: 1300px;
+    padding: 0 30px 37px;
+
     @media (max-width: $md) {
       display: none;
-    }     
+    }
   }
 
   .slider-nav {
@@ -233,6 +234,7 @@
     @media (max-width: $md) {
       height: 384px;
     }
+
     @media (max-width: $sm) {
       height: 350px;
     }
@@ -251,10 +253,10 @@
     color: var(--grey-text);
     max-width: 280px;
 
-    
+
     @media (max-width: $sm) {
       font-size: 28px;
-     }
+    }
   }
 }
 
