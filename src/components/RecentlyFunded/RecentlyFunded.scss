@@ -24,14 +24,15 @@
   }
 
   .react-tabs__tab--selected {
+    &:active {
+      color: var(--green);
+    }
     background: none;
     border: none;
     color: var(--green);
     padding: 0;
 
-    &:active {
-      color: var(--green);
-    }
+   
   }
 
   .react-tabs__tab {

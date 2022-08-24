@@ -7,11 +7,11 @@ import './Partners.scss';
 import Image1 from '../../assets/image/partners.jpg';
 import Image2 from '../../assets/image/program-partners.jpg';
 import Image3 from '../../assets/image/img-partners.jpg';
-import Image4 from '../../assets/image/clock1.svg';
-import Image5 from '../../assets/image/timer.svg';
-import Image6 from '../../assets/image/dolar.svg';
-import Image7 from '../../assets/image/clock2.svg';
-import Image8 from '../../assets/image/shield-check.svg';
+import Image4 from '../../assets/icons/clock1.svg';
+import Image5 from '../../assets/icons/timer.svg';
+import Image6 from '../../assets/icons/dolar.svg';
+import Image7 from '../../assets/icons/clock2.svg';
+import Image8 from '../../assets/icons/shield-check.svg';
 import { ModalComponent } from '../../components/Modal';
 
 const Partners = () => {

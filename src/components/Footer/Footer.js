@@ -2,10 +2,10 @@ import CookieConsent from 'react-cookie-consent';
 import { Link } from 'react-router-dom';
 
 import Logo from '../../assets/image/logo.svg';
-import inst from '../../assets/image/insta.svg';
-import be from '../../assets/image/be.svg';
-import lin from '../../assets/image/in.svg';
-import fb from '../../assets/image/fb.svg';
+import inst from '../../assets/icons/insta.svg';
+import be from '../../assets/icons/be.svg';
+import lin from '../../assets/icons/in.svg';
+import fb from '../../assets/icons/fb.svg';
 
 import './Footer.scss';
 
