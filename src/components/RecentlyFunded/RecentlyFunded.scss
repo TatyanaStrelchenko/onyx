@@ -9,6 +9,12 @@
     padding: 40px 30px;
   }
 
+  .recently-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
   .react-tabs__tab-list {
     z-index: 100;
   }
@@ -24,36 +30,22 @@
   }
 
   .react-tabs__tab--selected {
-    &:active {
-      color: var(--green);
-    }
     background: none;
     border: none;
+    border-bottom: 1px solid;
     color: var(--green);
-    padding: 0;
-
-   
   }
 
   .react-tabs__tab {
     margin-right: 32px;
-    padding: 0;
+    padding: 0 0 15px;
 
     @media (max-width: $xl) {
       margin-right: 20px;
-    }     
+    }
 
     &:focus:after {
-      left: 0;
-      right: 0;
-      bottom: -15px;
-      height: 1px;
-      max-width: 100%;
-      background: var(--green);
-
-      @media (max-width: $md) {
-        top: 30px;
-      }     
+      display: none;
     }
 
     &:hover {
@@ -70,7 +62,7 @@
     @media (max-width: $md) {
       margin-bottom: 20px;
       padding: 0;
-    }    
+    }
   }
 
   .swiper {
@@ -85,10 +77,10 @@
     }
 
     @media (max-width: $sm) {
-      height: 414px;      
+      height: 414px;
     }
 
-    
+
 
     &-slide {
       display: flex;
@@ -193,6 +185,7 @@
       font-size: 8px;
       color: var(--white);
     }
+
     &:last-child {
       margin-right: 0;
     }
@@ -203,17 +196,18 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1300px;    
-    padding: 0 30px 45px;   
-    
+    max-width: 1300px;
+    padding: 0 30px 37px;
+
     @media (max-width: $md) {
       display: none;
-    }     
+    }
   }
 
   .slider-nav {
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
     height: 36px;
   }
 }
@@ -240,6 +234,7 @@
     @media (max-width: $md) {
       height: 384px;
     }
+
     @media (max-width: $sm) {
       height: 350px;
     }
@@ -258,10 +253,10 @@
     color: var(--grey-text);
     max-width: 280px;
 
-    
+
     @media (max-width: $sm) {
       font-size: 28px;
-     }
+    }
   }
 }
 
