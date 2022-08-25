@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 51% 37%;
   grid-column-gap: 12%;
-  padding-bottom: 165px;
+  padding-bottom: 0px;
 
   @media (max-width: $xxl) {
     grid-template-columns: 50% 43%;
