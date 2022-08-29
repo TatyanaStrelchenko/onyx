@@ -118,7 +118,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="about-section">
+      <section className="about-section section">
         <div className="container">
           <div className="info-holder">
             <div className="info-block">

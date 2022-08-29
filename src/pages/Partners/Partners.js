@@ -31,7 +31,7 @@ const Partners = () => {
           </ul>
         </div>
       </Hero>
-      <section className="partners-section">
+      <section className="partners-section section">
         <div className="right-left-block">
           <div className="container">
             <div className="col-left">

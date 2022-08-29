@@ -6,7 +6,7 @@ const Promo = ({ children, styles }) => {
   };
 
   return (
-    <section className="promo-section" style={sectionStyle}>
+    <section className="promo-section section" style={sectionStyle}>
       <div className="container">{children}</div>
     </section>
   );
