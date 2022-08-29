@@ -94,7 +94,7 @@
     height: 449px;
 
     @media (max-width: $lg) {
-      top: 26%;
+      top: 31%;
     }
 
     @media (max-width: $xl) {
@@ -146,6 +146,8 @@
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
   margin-bottom: 80px;
+  background: var(--black);
+  z-index: 2;
 
   @media (max-width: $md) {
     margin-bottom: 40px;
