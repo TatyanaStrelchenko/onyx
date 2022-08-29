@@ -2,6 +2,17 @@
 
 .map-section {
   background-color: var(--black); 
+
+  .right-left-block {    
+    margin-bottom: 245px;
+
+    @media (max-width: $md) {
+      margin-bottom: 125px;
+    }  
+    @media (max-width: $sm) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .map-holder {
@@ -86,5 +97,5 @@
   .btn-default {
     display: block;
     margin: 0 auto;
-  }
+  }  
 }

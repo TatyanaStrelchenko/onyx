@@ -81,7 +81,7 @@ const Debt = () => {
           </div>
         </div>
       </section>
-      <section className="numbers-section section">
+      <section className="numbers-section">
         <div className="container">
           <h2>How Onyx Funding Works</h2>
           <div className="number-holder">

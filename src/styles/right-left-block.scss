@@ -1,7 +1,6 @@
 .right-left-block {
   position: relative;
-  display: flex;
-  margin-bottom: 245px;
+  display: flex;  
 
   &:nth-child(2) {
     .container {
@@ -22,14 +21,6 @@
       flex-direction: column-reverse;
       padding: 0 30px;
     }
-  }
-
-  @media (max-width: $md) {
-    margin-bottom: 125px;
-  }
-
-  @media (max-width: $sm) {
-    margin-bottom: 0;
   }
 
   .img-holder {
