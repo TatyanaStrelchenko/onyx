@@ -26,7 +26,7 @@ const About = () => {
           </h1>
         </div>
       </Hero>
-      <section className="map-section">
+      <section className="map-section section">
         <div className="map-holder">
           <div className="container">
             <div className="text-block">
@@ -118,7 +118,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="about-section">
+      <section className="about-section section">
         <div className="container">
           <div className="info-holder">
             <div className="info-block">

@@ -1,12 +1,7 @@
 @import '../../styles/variables.scss';
 
 .map-section {
-  padding: 135px 0 152px;
-  background-color: var(--black);
-
-  @media (max-width: $md) {
-    padding: 40px 0 0 0;
-  }
+  background-color: var(--black); 
 }
 
 .map-holder {
@@ -85,12 +80,8 @@
   }
 }
 
-.about-section {
-  padding: 224px 0;
+.about-section { 
   background: var(--dark-grey);
-  @media (max-width: $md) {
-    padding: 40px 0 40px;
-  }
 
   .btn-default {
     display: block;

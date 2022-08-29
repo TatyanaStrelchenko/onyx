@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 // import { Form } from '../Form';
 
 import './Header.scss';
-import Logo from '../../assets/image/logo.svg';
+import Logo from '../../assets/image/onyx-logo.png';
 import { ModalComponent } from '../Modal';
 
 const Header = () => {
