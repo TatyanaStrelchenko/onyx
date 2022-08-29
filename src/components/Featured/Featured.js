@@ -23,7 +23,7 @@ const Featured = () => {
         <div className="container">
           <div className="swiper-holder">
             <div className="swiper-title">
-              <h2>Featured Loan Programs</h2>
+              <h2>Loan Programs what we do</h2>
               <div className="nav-holder">
                 <div className="swiper-button-prev" ref={prevRef} />
                 <div className="swiper-button-next" ref={nextRef} />

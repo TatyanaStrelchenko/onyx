@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .info-section {
-  padding: 124px 0;
+  padding: 80px 0;
   background-color: var(--black);
   display: flex;
   position: relative;
@@ -76,7 +76,7 @@
 .number-section {
   background: var(--black);
   position: relative;
-  padding-bottom: 141px;
+  padding-bottom: 80px;
 
   @media (max-width: $md) {
     padding-bottom: 60px;
@@ -145,7 +145,7 @@
   border-top: 1px solid var(--green);
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
-  margin-bottom: 195px;
+  margin-bottom: 80px;
 
   @media (max-width: $md) {
     margin-bottom: 40px;
@@ -228,7 +228,7 @@
 .info-holder {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 104px;
+  margin-bottom: 80px;
 
   @media (max-width: $md) {
     margin-bottom: 55px;

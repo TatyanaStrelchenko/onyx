@@ -2,18 +2,17 @@
 
 .form {
   position: absolute;
-  top: 79px;
+  top: 25px;
   right: 158px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 580px;
   background: var(--white-grey);
-  padding: 40px 64px 60px;
   color: var(--form-text);
   margin: 0 auto;
   box-sizing: border-box;
-  z-index: 1000;
+  z-index: 999;
 
   @media (max-width: $md) {
    right: 0;
@@ -139,7 +138,7 @@ input::-webkit-input-placeholder {
 
 
 .pipedriveWebForms {
-  height: 800px;     
+  height: 650px;     
 }
 
 .jSEYzH {
