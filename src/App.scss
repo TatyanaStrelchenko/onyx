@@ -50,9 +50,11 @@ h2 {
     font-size: 30px;
     line-height: 1.2;
   }
+
   @media (max-width: $sm) {
     font-size: 22px;
   }
+
   @media (max-width: $xs) {
     font-size: 20px;
   }
@@ -79,9 +81,11 @@ p {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
 .App {
   overflow: hidden;
 }
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -89,29 +93,12 @@ code {
   align-items: center;
   width: 100%;
 }
+
 .section {
-  padding: 193px 0 165px;
+  padding: 80px 0;
   position: relative;
 
-  @media (max-width: $md) {
-    padding: 40px 0 0;
-  }
   @media (max-width: $sm) {
     padding: 40px 0;
   }
-  .right-left-block {     
-    .objects-text {
-      padding-top: 0;
-
-      @media (max-width: $xl) {
-        height: 420px;
-      }
-      @media (max-width: $sm) {
-        height: auto;
-      }
-    }
-  }
 }
-
-
-
