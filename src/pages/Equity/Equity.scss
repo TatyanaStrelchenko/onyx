@@ -5,8 +5,7 @@
     margin-bottom: 25px;
   }
 
-  .right-left-block {
-    margin-bottom: 0;
+  .right-left-block {    
     .col-left {
       width: 60%;
 
@@ -66,6 +65,7 @@
 
 .numbers-section {
   position: relative;  
+  padding: 165px 0 317px;
 
   &::after {
     content: "";
@@ -73,7 +73,7 @@
     background-image: url(../../assets/image/img-group2.png);
     background-repeat: no-repeat;
     left: 0;
-    top: -45%;
+    top: -15%;
     height: 557px;
     width: 1122px;
     transform: none;
