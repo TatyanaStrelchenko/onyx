@@ -87,15 +87,11 @@
     background-image: url(../../assets/image/img-group.png);
     background-repeat: no-repeat;
     position: absolute;
-    top: 26%;
+    top: 32%;
     left: 0;
     right: auto;
     width: 953px;
-    height: 449px;
-
-    @media (max-width: $lg) {
-      top: 31%;
-    }
+    height: 449px;   
 
     @media (max-width: $xl) {
       top: 26%;
