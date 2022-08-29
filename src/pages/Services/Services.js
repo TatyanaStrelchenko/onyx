@@ -26,7 +26,7 @@ const Services = () => {
         </div>
       </Hero>
 
-      <section className="loan-programs">
+      <section className="loan-programs section">
         <div className="container">
           <div className="text-holder">
             <h2>Find The Services We Offers</h2>

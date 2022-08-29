@@ -4,8 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  background-color: var(--black);
-  padding: 196px 30px 0;
+  background-color: var(--black);  
 
   &::after {
     content: '';
@@ -16,15 +15,7 @@
     left: 0;
     height: 400px;
     width: 100%;
-  }
-
-  @media (max-width: $xxl) {
-    padding: 60px 0;
-  }
-  @media (max-width: $md) {
-    padding: 40px 0;
-  }
-
+  } 
   .text-holder {
     margin: 0 auto;
     max-width: 808px;

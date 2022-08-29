@@ -6,6 +6,7 @@
   }
 
   .right-left-block {
+    margin-bottom: 0;
     .col-left {
       width: 60%;
 
@@ -23,15 +24,7 @@
     }
 
     .objects-text {
-      padding-top: 0;
-
-      @media (max-width: $xl) {
-        height: 420px;
-      }
-
-      @media (max-width: $sm) {
-        height: auto;
-      }
+      padding-top: 0;      
     }
   }
 
@@ -72,20 +65,7 @@
 }
 
 .numbers-section {
-  position: relative;
-  padding-bottom: 316px;
-
-  @media (max-width: $xl) {
-    padding-bottom: 150px;
-  }
-
-  @media (max-width: $md) {
-    padding-bottom: 40px;
-  }
-
-  @media (max-width: $sm) {
-    padding-bottom: 0px;
-  }
+  position: relative;  
 
   &::after {
     content: "";
@@ -243,7 +223,7 @@
 }
 
 .top-section {
-  padding-top: 120px;
+  padding-top: 80px;
 
   @media (max-width: $md) {
     padding-top: 40px;

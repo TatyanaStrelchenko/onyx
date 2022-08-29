@@ -2,13 +2,7 @@
 
 .recently-funded {
   position: relative;
-  background-color: var(--black);
-  padding: 80px 0 80px;
-
-  @media (max-width: $md) {
-    padding: 40px 30px;
-  }
-
+  background-color: var(--black);  
 
   .react-tabs__tab-list {
     z-index: 100;

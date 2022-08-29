@@ -26,7 +26,7 @@ const About = () => {
           </h1>
         </div>
       </Hero>
-      <section className="map-section">
+      <section className="map-section section">
         <div className="map-holder">
           <div className="container">
             <div className="text-block">

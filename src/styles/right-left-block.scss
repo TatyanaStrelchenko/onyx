@@ -159,14 +159,9 @@
   display: flex;
   align-items: center;
 
-  @media (max-width: $xl) {
-    height: 350px;
+  @media (max-width: $xl) {   
     padding-top: 0;
-  }
-
-  @media (max-width: $md) {
-    height: 400px;
-  }
+  } 
 
   @media (max-width: $sm) {
     width: 100%;
@@ -178,8 +173,7 @@
     padding: 50px 113px 0 30px;
 
     @media (max-width: $md) {
-      padding: 0 60px 0 30px;
-      height: 350px;
+      padding: 0 60px 0 30px;     
     }
 
     @media (max-width: $sm) {

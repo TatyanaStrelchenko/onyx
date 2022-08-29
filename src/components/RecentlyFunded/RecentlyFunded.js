@@ -14,7 +14,7 @@ const RecentlyFunded = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <section className="recently-funded">
+    <section className="recently-funded section">
       <h2 className="title-tabs">Recently Funded</h2>
       <Tabs>
         <div className="tabs-title">
