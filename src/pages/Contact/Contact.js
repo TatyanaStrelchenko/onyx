@@ -21,7 +21,7 @@ const Contact = () => {
           </h2>
         </div>
       </section>
-      <section className="section-form-contact">
+      <section className="section-form-contact section">
         <div className="container">
           <div className="contact-holder">
             <div className="contact-info-block">
