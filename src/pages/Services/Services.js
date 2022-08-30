@@ -72,7 +72,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className="promo-section">
+      <section className="promo-section section">
         <div className="container">
           <div className="text-holder">
             <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
