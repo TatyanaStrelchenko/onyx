@@ -58,17 +58,18 @@
     &::after {
       content: "";
       background-image: url(../../assets/image/img-group.png);
-      top: -30%;
-      left: 41%;
+      top: -58%;
+      right: 0;
+      left: auto;
       transform: rotate(180deg);
     }
 
     &::before {
       content: "";
       background-image: url(../../assets/image/img-group.png);
-      bottom: -12%;
+      bottom: -45%;
       transform: rotate(0deg);
-      left: -130px;
+      left: 0;
     }
     .number-holder {
       border: none;
