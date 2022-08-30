@@ -36,7 +36,7 @@ const Equity = () => {
           <ul className="tabs-page">
             <li className="tabs-link active">Equity</li>
             <li className="tabs-link">
-              <Link className="link" to="/debt">
+              <Link className="link" to="/services/debt">
                 Debt
               </Link>
             </li>

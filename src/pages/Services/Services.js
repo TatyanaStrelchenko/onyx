@@ -48,7 +48,7 @@ const Services = () => {
                   an equity position can be beneficial to reach an LTV ratio of &gt; 90%. Onyx
                   Funding negotiates aggressively on your behalf to achieve your property goals
                 </p>
-                <Link to="/equity">
+                <Link to="/services/equity">
                   <input type="submit" className="btn-more" value="learn more" />
                 </Link>
               </div>
@@ -64,7 +64,7 @@ const Services = () => {
                   mortgage, a bridge loan – there are many options and possibilities! Leveraging
                   debt wisely is crucial to ensure your projects profitability.
                 </p>
-                <Link to="/debt">
+                <Link to="/services/debt">
                   <input type="submit" className="btn-more" value="learn more" />
                 </Link>
               </div>
@@ -77,7 +77,6 @@ const Services = () => {
           <div className="text-holder">
             <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
             <p>
-              {' '}
               These are just our featured programs, as industry leaders in CRE financing, we cater
               to any and all real estate investment financing requests. Contact us with your
               scenario to learn how we can help.

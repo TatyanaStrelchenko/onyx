@@ -35,7 +35,7 @@ const Debt = () => {
         <div className="container">
           <ul className="tabs-page">
             <li className="tabs-link">
-              <Link className="link" to="/equity">
+              <Link className="link" to="/services/equity">
                 Equity
               </Link>
             </li>
@@ -132,7 +132,6 @@ const Debt = () => {
         <div className="text-holder">
           <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
           <p>
-            {' '}
             These are just our featured programs, as industry leaders in CRE financing, we cater to
             any and all real estate investment financing requests. Contact us with your scenario to
             learn how we can help.
