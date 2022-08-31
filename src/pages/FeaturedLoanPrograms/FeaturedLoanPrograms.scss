@@ -85,18 +85,28 @@
     font-weight: bold;
     border: 1px solid var(--green);
     margin-top: 48px;
+
+    @media (max-width: $sm) {
+      margin-top: 24px;
+    }
   }
   .right-left-block {
     margin-bottom: 150px;
     @media (max-width: $lg) {
       margin-bottom: 80px;
     }
+    @media (max-width: $sm) {
+      margin-bottom: 40px;
+    }
+    .col-left {
+
     .objects-text {
+      margin: 0;
       p {
         &:nth-child(2n + 1) {
           margin-bottom: 0;
         }
       }
     }
-  }
+  }}
 }
