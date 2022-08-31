@@ -6,7 +6,7 @@
   z-index: -1; 
 
   .video-holder {     
-    height: calc(500px + 88px);
+    height: 500px;
     width: 100%;
     position: relative;
     z-index: 10;
@@ -37,7 +37,7 @@
       margin: 0 auto;   
       z-index: 2;
       max-width: 1300px;
-      padding: 0 30px;        
+      padding: 88px 30px 0;        
     }   
   } 
 }
