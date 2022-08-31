@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div className="about-page">
       <Header />
-      <Hero styles={Image5} mobile={Image6}>
+      <Hero styles={Image5}>
         <div className="text-holder">
           <h1>
             Creative
