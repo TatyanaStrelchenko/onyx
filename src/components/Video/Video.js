@@ -11,7 +11,7 @@ const Video = () => {
             <h1>
               We
               <br />
-              Make Deals
+              Make <span>Deals</span>
               <br />
               Come True.
             </h1>

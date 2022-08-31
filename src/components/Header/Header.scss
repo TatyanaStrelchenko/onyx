@@ -2,7 +2,9 @@
 
 .header {
   background: var(--black);
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
 }
 
 .header-holder {
@@ -32,12 +34,7 @@
 
 .logo {
   img {
-    width: 146px;
-    height: 53px;
-
-    @media (max-width: $xs) {
-      width: 110px;
-    }
+   width: 100%;
   }
 }
 
