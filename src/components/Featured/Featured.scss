@@ -1,176 +1,37 @@
 @import '../../styles/variables.scss';
 
 .featured {
-  background-color: var(--dark-grey);
-  padding: 80px 0 0;
-  position: relative;
-
-  @media (max-width: $md) {
-    padding: 40px 0;
-  }
-  @media (max-width: $xs) {
-    padding: 40px 0;
-  }
-
+  background-color: var(--dark-grey);  
 
   h2 {
-    text-transform: uppercase;
+    text-transform: uppercase;  
+  }
 
-    @media (max-width: $md) {
-      text-align: center;
+  .block {  
+    margin-top: 40px;
+    margin-bottom: 0;  
+    width: 33.33%;    
+
+    // &:nth-child(-n+3) {
+    //   margin-top: 0;
+    // }    
+
+    @media (max-width: $md) {      
+      width: 50%;     
     }
-  }
-
-  .swiper-holder {
-    position: relative;
-  }
-
-  .swiper {
-    height: 473px;
-    color: var(--default-font-color);
-
-    @media (max-width: $md) {
-      height: 350px;
-      padding-top: 0;
+    @media (max-width: $xs) {      
+      width: 100%;
+      margin-top: 20px;
     }
+  } 
+  .block-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     
+   
+  }      
+}  
+ 
 
-    @media (max-width: $sm) {
-      height: 300px;     
-      display: none;  
-    }
 
-    &-slide {
-      background: #000;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 85px 28.5px 82px;
-      height: 360px;
-      width: 25%;
-
-      @media (max-width: $xs) {
-        width: 100px;
-        height: 100%;
-      }
-
-      &:hover {
-        p,
-        h3,
-        img {
-          display: none;
-        }
-
-        .info-text {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          font-size: 16px;
-          line-height: 24px;
-          padding-bottom: 40px;
-        }
-      }
-
-      .info-text {
-        display: none;
-      }
-
-      p {
-        height: 88px;
-
-        @media (max-width: $md) {
-          font-size: 16px;
-          white-space: wrap;
-        }
-      }
-
-      h3 {
-        font-weight: 700;
-        line-height: 24px;
-        text-transform: uppercase;
-        padding-bottom: 16px;
-        font-size: 20px;
-        text-align: center;
-        white-space: nowrap;
-
-        @media (max-width: $md) {
-          font-size: 18px;
-          white-space: wrap;
-        }
-      }
-    }
-  }
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    position: static;
-    top: 30px;
-    height: 36px;
-    width: 36px;
-    background-color: var(--green);
-    margin-top: 0;
-
-    @media (max-width: $md) {
-      display: none;
-    }
-
-    &::after {
-      font-size: 8px;
-      color: var(--white);
-    }
-  }
-
-  .swiper-button-prev {
-    margin-right: 8px;
-  }
-}
-
-.icon-holder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25px;
-  padding-bottom: 40px;
-
-  @media (max-width: $xs) {
-    padding-bottom: 30px;
-  }
-}
-
-.swiper-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 72px;
-
-  @media (max-width: $md) {
-    margin-bottom: 30px;
-  }
-  @media (max-width: $sm) {
-    margin-bottom: 20px;
-  }
-}
-.nav-holder {
-  display: flex;
-  height: 36px;
-}
-
-.loan-programs-info {  
-  display: none;
-  background-color: var(--dark-grey);
-  
-  
-  @media (max-width: $sm) {
-    display: flex;   
-  }
-
-  .block-wrapper {
-    p {
-      @media (max-width: $xs) {
-       line-height: 1.2;
-      }     
-    }    
-  }     
-}
-
+ 
