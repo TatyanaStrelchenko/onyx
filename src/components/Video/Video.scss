@@ -6,7 +6,7 @@
   z-index: -1; 
 
   .video-holder {     
-    height: 500px;
+    height: calc(500px + 88px);
     width: 100%;
     position: relative;
     z-index: 10;

@@ -66,7 +66,7 @@ const Partners = () => {
           </div>
         </div>
       </section>
-      <section className="benefits-section">
+      <section className="benefits-section section">
         <div className="container">
           <div className="text-holder">
             <h2>BENEFITS FOR OUR PARTNER</h2>

@@ -22,6 +22,7 @@ body {
   @media (max-width: $sm) {
     min-height: 400px;
     height: auto;
+    background-attachment: initial;
   }
 }
 
@@ -33,6 +34,13 @@ body {
   h1 {
     font-size: 72px;
     line-height: 1.2;
+
+    span {
+      color: transparent;
+      -webkit-text-stroke: 1px var(--white);
+      font-weight: 700;
+      font-family: system-ui;
+    }
 
     @media (max-width: $sm) {
       font-size: 60px;
