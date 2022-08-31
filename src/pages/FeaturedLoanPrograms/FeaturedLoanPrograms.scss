@@ -87,7 +87,10 @@
     margin-top: 48px;
   }
   .right-left-block {
-    margin-bottom: 80px;
+    margin-bottom: 150px;
+    @media (max-width: $lg) {
+      margin-bottom: 80px;
+    }
     .objects-text {
       p {
         &:nth-child(2n + 1) {
