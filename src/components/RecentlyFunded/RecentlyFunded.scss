@@ -45,7 +45,7 @@
   .title-tabs {
     text-transform: uppercase;
     max-width: 1300px;
-    margin: 0 auto 72px;
+    margin: 0 auto 50px;
     padding: 0 30px;
 
     @media (max-width: $md) {
@@ -57,7 +57,7 @@
     height: 500px;
     width: 100%;
     color: var(--default-font-color);
-    padding-bottom: 100px;
+    padding-bottom: 50px;
    
 
     @media (max-width: $md) {
