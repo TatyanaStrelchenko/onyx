@@ -7,7 +7,7 @@ const Video = () => {
     <div className="video-page">
       <div className="video-holder">
         <div className="text-holder">
-          <Fade top duration={2000}>
+          <Fade duration={5000}>
             <h1>
               We
               <br />
