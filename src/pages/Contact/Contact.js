@@ -3,24 +3,26 @@ import { Footer } from '../../components/Footer';
 import { Form } from '../../components/Form';
 import { Header } from '../../components/Header';
 import { Map } from '../../components/Map';
+import Image6 from '../../assets/image/img-contact.jpg';
 
 import './Contact.scss';
+import { Hero } from '../../components/Hero';
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <Header />
-      <section className="section-contact-us">
-        <div className="container">
-          <p className="text-contact-us">
-            We can <span>cover all your financing needs</span> across all property types and real
-            estate investment strategies.
-          </p>
-          <h2>
-            <span>Contact Us</span>
-          </h2>
-        </div>
-      </section>
+      <Hero styles={Image6}>
+        <section className="section-contact-us">
+          <div className="container">
+            <h2>Contact Us</h2>
+            <p className="text-contact-us">
+              We can <span>cover all your financing needs</span> across all property types and real
+              estate investment strategies.
+            </p>
+          </div>
+        </section>
+      </Hero>
       <section className="section-form-contact section">
         <div className="container">
           <div className="contact-holder">
