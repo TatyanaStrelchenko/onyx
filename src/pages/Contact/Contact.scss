@@ -73,7 +73,10 @@
   padding: 40px 32px;
   margin-right: 44px;
   
-  
+  @media (max-width: $md) {
+    max-width: 577px;
+    margin: 0 auto 40px;
+  }
   @media (max-width: $xs) {
     margin-right: 0px;
   }
