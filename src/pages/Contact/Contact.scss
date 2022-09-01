@@ -95,6 +95,9 @@
 }
 .text-holder {
   margin-bottom: 24px;
+  @media (max-width: $md) {
+    margin-bottom: 0;
+  }
 }
 .contact-request {
   margin: 12px 0 20px;
