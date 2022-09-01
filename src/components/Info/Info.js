@@ -6,8 +6,8 @@ import { ModalComponent } from '../Modal';
 
 const Info = () => {
   return (
-    <div className="info-page">
-      <section className="info-section">
+    <>
+      <section className="info-section section">
         <div className="container">
           <div className="rates-holder">
             <Fade duration={5000}>
@@ -138,7 +138,7 @@ const Info = () => {
           <ModalComponent customClass="btn-default" />
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
