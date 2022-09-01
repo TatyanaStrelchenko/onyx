@@ -4,7 +4,7 @@ import VideoBg from '../../assets/video/VideoBg.mp4';
 
 const Video = () => {
   return (
-    <div className="video-page">
+    <div className="video-section">
       <div className="video-holder">
         <div className="text-holder">
           <Fade duration={5000}>

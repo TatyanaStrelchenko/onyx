@@ -13,15 +13,13 @@ const Contact = () => {
     <div className="contact-page">
       <Header />
       <Hero styles={Image6}>
-        <section className="section-contact-us">
-          <div className="container">
-            <h2>Contact Us</h2>
-            <p className="text-contact-us">
-              We can <span>cover all your financing needs</span> across all property types and real
-              estate investment strategies.
-            </p>
-          </div>
-        </section>
+        <div className="text-holder">
+          <h1>Contact Us</h1>
+          <p className="text-contact-us">
+            We can <span>cover all your financing needs</span> across all property types and real
+            estate investment strategies.
+          </p>
+        </div>
       </Hero>
       <section className="section-form-contact section">
         <div className="container">
