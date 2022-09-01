@@ -12,6 +12,10 @@
   }
   .form {
     position: static;
+    width: 50%;
+    @media (max-width: $md) {
+      width: 100%;
+    }
   }
 }
 
@@ -69,14 +73,14 @@
 }
 
 .contact-info-block {
-  max-width: 627px;
+  width: 50%;
   background: var(--light-gey);
   padding: 40px 32px;
   margin-right: 44px;
   
   @media (max-width: $md) {
-    max-width: 577px;
-    margin: 0 auto 40px;
+    width: 100%;
+    margin: 0 0 40px;
   }
   @media (max-width: $xs) {
     margin-right: 0px;
