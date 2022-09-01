@@ -141,7 +141,7 @@ const FeaturedLoanPrograms = () => {
           </div>
         </div>
       </section>
-      <section className="property-section">
+      <section className="property-section section">
         <div className="container">
           <h2 className="property-title">Any Property Type. Any Strategy.</h2>
         </div>
