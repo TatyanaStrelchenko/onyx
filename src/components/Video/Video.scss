@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .video-section {  
   background-image: url(../../assets/image/los-angeles.jpg);
   background-size: cover; 
@@ -38,7 +40,11 @@
       margin: 0 auto;   
       z-index: 2;
       max-width: 1300px;
-      padding: 0 30px ;        
+      padding: 0 30px ; 
+      
+      @media (max-width: $xs) {
+        padding: 0 20px ; 
+      }
     }   
   } 
 }

@@ -165,18 +165,20 @@
       &:nth-child(even) {
         padding-right: 0;
       }
-
+      height: 200px;
       width: 50%;
     }
 
     @media (max-width: $sm) {
+      height: 130px;
       padding: 0;
       width: 100%;
     }
 
     @media (max-width: $xs) {
+      height: 100px;
       max-width: 100%;
-      margin-bottom: 75px;
+      margin-bottom: 50px;
     }
   }
 
@@ -207,6 +209,7 @@
     position: relative;
     top: -69px;
     left: 35px;
+    padding-right: 35px;
 
 
     @media (max-width: $md) {
