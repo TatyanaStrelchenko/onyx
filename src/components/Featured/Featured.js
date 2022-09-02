@@ -14,7 +14,13 @@ const Featured = () => {
       <div className="loan-programs-info">
         <div className="container">
           <div className="featured-title">
-            <h2>what we do</h2>
+            <h2>what we do:</h2>
+            <p>
+              Onyx Funding aligns with its clients and their investment goals by making itself
+              irreplaceable. From securing favorable financing solutions, sourcing lucrative
+              opportunities, to providing full-service consulting – Partnering with us drives
+              unparalleled value for our clients.
+            </p>
           </div>
           <div className="block-list">
             <div className="block-holder">

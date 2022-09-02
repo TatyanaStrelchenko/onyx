@@ -1,9 +1,10 @@
+import Fade from 'react-reveal/Fade';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Promo } from '../../components/Promo';
 import './About.scss';
-import Image1 from '../../assets/image/blank-map-us.svg';
+import Image1 from '../../assets/image/blank-map-us1.svg';
 import Image2 from '../../assets/image/img-home1.jpg';
 import Image3 from '../../assets/image/img-home2.jpg';
 import Image4 from '../../assets/image/img-home3.jpg';
@@ -30,18 +31,34 @@ const About = () => {
         <div className="map-holder">
           <div className="container">
             <div className="text-block">
-              <h2>$3.05 BILLION2 FINANCED SINCE 2008</h2>
+              <h2>Over $250 Million Financed Year-to-Date.</h2>
               <p>
                 We are seasoned in underwriting commercial real estate business plans, providing
                 capital for acquisitions, developments and refinancings across the nation.
               </p>
             </div>
             <div className="map-block">
-              <div className="map-info">
-                <p>Transactions Closed</p>
-                <p>Target MSAs</p>
-              </div>
               <img src={Image1} alt="img" />
+              <div className="number-holder">
+                <div className="numbers">
+                  <span className="number">$20BN</span>
+                  <Fade duration={5000}>
+                    <p className="text">Loans Closed</p>
+                  </Fade>
+                </div>
+                <div className="numbers">
+                  <span className="number">$8.5BN</span>
+                  <Fade duration={5000}>
+                    <p className="text">Units Funded</p>
+                  </Fade>
+                </div>
+                <div className="numbers">
+                  <span className="number">565</span>
+                  <Fade duration={5000}>
+                    <p className="text">States</p>
+                  </Fade>
+                </div>
+              </div>
             </div>
           </div>
         </div>
