@@ -4,7 +4,7 @@ import VideoBg from '../../assets/video/VideoBg.mp4';
 
 const Video = () => {
   return (
-    <div className="video-section">
+    <section className="video-section">
       <div className="video-holder">
         <div className="text-holder">
           <Fade duration={5000}>
@@ -23,7 +23,7 @@ const Video = () => {
         </div>
         <video src={VideoBg} autoPlay loop muted />
       </div>
-    </div>
+    </section>
   );
 };
 
