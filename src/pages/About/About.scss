@@ -16,11 +16,27 @@
       margin-bottom: 0;
     }
   }
+  .number-holder {
+    display: inline-block;
+    padding: 0 0 0 35px;
+    border: none;
+    .numbers {
+      margin-bottom: 20px;
+    }
+    .number {
+      font-size: 87px;
+      line-height: 105.29px;
+    }
+    .text {
+      position: static;
+      max-width: 100%;
+    }
+  }
 }
 
 .map-holder {
   .text-block {
-    max-width: 756px;
+    max-width: 770px;
     margin-bottom: 101px;
 
     h2 {
@@ -51,48 +67,48 @@
 
 .map-block {
   display: flex;
-  position: relative;
+  // position: relative;
 
-  .map-info {
-    position: absolute;
-    top: -28px;
-    right: 160px;
+  // .map-info {
+  //   position: absolute;
+  //   top: -28px;
+  //   right: 160px;
 
-    // @media (max-width: $md) {
-    //   right: 150px;
-    // }
+  //   // @media (max-width: $md) {
+  //   //   right: 150px;
+  //   // }
 
-    @media (max-width: $sm) {
-      right: 0px;
-      top: -50px;
-    }
+  //   @media (max-width: $sm) {
+  //     right: 0px;
+  //     top: -50px;
+  //   }
 
-    p {
-      &:first-child {
-        &::before {
-          content: '';
-          width: 16px;
-          height: 16px;
-          display: inline-block;
-          vertical-align: middle;
-          border-radius: 50%;
-          background-color: var(--green);
-          margin-right: 16px;
-        }
-      }
+  //   p {
+  //     &:first-child {
+  //       &::before {
+  //         content: '';
+  //         width: 16px;
+  //         height: 16px;
+  //         display: inline-block;
+  //         vertical-align: middle;
+  //         border-radius: 50%;
+  //         background-color: var(--green);
+  //         margin-right: 16px;
+  //       }
+  //     }
 
-      &::before {
-        content: '';
-        width: 16px;
-        height: 16px;
-        display: inline-block;
-        vertical-align: middle;
-        border-radius: 50%;
-        background-color: var(--white);
-        margin-right: 16px;
-      }
-    }
-  }
+  //     &::before {
+  //       content: '';
+  //       width: 16px;
+  //       height: 16px;
+  //       display: inline-block;
+  //       vertical-align: middle;
+  //       border-radius: 50%;
+  //       background-color: var(--white);
+  //       margin-right: 16px;
+  //     }
+  //   }
+  // }
 
   img {
     width: 100%;

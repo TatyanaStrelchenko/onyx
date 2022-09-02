@@ -2,12 +2,10 @@ import './Info.scss';
 import Fade from 'react-reveal/Fade';
 // import Bounce from 'react-reveal/Bounce';
 
-import { ModalComponent } from '../Modal';
-
 const Info = () => {
   return (
-    <>
-      <section className="info-section section">
+    <div className="info-page">
+      <section className="info-section">
         <div className="container">
           <div className="rates-holder">
             <Fade duration={5000}>
@@ -15,16 +13,18 @@ const Info = () => {
                 <h2>PROUDLY CELEBRATING 30 YEARS</h2>
                 <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
                 <p>
-                  Onyx Funding is changing the way real estate investors connect with capital
-                  sources. We work for you, the Borrower, and not for a Lender. This allows for
-                  complete transparency, synergy and alignment in our interests.
+                  Onyx Funding is a national, full-service commercial real estate firm with a focus
+                  on financing and loan origination. We are dedicated to delivering best-in-class
+                  solutions to investors, developers, and operators.
                 </p>
                 <p>
-                  Since our inception we have helped hundreds of real estate investors achieve their
-                  goals by successfully negotiating and securing favorable debt and equity
-                  financing.
+                  As a relationship-based firm, we always prioritize our clients’ interests ahead of
+                  transactions. We believe in providing our clients with the highest standard of
+                  service, execution, integrity, and excellence.
                 </p>
-                <ModalComponent customClass="btn-default" />
+                <button type="button" className="btn btn-default">
+                  Get Started
+                </button>
               </div>
             </Fade>
             <Fade duration={5000}>
@@ -93,21 +93,21 @@ const Info = () => {
         <div className="container">
           <div className="number-holder">
             <div className="numbers">
-              <span className="number">$20BN</span>
+              <span className="number">$250M</span>
               <Fade duration={5000}>
-                <p className="text">Loans Closed</p>
+                <p className="text">Loans Funded</p>
               </Fade>
             </div>
             <div className="numbers">
-              <span className="number">$8.5BN</span>
+              <span className="number">216</span>
               <Fade duration={5000}>
-                <p className="text">Units Funded</p>
+                <p className="text">Deals Closed</p>
               </Fade>
             </div>
             <div className="numbers">
-              <span className="number">565</span>
+              <span className="number">250+</span>
               <Fade duration={5000}>
-                <p className="text">States</p>
+                <p className="text">Lender Relationships</p>
               </Fade>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Info = () => {
               </p>
             </div>
             <div className="info-block">
-              <p>Competitive Rates</p>
+              <p>Competitive Terms</p>
               <p className="info-text">
                 Our vast lender relationships, and everyday market experience enable us to customize
                 unparalleled financing solutions for any type of investment property.
@@ -135,10 +135,12 @@ const Info = () => {
               </p>
             </div>
           </div>
-          <ModalComponent customClass="btn-default" />
+          <button type="button" className="btn btn-default">
+            Get Started
+          </button>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
