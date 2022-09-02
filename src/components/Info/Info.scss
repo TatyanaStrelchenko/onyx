@@ -189,8 +189,10 @@
   .numbers {
     position: relative;
 
-    @media (max-width: $xs) {      
-      top: -20px;
+    @media (max-width: $sm) {          
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
@@ -215,7 +217,8 @@
       white-space: nowrap;
     }
 
-    @media (max-width: $xs) {      
+    @media (max-width: $xs) {   
+      top: 50px;   
       font-size: 18px;
     }
   }
