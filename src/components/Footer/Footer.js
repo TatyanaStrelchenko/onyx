@@ -53,12 +53,12 @@ const Footer = () => {
             <h4>SERVICES</h4>
             <ul>
               <li>
-                <Link className="footer-nav" to="/debt">
-                  Debt{' '}
+                <Link className="footer-nav" to="/services/debt">
+                  Debt
                 </Link>
               </li>
               <li>
-                <Link className="footer-nav" to="/equity">
+                <Link className="footer-nav" to="/services/equity">
                   Equity
                 </Link>
               </li>

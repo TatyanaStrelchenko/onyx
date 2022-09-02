@@ -34,7 +34,7 @@
 
 .logo {
   @media (max-width: $xs) {
-    margin-right: 20px;
+    margin-right: 10px;
     max-width: 125px;
   }
 
@@ -129,6 +129,9 @@
 
   @media (max-width: $md) {
     display: flex;
+  }
+  @media (max-width: $xs) {
+    margin-left: 10px;
   }
 
   &:focus {
