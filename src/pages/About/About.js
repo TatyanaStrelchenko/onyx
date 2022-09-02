@@ -37,8 +37,10 @@ const About = () => {
                 capital for acquisitions, developments and refinancings across the nation.
               </p>
             </div>
-            <div className="map-block">
-              <img src={Image1} alt="img" />
+            <div className="holder">
+              <div className="map-block">
+                <img src={Image1} alt="img" />
+              </div>
               <div className="number-holder">
                 <div className="numbers">
                   <span className="number">$20BN</span>
