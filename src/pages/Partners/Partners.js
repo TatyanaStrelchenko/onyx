@@ -173,8 +173,8 @@ const Partners = () => {
         <div className="text-holder">
           <h2> LOOKING FOR A QUOTE?</h2>
           <p>
-            Change HAVE A SCENERIO TO DISCUSS? Please reach out below and one of our team members
-            will be in touch as soon as possible.
+            HAVE A SCENERIO TO DISCUSS? Please reach out below and one of our team members will be
+            in touch as soon as possible.
           </p>
           <ModalComponent customClass="info-btn" />
         </div>
