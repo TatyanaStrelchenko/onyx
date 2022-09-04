@@ -213,20 +213,20 @@
 
     @media (max-width: $md) {
       font-size: 16px;
-      left: 20px;
-      top: -75px;
+      left: 0;
+      top: -49px;
     }
 
     @media (max-width: $sm) {  
-      top: -73px;    
+      top: -50px;    
       max-width: 100%;
+      margin-bottom: 40px;
     }
      
 
     .text-bottom {
       @media (max-width: $md) {
-        font-size: 14px;
-        top: 55px;
+        font-size: 14px;        
       }
     }
   }
