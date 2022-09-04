@@ -4,10 +4,10 @@ import Fade from 'react-reveal/Fade';
 
 const Info = () => {
   return (
-    <div className="info-page">
-      <section className="info-section">
+    <>
+      <section className="info-section section">
         <div className="container">
-          <div className="rates-holder section">
+          <div className="rates-holder">
             <Fade duration={5000}>
               <div className="rates-block">
                 <h2>PROUDLY CELEBRATING 30 YEARS</h2>
@@ -140,7 +140,7 @@ const Info = () => {
           </button>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
