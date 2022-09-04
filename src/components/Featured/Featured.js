@@ -1,5 +1,6 @@
-import Image1 from '../../assets/icons/card.svg';
-import Image2 from '../../assets/icons/clockwise.svg';
+import { Link } from 'react-router-dom';
+import Image1 from '../../assets/icons/vector.svg';
+import Image2 from '../../assets/icons/chart.svg';
 import Image3 from '../../assets/icons/home.svg';
 import Image4 from '../../assets/icons/money.svg';
 import Image5 from '../../assets/icons/сonstruction.svg';
@@ -29,12 +30,15 @@ const Featured = () => {
                   <div className="icon-holder">
                     <img src={Image1} alt="" />
                   </div>
-                  <h3>Commercial</h3>
+                  <h3>Equity</h3>
                   <p>
                     We are your one-stop solution for all your commercial financing needs. Our
                     unique structure methodology and diverse network of capital sources make us the
                     perfect match to help you secure the funding you need.
                   </p>
+                  <Link to="/services/equity">
+                    <input type="submit" className="btn-more" value="learn more" />
+                  </Link>
                 </div>
               </div>
               <div className="block">
@@ -42,12 +46,15 @@ const Featured = () => {
                   <div className="icon-holder">
                     <img src={Image2} alt="" />
                   </div>
-                  <h3>Fix and Flip</h3>
+                  <h3>Debt</h3>
                   <p>
                     For real estate investors interested in acquiring or rehabbing properties, we
                     have the best capital solutions in the market. Our integrated Fix and Flip loan
                     programs are diverse to help you with all types of properties
                   </p>
+                  <Link to="/services/debt">
+                    <input type="submit" className="btn-more" value="learn more" />
+                  </Link>
                 </div>
               </div>
               <div className="block">
