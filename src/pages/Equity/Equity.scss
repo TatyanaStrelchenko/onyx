@@ -150,11 +150,16 @@
       flex-wrap: wrap;
     }
   }
-
-
+ 
+  .number {
+    @media (max-width: $md) {
+      font-size: 80px;
+    }
+  }
 
   .numbers {
     padding-right: 32px;
+    display: inline-block;
 
     &:last-child {
       padding-right: 0;
@@ -174,16 +179,13 @@
       margin-bottom: -70px;    
       padding: 0;
       width: 100%;
-    }    
-    @media (max-width: $xs) { 
-      margin-bottom: 40px;       
-    }    
+    }   
   }
 
   .text {
     position: static;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-transform: uppercase;
     margin-bottom: 16px;
 
@@ -211,16 +213,15 @@
 
     @media (max-width: $md) {
       font-size: 16px;
+      left: 20px;
       top: -75px;
     }
 
     @media (max-width: $sm) {  
-      top: -60px;    
+      top: -73px;    
       max-width: 100%;
     }
-    @media (max-width: $xs) {  
-      top: -53px;        
-    }
+     
 
     .text-bottom {
       @media (max-width: $md) {

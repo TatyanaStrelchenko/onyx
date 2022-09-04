@@ -1,7 +1,6 @@
 @import '../../styles/variables.scss';
 
 .info-section {
-  padding: 80px 0;
   background-color: var(--black);
   display: flex;
   position: relative;
@@ -16,11 +15,6 @@
     width: 100%;
     z-index: -1;
   }
-
-  //   .rates-holder {
-  //     position: relative;
-
-  // }
 
   @media (max-width: $md) {
     padding-top: 40px;
@@ -79,7 +73,7 @@
   padding-bottom: 80px;
 
   @media (max-width: $md) {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   &::after {
@@ -91,7 +85,7 @@
     left: 0;
     right: auto;
     width: 953px;
-    height: 449px;   
+    height: 449px;
 
     @media (max-width: $xl) {
       top: 26%;
@@ -141,27 +135,28 @@
   border-top: 1px solid var(--green);
   border-bottom: 1px solid var(--green);
   padding: 52px 0 57px;
-  margin-bottom: 80px;
   background: var(--black);
   z-index: 2;
+  margin-bottom: 80px;
 
   @media (max-width: $md) {
     margin-bottom: 40px;
-    padding: 40px 30px 40px 0;
-    font-size: 80px;   
+    padding: 40px 0;
+    font-size: 80px;
+    line-height: 120px;
     margin-bottom: 60px;
   }
 
   @media (max-width: $sm) {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40px;     
+    margin-bottom: 40px;
   }
 
   @media (max-width: $xs) {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
   }
 
   .number {
@@ -172,9 +167,8 @@
     -webkit-text-stroke: 1px var(--green);
     font-weight: bolder;
 
-    @media (max-width: $md) {
-      line-height: 1.8;
-      font-size: 80px;      
+    @media (max-width: $md) {      
+      font-size: 80px;
     }
 
     @media (max-width: $sm) {
@@ -188,8 +182,11 @@
 
   .numbers {
     position: relative;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
 
-    @media (max-width: $sm) {          
+    @media (max-width: $sm) {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -198,13 +195,11 @@
 
   .text {
     font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.2;   
     position: absolute;
     top: 100px;
-    left: auto;
-    max-width: 200px;
+    left: auto;   
 
     @media (max-width: $md) {
       top: 90px;
@@ -213,14 +208,13 @@
     }
 
     @media (max-width: $sm) {
-      top: 60px;
+      top: 85px;
       font-size: 25px;
       white-space: nowrap;
     }
 
-    @media (max-width: $xs) {   
-      top: 50px;   
-      font-size: 18px;
+    @media (max-width: $xs) {     
+      font-size: 22px;
     }
   }
 }
@@ -294,7 +288,4 @@
     }
   }
 }
-// .react-reveal {    
-//     --animation-duration: 5000ms;
-//     --animate-delay: 0.6s;  
-// }
+
