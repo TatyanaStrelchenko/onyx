@@ -208,7 +208,8 @@
 
     @media (max-width: $md) {
       top: 90px;
-      font-size: 30px;     
+      font-size: 30px; 
+      max-width: 175px;    
     }
 
     @media (max-width: $sm) {
