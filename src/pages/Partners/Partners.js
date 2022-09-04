@@ -171,10 +171,9 @@ const Partners = () => {
       </section>
       <Promo styles={Image2}>
         <div className="text-holder">
-          <h2> LOOKING FOR A QUOTE?</h2>
+          <h2>HAVE A SCENERIO TO DISCUSS?</h2>
           <p>
-            HAVE A SCENERIO TO DISCUSS? Please reach out below and one of our team members will be
-            in touch as soon as possible.
+            Please reach out below and one of our team members will be in touch as soon as possible.
           </p>
           <ModalComponent customClass="info-btn" />
         </div>

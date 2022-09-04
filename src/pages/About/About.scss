@@ -65,7 +65,10 @@
 .map-holder {
   .text-block {
     max-width: 770px;
-    margin-bottom: 101px;
+    margin-bottom: 80px;
+    @media (max-width: $md) {
+      margin-bottom: 40px;
+    }
 
     h2 {
       margin-bottom: 32px;

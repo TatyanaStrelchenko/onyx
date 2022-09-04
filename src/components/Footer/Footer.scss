@@ -2,6 +2,7 @@
 
 .footer {
   background: var(--footer-color);
+  padding-top: 80px;
 
   @media (max-width: $md) {
     padding-top: 40px;
