@@ -77,9 +77,8 @@ const Services = () => {
           <div className="text-holder">
             <h2> DON&apos;T SEE THE LOAN PROGRAM YOU ARE LOOKING FOR?</h2>
             <p>
-              These are just our featured programs, as industry leaders in CRE financing, we cater
-              to any and all real estate investment financing requests. Contact us with your
-              scenario to learn how we can help.
+              Change HAVE A SCENERIO TO DISCUSS? Please reach out below and one of our team members
+              will be in touch as soon as possible.
             </p>
             <ModalComponent customClass="info-btn" />
           </div>
