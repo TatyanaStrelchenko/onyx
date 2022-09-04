@@ -1,6 +1,6 @@
 import './Info.scss';
 import Fade from 'react-reveal/Fade';
-// import Bounce from 'react-reveal/Bounce';
+import { ModalComponent } from '../Modal';
 
 const Info = () => {
   return (
@@ -22,9 +22,7 @@ const Info = () => {
                   transactions. We believe in providing our clients with the highest standard of
                   service, execution, integrity, and excellence.
                 </p>
-                <button type="button" className="btn btn-default">
-                  Get Started
-                </button>
+                <ModalComponent customClass="btn-default" />
               </div>
             </Fade>
             <Fade duration={5000}>
@@ -135,9 +133,7 @@ const Info = () => {
               </p>
             </div>
           </div>
-          <button type="button" className="btn btn-default">
-            Get Started
-          </button>
+          <ModalComponent customClass="btn-default" />
         </div>
       </section>
     </>
