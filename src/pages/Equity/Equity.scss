@@ -161,24 +161,24 @@
     }
 
     @media (max-width: $md) {
+      width: 50%;
+      line-height: 1.2;
 
       &:nth-child(even) {
         padding-right: 0;
       }      
-      width: 50%;
+     
     }
 
-    @media (max-width: $sm) {      
+    @media (max-width: $sm) { 
+      margin-bottom: -70px;    
       padding: 0;
       width: 100%;
-    }
-
-    @media (max-width: $xs) {    
-      max-width: 100%;
-      margin-bottom: 50px;
-    }
+    }    
+    @media (max-width: $xs) { 
+      margin-bottom: 40px;       
+    }    
   }
-
 
   .text {
     position: static;
@@ -211,12 +211,15 @@
 
     @media (max-width: $md) {
       font-size: 16px;
-      top: -62px;
+      top: -75px;
     }
 
-    @media (max-width: $sm) {
-      top: -67px;
+    @media (max-width: $sm) {  
+      top: -60px;    
       max-width: 100%;
+    }
+    @media (max-width: $xs) {  
+      top: -53px;        
     }
 
     .text-bottom {

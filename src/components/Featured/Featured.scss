@@ -1,23 +1,28 @@
 @import '../../styles/variables.scss';
 
 .featured {
-  background-color: var(--dark-grey);  
+  background-color: var(--dark-grey);
 
   h2 {
-    text-transform: uppercase; 
+    text-transform: uppercase;
   }
+
   p {
     font-size: 18px;
     line-height: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
   }
 
-  .block {  
+  .block {
     margin-top: 40px;
-    margin-bottom: 0;  
-    width: 33.33%; 
+    margin-bottom: 0;
+    width: 33.33%;
+
     p {
       padding-bottom: 24px;
     }
+
     .btn-more {
       background: none;
       font-family: 'Inter';
@@ -26,28 +31,26 @@
       color: var(--green);
       cursor: pointer;
       border: none;
-    }   
+    }
 
     // &:nth-child(-n+3) {
     //   margin-top: 0;
     // }    
 
-    @media (max-width: $md) {      
-      width: 50%;     
+    @media (max-width: $md) {
+      width: 50%;
     }
-    @media (max-width: $xs) {      
+
+    @media (max-width: $xs) {
       width: 100%;
       margin-top: 20px;
     }
-  } 
+  }
+
   .block-holder {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;     
-   
-  }      
-}  
- 
+    justify-content: center;
 
-
- 
+  }
+}
