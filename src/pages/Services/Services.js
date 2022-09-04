@@ -6,6 +6,8 @@ import './Services.scss';
 import Image1 from '../../assets/image/services.jpg';
 import Image2 from '../../assets/icons/vector.svg';
 import Image3 from '../../assets/icons/chart.svg';
+import Image4 from '../../assets/icons/home.svg';
+import Image5 from '../../assets/icons/users.svg';
 import { ModalComponent } from '../../components/Modal';
 
 const Services = () => {
@@ -63,6 +65,41 @@ const Services = () => {
                   You can choose an interest-only loan, an adjustable-rate mortgage, a fixed-rate
                   mortgage, a bridge loan – there are many options and possibilities! Leveraging
                   debt wisely is crucial to ensure your projects profitability.
+                </p>
+                <Link to="/services/debt">
+                  <input type="submit" className="btn-more" value="learn more" />
+                </Link>
+              </div>
+            </div>
+            <div className="block">
+              <div className="block-wrapper">
+                <div className="icon-holder">
+                  <img src={Image4} alt="" />
+                </div>
+                <h3>Investment Sales</h3>
+                <p>
+                  Although Onyx Funding does not “list” properties for sale, we have access to
+                  hundreds of off and on market deals. Onyx selectively acts as a broker, referral
+                  partner, or wholeseller in situations where we can utilize our relationships to
+                  facilitate our clients’ acquisition or disposition requirements.
+                </p>
+                <Link to="/services/debt">
+                  <input type="submit" className="btn-more" value="learn more" />
+                </Link>
+              </div>
+            </div>
+            <div className="block">
+              <div className="block-wrapper">
+                <div className="icon-holder">
+                  <img src={Image5} alt="" />
+                </div>
+                <h3>Advisory</h3>
+                <p>
+                  Onyx Funding provides consulting and advisory services to commercial real estate
+                  borrowers, lenders, originators, and investment sales brokers. These assignments
+                  can include project feasibility analysis, capital structure optimization, debt and
+                  equity restructurings, underwriting, lending guidelines, marketing, business,
+                  sales, and operations.
                 </p>
                 <Link to="/services/debt">
                   <input type="submit" className="btn-more" value="learn more" />
