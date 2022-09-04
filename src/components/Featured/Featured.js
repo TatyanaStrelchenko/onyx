@@ -69,7 +69,7 @@ const Featured = () => {
                     partner, or wholeseller in situations where we can utilize our relationships to
                     facilitate our clients’ acquisition or disposition requirements.
                   </p>
-                  <Link to="/services/debt">
+                  <Link to="/services">
                     <input type="submit" className="btn-more" value="learn more" />
                   </Link>
                 </div>
@@ -87,7 +87,7 @@ const Featured = () => {
                     and equity restructurings, underwriting, lending guidelines, marketing,
                     business, sales, and operations.
                   </p>
-                  <Link to="/services/debt">
+                  <Link to="/services">
                     <input type="submit" className="btn-more" value="learn more" />
                   </Link>
                 </div>
