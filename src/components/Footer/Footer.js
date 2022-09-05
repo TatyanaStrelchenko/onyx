@@ -62,6 +62,16 @@ const Footer = () => {
                   Equity
                 </Link>
               </li>
+              <li>
+                <Link className="footer-nav" to="/services/investment">
+                  Investment Sales
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-nav" to="/services/advisory">
+                  Advisory
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="col cell">
