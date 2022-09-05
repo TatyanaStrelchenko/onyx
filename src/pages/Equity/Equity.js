@@ -40,6 +40,16 @@ const Equity = () => {
                 Debt
               </Link>
             </li>
+            <li className="tabs-link">
+              <Link className="link" to="/services/investment">
+                Investment Sales
+              </Link>
+            </li>
+            <li className="tabs-link">
+              <Link className="link" to="/services/advisory">
+                Advisory
+              </Link>
+            </li>
           </ul>
         </div>
       </section>

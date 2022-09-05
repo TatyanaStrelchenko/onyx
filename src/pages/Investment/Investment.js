@@ -3,10 +3,10 @@ import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Promo } from '../../components/Promo';
-import './investment.scss';
-import Image1 from '../../assets/image/equity.jpg';
-import Image2 from '../../assets/image/services-offers.jpg';
-import Image3 from '../../assets/image/promo-equity.jpg';
+import './Investment.scss';
+import Image1 from '../../assets/image/debt.jpg';
+import Image2 from '../../assets/image/debt-photo.jpg';
+import Image3 from '../../assets/image/promo-debt.jpg';
 import { ModalComponent } from '../../components/Modal';
 
 const Investment = () => {
@@ -34,12 +34,6 @@ const Investment = () => {
       <section className="top-section">
         <div className="container">
           <ul className="tabs-page">
-            <li className="tabs-link active">Investment Sales</li>
-            <li className="tabs-link">
-              <Link className="link" to="/services/advisory">
-                Advisory
-              </Link>
-            </li>
             <li className="tabs-link">
               <Link className="link" to="/services/equity">
                 Equity
@@ -48,6 +42,12 @@ const Investment = () => {
             <li className="tabs-link">
               <Link className="link" to="/services/debt">
                 Debt
+              </Link>
+            </li>
+            <li className="tabs-link active">Investment Sales</li>
+            <li className="tabs-link">
+              <Link className="link" to="/services/advisory">
+                Advisory
               </Link>
             </li>
           </ul>

@@ -34,14 +34,8 @@ const Advisory = () => {
       <section className="top-section">
         <div className="container">
           <ul className="tabs-page">
-            <li className="tabs-link active">Advisory</li>
             <li className="tabs-link">
-              <Link className="link" to="/services/investment">
-                Investment
-              </Link>
-            </li>
-            <li className="tabs-link">
-              <Link className="link" to="/services/quity">
+              <Link className="link" to="/services/equity">
                 Equity
               </Link>
             </li>
@@ -50,6 +44,12 @@ const Advisory = () => {
                 Debt
               </Link>
             </li>
+            <li className="tabs-link">
+              <Link className="link" to="/services/investment">
+                Investment Sales
+              </Link>
+            </li>
+            <li className="tabs-link active">Advisory</li>
           </ul>
         </div>
       </section>
