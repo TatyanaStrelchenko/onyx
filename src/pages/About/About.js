@@ -4,7 +4,7 @@ import { Header } from '../../components/Header';
 import { Hero } from '../../components/Hero';
 import { Promo } from '../../components/Promo';
 import './About.scss';
-import Image1 from '../../assets/image/blank-map-us1.svg';
+// import Image1 from '../../assets/image/blank-map-us1.svg';
 import Image2 from '../../assets/image/img-home1.jpg';
 import Image3 from '../../assets/image/img-home2.jpg';
 import Image4 from '../../assets/image/img-home3.jpg';
@@ -38,9 +38,9 @@ const About = () => {
               </p>
             </div>
             <div className="holder">
-              <div className="map-block">
+              {/* <div className="map-block">
                 <img src={Image1} alt="img" />
-              </div>
+              </div> */}
               <div className="number-holder">
                 <div className="numbers">
                   <span className="number">$20BN</span>
