@@ -30,55 +30,98 @@ const Info = () => {
                 <div className="table-holder">
                   <h3>LIVE INTEREST RATES</h3>
                   <div className="row">
-                    <div className="col">1-MONTH LIBOR</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">SOFR</div>
+                    <div className="col">2.28000%</div>
+                    <div className="col">2.28000%</div>
+                    <div className="col">2.28000%</div>
+                    <div className="col">0.05000%</div>
                   </div>
                   <div className="row">
-                    <div className="col">SOFR 30-DAY AVG</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">30-Day Average SOFR</div>
+                    <div className="col">2.28536%</div>
+                    <div className="col">2.28536%</div>
+                    <div className="col">1.80760%</div>
+                    <div className="col">0.05000%</div>
                   </div>
                   <div className="row">
-                    <div className="col">SOFR 30-DAY TERM</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">90-Day Average SOFR</div>
+                    <div className="col">1.82148%</div>
+                    <div className="col">1.80440%</div>
+                    <div className="col">1.30262%</div>
+                    <div className="col">0.04689%</div>
                   </div>
                   <div className="row">
-                    <div className="col">PRIME RATE</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">1-month Term SOFR</div>
+                    <div className="col">2.74750%</div>
+                    <div className="col">2.68340%</div>
+                    <div className="col">2.30339%</div>
+                    <div className="col">0.05199%</div>
+                  </div>
+                  <div className="row">
+                    <div className="col">3-month Term SOFR</div>
+                    <div className="col">3.13380%</div>
+                    <div className="col">3.06459%</div>
+                    <div className="col">2.69280%</div>
+                    <div className="col">0.05236%</div>
                   </div>
                 </div>
                 <div className="table-holder">
                   <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
                   <div className="row">
-                    <div className="col">5-YEAR</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">1 YEAR</div>
+                    <div className="col">3.703%</div>
+                    <div className="col">3.642%</div>
+                    <div className="col">3.327%</div>
+                    <div className="col">0.059%</div>
                   </div>
                   <div className="row">
-                    <div className="col">7-YEAR</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">2 YEAR</div>
+                    <div className="col">3.583%</div>
+                    <div className="col">3.531%</div>
+                    <div className="col">3.189%</div>
+                    <div className="col">0.175%</div>
                   </div>
                   <div className="row">
-                    <div className="col">10-YEAR</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">3 YEAR</div>
+                    <div className="col">3.403%</div>
+                    <div className="col">3.363%</div>
+                    <div className="col">2.971%</div>
+                    <div className="col">0.347%</div>
                   </div>
                   <div className="row">
-                    <div className="col">20-YEAR</div>
-                    <div className="col">2.862%</div>
-                    <div className="col">2.940%</div>
-                    <div className="col">2.655%</div>
+                    <div className="col">5 YEAR</div>
+                    <div className="col">3.173%</div>
+                    <div className="col">3.150%</div>
+                    <div className="col">2.673%</div>
+                    <div className="col">0.655%</div>
+                  </div>
+                  <div className="row">
+                    <div className="col">7 YEAR</div>
+                    <div className="col">3.085%</div>
+                    <div className="col">3.071%</div>
+                    <div className="col">2.554%</div>
+                    <div className="col">0.864%</div>
+                  </div>
+                  <div className="row">
+                    <div className="col">10 YEAR</div>
+                    <div className="col">3.063%</div>
+                    <div className="col">3.058%</div>
+                    <div className="col">2.525%</div>
+                    <div className="col">1.067%</div>
+                  </div>
+                  <div className="row">
+                    <div className="col">15 YEAR</div>
+                    <div className="col">3.083%</div>
+                    <div className="col">3.086%</div>
+                    <div className="col">2.576%</div>
+                    <div className="col">1.248%</div>
+                  </div>
+                  <div className="row">
+                    <div className="col">30 YEAR</div>
+                    <div className="col">2.814%</div>
+                    <div className="col">2.822%</div>
+                    <div className="col">2.401%</div>
+                    <div className="col">1.359%</div>
                   </div>
                 </div>
               </div>
