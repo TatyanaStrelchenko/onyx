@@ -10,8 +10,6 @@ const Info = () => {
           <div className="rates-holder">
             <Fade duration={5000}>
               <div className="rates-block">
-                <h2>PROUDLY CELEBRATING 30 YEARS</h2>
-                <h3>RATE INFORMATION IS AT LEAST 15 MINUTES DELAYED.</h3>
                 <p>
                   Onyx Funding is a national, full-service commercial real estate firm with a focus
                   on financing and loan origination. We are dedicated to delivering best-in-class

@@ -16,38 +16,42 @@
       margin-bottom: 0;
     }
   }
-  .number-holder {     
-    margin: 0;
+  // .number-holder {     
+  //   margin: 0;
    
-    .numbers {      
-      width: 100%; 
+  //   .numbers {      
+  //     width: 100%; 
       
-      @media (max-width: $sm) {
-       margin-bottom: 50px;        
-      }  
-    }
-    .number {
-      font-size: 87px;
-      line-height: 105.29px;
+  //     @media (max-width: $sm) {
+  //      margin-bottom: 50px;        
+  //     }  
+  //   }
+  //   .number {
+  //     font-size: 87px;
+  //     line-height: 105.29px;
 
-      @media (max-width: $md) {
-        font-size: 65px;
-        line-height: 1.2;
-      }  
-    }
-    .text {
-      top: 100px;
-      max-width: 100%;
+  //     @media (max-width: $md) {
+  //       font-size: 65px;
+  //       line-height: 1.2;
+  //     }  
+  //   }
+  //   .text {
+  //     top: 100px;
+  //     max-width: 100%;
 
-      @media (max-width: $md) {
-        top: 75px;
-        font-size: 20px;         
-      }  
-    }
-  }
+  //     @media (max-width: $md) {
+  //       top: 75px;
+  //       font-size: 20px;         
+  //     }  
+  //   }
+  // }
 }
 
 .map-holder {
+  margin-bottom: 118px;
+  @media (max-width: $md) {
+    margin-bottom: 60px;
+  }
   .text-block {
     max-width: 770px;
     margin-bottom: 80px;
@@ -74,13 +78,7 @@
   }
 }
 
-.map-holder {
-  margin-bottom: 118px;
-  @media (max-width: $md) {
-    margin-bottom: 60px;
-  }
-}
-
+ 
 .map-block {
   display: flex;
   // position: relative;
@@ -138,11 +136,12 @@
   }
 }
 
-.about-section { 
-  background: var(--dark-grey);
+  .about-section { 
+    background: var(--dark-grey);
 
-  .btn-default {
-    display: block;
-    margin: 0 auto;
-  }  
-}
+    .btn-default {
+      display: block;
+      margin: 0 auto;
+    }  
+  }
+
