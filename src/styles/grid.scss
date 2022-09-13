@@ -39,20 +39,26 @@
 }
 
 .table-holder {
+  @media (max-width: $xl) {
+    font-size: 14px;
+  }
   &:first-of-type {
     margin-bottom: 51px;
     .row {
       .col {
         &:first-child {
           width: 35%;
+          @media (max-width: $xl) {
+            width: 30%;
+          }
           @media (max-width: $md) {
-            width: 18%;
+            width: 20%;
           }
           @media (max-width: $sm) {
             width: 25%;
           }
           @media (max-width: $xs) {
-            width: 45%;
+            width: 20%;
           }
         }
       }
