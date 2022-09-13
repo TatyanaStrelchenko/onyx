@@ -42,6 +42,11 @@
   @media (max-width: $xl) {
     font-size: 14px;
   }
+  @media (max-width: $xs) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
   &:first-of-type {
     margin-bottom: 51px;
     .row {
