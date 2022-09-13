@@ -41,7 +41,7 @@ const About = () => {
               {/* <div className="map-block">
                 <img src={Image1} alt="img" />
               </div> */}
-              <div className="number-holder">
+              {/* <div className="number-holder">
                 <div className="numbers">
                   <span className="number">$20BN</span>
                   <Fade duration={5000}>
@@ -58,6 +58,26 @@ const About = () => {
                   <span className="number">565</span>
                   <Fade duration={5000}>
                     <p className="text">States</p>
+                  </Fade>
+                </div>
+              </div> */}
+              <div className="number-holder">
+                <div className="numbers">
+                  <span className="number">$250M</span>
+                  <Fade duration={5000}>
+                    <p className="text">Loans Funded</p>
+                  </Fade>
+                </div>
+                <div className="numbers">
+                  <span className="number">216</span>
+                  <Fade duration={5000}>
+                    <p className="text">Deals Closed</p>
+                  </Fade>
+                </div>
+                <div className="numbers">
+                  <span className="number">250+</span>
+                  <Fade duration={5000}>
+                    <p className="text">Lender Relationships</p>
                   </Fade>
                 </div>
               </div>
