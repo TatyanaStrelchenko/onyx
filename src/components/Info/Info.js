@@ -127,7 +127,6 @@ const Info = () => {
           </div>
         </div>
       </section>
-
       <section className="number-section">
         <div className="container">
           <div className="number-holder">
