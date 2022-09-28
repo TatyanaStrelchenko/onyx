@@ -48,13 +48,13 @@ const Contact = () => {
                 <li>
                   <span>PHONE</span>
                   <Link className="link" to="/">
-                    (415) 583-5515
+                    (786) 321-5942
                   </Link>
                 </li>
                 <li>
                   <span>EMAIL</span>
                   <Link className="link" to="/">
-                    support@onyxfunding.us
+                    support@onyxfunding.com
                   </Link>
                 </li>
                 <li>
