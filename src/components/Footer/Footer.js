@@ -17,13 +17,15 @@ const Footer = () => {
           <div className="col">
             <img src={Logo} alt="img" />
             <p>
-              Onyx Funding is a real estate financing solutions service company. Onyx Funding is not
-              a lender and only provides brokering services for commercial, business purpose loans.
+              Onyx Funding is not a lender and only provides brokering services for commercial,
+              business purpose loans.
             </p>
             <p>
               Loans are for investment purposes only and not for personal, family, or household use.
               Loan product availability may be limited in certain states
             </p>
+            <p>NMLS #1935992</p>
+            <p>60DBO-153373 CFL Licensed Broker</p>
           </div>
           <div className="col">
             <h4>LOAN PROGRAMS</h4>
@@ -103,8 +105,8 @@ const Footer = () => {
                   2200 NW 2nd Ave, STE
                   <br /> 211, Miami, FL 33127
                 </li>
-                <li>support@onyxfunding.us</li>
-                <li>(415) 583-5515</li>
+                <li>Support@onyxfunding.com</li>
+                <li>(786) 321-5942</li>
               </ul>
             </div>
           </div>

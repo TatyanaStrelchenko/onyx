@@ -1,7 +1,7 @@
 .rates-holder {
   display: grid;
-  grid-template-columns: 51% 37%;
-  grid-column-gap: 12%;
+  grid-template-columns: 46% 47%;
+  grid-column-gap: 7%;
   padding-bottom: 0px;
 
   @media (max-width: $xxl) {
@@ -39,20 +39,31 @@
 }
 
 .table-holder {
+  @media (max-width: $xl) {
+    font-size: 14px;
+  }
+  @media (max-width: $xs) {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
   &:first-of-type {
     margin-bottom: 51px;
     .row {
       .col {
         &:first-child {
           width: 35%;
+          @media (max-width: $xl) {
+            width: 30%;
+          }
           @media (max-width: $md) {
-            width: 18%;
+            width: 20%;
           }
           @media (max-width: $sm) {
             width: 25%;
           }
           @media (max-width: $xs) {
-            width: 45%;
+            width: 20%;
           }
         }
       }
