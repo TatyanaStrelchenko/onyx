@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  background-color: var(--black);  
+  background-color: var(--black);
 
   &::after {
     content: '';
@@ -15,9 +15,9 @@
     left: 0;
     height: 400px;
     width: 100%;
-  } 
+  }
 
-  .block {  
+  .block {
     &:last-of-type {
       margin-bottom: 0;
     }
@@ -99,14 +99,14 @@
       margin-bottom: 40px;
     }
     .col-left {
-
-    .objects-text {
-      margin: 0;
-      p {
-        &:nth-child(2n + 1) {
-          margin-bottom: 0;
+      .objects-text {
+        margin: 0;
+        p {
+          &:nth-child(2n + 1) {
+            margin-bottom: 0;
+          }
         }
       }
     }
-  }}
+  }
 }

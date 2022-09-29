@@ -1,30 +1,30 @@
 @import '../../styles/variables.scss';
 
 .map-section {
-  background-color: var(--black); 
+  background-color: var(--black);
 
-  .right-left-block {    
+  .right-left-block {
     margin-bottom: 245px;
 
     @media (max-width: $lg) {
       margin-bottom: 150px;
-    }  
+    }
     @media (max-width: $md) {
       margin-bottom: 125px;
-    }  
+    }
     @media (max-width: $sm) {
       margin-bottom: 0;
     }
   }
-  // .number-holder {     
+  // .number-holder {
   //   margin: 0;
-   
-  //   .numbers {      
-  //     width: 100%; 
-      
+
+  //   .numbers {
+  //     width: 100%;
+
   //     @media (max-width: $sm) {
-  //      margin-bottom: 50px;        
-  //     }  
+  //      margin-bottom: 50px;
+  //     }
   //   }
   //   .number {
   //     font-size: 87px;
@@ -33,7 +33,7 @@
   //     @media (max-width: $md) {
   //       font-size: 65px;
   //       line-height: 1.2;
-  //     }  
+  //     }
   //   }
   //   .text {
   //     top: 100px;
@@ -41,8 +41,8 @@
 
   //     @media (max-width: $md) {
   //       top: 75px;
-  //       font-size: 20px;         
-  //     }  
+  //       font-size: 20px;
+  //     }
   //   }
   // }
 }
@@ -78,7 +78,6 @@
   }
 }
 
- 
 .map-block {
   display: flex;
   // position: relative;
@@ -136,12 +135,11 @@
   }
 }
 
-  .about-section { 
-    background: var(--dark-grey);
+.about-section {
+  background: var(--dark-grey);
 
-    .btn-default {
-      display: block;
-      margin: 0 auto;
-    }  
+  .btn-default {
+    display: block;
+    margin: 0 auto;
   }
-
+}

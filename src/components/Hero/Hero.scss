@@ -26,7 +26,8 @@ body {
 .text-holder {
   width: 100%;
 
-  @media (max-width: $md) {}
+  @media (max-width: $md) {
+  }
 
   h1 {
     font-size: 72px;
@@ -40,7 +41,7 @@ body {
       font-size: 45px;
     }
     &:first-letter {
-      margin-left: -5px
+      margin-left: -5px;
     }
   }
 
