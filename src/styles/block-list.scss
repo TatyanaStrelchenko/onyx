@@ -17,19 +17,19 @@
   padding: 0 25px;
   margin-bottom: 80px;
   width: 50%;
-  z-index: 1;    
+  z-index: 1;
 
   @media (max-width: $md) {
     margin-bottom: 40px;
     padding: 0 20px;
   }
 
-  @media (max-width: $sm) {   
+  @media (max-width: $sm) {
     padding: 0 15px;
   }
 
-  @media (max-width: $xs) { 
-    margin-bottom: 20px;   
+  @media (max-width: $xs) {
+    margin-bottom: 20px;
     padding: 0 10px;
     width: 100%;
   }
@@ -54,7 +54,7 @@
       justify-content: center;
       height: 25px;
       padding-bottom: 40px;
-    
+
       @media (max-width: $xs) {
         padding-bottom: 30px;
       }

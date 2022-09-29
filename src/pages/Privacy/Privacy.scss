@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.text-wrapper {
+  padding: 100px 0;
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  p {
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  ul {
+    li {
+      margin: 10px 0;
+    }
+  }
+}
+.privacy-logo {
+  display: flex;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 60px 0;
+}

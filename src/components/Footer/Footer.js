@@ -93,7 +93,12 @@ const Footer = () => {
                 <li>Blog</li>
                 <li>
                   <Link className="footer-nav" to="/partners">
-                    Partners{' '}
+                    Partners
+                  </Link>
+                </li>
+                <li>
+                  <Link className="footer-nav" to="/privacy">
+                    Privacy Policy
                   </Link>
                 </li>
               </ul>

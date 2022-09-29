@@ -9,6 +9,7 @@ import { Investment } from './pages/Investment';
 import { Advisory } from './pages/Advisory';
 import { Partners } from './pages/Partners';
 import { Contact } from './pages/Contact';
+import { Privacy } from './pages/Privacy';
 import './App.scss';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/services/advisory" element={<Advisory />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </div>
   );

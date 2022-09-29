@@ -15,7 +15,7 @@
   z-index: 999;
 
   @media (max-width: $md) {
-   right: 0;
+    right: 0;
   }
 
   @media (max-width: $xs) {
@@ -45,12 +45,12 @@
 
     @media (max-width: $md) {
       height: 45px;
-     }
+    }
 
     @media (max-width: $xs) {
       height: 40px;
       padding: 5px 20px 6px;
-     }
+    }
 
     &:focus {
       outline: none;
@@ -78,8 +78,8 @@
     height: 140px;
     padding-top: 10px;
     line-height: 1.2;
-    // color: var(--grey-white); 
-    
+    // color: var(--grey-white);
+
     @media (max-width: $xs) {
       height: 100px;
     }
@@ -93,7 +93,7 @@
 
     @media (max-width: $xs) {
       margin-top: 15px;
-     }
+    }
   }
 }
 
@@ -124,8 +124,8 @@ input::-webkit-input-placeholder {
   margin-bottom: 20px;
 
   @media (max-width: $xs) {
-    margin-bottom: 15px;    
-   }
+    margin-bottom: 15px;
+  }
 }
 
 .error-field {
@@ -136,9 +136,8 @@ input::-webkit-input-placeholder {
   color: lightcoral;
 }
 
-
 .pipedriveWebForms {
-  height: 650px;     
+  height: 650px;
 }
 
 .jSEYzH {
@@ -150,7 +149,7 @@ input::-webkit-input-placeholder {
   border-radius: 1px;
 }
 
-.TbNIh { 
+.TbNIh {
   line-height: 53px;
 }
 

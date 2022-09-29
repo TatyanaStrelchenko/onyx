@@ -2,7 +2,7 @@
 
 .recently-funded {
   position: relative;
-  background-color: var(--black);  
+  background-color: var(--black);
 
   .react-tabs__tab-list {
     z-index: 100;
@@ -43,8 +43,8 @@
   }
 
   .title-tabs {
-    text-transform: uppercase;     
-    margin-bottom: 20px;    
+    text-transform: uppercase;
+    margin-bottom: 20px;
   }
 
   .swiper {
@@ -52,17 +52,14 @@
     width: 100%;
     color: var(--default-font-color);
     padding-bottom: 50px;
-   
 
-    @media (max-width: $md) {      
+    @media (max-width: $md) {
       padding: 0;
     }
 
     @media (max-width: $sm) {
       height: 414px;
     }
-
-
 
     &-slide {
       position: relative;
@@ -71,7 +68,7 @@
       justify-content: center;
       align-items: center;
       &::before {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -82,7 +79,6 @@
       }
       &:hover {
         color: var(--black);
-        
 
         h3 {
           color: var(--black);
@@ -181,7 +177,7 @@
   .tabs-title {
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
     margin-bottom: 25px;
 
     @media (max-width: $md) {
@@ -238,7 +234,6 @@
     line-height: 40px;
     color: var(--grey-text);
     max-width: 280px;
-
 
     @media (max-width: $sm) {
       font-size: 28px;
