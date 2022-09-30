@@ -120,28 +120,52 @@ const Footer = () => {
           <p>© Copyright - Onyx - 2022</p>
           <ul className="social">
             <li>
-              <div className="img-social">
+              <span className="img-social">
                 <img src={fb} alt="img" />
-              </div>
+              </span>
               <span>facebook</span>
             </li>
             <li>
-              <div className="img-social">
-                <img src={inst} alt="img" />
-              </div>
-              <span>Instagram</span>
+              <a
+                href="https://instagram.com/onyxfunding?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="img-social">
+                  <img src={inst} alt="img" />
+                </span>
+              </a>
+              <a
+                href="https://instagram.com/onyxfunding?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Instagram</span>
+              </a>
             </li>
             <li>
-              <div className="img-social">
+              <span className="img-social">
                 <img src={be} alt="img" />
-              </div>
+              </span>
               <span>Behance</span>
             </li>
             <li>
-              <div className="img-social">
-                <img src={lin} alt="img" />
-              </div>
-              <span>Linkedin</span>
+              <a
+                href="https://www.linkedin.com/company/onyx-funding/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="img-social">
+                  <img src={lin} alt="img" />
+                </span>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/onyx-funding/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Linkedin</span>
+              </a>
             </li>
           </ul>
         </div>
