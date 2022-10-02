@@ -123,6 +123,35 @@ const Info = () => {
                   </div>
                 </div>
               </div>
+              {/* START theFinancials.com Content – SOFR/Prime */}
+
+              {/* copyright theFinancials.com - All Rights Reserved */}
+
+              {/* Get Help by Calling 1.843.886.3635 */}
+
+              {/* specify the width of this Widget by changing '&width=0' at the end of the installation code. Use '&width=100%' to force the Widget to fill its parent container or leave it as 0 for default width */}
+
+              <script
+                type="text/javascript"
+                src="https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0"
+              />
+
+              {/* END theFinancials.com Content */}
+
+              {/* START theFinancials.com Content – Treasuries/Swaps  */}
+
+              {/* copyright theFinancials.com - All Rights Reserved  */}
+
+              {/* Get Help by Calling 1.843.886.3635  */}
+
+              {/* specify the width of this Widget by changing '&width=0' at the end of the installation code. Use '&width=100%' to force the Widget to fill its parent container or leave it as 0 for default width  */}
+
+              <script
+                type="text/javascript"
+                src="https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0"
+              />
+
+              {/* END theFinancials.com Content  */}
             </Fade>
           </div>
         </div>

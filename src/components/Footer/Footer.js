@@ -123,7 +123,7 @@ const Footer = () => {
               <span className="img-social">
                 <img src={fb} alt="img" />
               </span>
-              <span>facebook</span>
+              <span className="social-text">facebook</span>
             </li>
             <li>
               <a
@@ -140,14 +140,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>Instagram</span>
+                <span className="social-text">Instagram</span>
               </a>
             </li>
             <li>
               <span className="img-social">
                 <img src={be} alt="img" />
               </span>
-              <span>Behance</span>
+              <span className="social-text">Behance</span>
             </li>
             <li>
               <a
@@ -164,7 +164,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>Linkedin</span>
+                <span className="social-text">Linkedin</span>
               </a>
             </li>
           </ul>
