@@ -1,53 +1,11 @@
+import { useRef } from 'react';
+
 import './Info.scss';
 import Fade from 'react-reveal/Fade';
-import { useEffect, useRef } from 'react';
+import useScript from '../../hooks/useScript';
 
 const Info = () => {
-  // const widget = useRef();
-
-  const destroyFunc = useRef();
-  const effectCalled = useRef(false);
-  const renderAfterCalled = useRef(false);
-
-  if (effectCalled.current) {
-    renderAfterCalled.current = true;
-  }
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src =
-      'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0';
-    script.async = true;
-
-    const widgetOne = document.getElementById('widgetOne');
-    widgetOne.appendChild(script);
-
-    return () => {
-      widgetOne.removeChild(script);
-      if (!renderAfterCalled.current) {
-        return;
-      }
-      if (destroyFunc.current) {
-        destroyFunc.current();
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    const widget = document.createElement('script');
-    widget.type = 'text/javascript';
-    widget.src =
-      'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0';
-    widget.async = true;
-
-    const widgetTwo = document.getElementById('widgetTwo');
-    widgetTwo.appendChild(widget);
-
-    return () => {
-      widgetTwo.removeChild(widget);
-    };
-  }, []);
+  const widget = useRef(null);
 
   return (
     <div className="info-page">
@@ -77,7 +35,11 @@ const Info = () => {
               <div className="rates-block">
                 <div className="table-holder">
                   <h3>LIVE INTEREST RATES</h3>
-                  <div id="widgetOne" />
+                  {useScript(
+                    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0',
+                    'widgetOne'
+                  )}
+                  <div id="widgetOne" ref={widget} />
                   {/* <div className="row">
                     <div className="col">1-MONTH LIBOR</div>
                     <div className="col">2.862%</div>
@@ -105,6 +67,10 @@ const Info = () => {
                 </div>
                 <div className="table-holder">
                   <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
+                  {useScript(
+                    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0',
+                    'widgetTwo'
+                  )}
                   <div id="widgetTwo" />
                   {/* <div className="row">
                     <div className="col">5-YEAR</div>
