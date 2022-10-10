@@ -1,18 +1,27 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
-const useScript = (url, id) => {
+const useScript = (url) => {
+  const ref = useRef(null);
+
   useEffect(() => {
     const script = document.createElement('script');
 
     script.src = url;
     script.async = true;
-
-    document.getElementById(id).appendChild(script);
-
-    return () => {
-      document.getElementById(id)?.removeChild(script);
+    script.onload = () => {
+      const widgetLoad = ref.current.querySelectorAll('.tfcWidget');
+      widgetLoad.forEach((item) => {
+        item.removeAttribute('hidden');
+      });
     };
-  }, [url]);
+
+    ref.current.appendChild(script);
+    return () => {
+      document.getElementById(ref.current)?.removeChild(script);
+    };
+  }, [ref]);
+
+  return ref;
 };
 
 export default useScript;
