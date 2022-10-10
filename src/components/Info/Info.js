@@ -1,8 +1,16 @@
 import './Info.scss';
 import Fade from 'react-reveal/Fade';
 import { ModalComponent } from '../Modal';
+import useScript from '../../hooks/useScript';
 
 const Info = () => {
+  const widget1 = useScript(
+    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0'
+  );
+  const widget2 = useScript(
+    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0'
+  );
+
   return (
     <>
       <section className="info-section section">
@@ -27,131 +35,13 @@ const Info = () => {
               <div className="rates-block">
                 <div className="table-holder">
                   <h3>LIVE INTEREST RATES</h3>
-                  <div className="row">
-                    <div className="col">SOFR</div>
-                    <div className="col">2.28000%</div>
-                    <div className="col">2.28000%</div>
-                    <div className="col">2.28000%</div>
-                    <div className="col">0.05000%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">30-Day Average SOFR</div>
-                    <div className="col">2.28536%</div>
-                    <div className="col">2.28536%</div>
-                    <div className="col">1.80760%</div>
-                    <div className="col">0.05000%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">90-Day Average SOFR</div>
-                    <div className="col">1.82148%</div>
-                    <div className="col">1.80440%</div>
-                    <div className="col">1.30262%</div>
-                    <div className="col">0.04689%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">1-month Term SOFR</div>
-                    <div className="col">2.74750%</div>
-                    <div className="col">2.68340%</div>
-                    <div className="col">2.30339%</div>
-                    <div className="col">0.05199%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">3-month Term SOFR</div>
-                    <div className="col">3.13380%</div>
-                    <div className="col">3.06459%</div>
-                    <div className="col">2.69280%</div>
-                    <div className="col">0.05236%</div>
-                  </div>
+                  <div ref={widget1} />
                 </div>
                 <div className="table-holder">
                   <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
-                  <div className="row">
-                    <div className="col">1 YEAR</div>
-                    <div className="col">3.703%</div>
-                    <div className="col">3.642%</div>
-                    <div className="col">3.327%</div>
-                    <div className="col">0.059%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">2 YEAR</div>
-                    <div className="col">3.583%</div>
-                    <div className="col">3.531%</div>
-                    <div className="col">3.189%</div>
-                    <div className="col">0.175%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">3 YEAR</div>
-                    <div className="col">3.403%</div>
-                    <div className="col">3.363%</div>
-                    <div className="col">2.971%</div>
-                    <div className="col">0.347%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">5 YEAR</div>
-                    <div className="col">3.173%</div>
-                    <div className="col">3.150%</div>
-                    <div className="col">2.673%</div>
-                    <div className="col">0.655%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">7 YEAR</div>
-                    <div className="col">3.085%</div>
-                    <div className="col">3.071%</div>
-                    <div className="col">2.554%</div>
-                    <div className="col">0.864%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">10 YEAR</div>
-                    <div className="col">3.063%</div>
-                    <div className="col">3.058%</div>
-                    <div className="col">2.525%</div>
-                    <div className="col">1.067%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">15 YEAR</div>
-                    <div className="col">3.083%</div>
-                    <div className="col">3.086%</div>
-                    <div className="col">2.576%</div>
-                    <div className="col">1.248%</div>
-                  </div>
-                  <div className="row">
-                    <div className="col">30 YEAR</div>
-                    <div className="col">2.814%</div>
-                    <div className="col">2.822%</div>
-                    <div className="col">2.401%</div>
-                    <div className="col">1.359%</div>
-                  </div>
+                  <div ref={widget2} />
                 </div>
               </div>
-              {/* START theFinancials.com Content – SOFR/Prime */}
-
-              {/* copyright theFinancials.com - All Rights Reserved */}
-
-              {/* Get Help by Calling 1.843.886.3635 */}
-
-              {/* specify the width of this Widget by changing '&width=0' at the end of the installation code. Use '&width=100%' to force the Widget to fill its parent container or leave it as 0 for default width */}
-
-              <script
-                type="text/javascript"
-                src="https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0"
-              />
-
-              {/* END theFinancials.com Content */}
-
-              {/* START theFinancials.com Content – Treasuries/Swaps  */}
-
-              {/* copyright theFinancials.com - All Rights Reserved  */}
-
-              {/* Get Help by Calling 1.843.886.3635  */}
-
-              {/* specify the width of this Widget by changing '&width=0' at the end of the installation code. Use '&width=100%' to force the Widget to fill its parent container or leave it as 0 for default width  */}
-
-              <script
-                type="text/javascript"
-                src="https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0"
-              />
-
-              {/* END theFinancials.com Content  */}
             </Fade>
           </div>
         </div>
