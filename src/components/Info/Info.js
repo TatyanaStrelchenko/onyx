@@ -1,15 +1,28 @@
+import { useEffect, useRef } from 'react';
+
 import './Info.scss';
 import Fade from 'react-reveal/Fade';
 import { ModalComponent } from '../Modal';
-import useScript from '../../hooks/useScript';
+import loadScriptWidget from '../../helpers/loadScriptWidget';
 
 const Info = () => {
-  const widget1 = useScript(
-    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0'
-  );
-  const widget2 = useScript(
-    'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0'
-  );
+  const ref = useRef(null);
+  const ref2 = useRef(null);
+
+  const loadScripts = async () => {
+    await loadScriptWidget(
+      'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375808058&mode=js&width=0',
+      ref
+    );
+    await loadScriptWidget(
+      'https://www.thefinancials.com/Widget.aspx?pid=ONYX&wid=0375908060&mode=js&width=0',
+      ref2
+    );
+  };
+
+  useEffect(() => {
+    loadScripts();
+  }, []);
 
   return (
     <>
@@ -35,11 +48,11 @@ const Info = () => {
               <div className="rates-block">
                 <div className="table-holder">
                   <h3>LIVE INTEREST RATES</h3>
-                  <div ref={widget1} />
+                  <div ref={ref} />
                 </div>
                 <div className="table-holder">
                   <h3>U.S. TREASURY LIBOR SWAP SOFR SWAP</h3>
-                  <div ref={widget2} />
+                  <div ref={ref2} />
                 </div>
               </div>
             </Fade>

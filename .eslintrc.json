@@ -1,5 +1,9 @@
 {
-  "extends": ["react-app", "airbnb", "prettier"],
+  "extends": [
+    "react-app",
+    "airbnb",
+    "prettier"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
@@ -27,7 +31,10 @@
     "react/jsx-filename-extension": [
       0,
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "import/prefer-default-export": "off",
@@ -69,11 +76,16 @@
         "caseSensitive": false
       }
     ],
-    "arrow-body-style": ["off", "always"]
+    "arrow-body-style": [
+      "off",
+      "always"
+    ]
   },
   "overrides": [
     {
-      "files": ["**/*.test.tsx"],
+      "files": [
+        "**/*.test.tsx"
+      ],
       "env": {
         "jest": true
       }
